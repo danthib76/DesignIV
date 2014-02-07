@@ -1,12 +1,12 @@
 Model {
-  Name			  "onduleursimplecommande"
+  Name			  "redresseurrsimplecommande"
   Version		  7.9
   MdlSubVersion		  0
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.29"
+    ComputedModelVersion    "1.33"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -22,7 +22,7 @@ Model {
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
   UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
-  PhysicalModelingChecksum "1028304659"
+  PhysicalModelingChecksum "2386652025"
   PhysicalModelingParameterChecksum "745436249"
   PhysicalModelingProducts "Power_System_Blocks"
   Created		  "Tue Feb 04 11:36:42 2014"
@@ -31,9 +31,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "LiberT"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Feb 07 13:41:19 2014"
-  RTWModifiedTimeStamp	  313681219
-  ModelVersionFormat	  "1.%<AutoIncrement:29>"
+  LastModifiedDate	  "Fri Feb 07 16:36:51 2014"
+  RTWModifiedTimeStamp	  313690646
+  ModelVersionFormat	  "1.%<AutoIncrement:33>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -70,13 +70,12 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    1
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "onduleursimplecommande"
-    signals_		    []
+    model_		    "redresseurrsimplecommande"
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "onduleursimplecommande"
+      Cell		      "redresseurrsimplecommande"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -799,7 +798,7 @@ Model {
     }
   }
   System {
-    Name		    "onduleursimplecommande"
+    Name		    "redresseurrsimplecommande"
     Location		    [2, 82, 1582, 820]
     Open		    on
     ModelBrowserVisibility  off
@@ -814,7 +813,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "134"
+    SIDHighWatermark	    "141"
     Block {
       BlockType		      Reference
       Name		      "B1"
@@ -860,90 +859,9 @@ Model {
       SourceType	      "Series RLC Branch"
       LConnTagsString	      "__new0"
       RConnTagsString	      "__new0"
-      BranchType	      "Open circuit"
+      BranchType	      "C"
       Resistance	      "0.28"
       Inductance	      "1e-3"
-      SetiL0		      off
-      InitialCurrent	      "0"
-      Capacitance	      "300e-1"
-      Setx0		      off
-      InitialVoltage	      "0"
-      Measurements	      "None"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "C4"
-      SID		      "49"
-      Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [1521, 340, 1549, 410]
-      ZOrder		      -13
-      BlockRotation	      270
-      BlockMirror	      on
-      NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
-      FontName		      "Verdana"
-      FontSize		      11
-      SourceBlock	      "powerlib/Elements/Series RLC Branch"
-      SourceType	      "Series RLC Branch"
-      LConnTagsString	      "__new0"
-      RConnTagsString	      "__new0"
-      BranchType	      "RL"
-      Resistance	      "0.28"
-      Inductance	      "0.005"
-      SetiL0		      off
-      InitialCurrent	      "0"
-      Capacitance	      "300e-3"
-      Setx0		      off
-      InitialVoltage	      "0"
-      Measurements	      "None"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "C5"
-      SID		      "51"
-      Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [1586, 340, 1614, 410]
-      ZOrder		      -13
-      BlockRotation	      270
-      BlockMirror	      on
-      NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
-      FontName		      "Verdana"
-      FontSize		      11
-      SourceBlock	      "powerlib/Elements/Series RLC Branch"
-      SourceType	      "Series RLC Branch"
-      LConnTagsString	      "__new0"
-      RConnTagsString	      "__new0"
-      BranchType	      "RL"
-      Resistance	      "0.28"
-      Inductance	      "0.005"
-      SetiL0		      off
-      InitialCurrent	      "0"
-      Capacitance	      "300e-3"
-      Setx0		      off
-      InitialVoltage	      "0"
-      Measurements	      "None"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "C6"
-      SID		      "53"
-      Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [1666, 340, 1694, 410]
-      ZOrder		      -13
-      BlockRotation	      270
-      BlockMirror	      on
-      NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
-      FontName		      "Verdana"
-      FontSize		      11
-      SourceBlock	      "powerlib/Elements/Series RLC Branch"
-      SourceType	      "Series RLC Branch"
-      LConnTagsString	      "__new0"
-      RConnTagsString	      "__new0"
-      BranchType	      "RL"
-      Resistance	      "0.28"
-      Inductance	      "0.005"
       SetiL0		      off
       InitialCurrent	      "0"
       Capacitance	      "300e-3"
@@ -977,11 +895,11 @@ Model {
       MaskIconRotate	      "none"
       MaskPortRotate	      "default"
       MaskIconUnits	      "autoscale"
-      MaskValueString	      "60|50"
+      MaskValueString	      "7000|50"
       System {
 	Name			"Commande"
 	Location		[168, 345, 1082, 662]
-	Open			on
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1043,24 +961,6 @@ Model {
 	  Ts			  "5e-6"
 	}
 	Block {
-	  BlockType		  Reference
-	  Name			  "Discrete\n3-phase PLL"
-	  SID			  "125"
-	  Ports			  [1, 3]
-	  Position		  [35, 348, 95, 422]
-	  ZOrder		  -5
-	  LibraryVersion	  "1.648"
-	  FontName		  "Verdana"
-	  FontSize		  11
-	  SourceBlock		  "powerlib_extras/Discrete \nControl Blocks/Discrete\n3-phase PLL"
-	  SourceType		  "Discrete 3-phase PLL"
-	  Fmin			  "45"
-	  Par_Init		  "[0 50]"
-	  ParK			  "[ 180 3200 1 ]"
-	  Ts			  "50e-6"
-	  AGC			  off
-	}
-	Block {
 	  BlockType		  From
 	  Name			  "From4"
 	  SID			  "90"
@@ -1079,15 +979,6 @@ Model {
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Goto
-	  Name			  "Goto"
-	  SID			  "124"
-	  Position		  [160, 345, 200, 375]
-	  ZOrder		  -10
-	  GotoTag		  "Freq"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Relay
@@ -1287,17 +1178,9 @@ Model {
 	Line {
 	  SrcBlock		  "From4"
 	  SrcPort		  1
-	  Points		  [0, 35; -50, 0]
-	  Branch {
-	    Points		    [0, -75]
-	    DstBlock		    "Gain1"
-	    DstPort		    1
-	  }
-	  Branch {
-	    Points		    [-5, 0]
-	    DstBlock		    "Discrete\n3-phase PLL"
-	    DstPort		    1
-	  }
+	  Points		  [0, 35; -50, 0; 0, -75]
+	  DstBlock		  "Gain1"
+	  DstPort		  1
 	}
 	Line {
 	  SrcBlock		  "Gain1"
@@ -1330,12 +1213,6 @@ Model {
 	  SrcPort		  1
 	  Points		  [0, -30; 220, 0; 0, 80]
 	  DstBlock		  "Relay4"
-	  DstPort		  1
-	}
-	Line {
-	  SrcBlock		  "Discrete\n3-phase PLL"
-	  SrcPort		  1
-	  DstBlock		  "Goto"
 	  DstPort		  1
 	}
 	Line {
@@ -1405,6 +1282,22 @@ Model {
 	  DstPort		  1
 	}
       }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Current Measurement"
+      SID		      "139"
+      Ports		      [0, 1, 0, 0, 0, 1, 1]
+      Position		      [440, 443, 465, 467]
+      ZOrder		      -4
+      LibraryVersion	      "1.2119"
+      FontName		      "Verdana"
+      FontSize		      11
+      SourceBlock	      "powerlib/Measurements/Current Measurement"
+      SourceType	      "Current Measurement"
+      PhasorSimulation	      off
+      OutputType	      "Complex"
+      PSBequivalent	      "0"
     }
     Block {
       BlockType		      Reference
@@ -1548,28 +1441,61 @@ Model {
       BlockType		      From
       Name		      "From"
       SID		      "73"
-      Position		      [1710, 516, 1750, 544]
+      Position		      [1710, 486, 1750, 514]
       ZOrder		      -9
-      GotoTag		      "Freq"
-      TagVisibility	      "global"
+      GotoTag		      "Vdr"
+      Port {
+	PortNumber		1
+	Name			"Vdr"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
     }
     Block {
       BlockType		      From
       Name		      "From1"
       SID		      "79"
-      Position		      [1705, 411, 1745, 439]
+      Position		      [1705, 396, 1745, 424]
       ZOrder		      -9
       GotoTag		      "Vabc"
       TagVisibility	      "global"
+      Port {
+	PortNumber		1
+	Name			"Vabc"
+	PropagatedSignals	"signal"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
     }
     Block {
       BlockType		      From
       Name		      "From2"
       SID		      "80"
-      Position		      [1705, 466, 1745, 494]
+      Position		      [1710, 441, 1750, 469]
       ZOrder		      -9
       GotoTag		      "Iabc"
       TagVisibility	      "global"
+      Port {
+	PortNumber		1
+	Name			"Iabc"
+	PropagatedSignals	"signal"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
+    }
+    Block {
+      BlockType		      From
+      Name		      "From3"
+      SID		      "141"
+      Position		      [1715, 531, 1755, 559]
+      ZOrder		      -9
+      GotoTag		      "Idr"
+      Port {
+	PortNumber		1
+	Name			"Idr"
+	RTWStorageClass		"Auto"
+	DataLoggingNameMode	"SignalName"
+      }
     }
     Block {
       BlockType		      Goto
@@ -1580,21 +1506,31 @@ Model {
       GotoTag		      "Vdr"
     }
     Block {
+      BlockType		      Goto
+      Name		      "Goto1"
+      SID		      "140"
+      Position		      [490, 405, 530, 435]
+      ZOrder		      -10
+      GotoTag		      "Idr"
+    }
+    Block {
       BlockType		      Scope
       Name		      "Scope1"
       SID		      "31"
-      Ports		      [3]
-      Position		      [1800, 411, 1840, 549]
+      Ports		      [4]
+      Position		      [1800, 408, 1840, 547]
       ZOrder		      -16
       Floating		      off
       Location		      [5, 48, 1601, 859]
       Open		      off
-      NumInputPorts	      "3"
+      NumInputPorts	      "4"
+      TickLabels	      "on"
       List {
 	ListType		AxesTitles
 	axes1			"%<SignalLabel>"
 	axes2			"%<SignalLabel>"
 	axes3			"%<SignalLabel>"
+	axes4			"%<SignalLabel>"
       }
       List {
 	ListType		ScopeGraphics
@@ -1607,8 +1543,9 @@ Model {
 	MarkerStyles		"none|none|none|none|none|none"
       }
       ShowLegends	      off
-      YMin		      "-1.5e-13~-7e-11~50"
-      YMax		      "1.25e-13~8e-11~50"
+      TimeRange		      "0.2"
+      YMin		      "-1250~-10000~300~-4000"
+      YMax		      "1250~10000~1150~9000"
       SaveName		      "ScopeData1"
       DataFormat	      "StructureWithTime"
       LimitDataPoints	      off
@@ -1766,19 +1703,86 @@ Model {
     }
     Block {
       BlockType		      Reference
-      Name		      "V2"
-      SID		      "28"
-      Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [265, 220, 285, 255]
-      ZOrder		      -6
-      BlockRotation	      270
+      Name		      "Three-Phase\nSeries RLC Branch"
+      SID		      "136"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1505, 242, 1575, 288]
+      ZOrder		      -22
+      AttributesFormatString  "\\n"
       LibraryVersion	      "1.2119"
       FontName		      "Verdana"
       FontSize		      11
-      SourceBlock	      "powerlib/Electrical\nSources/DC Voltage Source"
-      SourceType	      "DC Voltage Source"
-      Amplitude		      "100"
+      SourceBlock	      "powerlib/Elements/Three-Phase\nSeries RLC Branch"
+      SourceType	      "Three-Phase Series RLC Branch"
+      LConnTagsString	      "A|B|C"
+      RConnTagsString	      "A|B|C"
+      BranchType	      "RL"
+      Resistance	      "0.1"
+      Inductance	      "1e-8"
+      Capacitance	      "1e-6"
       Measurements	      "None"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase\nTransformer\n(Two Windings)"
+      SID		      "137"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [1625, 221, 1700, 319]
+      ZOrder		      -25
+      BlockMirror	      on
+      LibraryVersion	      "1.2119"
+      FontName		      "Verdana"
+      FontSize		      11
+      SourceBlock	      "powerlib/Elements/Three-Phase\nTransformer\n(Two Windings)"
+      SourceType	      "Three-Phase Transformer (Two Windings)"
+      Winding1Connection      "Yg"
+      UNITS		      "pu"
+      NominalPower	      "[ 2500e6 , 50 ]"
+      Winding1		      "[ 18e3 , 0.002 , 0.08 ]"
+      Winding2Connection      "Yg"
+      Winding2		      "[ 2e3 , 0.002 , 0.08 ]"
+      SetSaturation	      off
+      Rm		      "500"
+      Lm		      "500"
+      Saturation	      "[ 0,0 ; 0.0024,1.2 ; 1.0,1.52 ]"
+      Hysteresis	      off
+      DataFile		      "'hysteresis'"
+      SetInitialFlux	      off
+      InitialFluxes	      "[ 0.8 , -0.8 , 0.7 ]"
+      Measurements	      "None"
+      MoreParameters	      off
+      BreakLoop		      off
+      DataType		      off
+      TransfoNumber	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Three-Phase Source"
+      SID		      "138"
+      Ports		      [0, 0, 0, 0, 0, 0, 3]
+      Position		      [1850, 231, 1935, 289]
+      ZOrder		      -8
+      BlockMirror	      on
+      LibraryVersion	      "1.2119"
+      FontName		      "Verdana"
+      FontSize		      11
+      SourceBlock	      "powerlib/Electrical\nSources/Three-Phase Source"
+      SourceType	      "Three-Phase Source"
+      Voltage		      "18e3"
+      PhaseAngle	      "0"
+      Frequency		      "50"
+      InternalConnection      "Yg"
+      SpecifyImpedance	      on
+      Resistance	      "0.8929"
+      Inductance	      "16.58e-3"
+      ShortCircuitLevel	      "100e6"
+      BaseVoltage	      "25e3"
+      XRratio		      "7"
+      BusType		      "swing"
+      Pref		      "0"
+      Qref		      "0"
+      Qmin		      "-inf"
+      Qmax		      "inf"
     }
     Block {
       BlockType		      Reference
@@ -1851,116 +1855,20 @@ Model {
     }
     Line {
       LineType		      "Connection"
-      SrcBlock		      "T6"
-      SrcPort		      RConn1
-      Points		      [0, 10]
+      Labels		      [0, 0]
+      SrcBlock		      "Voltage Measurement2"
+      SrcPort		      LConn2
+      Points		      [-25, 0; 0, 35]
       Branch {
 	ConnectType		"DEST_SRC"
-	Points			[-205, 0]
-	Branch {
-	  ConnectType		  "DEST_DEST"
-	  Labels		  [0, 0]
-	  Points		  [415, 295; 0, 160; 0, 5]
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "C2"
-	    SrcPort		    RConn1
-	    Points		    [0, 5]
-	  }
-	  Branch {
-	    ConnectType		    "SRC_SRC"
-	    Labels		    [0, 0]
-	    Points		    [0, -50]
-	    DstBlock		    "Voltage Measurement2"
-	    DstPort		    LConn2
-	  }
-	}
-	Branch {
-	  ConnectType		  "DEST_DEST"
-	  SrcBlock		  "V2"
-	  SrcPort		  LConn1
-	  Points		  [0, 190; 140, 0]
-	}
-      }
-      Branch {
-	ConnectType		"DEST_SRC"
-	Points			[105, 0]
-	Branch {
-	  ConnectType		  "DEST_DEST"
-	  Points		  [930, 460; -205, 0]
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "T8"
-	    SrcPort		    RConn1
-	    Points		    [0, 10]
-	  }
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    Points		    [1050, 460; -120, 0]
-	    Branch {
-	      ConnectType	      "SRC_DEST"
-	      SrcBlock		      "D8"
-	      SrcPort		      LConn1
-	      Points		      [0, 10]
-	    }
-	    Branch {
-	      ConnectType	      "SRC_SRC"
-	      Points		      [225, 0]
-	      Branch {
-		ConnectType		"DEST_DEST"
-		SrcBlock		"T10"
-		SrcPort			RConn1
-		Points			[0, 10]
-	      }
-	      Branch {
-		ConnectType		"DEST_DEST"
-		SrcBlock		"D10"
-		SrcPort			LConn1
-		Points			[0, 10; -120, 0]
-	      }
-	    }
-	  }
-	}
-	Branch {
-	  ConnectType		  "DEST_SRC"
-	  DstBlock		  "D6"
-	  DstPort		  LConn1
-	}
-      }
-    }
-    Line {
-      LineType		      "Connection"
-      SrcBlock		      "C6"
-      SrcPort		      LConn1
-      Points		      [0, -15]
-      Branch {
-	ConnectType		"DEST_SRC"
-	Points			[0, -60]
-	DstBlock		"B1"
+	DstBlock		"C2"
 	DstPort			RConn1
       }
       Branch {
-	ConnectType		"DEST_DEST"
-	SrcBlock		"C5"
-	SrcPort			RConn1
-	Points			[30, 0; 0, -120; 50, 0; 0, 5]
-      }
-    }
-    Line {
-      LineType		      "Connection"
-      SrcBlock		      "B1"
-      SrcPort		      RConn2
-      Points		      [175, 0; 0, 35]
-      Branch {
 	ConnectType		"DEST_SRC"
-	DstBlock		"C5"
+	Points			[0, 175]
+	DstBlock		"Current Measurement"
 	DstPort			LConn1
-      }
-      Branch {
-	ConnectType		"DEST_DEST"
-	SrcBlock		"C4"
-	SrcPort			RConn1
-	Points			[25, 0; 0, -115; 40, 0]
       }
     }
     Line {
@@ -2002,96 +1910,69 @@ Model {
     }
     Line {
       LineType		      "Connection"
-      SrcBlock		      "B1"
-      SrcPort		      RConn3
-      Points		      [65, 0; 0, 25]
+      Points		      [620, 70; -205, 0; 0, 95]
       Branch {
-	ConnectType		"DEST_SRC"
-	DstBlock		"C4"
-	DstPort			LConn1
+	ConnectType		"SRC_DEST"
+	SrcBlock		"T5"
+	SrcPort			LConn1
+	Points			[0, -10]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	Points			[105, 0]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "D5"
+	  SrcPort		  RConn1
+	  Points		  [0, -10]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  Points		  [205, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "T7"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [1045, 70; -115, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "D7"
+	      SrcPort		      RConn1
+	      Points		      [0, -10; -5, 0]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      Points		      [230, 0]
+	      Branch {
+		ConnectType		"DEST_SRC"
+		DstBlock		"T9"
+		DstPort			LConn1
+	      }
+	      Branch {
+		ConnectType		"DEST_DEST"
+		SrcBlock		"D9"
+		SrcPort			RConn1
+		Points			[0, -10; -120, 0]
+	      }
+	    }
+	  }
+	}
       }
       Branch {
 	ConnectType		"DEST_DEST"
-	SrcBlock		"C6"
-	SrcPort			RConn1
-	Points			[0, 25; -205, 0; 0, -125; 15, 0]
-      }
-    }
-    Line {
-      LineType		      "Connection"
-      Points		      [415, 165; 0, -95]
-      Branch {
-	ConnectType		"SRC_DEST"
 	SrcBlock		"C2"
 	SrcPort			LConn1
 	Points			[0, -25]
       }
       Branch {
-	ConnectType		"SRC_SRC"
+	ConnectType		"DEST_SRC"
 	Labels			[0, 0]
-	Points			[0, 70]
+	Points			[-5, 0; 0, 70]
 	DstBlock		"Voltage Measurement2"
 	DstPort			LConn1
-      }
-      Branch {
-	ConnectType		"DEST_SRC"
-	Points			[205, 0]
-	Branch {
-	  ConnectType		  "DEST_DEST"
-	  SrcBlock		  "T5"
-	  SrcPort		  LConn1
-	  Points		  [0, -10]
-	}
-	Branch {
-	  ConnectType		  "DEST_SRC"
-	  Points		  [105, 0]
-	  Branch {
-	    ConnectType		    "DEST_DEST"
-	    SrcBlock		    "D5"
-	    SrcPort		    RConn1
-	    Points		    [0, -10]
-	  }
-	  Branch {
-	    ConnectType		    "DEST_SRC"
-	    Points		    [205, 0]
-	    Branch {
-	      ConnectType	      "DEST_SRC"
-	      DstBlock		      "T7"
-	      DstPort		      LConn1
-	    }
-	    Branch {
-	      ConnectType	      "DEST_DEST"
-	      Points		      [1045, 70; -115, 0]
-	      Branch {
-		ConnectType		"SRC_DEST"
-		SrcBlock		"D7"
-		SrcPort			RConn1
-		Points			[0, -10; -5, 0]
-	      }
-	      Branch {
-		ConnectType		"SRC_SRC"
-		Points			[230, 0]
-		Branch {
-		  ConnectType		  "DEST_SRC"
-		  DstBlock		  "T9"
-		  DstPort		  LConn1
-		}
-		Branch {
-		  ConnectType		  "DEST_DEST"
-		  SrcBlock		  "D9"
-		  SrcPort		  RConn1
-		  Points		  [0, -10; -120, 0]
-		}
-	      }
-	    }
-	  }
-	}
-      }
-      Branch {
-	ConnectType		"DEST_DEST"
-	SrcBlock		"V2"
-	SrcPort			RConn1
-	Points			[0, -135; 140, 0]
       }
     }
     Line {
@@ -2101,9 +1982,11 @@ Model {
       DstPort		      1
     }
     Line {
+      Name		      "Vdr"
+      Labels		      [2, 0]
       SrcBlock		      "From"
       SrcPort		      1
-      Points		      [30, 0]
+      Points		      [0, -5]
       DstBlock		      "Scope1"
       DstPort		      3
     }
@@ -2210,15 +2093,20 @@ Model {
       }
     }
     Line {
+      Name		      "Vabc"
+      Labels		      [2, 0]
       SrcBlock		      "From1"
       SrcPort		      1
-      Points		      [35, 0]
+      Points		      [0, 15]
       DstBlock		      "Scope1"
       DstPort		      1
     }
     Line {
+      Name		      "Iabc"
+      Labels		      [2, 0]
       SrcBlock		      "From2"
       SrcPort		      1
+      Points		      [0, 5]
       DstBlock		      "Scope1"
       DstPort		      2
     }
@@ -2235,6 +2123,147 @@ Model {
       Points		      [315, 0; 0, -175]
       DstBlock		      "T6"
       DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase Source"
+      SrcPort		      RConn1
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase\nSeries RLC Branch"
+      SrcPort		      RConn1
+      Points		      [10, 0; 0, -10]
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase\nSeries RLC Branch"
+      SrcPort		      RConn2
+      Points		      [10, 0; 0, 5]
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase\nSeries RLC Branch"
+      SrcPort		      RConn3
+      Points		      [10, 0; 0, 20]
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      RConn3
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase Source"
+      SrcPort		      RConn2
+      Points		      [-100, 0; 0, 10]
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "Three-Phase Source"
+      SrcPort		      RConn3
+      Points		      [-100, 0; 0, 20]
+      DstBlock		      "Three-Phase\nTransformer\n(Two Windings)"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "B1"
+      SrcPort		      RConn1
+      DstBlock		      "Three-Phase\nSeries RLC Branch"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "B1"
+      SrcPort		      RConn2
+      Points		      [30, 0; 0, -10]
+      DstBlock		      "Three-Phase\nSeries RLC Branch"
+      DstPort		      LConn2
+    }
+    Line {
+      LineType		      "Connection"
+      SrcBlock		      "B1"
+      SrcPort		      RConn3
+      Points		      [55, 0; 0, -20]
+      DstBlock		      "Three-Phase\nSeries RLC Branch"
+      DstPort		      LConn3
+    }
+    Line {
+      LineType		      "Connection"
+      Points		      [725, 460; -105, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[930, 460; -205, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "T8"
+	  SrcPort		  RConn1
+	  Points		  [0, 10]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [1050, 460; -120, 0]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "D8"
+	    SrcPort		    LConn1
+	    Points		    [0, 10]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [225, 0]
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "T10"
+	      SrcPort		      RConn1
+	      Points		      [0, 10]
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "D10"
+	      SrcPort		      LConn1
+	      Points		      [0, 10; -120, 0]
+	    }
+	  }
+	}
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"D6"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"T6"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Current Measurement"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      SrcBlock		      "Current Measurement"
+      SrcPort		      1
+      Points		      [0, -30]
+      DstBlock		      "Goto1"
+      DstPort		      1
+    }
+    Line {
+      Name		      "Idr"
+      Labels		      [2, 0]
+      SrcBlock		      "From3"
+      SrcPort		      1
+      Points		      [0, -15]
+      DstBlock		      "Scope1"
+      DstPort		      4
     }
     Annotation {
       SID		      "70"
