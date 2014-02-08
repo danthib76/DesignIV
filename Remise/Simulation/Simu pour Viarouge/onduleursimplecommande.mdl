@@ -1,16 +1,16 @@
 Model {
   Name			  "onduleursimplecommande"
-  Version		  7.9
+  Version		  8.1
   MdlSubVersion		  0
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.29"
+    ComputedModelVersion    "1.31"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
-  SavedCharacterEncoding  "windows-1252"
+  SavedCharacterEncoding  "ISO-8859-1"
   SaveDefaultBlockParams  on
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
@@ -21,7 +21,142 @@ Model {
   MinMaxOverflowArchiveMode "Overwrite"
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
+  InitFcn		  "Ts = 1e-5\n"
   UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Array {
+      Type		      "Simulink.WindowInfo"
+      Dimension		      2
+      Object {
+	$ObjectID		2
+	IsActive		[1]
+	Location		[137.0, 114.0, 954.0, 495.0]
+	Object {
+	  $PropName		  "ModelBrowserInfo"
+	  $ObjectID		  3
+	  $ClassName		  "Simulink.ModelBrowserInfo"
+	  Visible		  [0]
+	  DockPosition		  "Left"
+	  Width			  [50]
+	  Height		  [50]
+	  Filter		  [11]
+	}
+	Object {
+	  $PropName		  "ExplorerBarInfo"
+	  $ObjectID		  4
+	  $ClassName		  "Simulink.ExplorerBarInfo"
+	  Visible		  [1]
+	}
+	Array {
+	  Type			  "Simulink.EditorInfo"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    5
+	    IsActive		    [1]
+	    ViewObjType		    "SimulinkTopLevel"
+	    LoadSaveID		    "0"
+	    Extents		    [920.0, 325.0]
+	    ZoomFactor		    [0.456221198156682]
+	    Offset		    [-70.78282828282849, -15.686868686868685]
+	  }
+	  Object {
+	    $ObjectID		    6
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "116"
+	    Extents		    [920.0, 325.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [0.0, 23.0]
+	  }
+	  Object {
+	    $ObjectID		    7
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "125"
+	    Extents		    [920.0, 325.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [0.0, 201.0]
+	  }
+	  Object {
+	    $ObjectID		    8
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "125:16"
+	    Extents		    [920.0, 325.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [0.0, 0.0]
+	  }
+	  PropName		  "EditorsInfo"
+	}
+      }
+      Object {
+	$ObjectID		9
+	IsActive		[0]
+	Location		[-458.0, 310.0, 1620.0, 708.0]
+	Object {
+	  $PropName		  "ModelBrowserInfo"
+	  $ObjectID		  10
+	  $ClassName		  "Simulink.ModelBrowserInfo"
+	  Visible		  [0]
+	  DockPosition		  "Left"
+	  Width			  [50]
+	  Height		  [50]
+	  Filter		  [11]
+	}
+	Object {
+	  $PropName		  "ExplorerBarInfo"
+	  $ObjectID		  11
+	  $ClassName		  "Simulink.ExplorerBarInfo"
+	  Visible		  [1]
+	}
+	Array {
+	  Type			  "Simulink.EditorInfo"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    12
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "116"
+	    Extents		    [1246.0, 538.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [-205.51363069737121, 0.0]
+	  }
+	  Object {
+	    $ObjectID		    13
+	    IsActive		    [1]
+	    ViewObjType		    "SimulinkTopLevel"
+	    LoadSaveID		    "0"
+	    Extents		    [1586.0, 538.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [21.445667993152938, 1.7805351151994273]
+	  }
+	  Object {
+	    $ObjectID		    14
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "47"
+	    Extents		    [1246.0, 538.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [0.0, 0.0]
+	  }
+	  Object {
+	    $ObjectID		    15
+	    IsActive		    [0]
+	    ViewObjType		    "SimulinkSubsys"
+	    LoadSaveID		    "47:6::120"
+	    Extents		    [1246.0, 538.0]
+	    ZoomFactor		    [1.0]
+	    Offset		    [0.0, 0.0]
+	  }
+	  PropName		  "EditorsInfo"
+	}
+      }
+      PropName		      "WindowsInfo"
+    }
+  }
   PhysicalModelingChecksum "1028304659"
   PhysicalModelingParameterChecksum "745436249"
   PhysicalModelingProducts "Power_System_Blocks"
@@ -29,11 +164,11 @@ Model {
   Creator		  "LiberT"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "LiberT"
+  LastModifiedBy	  "francisvalois"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Feb 07 13:41:19 2014"
-  RTWModifiedTimeStamp	  313681219
-  ModelVersionFormat	  "1.%<AutoIncrement:29>"
+  LastModifiedDate	  "Sat Feb 08 15:11:15 2014"
+  RTWModifiedTimeStamp	  313773020
+  ModelVersionFormat	  "1.%<AutoIncrement:31>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -68,7 +203,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    1
+    $ObjectID		    16
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "onduleursimplecommande"
     signals_		    []
@@ -128,18 +263,18 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      2
-      Version		      "1.12.0"
+      $ObjectID		      17
+      Version		      "1.13.0"
       Array {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  3
-	  Version		  "1.12.0"
+	  $ObjectID		  18
+	  Version		  "1.13.0"
 	  StartTime		  "0.0"
 	  StopTime		  "0.2"
 	  AbsTol		  "auto"
-	  FixedStep		  "auto"
+	  FixedStep		  "Ts"
 	  InitialStep		  "auto"
 	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
@@ -155,8 +290,8 @@ Model {
 	  SolverMode		  "Auto"
 	  EnableConcurrentExecution off
 	  ConcurrentTasks	  off
-	  Solver		  "VariableStepDiscrete"
-	  SolverName		  "VariableStepDiscrete"
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
 	  SolverJacobianMethodControl "auto"
 	  ShapePreserveControl	  "DisableAll"
 	  ZeroCrossControl	  "UseLocalSettings"
@@ -169,8 +304,8 @@ Model {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  4
-	  Version		  "1.12.0"
+	  $ObjectID		  19
+	  Version		  "1.13.0"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
@@ -201,8 +336,8 @@ Model {
 	  Refine		  "1"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  5
-	  Version		  "1.12.0"
+	  $ObjectID		  20
+	  Version		  "1.13.0"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    8
@@ -257,8 +392,8 @@ Model {
 	  ParallelExecutionInRapidAccelerator on
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  6
-	  Version		  "1.12.0"
+	  $ObjectID		  21
+	  Version		  "1.13.0"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
 	  ArrayBoundsChecking	  "none"
@@ -307,7 +442,7 @@ Model {
 	  UnnecessaryDatatypeConvMsg "none"
 	  VectorMatrixConversionMsg "none"
 	  InvalidFcnCallConnMsg	  "error"
-	  FcnCallInpInsideContextMsg "Enable All"
+	  FcnCallInpInsideContextMsg "EnableAllAsWarning"
 	  SignalLabelMismatchMsg  "none"
 	  UnconnectedInputMsg	  "warning"
 	  UnconnectedOutputMsg	  "warning"
@@ -343,14 +478,17 @@ Model {
 	  SFNoUnconditionalDefaultTransitionDiag "warning"
 	  SFTransitionOutsideNaturalParentDiag "warning"
 	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  7
-	  Version		  "1.12.0"
+	  $ObjectID		  22
+	  Version		  "1.13.0"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
 	  ProdBitPerInt		  32
 	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
 	  ProdBitPerFloat	  32
 	  ProdBitPerDouble	  64
 	  ProdBitPerPointer	  32
@@ -360,17 +498,20 @@ Model {
 	  ProdEndianess		  "Unspecified"
 	  ProdWordSize		  32
 	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
 	  ProdHWDeviceType	  "32-bit Generic"
 	  TargetBitPerChar	  8
 	  TargetBitPerShort	  16
 	  TargetBitPerInt	  32
 	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
 	  TargetBitPerFloat	  32
 	  TargetBitPerDouble	  64
 	  TargetBitPerPointer	  32
 	  TargetLargestAtomicInteger "Char"
 	  TargetLargestAtomicFloat "None"
 	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
 	  TargetIntDivRoundTo	  "Undefined"
 	  TargetEndianess	  "Unspecified"
 	  TargetWordSize	  32
@@ -382,8 +523,8 @@ Model {
 	  ProdEqTarget		  on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  8
-	  Version		  "1.12.0"
+	  $ObjectID		  23
+	  Version		  "1.13.0"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  CheckModelReferenceTargetMessage "error"
 	  EnableParallelModelReferenceBuilds off
@@ -397,8 +538,8 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  9
-	  Version		  "1.12.0"
+	  $ObjectID		  24
+	  Version		  "1.13.0"
 	  SFSimEnableDebug	  on
 	  SFSimOverflowDetection  on
 	  SFSimEcho		  on
@@ -412,8 +553,8 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  10
-	  Version		  "1.12.0"
+	  $ObjectID		  25
+	  Version		  "1.13.0"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    9
@@ -432,6 +573,7 @@ Model {
 	  GenCodeOnly		  off
 	  MakeCommand		  "make_rtw"
 	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
 	  TemplateMakefile	  "grt_default_tmf"
 	  GenerateReport	  off
 	  SaveLog		  off
@@ -448,6 +590,14 @@ Model {
 	  RTWUseSimCustomCode	  off
 	  IncludeHyperlinkInReport off
 	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  GenerateErtSFunction	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
 	  TargetLang		  "C"
 	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
 	  IncludeERTFirstTime	  off
@@ -467,8 +617,8 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      11
-	      Version		      "1.12.0"
+	      $ObjectID		      26
+	      Version		      "1.13.0"
 	      Array {
 		Type			"Cell"
 		Dimension		21
@@ -504,6 +654,7 @@ Model {
 	      PreserveName	      off
 	      PreserveNameWithParent  off
 	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
 	      IncAutoGenComments      off
 	      SimulinkDataObjDesc     off
 	      SFDataObjDesc	      off
@@ -511,7 +662,7 @@ Model {
 	      IncDataTypeInIds	      off
 	      MangleLength	      1
 	      CustomSymbolStrGlobalVar "$R$N$M"
-	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrType     "$N$R$M_T"
 	      CustomSymbolStrField    "$N$M"
 	      CustomSymbolStrFcn      "$R$N$M$F"
 	      CustomSymbolStrFcnArg   "rt$I$N$M"
@@ -526,14 +677,15 @@ Model {
 	      SimulinkBlockComments   on
 	      MATLABSourceComments    off
 	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
 	      InlinedPrmAccess	      "Literals"
 	      ReqsInCode	      off
 	      UseSimReservedNames     off
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      12
-	      Version		      "1.12.0"
+	      $ObjectID		      27
+	      Version		      "1.13.0"
 	      Array {
 		Type			"Cell"
 		Dimension		16
@@ -546,13 +698,13 @@ Model {
 		Cell			"GenerateTestInterfaces"
 		Cell			"ModelStepFunctionPrototypeControlCompliant"
 		Cell			"CPPClassGenCompliant"
-		Cell			"MultiInstanceERTCode"
+		Cell			"PortableWordSizes"
 		Cell			"PurelyIntegerCode"
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
 		Cell			"SupportContinuousTime"
 		Cell			"SupportNonInlinedSFcns"
-		Cell			"PortableWordSizes"
+		Cell			"GenerateAllocFcn"
 		PropName		"DisabledProps"
 	      }
 	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
@@ -561,7 +713,6 @@ Model {
 	      CodeReplacementLibrary  "ANSI_C"
 	      UtilityFuncGeneration   "Auto"
 	      ERTMultiwordTypeDef     "System defined"
-	      CodeExecutionProfiling  off
 	      ERTMultiwordLength      256
 	      MultiwordLength	      2048
 	      GenerateFullHeader      on
@@ -592,11 +743,12 @@ Model {
 	      SupportVariableSizeSignals off
 	      EnableShiftOperators    on
 	      ParenthesesLevel	      "Nominal"
-	      PortableWordSizes	      off
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
 	      ModelStepFunctionPrototypeControlCompliant off
 	      CPPClassGenCompliant    off
 	      AutosarCompliant	      off
 	      GRTInterface	      off
+	      GenerateAllocFcn	      off
 	      UseMalloc		      off
 	      ExtMode		      off
 	      ExtModeStaticAlloc      off
@@ -615,7 +767,7 @@ Model {
 	  }
 	}
 	SSC.SimscapeCC {
-	  $ObjectID		  13
+	  $ObjectID		  28
 	  Version		  "1.0"
 	  Array {
 	    Type		    "Cell"
@@ -628,6 +780,7 @@ Model {
 	  ExplicitSolverDiagnosticOptions "warning"
 	  GlobalZcOffDiagnosticOptions "warning"
 	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
 	  SimscapeLogName	  "simlog"
 	  SimscapeLogDecimation	  1
 	  SimscapeLogLimitData	  on
@@ -637,13 +790,23 @@ Model {
       }
       Name		      "Configuration"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 336, 45, 1264, 789 ] 
+      ConfigPrmDlgPosition     [ 204, 25, 1057, 624 ] 
     }
     PropName		    "ConfigurationSets"
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    2
+    $ObjectID		    17
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    29
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
   }
   ExplicitPartitioning	  off
   BlockDefaults {
@@ -677,6 +840,25 @@ Model {
     FontWeight		    "normal"
     FontAngle		    "normal"
   }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
   BlockParameterDefaults {
     Block {
       BlockType		      Demux
@@ -686,6 +868,7 @@ Model {
     }
     Block {
       BlockType		      From
+      GotoTag		      "A"
       IconDisplay	      "Tag"
       TagVisibility	      "local"
     }
@@ -706,6 +889,7 @@ Model {
     }
     Block {
       BlockType		      Goto
+      GotoTag		      "A"
       IconDisplay	      "Tag"
       TagVisibility	      "local"
     }
@@ -768,6 +952,7 @@ Model {
       SystemSampleTime	      "-1"
       RTWFcnNameOpts	      "Auto"
       RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
@@ -800,7 +985,7 @@ Model {
   }
   System {
     Name		    "onduleursimplecommande"
-    Location		    [2, 82, 1582, 820]
+    Location		    [137, 114, 1091, 609]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -812,7 +997,7 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "46"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "134"
     Block {
@@ -823,7 +1008,7 @@ Model {
       Position		      [1405, 236, 1410, 314]
       ZOrder		      -8
       BackgroundColor	      "black"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Measurements/Three-Phase\nV-I Measurement"
@@ -853,7 +1038,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Elements/Series RLC Branch"
@@ -880,7 +1065,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Elements/Series RLC Branch"
@@ -907,7 +1092,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Elements/Series RLC Branch"
@@ -934,7 +1119,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Elements/Series RLC Branch"
@@ -957,6 +1142,7 @@ Model {
       SID		      "116"
       Ports		      [0, 6]
       Position		      [160, 528, 250, 652]
+      ZOrder		      -17
       MinAlgLoopOccurrences   off
       PropExecContextOutsideSubsystem off
       RTWSystemCode	      "Auto"
@@ -964,23 +1150,33 @@ Model {
       Opaque		      off
       RequestExecContextInheritance off
       MaskHideContents	      off
-      MaskPromptString	      "Maximum de courant (A)|Fréquence (Hz)"
-      MaskStyleString	      "edit,edit"
-      MaskVariables	      "Iac=@1;Fac=@2;"
-      MaskTunableValueString  "on,on"
-      MaskCallbackString      "|"
-      MaskEnableString	      "on,on"
-      MaskVisibilityString    "on,on"
-      MaskToolTipString	      "on,on"
-      MaskIconFrame	      on
-      MaskIconOpaque	      on
-      MaskIconRotate	      "none"
-      MaskPortRotate	      "default"
-      MaskIconUnits	      "autoscale"
-      MaskValueString	      "60|50"
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		30
+	$ClassName		"Simulink.Mask"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    31
+	    Type		    "edit"
+	    Name		    "Iac"
+	    Prompt		    "Maximum de courant (A)"
+	    Value		    "60"
+	  }
+	  Object {
+	    $ObjectID		    32
+	    Type		    "edit"
+	    Name		    "Fac"
+	    Prompt		    "Fréquence (Hz)"
+	    Value		    "50"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
       System {
 	Name			"Commande"
-	Location		[168, 345, 1082, 662]
+	Location		[137, 114, 1091, 609]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1022,7 +1218,8 @@ Model {
 	  SID			  "111"
 	  Ports			  [0, 1]
 	  Position		  [135, 257, 170, 293]
-	  LibraryVersion	  "1.648"
+	  ZOrder		  -8
+	  LibraryVersion	  "1.664"
 	  SourceBlock		  "powerlib_extras/Discrete \nControl Blocks/Discrete\n3-phase \nProgrammable Source"
 	  SourceType		  "Discrete 3-phase Programmable Source"
 	  Par_Vps		  "[Iac/30 90 Fac]"
@@ -1040,7 +1237,7 @@ Model {
 	  Par_HarmoA		  "[3 0.2 -25 0]"
 	  Par_HarmoB		  "[2 0.15 35 2]"
 	  Par_Timing_Harmo	  "[0.05  3]"
-	  Ts			  "5e-6"
+	  Ts			  "Ts"
 	}
 	Block {
 	  BlockType		  Reference
@@ -1049,7 +1246,7 @@ Model {
 	  Ports			  [1, 3]
 	  Position		  [35, 348, 95, 422]
 	  ZOrder		  -5
-	  LibraryVersion	  "1.648"
+	  LibraryVersion	  "1.664"
 	  FontName		  "Verdana"
 	  FontSize		  11
 	  SourceBlock		  "powerlib_extras/Discrete \nControl Blocks/Discrete\n3-phase PLL"
@@ -1057,7 +1254,7 @@ Model {
 	  Fmin			  "45"
 	  Par_Init		  "[0 50]"
 	  ParK			  "[ 180 3200 1 ]"
-	  Ts			  "50e-6"
+	  Ts			  "Ts"
 	  AGC			  off
 	}
 	Block {
@@ -1202,6 +1399,7 @@ Model {
 	  Name			  "T6"
 	  SID			  "117"
 	  Position		  [720, 68, 750, 82]
+	  ZOrder		  -22
 	  IconDisplay		  "Port number"
 	}
 	Block {
@@ -1209,6 +1407,7 @@ Model {
 	  Name			  "T5"
 	  SID			  "118"
 	  Position		  [720, 88, 750, 102]
+	  ZOrder		  -23
 	  Port			  "2"
 	  IconDisplay		  "Port number"
 	}
@@ -1217,6 +1416,7 @@ Model {
 	  Name			  "T8"
 	  SID			  "119"
 	  Position		  [720, 108, 750, 122]
+	  ZOrder		  -24
 	  Port			  "3"
 	  IconDisplay		  "Port number"
 	}
@@ -1225,6 +1425,7 @@ Model {
 	  Name			  "T7"
 	  SID			  "120"
 	  Position		  [720, 128, 750, 142]
+	  ZOrder		  -25
 	  Port			  "4"
 	  IconDisplay		  "Port number"
 	}
@@ -1233,6 +1434,7 @@ Model {
 	  Name			  "T10"
 	  SID			  "121"
 	  Position		  [720, 148, 750, 162]
+	  ZOrder		  -26
 	  Port			  "5"
 	  IconDisplay		  "Port number"
 	}
@@ -1241,6 +1443,7 @@ Model {
 	  Name			  "T9"
 	  SID			  "122"
 	  Position		  [720, 168, 750, 182]
+	  ZOrder		  -27
 	  Port			  "6"
 	  IconDisplay		  "Port number"
 	}
@@ -1341,7 +1544,7 @@ Model {
 	Line {
 	  SrcBlock		  "Relay"
 	  SrcPort		  1
-	  Points		  [0, 5; 0, -5]
+	  Points		  [0, 0]
 	  Branch {
 	    Points		    [0, 25]
 	    DstBlock		    "Relay1"
@@ -1415,7 +1618,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1438,7 +1641,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1461,7 +1664,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1484,7 +1687,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1507,7 +1710,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1530,7 +1733,7 @@ Model {
       ZOrder		      -4
       BlockRotation	      270
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/Diode"
@@ -1587,7 +1790,7 @@ Model {
       Position		      [1800, 411, 1840, 549]
       ZOrder		      -16
       Floating		      off
-      Location		      [5, 48, 1601, 859]
+      Location		      [11, 92, 1291, 750]
       Open		      off
       NumInputPorts	      "3"
       List {
@@ -1607,8 +1810,8 @@ Model {
 	MarkerStyles		"none|none|none|none|none|none"
       }
       ShowLegends	      off
-      YMin		      "-1.5e-13~-7e-11~50"
-      YMax		      "1.25e-13~8e-11~50"
+      YMin		      "-125~-70~49.475"
+      YMax		      "125~70~49.675"
       SaveName		      "ScopeData1"
       DataFormat	      "StructureWithTime"
       LimitDataPoints	      off
@@ -1624,7 +1827,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1649,7 +1852,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1674,7 +1877,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1699,7 +1902,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1724,7 +1927,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1749,7 +1952,7 @@ Model {
       BlockRotation	      270
       BlockMirror	      on
       NamePlacement	      "alternate"
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Power\nElectronics/IGBT"
@@ -1772,7 +1975,7 @@ Model {
       Position		      [265, 220, 285, 255]
       ZOrder		      -6
       BlockRotation	      270
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Electrical\nSources/DC Voltage Source"
@@ -1787,7 +1990,7 @@ Model {
       Ports		      [0, 1, 0, 0, 0, 2]
       Position		      [455, 228, 480, 252]
       ZOrder		      -9
-      LibraryVersion	      "1.2119"
+      LibraryVersion	      "1.2191"
       FontName		      "Verdana"
       FontSize		      11
       SourceBlock	      "powerlib/Measurements/Voltage Measurement"
@@ -1804,7 +2007,7 @@ Model {
       Position		      [35, 15, 143, 54]
       ZOrder		      -8
       Priority		      "1"
-      LibraryVersion	      "*1.2119"
+      LibraryVersion	      "*1.2191"
       UserDataPersistent      on
       UserData		      "DataTag0"
       FontName		      "Verdana"
@@ -1812,7 +2015,7 @@ Model {
       SourceType	      "PSB option menu block"
       SimulationMode	      "Discrete"
       SolverType	      "Tustin"
-      SampleTime	      "50e-7"
+      SampleTime	      "Ts"
       frequency		      "60"
       SPID		      off
       DisableSnubberDevices   off
@@ -1821,19 +2024,20 @@ Model {
       SwTol		      "0"
       Interpol		      off
       DisplayEquations	      off
-      FunctionMessages	      off
       frequencyindice	      "0"
       Pbase		      "100e6"
       ErrMax		      "1e-4"
       Iterations	      "50"
       UnitsV		      "kV"
       UnitsW		      "MW"
+      FunctionMessages	      off
       echomessages	      off
       HookPort		      off
       EnableUseOfTLC	      off
       x0status		      "blocks"
       RestoreLinks	      "warning"
       ResistiveCurrentMeasurement off
+      Frange		      "[0:2:500]"
       Ylog		      off
       Xlog		      on
       ShowGrid		      off
@@ -1843,10 +2047,13 @@ Model {
       StartTime		      "0.0"
       cycles		      "1"
       DisplayStyle	      "1"
+      fundamental	      "60"
       FreqAxis		      off
       MaxFrequency	      "1000"
       frequencyindicesteady   "1"
+      RmsSteady		      "1"
       display		      off
+      Ts		      "0"
       methode		      off
     }
     Line {
@@ -2239,6 +2446,7 @@ Model {
     Annotation {
       SID		      "70"
       Position		      [1828, 424]
+      ZOrder		      -1
     }
   }
 }
