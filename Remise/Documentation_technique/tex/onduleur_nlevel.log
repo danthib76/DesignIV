@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 FEB 2014 23:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 FEB 2014 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,16 +604,23 @@ Overfull \hbox (44.21976pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[2 <./Imoy_m.png (PNG copy)>] [3] (./onduleur_nlevel.aux)
+[2 <./Imoy_m.png (PNG copy)>]
+<commande_NPC_1.png, id=23, 562.2606pt x 421.575pt>
+File: commande_NPC_1.png Graphic file (type png)
+ <use commande_NPC_1.png>
+Package pdftex.def Info: commande_NPC_1.png used on input line 75.
+(pdftex.def)             Requested size: 224.90025pt x 168.627pt.
+
+[3 <./commande_NPC_1.png (PNG copy)>] (./onduleur_nlevel.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4235 strings out of 493315
- 56879 string characters out of 6137904
- 130847 words of memory out of 5000000
- 7590 multiletter control sequences out of 15000+600000
+ 4241 strings out of 493315
+ 57000 string characters out of 6137904
+ 130857 words of memory out of 5000000
+ 7595 multiletter control sequences out of 15000+600000
  40753 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,9n,24p,736b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -632,10 +639,10 @@ public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/l
 mr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on onduleur_nlevel.pdf (3 pages, 200335 bytes).
+Output written on onduleur_nlevel.pdf (3 pages, 277535 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
