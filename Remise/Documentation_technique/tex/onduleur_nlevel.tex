@@ -28,7 +28,12 @@ K &=& i_0 - \frac{V_{DC}}{R} \\
 i(t) &=& i_0  + \frac{V_{DC}}{R}\left(1 - \mbox{e}^{\frac{-R}{L}t}\right)u(t)
 \end{eqnarray}
 
-Si l'on définit le temps total d'une modulation par $T$, le temps de conduction de l'alternance positive par $t_{on}$ et le temps de conduction de l'alternance négative par $t_{off}$ il est possible de définir le rapport de modulation $m = \frac{t_{on}}{T} = \frac{1-t_{off}}{T}$. Supposons un rapport de modulation $m_x$, il est possible, si l'on considère le courant initial nul, d'exprimer le courant dans la charge RL pour une période de modulation étant égale à $T$:
+Si l'on définit le temps total d'une modulation par $T$, le temps de conduction de l'alternance positive par $t_{on}$ et le temps de conduction de l'alternance négative par $t_{off}$ il est possible de définir le rapport de modulation $m = \frac{t_{on}}{T} = \frac{1-t_{off}}{T}$. Supposons un rapport de modulation $m_x$, il est possible, si l'on considère le courant initial nul, d'exprimer le courant dans la charge RL pour une période de modulation étant égale à $T$. L'évolution du courant pour une tension appliquée pendant un cycle de modulation est présenté à la figure \ref{eq1}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{fig_courant_tension_mod.png}
+\caption{Courant dans la charge selon une tension $+V_{DC}$ appliquée pendant un temps $t_{on}$ et une tension $-V_{DC}$ appliquée pendant un temps $t_{off}$ pour un cycle de modulation.}
+\end{figure}
 \begin{eqnarray}
 t_{on} &=& m_x T, i_0 = 0\\
 i\left(t = t_{on}\right) &=& \frac{V_{DC}}{R}\left(1 - \mbox{e}^{\frac{-R}{L}m_x T}\right)\\
@@ -68,7 +73,7 @@ Le schéma d'un onduleur monophasé NPC à 3 niveaux est présenté à la figure
 \end{tabular}
 \end{table}
 
-En excluant les états redondants, il existe 3 états distincts, soit l'état P ([1,2]), l'état N([3,4] et l'état 0([1,3]). Une stratégie de commande simple et applicable est celle d'une modulation MLI à plusieurs niveaux. On réfère ici à la figure \ref{fig_MLI_ML} pour une illustration graphique de la commande MLI multiniveaux. À chaque période de commutation, une comparaison entre l'onde désirée et le signal en dent de scie est effectuée. 
+En excluant les états redondants, il existe 3 états distincts, soit l'état P ([1,2]), l'état N([3,4] et l'état 0([1,3]). Une stratégie de commande simple et applicable est celle d'une modulation MLI à plusieurs niveaux. On réfère ici à la figure \ref{fig_MLI_ML} pour une illustration graphique de la commande MLI multiniveaux. À chaque période de commutation, une comparaison entre l'onde désirée et le signal en dent de scie. Pendant la période où le signal est plus grand (en valeur absolue) que le signal en dent de scie, la paire de transistor associée est activée pendant la période de conduction calculée. 
 
 \begin{figure}[htb]
 \centering

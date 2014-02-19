@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 FEB 2014 21:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 FEB 2014 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -590,40 +590,57 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<fig_courant_tension_mod.png, id=1, 1284.9606pt x 640.3122pt>
+File: fig_courant_tension_mod.png Graphic file (type png)
 
+<use fig_courant_tension_mod.png>
+Package pdftex.def Info: fig_courant_tension_mod.png used on input line 34.
+(pdftex.def)             Requested size: 513.97514pt x 256.12033pt.
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Imoy_m.png, id=18, 1284.9606pt x 373.395pt>
-File: Imoy_m.png Graphic file (type png)
- <use Imoy_m.png>
-Package pdftex.def Info: Imoy_m.png used on input line 49.
-(pdftex.def)             Requested size: 513.97514pt x 149.35535pt.
-
-Overfull \hbox (44.21976pt too wide) in paragraph at lines 49--50
+Overfull \hbox (44.21976pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-[2 <./Imoy_m.png (PNG copy)>]
-<commande_NPC_1.png, id=23, 562.2606pt x 421.575pt>
+[1
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Imoy_m.png, id=19, 1284.9606pt x 373.395pt>
+File: Imoy_m.png Graphic file (type png)
+ <use Imoy_m.png>
+Package pdftex.def Info: Imoy_m.png used on input line 54.
+(pdftex.def)             Requested size: 513.97514pt x 149.35535pt.
+
+Overfull \hbox (44.21976pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[2 <./fig_courant_tension_mod.png (PNG copy)>]
+<commande_NPC_1.png, id=24, 1284.9606pt x 640.3122pt>
 File: commande_NPC_1.png Graphic file (type png)
  <use commande_NPC_1.png>
-Package pdftex.def Info: commande_NPC_1.png used on input line 75.
-(pdftex.def)             Requested size: 224.90025pt x 168.627pt.
+Package pdftex.def Info: commande_NPC_1.png used on input line 80.
+(pdftex.def)             Requested size: 513.97514pt x 256.12033pt.
 
-[3 <./commande_NPC_1.png (PNG copy)>] (./onduleur_nlevel.aux)
+Overfull \hbox (44.21976pt too wide) in paragraph at lines 80--81
+ [][] 
+ []
+
+[3 <./Imoy_m.png (PNG copy)>] [4 <./commande_NPC_1.png (PNG copy)>]
+(./onduleur_nlevel.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4241 strings out of 493315
- 57000 string characters out of 6137904
- 130857 words of memory out of 5000000
- 7595 multiletter control sequences out of 15000+600000
+ 4246 strings out of 493315
+ 57154 string characters out of 6137904
+ 129857 words of memory out of 5000000
+ 7599 multiletter control sequences out of 15000+600000
  40753 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,9n,24p,736b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,24p,736b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 13/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2013/texmf-d
@@ -639,10 +656,10 @@ public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/l
 mr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on onduleur_nlevel.pdf (3 pages, 277535 bytes).
+Output written on onduleur_nlevel.pdf (4 pages, 474855 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
