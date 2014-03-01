@@ -1,6 +1,8 @@
+clear;
+clc;
 %On déclare les variables
 %Inductance de source ac
-Lac = 0.0030;
+Lac = 0.0020;
 
 %Tension AC
 Vac = 2000;
@@ -10,11 +12,13 @@ Freq = 50;
 Tpas = 1e-5;
 %angle theta du courant
 Phase = 45;
-%Valeur max du courant: La relation avec la tension est U = Imax/cos(theta) 
-Iac = 3460;
+%Valeur max du courant: La relation avec la tension trouvée par inspection est U = Imax/cos(theta) 
+Iac = 3500;
 %Résistance charge
 Rac = 2.5;
 %Seuil hystérésis
 hys = 0.1;
+%tension de reférence dc
+Vdc = 5000;
 
 
