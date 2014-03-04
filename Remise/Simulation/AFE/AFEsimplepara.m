@@ -12,11 +12,11 @@ Freq = 50;
 %Pas de simulation
 Tpas = 5e-5;
 %Déphasage du courant avec la tension
-Phase = 0;
+Phase = 240;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 9.26;
 %Seuil hystérésis
-hys = 0.0001;
+hys = 0.1;
 %tension de reférence dc
 Vdc = 5000;
 
