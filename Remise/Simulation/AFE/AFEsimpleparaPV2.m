@@ -1,29 +1,24 @@
 clear;
 clc;
-%On déclare les variables
+%On declare les variables
 %Inductance de source ac L = (0.16pu/(100*pi))*1.6
 Lac =  8.1487e-04;
 %Tension AC
 Vac = 2000;
-%Fréquence réseau
+%Frequence réseau
 Freq = 50;
 %Pas de simulation
-<<<<<<< HEAD
 Tpas = 5e-5;
-%Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
+%Resistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 R = 9.26;
 %Capacité du banc de condensateur
 C = 300e-3;
-=======
-Tpas = 1e-6;
-%Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
+%Resistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 9.26;
->>>>>>> 81648012dcc446d5b9e60bb5df7ce0e5fc896135
 %Seuil hystérésis
 hys = 100;
-%tension de reférence dc
+%tension de reference dc
 Vdc = 5000;
-<<<<<<< HEAD
 %Courant maximal
 Imax = 5000;
 Sat = 5000;
@@ -55,8 +50,3 @@ PIdisc1=c2d(PIcont1,Tpas);
 [Numd1,Dend1,Ts1]=tfdata(PIdisc1, 'v');
 P1=Numd1(1)/Dend1(1);
 I1=(P1+Numd1(2)/Dend1(1))/Ts1;
-
-=======
->>>>>>> 81648012dcc446d5b9e60bb5df7ce0e5fc896135
-
-
