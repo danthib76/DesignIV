@@ -1,0 +1,6 @@
+Tout d'abord,
+
+-Insérer un filtre discret sur PSIM comme celui de SPS.
+-Comparer le fonctionnement des filtres, IGBT's, de la fonction mean et des comparateurs.
+-Introduire un modèle de 'mean' monté à la main dans les simulations.
+-Discuter des différences entre les deux simulations

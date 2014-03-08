@@ -2,8 +2,8 @@
 clear;
 clc;
 
-%Le pas de simulation
-Tpas = 1e-6;
+%Le pas de simulation Garder le pas à 1e-5 pour avoir commutation à 1Khz
+Tpas = 1e-5;
 %La fréquence fondamentale
 Freq = 50;
 %tension des sources du bus dc
@@ -20,7 +20,7 @@ I = 24.6;
 
 %Les paramètres du filtre (Code de discretisation de filtre venant de
 %VIarouge)
-Trip = .002;
+Trip = .00091;
 % Continuous Low Pass filter (ripple)
 LPrip = tf([1],[Trip,1]);
 % Discretization of Low Pass filter in z with Tstep
