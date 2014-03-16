@@ -6,6 +6,8 @@ clc;
 Tpas = 1e-5;
 %La fréquence fondamentale
 Freq = 50;
+%La fréquence du calcul de la moyenne de tension
+ech = 3000;
 %tension des sources du bus dc
 Vdc = 2500;
 %Induction de couplage

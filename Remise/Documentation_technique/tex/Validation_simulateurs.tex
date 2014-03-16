@@ -11,39 +11,77 @@
 \begin{document}
 \chapter{Cross validation entre les différentes plateformes de simulations}
 \section{Validation Psim/SPS}
-\subsection{DCP/DCN}
-Pour commencer, parlons d'éléments simples. On a remarqué que la fonction mean de SPS et de PSIM fonctionne différemment. Voici les résultats obtenu de l'utilisation de la fonction mean sur charge RL alimenté par une tension SINUS de 110V crête à 1KHz.
-\begin{figure}[h!]
+\subsection{Calcul de la tension moyenne}
+
+Commençons par discuter des différences obtenues entre les différentes simulations. On a remarqué que la fonction "Mean" dans simulink et Psim ne donne pas le même résulat. Pour le montrer, on a testé chacune des deux fonctions avec un sinus 100Vamplitude, 50Vmoy et à 1KHz de fréquence. Les figures~\ref{dis_mean} et \ref{D_mean} montre les résulats obtenus avec une fréquence de 500Hz du moyenneur.
+
+
+
+\begin{figure}[h]
 \centering
-\includegraphics[scale=0.8]{mean_SPS.jpg}
-\caption{Réponse de la function Mean sur SPS}
-\end{figure}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{mean_PSIM.jpg}
-\caption{Réponse de la function Mean sur PSIM}
+\includegraphics[scale=0.5]{fig/moy_sim.jpg}
+\caption{Réponse de la function "Discrete Mean" sur SPS}
+\label{dis_mean}
 \end{figure}
 
-Ces images représentent bien la différence de fonctionnement de ces blocs. On remarque que la fonction mean de SPS a un retard avant qu'il commence à calculer une valeur. PSIM n'a pas cette période d'attente. Par contre, la fonction mean de SPS est plus précise que celle de PSIM qu'on remarque bien  avec la différence de précision des résultats obtenus.
-\begin{figure}[h!]
+\begin{figure}[h]
 \centering
-\includegraphics[scale=0.8]{erreur_PSIM.jpg}
+\includegraphics[scale=0.5]{fig/moy_psim.jpg}
+\caption{Réponse du bloc "DC Voltmeter" sur PSIM}
+\label{D_mean}
+\end{figure}
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.8]{fig/moy.jpg}
+\caption{Fonction de moyennage de la tension}
+\label{moy}
+\end{figure}
+On remarque bien que les résultats sont différents dans les figures~\ref{dis_mean} et \ref{D_mean}. La tension moyenne calculé sur simulink est plus précise  et varie moins que celle de Psim. La précision est telle que le résultat de Psim est variant sur chaque période tandis que celle de simulink a une apparence droite. Par contre, le temps de réponse de simulink est plus long que celui de Psim qui répond très rapidement. Par conséquent, on a décidé de monter notre propre fonction de moyennage pour avoir un fonctionnement pareille dans les deux simulations. La figure~\ref{moy} représente la fonction qui est constitué d'un intégrateur à gain équivalent au pas de calcul qui est de
+\begin{equation}
+Ts = 10^{-5}
+\end{equation} avec un retour et un gain qui contrôle la sensibilité de la fonction, on a mis 1/3000 pour avoir le meilleur résultat. De plus, on cascadé 10 fonctions intégrateur pour optimiser le résultat et avoir une moyenne plus ou moins en continu.
+
+
+
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.5]{fig/resul_sim.jpg}
+\caption{Résultats de simulation sur SIMULINK}
+\end{figure}
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.6]{fig/resul_psim.jpg}
+\caption{Résultats de simulation sur Psim}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.5]{erreur_PSIM.jpg}
 \caption{La différence entre la référence de courant et la valeur obtenu pour PSIM}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.5]{erreur_SPS.jpg}
 \caption{La différence entre la référence de courant et la valeur obtenu pour SPS}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.5]{comp_PSIM_SPS.jpg}
-\caption{L'erreure entre PSIM et SPS}
+\caption{L'erreur entre PSIM et SPS}
 \label{comp_PSIM_SPS}
 \end{figure}
-
-On remarque bien que les deux simulateurs ne sont pas parfaitement semblables pour l'instant comme le montre la figure~\ref{comp_PSIM_SPS}. Cette différence peut être causé par le filtre de SPS et PSIM qui sont pas le même et à cause que la tension AC au niveau de la charge n'est pas semblable. 
+\subsection{Calcul du courant}
+Nous avons comparés les deux plateformes concernant la différence par rapport au résultat du courant. Nous avons obtenu une différence de 0.011\%
+entre Psim et Simulink en utilisant la valeur moyenne de courant pour le calcul en suivant l'équation~\ref{eq2}. 
+\begin{equation}
+Erreur = \frac{mean(I_{simulink})-mean(I_{Psim})}{mean(I_{simulink})}
+\label{eq2}
+\end{equation}
 
 \end{document}
