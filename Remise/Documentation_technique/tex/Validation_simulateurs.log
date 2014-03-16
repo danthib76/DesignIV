@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  15 MAR 2014 22:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  16 MAR 2014 16:49
 entering extended mode
 **Validation_simulateurs.tex
 
@@ -521,130 +521,123 @@ LaTeX Info: Redefining \up on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Chapitre 1.
-<fig/moy_sim.jpg, id=1, 914.66719pt x 158.09062pt>
+<fig/resul_sim.jpg, id=1, 798.73407pt x 443.40656pt>
+File: fig/resul_sim.jpg Graphic file (type jpg)
+ <use fig/resul_sim.jpg>
+Package pdftex.def Info: fig/resul_sim.jpg used on input line 16.
+(pdftex.def)             Requested size: 399.36606pt x 221.70273pt.
+
+<fig/resul_psim.jpg, id=2, 702.37407pt x 447.92343pt>
+File: fig/resul_psim.jpg Graphic file (type jpg)
+ <use fig/resul_psim.jpg>
+Package pdftex.def Info: fig/resul_psim.jpg used on input line 21.
+(pdftex.def)             Requested size: 421.42769pt x 268.75612pt.
+
+<fig/moy_sim.jpg, id=3, 914.66719pt x 158.09062pt>
 File: fig/moy_sim.jpg Graphic file (type jpg)
  <use fig/moy_sim.jpg>
-Package pdftex.def Info: fig/moy_sim.jpg used on input line 22.
+Package pdftex.def Info: fig/moy_sim.jpg used on input line 32.
 (pdftex.def)             Requested size: 457.33247pt x 79.0451pt.
 
-<fig/moy_psim.jpg, id=2, 695.59875pt x 199.49532pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig/moy_psim.jpg, id=4, 695.59875pt x 199.49532pt>
 File: fig/moy_psim.jpg Graphic file (type jpg)
  <use fig/moy_psim.jpg>
-Package pdftex.def Info: fig/moy_psim.jpg used on input line 29.
+Package pdftex.def Info: fig/moy_psim.jpg used on input line 39.
 (pdftex.def)             Requested size: 347.79852pt x 99.7474pt.
 
-<fig/moy.jpg, id=3, 340.27126pt x 147.55125pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig/moy.jpg, id=5, 340.27126pt x 147.55125pt>
 File: fig/moy.jpg Graphic file (type jpg)
  <use fig/moy.jpg>
-Package pdftex.def Info: fig/moy.jpg used on input line 37.
+Package pdftex.def Info: fig/moy.jpg used on input line 47.
 (pdftex.def)             Requested size: 272.21736pt x 118.04114pt.
  [1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/LiberT/Documents/GitHu
-b/DesignIV/Remise/Documentation_technique/tex/fig/moy_sim.jpg> <D:/LiberT/Docum
-ents/GitHub/DesignIV/Remise/Documentation_technique/tex/fig/moy_psim.jpg>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 42.
+b/DesignIV/Remise/Documentation_technique/tex/fig/resul_sim.jpg>]
+<fig/tmoypsim_sim.jpg, id=13, 1020.81375pt x 426.84468pt>
+File: fig/tmoypsim_sim.jpg Graphic file (type jpg)
 
+<use fig/tmoypsim_sim.jpg>
+Package pdftex.def Info: fig/tmoypsim_sim.jpg used on input line 60.
+(pdftex.def)             Requested size: 408.31827pt x 170.73485pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 65.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 42.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 42.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 42.
+(Font)              <10.95> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 42.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 42.
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+(Font)              <6> on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<fig/resul_sim.jpg, id=11, 798.73407pt x 443.40656pt>
-File: fig/resul_sim.jpg Graphic file (type jpg)
- <use fig/resul_sim.jpg>
-Package pdftex.def Info: fig/resul_sim.jpg used on input line 52.
-(pdftex.def)             Requested size: 399.36606pt x 221.70273pt.
-
-<fig/resul_psim.jpg, id=12, 702.37407pt x 447.92343pt>
-File: fig/resul_psim.jpg Graphic file (type jpg)
-
-<use fig/resul_psim.jpg>
-Package pdftex.def Info: fig/resul_psim.jpg used on input line 57.
-(pdftex.def)             Requested size: 421.42769pt x 268.75612pt.
- <erreur_PSIM.jpg, id=13, 1014.79124pt x 448.67625pt>
-File: erreur_PSIM.jpg Graphic file (type jpg)
-
-<use erreur_PSIM.jpg>
-Package pdftex.def Info: erreur_PSIM.jpg used on input line 63.
-(pdftex.def)             Requested size: 507.39438pt x 224.33757pt.
-
-Overfull \hbox (37.63899pt too wide) in paragraph at lines 63--64
- [][] 
- []
-
-<erreur_SPS.jpg, id=14, 1044.90375pt x 471.26062pt>
-File: erreur_SPS.jpg Graphic file (type jpg)
- <use erreur_SPS.jpg>
-Package pdftex.def Info: erreur_SPS.jpg used on input line 69.
-(pdftex.def)             Requested size: 522.45059pt x 235.62973pt.
-
-Overfull \hbox (52.6952pt too wide) in paragraph at lines 69--70
- [][] 
- []
-
-<comp_PSIM_SPS.jpg, id=15, 1025.33063pt x 437.38406pt>
+) [2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentation_technique/tex/fi
+g/resul_psim.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentation_tec
+hnique/tex/fig/moy_sim.jpg>] [3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Doc
+umentation_technique/tex/fig/moy_psim.jpg> <D:/LiberT/Documents/GitHub/DesignIV
+/Remise/Documentation_technique/tex/fig/moy.jpg> <D:/LiberT/Documents/GitHub/De
+signIV/Remise/Documentation_technique/tex/fig/tmoypsim_sim.jpg>]
+<comp_PSIM_SPS.jpg, id=26, 1025.33063pt x 437.38406pt>
 File: comp_PSIM_SPS.jpg Graphic file (type jpg)
  <use comp_PSIM_SPS.jpg>
-Package pdftex.def Info: comp_PSIM_SPS.jpg used on input line 75.
+Package pdftex.def Info: comp_PSIM_SPS.jpg used on input line 85.
 (pdftex.def)             Requested size: 512.66406pt x 218.69148pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 75--76
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
-[2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentation_technique/tex/fig/
-moy.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentation_technique/te
-x/fig/resul_sim.jpg>] [3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentat
-ion_technique/tex/fig/resul_psim.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remi
-se/Documentation_technique/tex/erreur_PSIM.jpg>] [4 <D:/LiberT/Documents/GitHub
-/DesignIV/Remise/Documentation_technique/tex/erreur_SPS.jpg> <D:/LiberT/Documen
-ts/GitHub/DesignIV/Remise/Documentation_technique/tex/comp_PSIM_SPS.jpg>]
+[4 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Documentation_technique/tex/comp
+_PSIM_SPS.jpg>]
 (D:\LiberT\Documents\GitHub\DesignIV\Remise\Documentation_technique\tex\Validat
 ion_simulateurs.aux) ) 
 Here is how much of TeX's memory you used:
- 3768 strings out of 493921
- 49303 string characters out of 3144874
- 110528 words of memory out of 3000000
- 6983 multiletter control sequences out of 15000+200000
+ 3765 strings out of 493921
+ 49246 string characters out of 3144874
+ 110548 words of memory out of 3000000
+ 6981 multiletter control sequences out of 15000+200000
  43755 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,752b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,24p,1138b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Fil
+rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/
+Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
@@ -653,9 +646,9 @@ ic/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Validation_simulateurs.pdf (4 pages, 668606 bytes).
+Output written on Validation_simulateurs.pdf (4 pages, 627971 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

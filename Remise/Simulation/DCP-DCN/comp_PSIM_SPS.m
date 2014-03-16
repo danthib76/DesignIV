@@ -15,6 +15,7 @@ end
 Pourcentage_de_differences_du_courant_entre_Psim_et_Simulink = (mean(ScopeData.signals(1).values(:,2))-mean(C(:,2)))/mean(ScopeData.signals(1).values(:,2))*100
 
 
+
 Te = linspace(0,0.9,length(ScopeData.signals(1).values));
 figure(1);
 plot(Te,D);
@@ -34,3 +35,10 @@ title('Comparaison SPS/PSIM')
 ylabel('Pourcentage d''erreur')
 xlabel('Temps (s)')
 
+Pourcentage_de_differences_de_la_tension_moyenne_entre_Psim_et_Simulink = ((mean(ScopeData.signals(2).values(:,2))-mean(moy1(:,2)))/mean(ScopeData.signals(2).values(:,2)))*100
+%Graphe_de_tension_moyenne 
+figure(4)
+plot(Te,ScopeData.signals(2).values(:,2),T,moy1(:,2))
+title('Comparaison SPS/PSIM au niveau de la tension moyenne')
+ylabel('Tension moyenne (V)')
+xlabel('Temps (s)')

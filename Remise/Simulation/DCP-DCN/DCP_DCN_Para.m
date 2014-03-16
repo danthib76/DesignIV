@@ -20,9 +20,12 @@ Lch = 0.1;
 P = 1.5611;
 I = 24.6;
 
+%Les paramètres du filtre
+%[KLP,TLP] = ellip(2,0.001,80,400*Tpas);
+
 %Les paramètres du filtre (Code de discretisation de filtre venant de
 %VIarouge)
-Trip = .00091;
+Trip = .001;
 % Continuous Low Pass filter (ripple)
 LPrip = tf([1],[Trip,1]);
 % Discretization of Low Pass filter in z with Tstep
