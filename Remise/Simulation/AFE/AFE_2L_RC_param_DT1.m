@@ -20,8 +20,7 @@ hys = 100;
 %tension de reference dc
 Vdc = 5000;
 %Courant maximal
-Imax = 5000;
-Sat = 5000;
+Imax = 1300;
 % PI proportionnal PI form: ideal P(1+I*1/s) Anti-windup : clamping
 %P = gain*L/R;
 %I = R/L;
