@@ -12,13 +12,13 @@ ech = 3000;
 %tension des sources du bus dc
 Vdc = 2500;
 %Induction de couplage
-Lcoup = 1e-6;
+Lcoup = 10e-6;
 %Valeurs des électroaimants
 Rch = 0.28;
 Lch = 0.1;
 %Valeurs des snubbers
-Rs = 50000;
-Cs = 0.5;
+Rs = 100000;
+Cs = inf;
 %Résistance IGBT
 Ron =10e-3;
 
@@ -27,7 +27,7 @@ P = 1.5611;
 I = 24.6;
 
 %Les paramètres du filtre
-[KLP,TLP] = ellip(2,0.01,40,1000*(Tpas/2),'low');
+[KLP,TLP] = ellip(2,0.01,40,1500*(Tpas/2),'low');
 
 % %Les paramètres du filtre (Code de discretisation de filtre venant de
 % %VIarouge)
