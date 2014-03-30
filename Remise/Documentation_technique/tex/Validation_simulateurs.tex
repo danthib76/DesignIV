@@ -15,7 +15,7 @@
 Les résultats de la simulation du pont DCP/DCN sur les électroaimants, contenant la référence de courant et le courant réel ainsi que la tension appliquée et moyenne sont présentés à la figure \ref{figDCPDCN1}. Les résultats de simulation correspondant implantés dans une simulation sur le logiciel PSIM sont présentés à la figure \ref{figDCPDCN2}.
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=0.5]{fig/resul_sim.jpg}
+\includegraphics[scale=0.4]{fig/resul_sim.jpg}
 \caption{Courant de référence par rapport au courant réel, tension appliquée et moyenne appliqués sur les électroaimants au moyen d'une simulation sur SPS}
 \label{figDCPDCN1}
 \end{figure}
@@ -74,8 +74,14 @@ On remarque bien que les résultats sont différents dans les figures \ref{dis_m
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.4]{fig/erre_ten_fen.jpg}
-\caption{Courbe représentant l'erreur de la tension moyenne entre SPS et PSIM avec un fenêtrage de 100 échantillons}
+\caption{Courbe représentant l'erreur de la tension moyenne entre SPS et PSIM en pourcentage avec un fenêtrage de 100 échantillons}
 \label{err_ten}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{fig/err_ten_imp.jpg}
+\caption{Courbe représentant l'erreur de la tension moyenne entre SPS et PSIM en pourcentage avec un fenêtrage de 100 échantillons entre 0.1 et 0.7 secondes}
+\label{err_ten_imp}
 \end{figure}
 Sur la figure \ref{moyt} on capte la différence relative entre la tension moyenne sur PSIM et SPS. La courbe en vert représente la réponse sur PSIM et en bleu celle sur SPS. La différence observé est dû au fait que sur SPS nous utilisons des IGBT idéaux donc qui commutent instantanément, tandis que sur PSIM ce sont des IGBT qui ont un temps de commutation faible mais non négligeable. Leur modélisation présente une différence non négligeable. De sorte que, c'est normal qu'on n'ait pas le même résultat car la simulation de PSIM a une perte de commutation tandis que celle de SPS n'en a pas. Il faut aussi prendre en compte que l'algorithme de PSIM et SPS n'est pas la même au niveau des passage à zéros ce qui procure une différence de fonctionnement entre les simulateurs. Par contre, on constate que les résultats sont très semblables même si l'erreur moyenne est de 41.4868\%, elle est calculée selon l'équation \ref{eq1}. Étant donnée que l'erreur varie en fonction du niveau de la tension moyenne, la figure~\ref{err_ten} montre l'erreur de la tension moyenne avec un fenêtrage de 100 échantillons. Ça représente l'erreur en différents points de fonctionnement. On observe bien que lorsque l'impulsion de courant est produite, l'erreur de tension moyenne devient très faible entre les deux simulateurs. En somme, il est possible de confirmer la concordance des résultats de la simulation du pont DCP/DCN sur les 2 simulateurs. Il faut aussi comprendre que les IGBT de SPS sont plus dévéloppés que ceux de PSIM. Ils contiennent un snubber RC intégré, ce qui n'est pas le cas sur PSIM. De plus, sur SPS il est possible de mettre la valeur d'un condensateur à inf ce qui représente pour le snubber un fonctionnement purement résistif. PSIM ne permet pas de mettre un condensateur à inf, il faut le mettre plutôt à 0 si on veut que le condensateur ne soit pas tenu en compte.
 
