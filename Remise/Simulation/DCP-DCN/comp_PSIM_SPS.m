@@ -43,21 +43,24 @@ Tten = linspace(0,0.9,(length(A)-10)/a);
 Te = linspace(0,0.9,length(ScopeData.signals(1).values));
 figure(1);
 plot(Te,D);
-title('Erreur courant de charge SPS');
+title('Erreur courant de charge SPS avec reference');
 ylabel('Pourcentage d''erreur');
 xlabel('Temps (s)');
+ylim([0,10])
 
 figure(2);
 plot(T,B)
-title('Erreur courant de charge PSIM')
+title('Erreur courant de charge PSIM avec reference')
 ylabel('Pourcentage d''erreur')
 xlabel('Temps (s)')
+ylim([0,10])
 % 
 figure(3);
 plot(T,E)
 title('Comparaison SPS/PSIM')
 ylabel('Pourcentage d''erreur')
 xlabel('Temps (s)')
+ylim([0,20])
 
 Pourcentage_differences_tension_moyenne_entre_Psim_et_Simulink = mean(F)
 
@@ -81,6 +84,7 @@ plot(Tcou,Cou);
 title('Erreur courant de charge par fenêtrage de 100 échantillons');
 ylabel('Pourcentage d''erreur');
 xlabel('Temps (s)');
+ylim([0,10])
 
 figure(7);
 plot(Tten,Ten);
@@ -88,9 +92,12 @@ title('Erreur tension moyenne par fenêtrage de 100 échantillons');
 ylabel('Pourcentage d''erreur');
 xlabel('Temps (s)');
 
+
+
+Tenn = linspace(0.1,0.7,((length(A)-10)/a)*0.666666666666666666666666666666666666);
 figure(8);
-plot(Tten,Ten);
+plot(Tenn,Ten(101:(length(A)-10)/a-200));
 title('Erreur tension moyenne par fenêtrage de 100 échantillons');
 ylabel('Pourcentage d''erreur');
 xlabel('Temps (s)');
-ylim([0,100])
+xlim([0.1,0.7])
