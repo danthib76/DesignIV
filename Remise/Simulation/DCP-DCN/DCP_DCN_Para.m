@@ -20,7 +20,7 @@ Lch = 0.1;
 Rs = 100000;
 Cs = inf;
 %Résistance IGBT
-Ron =10e-3;
+Ron =1e-3;
 
 %Les paramètres du PI
 P = 1.5611;

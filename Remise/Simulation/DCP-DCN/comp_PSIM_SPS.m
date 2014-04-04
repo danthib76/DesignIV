@@ -101,3 +101,28 @@ title('Erreur tension moyenne par fenêtrage de 100 échantillons');
 ylabel('Pourcentage d''erreur');
 xlabel('Temps (s)');
 xlim([0.1,0.7])
+
+figure(9)
+plot(Te,ScopeData.signals(1).values(:,2),T,C(:,2))
+title('Comparaison Hystérésis courant à la charge')
+ylabel('Courant moyen (A)')
+xlabel('Temps (s)')
+legend('Simulink','Psim')
+xlim([0.48,0.50])
+ylim([5970,6030])
+
+figure(10)
+plot(Te,ScopeData.signals(2).values(:,1),T,moy1(:,3))
+title('Comparaison Hystérésis au niveau de la tension à la charge')
+ylabel('Tension moyenne (V)')
+xlabel('Temps (s)')
+legend('Simulink','Psim')
+xlim([0.48,0.50])
+
+figure(11)
+plot(Te,ScopeData.signals(3).values(:,2),T,I_igbt(:,2))
+title('Comparaison courant IGBT')
+ylabel('Courant (A)')
+xlabel('Temps (s)')
+legend('Simulink','Psim')
+xlim([0.48,0.50])
