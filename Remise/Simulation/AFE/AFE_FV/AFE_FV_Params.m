@@ -23,7 +23,7 @@ Vdc = 5000;
 % Calcul du PI discret en parallel form à partir de la synthèse du PI
 % continu
 % PI saturation limiter +Sat -Sat
-Satv = 5000;
+Satv = 1500;
 % proportionnal Gain 
 gainv=1;
 % PI proportionnal PI form: ideal P(1+I*1/s) Anti-windup : clamping
@@ -45,6 +45,16 @@ PIdiscv=c2d(PIcontv,Tpas);
 Pv=Numdv(1)/Dendv(1);
 Iv=(Pv+Numdv(2)/Dendv(1))/Tsv;
 
+PIcont = tf([0.48,8],[1,0]);
+% Discretization of PI in z with Tstep
+PIdisc=c2d(PIcont,Tpas);
+% Calcul des coeff PI du PI discret de simulink
+[Numd,Dend,Ts]=tfdata(PIdisc, 'v');
+P=Numd(1)/Dend(1);
+I=(P+Numd(2)/Dend(1))/Ts;
+
+PC = 0.001;
+IC = 2;
 
 
 
