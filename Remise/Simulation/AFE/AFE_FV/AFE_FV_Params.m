@@ -8,11 +8,11 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 10e-5;
+Tpas = 5e-5;
 % Capacité bus CC
 Cbus=300e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
-Rch = 9.26;
+Rch = 12;
 %Seuil hystérésis
 hys = 100;
 %gain mise mesure des références tension en pu
@@ -25,7 +25,7 @@ Vdc = 5000;
 % PI saturation limiter +Sat -Sat
 Satv = 5000;
 % proportionnal Gain 
-gainv=25;
+gainv=1;
 % PI proportionnal PI form: ideal P(1+I*1/s) Anti-windup : clamping
 %P = gainv*Rch;
 %I = 1\(Rch*Cbus);
