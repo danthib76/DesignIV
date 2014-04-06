@@ -8,11 +8,11 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 5e-5;
+Tpas = 5e-6;
 % Capacité bus CC
 Cbus=300e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
-Rch = 9.8;
+Rch = 5000^2/2.7e6;
 %Seuil hystérésis
 hys = 100;
 %Gain pour transformation unitaire de la tension de référence
