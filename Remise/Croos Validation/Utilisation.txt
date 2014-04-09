@@ -1,0 +1,5 @@
+1) Runnerla simulation Matlab
+
+2) Importer les données PSIM de la simulation voulu
+
+3) Runner le script Matlab de la simulation voulu

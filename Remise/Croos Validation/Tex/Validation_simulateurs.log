@@ -1,0 +1,938 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  9 APR 2014 03:10
+entering extended mode
+**Validation_simulateurs.tex
+
+("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
+mulateurs.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
+\FB@Mht=\dimen104
+\std@mcc=\count89
+\dec@mcc=\count90
+\parindentFFN=\dimen105
+
+*************************************
+* Local config file frenchb.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.cfg")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks22
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
+mulateurs.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 11.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \degres on input line 11.
+LaTeX Info: Redefining \dots on input line 11.
+LaTeX Info: Redefining \up on input line 11.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen125
+\scratchbox=\box28
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen126
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks24
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.2698pt, 469.75539pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75539pt
+* \textheight=650.43037pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-37.00018pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Chapitre 1.
+
+<Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg, id=1, 1025.33063pt x 443.40
+656pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg Graphic file (type jpg)
+
+ <use Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg used
+ on input line 21.
+(pdftex.def)             Requested size: 512.66406pt x 221.70273pt.
+
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg, id=2, 1031.35312pt x 469.00
+218pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg Graphic file (type jpg)
+
+ <use Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg used
+ on input line 29.
+(pdftex.def)             Requested size: 515.6753pt x 234.50052pt.
+
+Overfull \hbox (45.9199pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg, id=3, 1019.30812pt x 461.4740
+6pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg used o
+n input line 37.
+(pdftex.def)             Requested size: 509.65282pt x 230.73645pt.
+
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg, id=4, 1036.62282pt x 459.2156
+2pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg used o
+n input line 44.
+(pdftex.def)             Requested size: 518.31015pt x 229.60724pt.
+
+Overfull \hbox (48.55476pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/LiberT/Documents/GitHu
+b/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantChar
+ge50u.jpg>] [2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex
+/Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg> <D:/LiberT/Documents/GitHub
+/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT5
+0u.jpg>] [3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fi
+g/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg>]
+<Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg, id=19, 1039.63406pt x 437.38
+406pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg used 
+on input line 54.
+(pdftex.def)             Requested size: 519.81577pt x 218.69148pt.
+
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg, id=20, 1039.63406pt x 447.17
+062pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg used 
+on input line 62.
+(pdftex.def)             Requested size: 519.81577pt x 223.58476pt.
+
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg, id=21, 1025.33063pt x 453.1931
+3pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg used on
+ input line 70.
+(pdftex.def)             Requested size: 512.66406pt x 226.59601pt.
+
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg, id=22, 1039.63406pt x 448.6762
+5pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg used on
+ input line 77.
+(pdftex.def)             Requested size: 519.81577pt x 224.33757pt.
+
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4
+
+ <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
+uadrants/HacheurCourantCharge5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg>]
+[5 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
+4Quadrants/HacheurTensionIGBT5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg>]
+<Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=29, 1032.10594pt x 444.91
+219pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg used 
+on input line 87.
+(pdftex.def)             Requested size: 516.05171pt x 222.45554pt.
+
+Overfull \hbox (46.29633pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=30, 1023.825pt x 459.2156
+2pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg used 
+on input line 95.
+(pdftex.def)             Requested size: 511.91124pt x 229.60724pt.
+
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 95--96
+ [][] 
+ []
+
+
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=31, 1025.33063pt x 447.9234
+3pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
+ input line 103.
+(pdftex.def)             Requested size: 512.66406pt x 223.96117pt.
+
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 103--104
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=32, 1026.83624pt x 455.4515
+7pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
+ input line 110.
+(pdftex.def)             Requested size: 513.41687pt x 227.72522pt.
+
+Overfull \hbox (43.66148pt too wide) in paragraph at lines 110--111
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6
+
+ <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
+uadrants/HacheurCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>]
+[7 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
+4Quadrants/HacheurTensionIGBT1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>]
+<Fig/DCPDCN/DCPCourantCharge50u.jpg, id=40, 1029.09468pt x 433.62pt>
+File: Fig/DCPDCN/DCPCourantCharge50u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantCharge50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge50u.jpg used on input line 
+123.
+(pdftex.def)             Requested size: 514.54608pt x 216.80946pt.
+
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 123--124
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionCharge50u.jpg, id=41, 1032.85875pt x 461.47406pt>
+File: Fig/DCPDCN/DCPTensionCharge50u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionCharge50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge50u.jpg used on input line 
+131.
+(pdftex.def)             Requested size: 516.42812pt x 230.73645pt.
+
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=42, 1057.70157pt x 467.49657pt>
+File: Fig/DCPDCN/DCPTensionIGBT50u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionIGBT50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 13
+9.
+(pdftex.def)             Requested size: 528.84949pt x 233.74771pt.
+
+Overfull \hbox (59.0941pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=43, 1051.67906pt x 471.26062pt>
+File: Fig/DCPDCN/DCPCourantIGBT50u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantIGBT50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 14
+6.
+(pdftex.def)             Requested size: 525.83824pt x 235.62973pt.
+
+Overfull \hbox (56.08286pt too wide) in paragraph at lines 146--147
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8
+
+ <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
+PCourantCharge50u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Valida
+tion/Tex/Fig/DCPDCN/DCPTensionCharge50u.jpg>] [9 <D:/LiberT/Documents/GitHub/De
+signIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT50u.jpg> <D:/LiberT
+/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGB
+T50u.jpg>]
+<Fig/DCPDCN/DCPCourantCharge5u.jpg, id=50, 1023.825pt x 447.17062pt>
+File: Fig/DCPDCN/DCPCourantCharge5u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantCharge5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge5u.jpg used on input line 1
+56.
+(pdftex.def)             Requested size: 511.91124pt x 223.58476pt.
+
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionCharge5u.jpg, id=51, 1027.58907pt x 456.20438pt>
+File: Fig/DCPDCN/DCPTensionCharge5u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionCharge5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge5u.jpg used on input line 1
+64.
+(pdftex.def)             Requested size: 513.79327pt x 228.10162pt.
+
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 164--165
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=52, 1030.60031pt x 470.50781pt>
+File: Fig/DCPDCN/DCPTensionIGBT5u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionIGBT5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 171
+.
+(pdftex.def)             Requested size: 515.29889pt x 235.25333pt.
+
+Overfull \hbox (45.5435pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=53, 1029.8475pt x 501.37312pt>
+File: Fig/DCPDCN/DCPCourantIGBT5u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantIGBT5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 178
+.
+(pdftex.def)             Requested size: 514.9225pt x 250.68594pt.
+
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 178--179
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10
+
+ <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
+PCourantCharge5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
+ion/Tex/Fig/DCPDCN/DCPTensionCharge5u.jpg>] [11 <D:/LiberT/Documents/GitHub/Des
+ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT5u.jpg> <D:/LiberT/D
+ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT5
+u.jpg>]
+<Fig/DCPDCN/DCPCourantCharge1u.jpg, id=60, 1021.56656pt x 444.91219pt>
+File: Fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantCharge1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
+90.
+(pdftex.def)             Requested size: 510.78203pt x 222.45554pt.
+
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 190--191
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionCharge1u.jpg, id=61, 1029.8475pt x 456.95718pt>
+File: Fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionCharge1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 1
+98.
+(pdftex.def)             Requested size: 514.9225pt x 228.47803pt.
+
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 198--199
+ [][] 
+ []
+
+<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=62, 1029.09468pt x 466.74374pt>
+File: Fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPTensionIGBT1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 206
+.
+(pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
+
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 206--207
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=63, 1045.65656pt x 450.18187pt>
+File: Fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
+
+<use Fig/DCPDCN/DCPCourantIGBT1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 213
+.
+(pdftex.def)             Requested size: 522.827pt x 225.09038pt.
+
+Overfull \hbox (53.07161pt too wide) in paragraph at lines 213--214
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12
+
+ <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
+PCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
+ion/Tex/Fig/DCPDCN/DCPTensionCharge1u.jpg>] [13 <D:/LiberT/Documents/GitHub/Des
+ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT1u.jpg> <D:/LiberT/D
+ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT1
+u.jpg>]
+("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
+mulateurs.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3778 strings out of 493921
+ 51555 string characters out of 3144874
+ 109745 words of memory out of 3000000
+ 7007 multiletter control sequences out of 15000+200000
+ 34494 words of font info for 26 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,6n,24p,467b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/lm/lmr10.pfb>
+Output written on Validation_simulateurs.pdf (13 pages, 3129650 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+

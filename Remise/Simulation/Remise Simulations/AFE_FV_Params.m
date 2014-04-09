@@ -8,7 +8,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 5e-5;
+Tpas = 1e-6;
 % Capacité bus CC
 Cbus=300e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
@@ -75,6 +75,8 @@ PIdiscDCP  = c2d(PIcontDCP,Tpas);
 PDCP=Numd(1)/Dend(1);
 IDCP=(PDCP+Numd(2)/Dend(1))/Ts;
 
+
+
 %PI pour l'AFE PWM
 PIcontAFE = tf([150 12000],[1 0]);
 PIdiscAFE  = c2d(PIcontAFE,Tpas);
@@ -106,8 +108,10 @@ PIcont = tf([Tm,1],[Ti,0]);
 PIdisc=c2d(PIcont,Tpas);
 % Calcul des coeff PI du PI discret de simulink
 [Numd,Dend,Ts]=tfdata(PIdisc, 'v');
-P4Q=Numd(1)/Dend(1);
-I4Q=(P4Q+Numd(2)/Dend(1))/Ts;
+% P4Q=Numd(1)/Dend(1);
+% I4Q=(P4Q+Numd(2)/Dend(1))/Ts;
+P4Q = 0.071;
+I4Q = 0.02;
 
 % Time constant current Low Pass Filter (ripple)
 % aussi 
@@ -118,10 +122,10 @@ LPrip = tf(1,[Trip,1]);
 LPripdisc=c2d(LPrip,Tpas);
 % Calcul des coeff du Low Pass filter discret de simulink
 [NLPripd,DLPripd,Ts]=tfdata(LPripdisc, 'v');
-KLP4Q=NLPripd(2);
-TLP4Q=DLPripd(2);
+% KLP4Q=NLPripd(2);
+% TLP4Q=DLPripd(2);
+ KLP4Q=0.01;
+ TLP4Q=-0.99;
 
 [KLPDCP,TLPDCP] = ellip(2,0.01,40,1500*(Tpas/2),'low');
-
-
 
