@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  9 APR 2014 03:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  9 APR 2014 14:28
 entering extended mode
 **Validation_simulateurs.tex
 
@@ -686,15 +686,15 @@ Overfull \hbox (42.15585pt too wide) in paragraph at lines 95--96
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=31, 1025.33063pt x 447.9234
-3pt>
-File: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
- <use Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
-Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
+<Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=31, 1026.83624pt x 455.4515
+7pt>
+File: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
  input line 103.
-(pdftex.def)             Requested size: 512.66406pt x 223.96117pt.
+(pdftex.def)             Requested size: 513.41687pt x 227.72522pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 103--104
+Overfull \hbox (43.66148pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
@@ -702,15 +702,15 @@ Overfull \hbox (42.90868pt too wide) in paragraph at lines 103--104
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=32, 1026.83624pt x 455.4515
-7pt>
-File: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
- <use Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
-Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=32, 1025.33063pt x 447.9234
+3pt>
+File: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
+ <use Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
+Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
  input line 110.
-(pdftex.def)             Requested size: 513.41687pt x 227.72522pt.
+(pdftex.def)             Requested size: 512.66406pt x 223.96117pt.
 
-Overfull \hbox (43.66148pt too wide) in paragraph at lines 110--111
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 110--111
  [][] 
  []
 
@@ -723,17 +723,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 uadrants/HacheurCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
 e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>]
 [7 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
-4Quadrants/HacheurTensionIGBT1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
-e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>]
+4Quadrants/HacheurCourantIGBT1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>]
 <Fig/DCPDCN/DCPCourantCharge50u.jpg, id=40, 1029.09468pt x 433.62pt>
 File: Fig/DCPDCN/DCPCourantCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge50u.jpg used on input line 
-123.
+125.
 (pdftex.def)             Requested size: 514.54608pt x 216.80946pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 123--124
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
@@ -742,37 +742,37 @@ File: Fig/DCPDCN/DCPTensionCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge50u.jpg used on input line 
-131.
+133.
 (pdftex.def)             Requested size: 516.42812pt x 230.73645pt.
 
-Overfull \hbox (46.67273pt too wide) in paragraph at lines 131--132
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=42, 1057.70157pt x 467.49657pt>
-File: Fig/DCPDCN/DCPTensionIGBT50u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=42, 1051.67906pt x 471.26062pt>
+File: Fig/DCPDCN/DCPCourantIGBT50u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPTensionIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 13
-9.
-(pdftex.def)             Requested size: 528.84949pt x 233.74771pt.
+<use Fig/DCPDCN/DCPCourantIGBT50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 14
+0.
+(pdftex.def)             Requested size: 525.83824pt x 235.62973pt.
 
-Overfull \hbox (59.0941pt too wide) in paragraph at lines 139--140
+Overfull \hbox (56.08286pt too wide) in paragraph at lines 140--141
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=43, 1051.67906pt x 471.26062pt>
-File: Fig/DCPDCN/DCPCourantIGBT50u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=43, 1057.70157pt x 467.49657pt>
+File: Fig/DCPDCN/DCPTensionIGBT50u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPCourantIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 14
-6.
-(pdftex.def)             Requested size: 525.83824pt x 235.62973pt.
+<use Fig/DCPDCN/DCPTensionIGBT50u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 14
+7.
+(pdftex.def)             Requested size: 528.84949pt x 233.74771pt.
 
-Overfull \hbox (56.08286pt too wide) in paragraph at lines 146--147
+Overfull \hbox (59.0941pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
@@ -784,18 +784,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
 PCourantCharge50u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Valida
 tion/Tex/Fig/DCPDCN/DCPTensionCharge50u.jpg>] [9 <D:/LiberT/Documents/GitHub/De
-signIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT50u.jpg> <D:/LiberT
-/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGB
+signIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT50u.jpg> <D:/LiberT
+/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGB
 T50u.jpg>]
 <Fig/DCPDCN/DCPCourantCharge5u.jpg, id=50, 1023.825pt x 447.17062pt>
 File: Fig/DCPDCN/DCPCourantCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge5u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge5u.jpg used on input line 1
-56.
+59.
 (pdftex.def)             Requested size: 511.91124pt x 223.58476pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 156--157
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
@@ -804,37 +804,37 @@ File: Fig/DCPDCN/DCPTensionCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge5u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge5u.jpg used on input line 1
-64.
+67.
 (pdftex.def)             Requested size: 513.79327pt x 228.10162pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 164--165
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=52, 1030.60031pt x 470.50781pt>
-File: Fig/DCPDCN/DCPTensionIGBT5u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=52, 1029.8475pt x 501.37312pt>
+File: Fig/DCPDCN/DCPCourantIGBT5u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPTensionIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 171
+<use Fig/DCPDCN/DCPCourantIGBT5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 174
 .
-(pdftex.def)             Requested size: 515.29889pt x 235.25333pt.
+(pdftex.def)             Requested size: 514.9225pt x 250.68594pt.
 
-Overfull \hbox (45.5435pt too wide) in paragraph at lines 171--172
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=53, 1029.8475pt x 501.37312pt>
-File: Fig/DCPDCN/DCPCourantIGBT5u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=53, 1030.60031pt x 470.50781pt>
+File: Fig/DCPDCN/DCPTensionIGBT5u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPCourantIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 178
+<use Fig/DCPDCN/DCPTensionIGBT5u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 183
 .
-(pdftex.def)             Requested size: 514.9225pt x 250.68594pt.
+(pdftex.def)             Requested size: 515.29889pt x 235.25333pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 178--179
+Overfull \hbox (45.5435pt too wide) in paragraph at lines 183--184
  [][] 
  []
 
@@ -846,18 +846,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
 PCourantCharge5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
 ion/Tex/Fig/DCPDCN/DCPTensionCharge5u.jpg>] [11 <D:/LiberT/Documents/GitHub/Des
-ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT5u.jpg> <D:/LiberT/D
-ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT5
+ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT5u.jpg> <D:/LiberT/D
+ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT5
 u.jpg>]
 <Fig/DCPDCN/DCPCourantCharge1u.jpg, id=60, 1021.56656pt x 444.91219pt>
 File: Fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge1u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
-90.
+96.
 (pdftex.def)             Requested size: 510.78203pt x 222.45554pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 190--191
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
@@ -865,38 +865,38 @@ Overfull \hbox (41.02664pt too wide) in paragraph at lines 190--191
 File: Fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 1
-98.
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 2
+04.
 (pdftex.def)             Requested size: 514.9225pt x 228.47803pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 198--199
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=62, 1029.09468pt x 466.74374pt>
-File: Fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=62, 1045.65656pt x 450.18187pt>
+File: Fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPTensionIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 206
+<use Fig/DCPDCN/DCPCourantIGBT1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 212
 .
-(pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
+(pdftex.def)             Requested size: 522.827pt x 225.09038pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 206--207
+Overfull \hbox (53.07161pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=63, 1045.65656pt x 450.18187pt>
-File: Fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
+<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=63, 1029.09468pt x 466.74374pt>
+File: Fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
-<use Fig/DCPDCN/DCPCourantIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 213
+<use Fig/DCPDCN/DCPTensionIGBT1u.jpg>
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 220
 .
-(pdftex.def)             Requested size: 522.827pt x 225.09038pt.
+(pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
 
-Overfull \hbox (53.07161pt too wide) in paragraph at lines 213--214
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 220--221
  [][] 
  []
 
@@ -908,8 +908,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
 PCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
 ion/Tex/Fig/DCPDCN/DCPTensionCharge1u.jpg>] [13 <D:/LiberT/Documents/GitHub/Des
-ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT1u.jpg> <D:/LiberT/D
-ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT1
+ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT1u.jpg> <D:/LiberT/D
+ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT1
 u.jpg>]
 ("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
 mulateurs.aux")
@@ -920,7 +920,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  3778 strings out of 493921
  51555 string characters out of 3144874
- 109745 words of memory out of 3000000
+ 109741 words of memory out of 3000000
  7007 multiletter control sequences out of 15000+200000
  34494 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -930,7 +930,7 @@ iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/lm/lmr10.pfb>
-Output written on Validation_simulateurs.pdf (13 pages, 3129650 bytes).
+Output written on Validation_simulateurs.pdf (13 pages, 3129899 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

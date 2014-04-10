@@ -8,13 +8,13 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 1e-6;
+Tpas = 5e-6;
 % Capacité bus CC
 Cbus=300e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 5000^2/2.7e6;
 %Seuil hystérésis
-hys = 100;
+hys = 450;
 %Gain pour transformation unitaire de la tension de référence
 Kac = 1/(Vac*sqrt(2/3));
 %tension de reférence dc
@@ -36,7 +36,7 @@ Ron =1e-3;
 % Calcul du PI discret en parallel form à partir de la synthèse du PI
 % continu
 % PI saturation limiter +Sat -Sat
-Satv = 1000;
+Satv = 1500;
 % proportionnal Gain 
 gainv=1;
 % Synthèse du PI continuous  1+Tm*s/(Ti*s)
@@ -73,7 +73,7 @@ PIcontDCP = tf([1.5611 24.6],[1 0]);
 PIdiscDCP  = c2d(PIcontDCP,Tpas);
 [Numd,Dend,Ts]=tfdata(PIdiscDCP, 'v');
 PDCP=Numd(1)/Dend(1);
-IDCP=(PDCP+Numd(2)/Dend(1))/Ts;
+IDCP=(PDCP+Numd(2)/Dend(1))/Tpas;
 
 
 
