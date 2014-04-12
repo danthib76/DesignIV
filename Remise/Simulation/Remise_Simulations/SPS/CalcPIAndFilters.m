@@ -71,3 +71,5 @@ TLP4Q=DLPripd(2);
 
 [KLPDCP,TLPDCP] = ellip(2,0.01,40,1500*(Tpas/2),'low');
 
+KLPDCP = mat2str(KLPDCP);
+TLPDCP = mat2str(TLPDCP);

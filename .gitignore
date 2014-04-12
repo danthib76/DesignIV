@@ -15,3 +15,5 @@ Remise/Simulation/AFE/levelnpc1.slx.unknown_version
 *.m~
 
 *.bak
+*.db
+*.asv
