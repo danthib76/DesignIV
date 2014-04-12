@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  9 APR 2014 14:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  12 APR 2014 00:25
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Validation_simulateurs.tex
-
-("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
-mulateurs.tex"
+(./Validation_simulateurs.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,19 +24,19 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -195,7 +186,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -226,7 +217,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -250,75 +241,69 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
-Language: frenchb 2009/03/16 v2.3d French support from the babel system
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2013/05/20 v2.6c French support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-Package babel Info: Making : an active character on input line 120.
-Package babel Info: Making ; an active character on input line 121.
-Package babel Info: Making ! an active character on input line 122.
-Package babel Info: Making ? an active character on input line 123.
+\FB@interchartokenstateORI=\count89
+Package babel Info: Making : an active character on input line 240.
+Package babel Info: Making ; an active character on input line 241.
+Package babel Info: Making ! an active character on input line 242.
+Package babel Info: Making ? an active character on input line 243.
 \FB@Mht=\dimen104
-\std@mcc=\count89
-\dec@mcc=\count90
+\std@mcc=\count90
+\dec@mcc=\count91
+\listindentFB=\skip43
+\labelwidthFB=\skip44
+\leftmarginFB=\skip45
 \parindentFFN=\dimen105
-
-*************************************
-* Local config file frenchb.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.cfg")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen106
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -327,15 +312,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
 \tag@help=\toks18
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
 \andhelp@=\toks19
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
@@ -344,51 +329,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen113
 \lineht@=\dimen114
 \@envbody=\toks20
-\multlinegap=\skip44
-\multlinetaggap=\skip45
+\multlinegap=\skip47
+\multlinetaggap=\skip48
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count103
+\Gread@gobject=\count104
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -423,23 +408,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count104
-\Gm@cntv=\count105
-\c@Gm@tempcnt=\count106
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
 \Gm@bindingoffset=\dimen117
 \Gm@wd@mp=\dimen118
 \Gm@odd@mp=\dimen119
@@ -449,10 +434,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen123
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks22
+)
+(./Validation_simulateurs.aux)
+\openout1 = `Validation_simulateurs.aux'.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
-mulateurs.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -466,27 +451,71 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 11.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \degres on input line 11.
 LaTeX Info: Redefining \dots on input line 11.
 LaTeX Info: Redefining \up on input line 11.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
+\scratchcounter=\count108
 \scratchdimen=\dimen125
 \scratchbox=\box28
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\nofMPsegments=\count109
+\nofMParguments=\count110
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count110
+\MPscratchCnt=\count111
 \MPscratchDim=\dimen126
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -522,17 +551,53 @@ LaTeX Info: Redefining \up on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Chapitre 1.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 13.
 
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 13.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 13.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 13.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 <Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg, id=1, 1025.33063pt x 443.40
 656pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg Graphic file (type jpg)
 
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg used
- on input line 21.
+ on input line 22.
 (pdftex.def)             Requested size: 512.66406pt x 221.70273pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 21--22
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
@@ -543,15 +608,12 @@ File: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg Graphic file (type jpg)
 
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg used
- on input line 29.
+ on input line 30.
 (pdftex.def)             Requested size: 515.6753pt x 234.50052pt.
 
-Overfull \hbox (45.9199pt too wide) in paragraph at lines 29--30
+Overfull \hbox (45.9199pt too wide) in paragraph at lines 30--31
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 <Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg, id=3, 1019.30812pt x 461.4740
@@ -559,116 +621,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg used o
-n input line 37.
+n input line 38.
 (pdftex.def)             Requested size: 509.65282pt x 230.73645pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 37--38
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 38--39
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg, id=4, 1036.62282pt x 459.2156
-2pt>
-File: Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg Graphic file (type jpg)
- <use Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg>
-Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg used o
-n input line 44.
-(pdftex.def)             Requested size: 518.31015pt x 229.60724pt.
-
-Overfull \hbox (48.55476pt too wide) in paragraph at lines 44--45
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/LiberT/Documents/GitHu
-b/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantChar
-ge50u.jpg>] [2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex
-/Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg> <D:/LiberT/Documents/GitHub
-/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT5
-0u.jpg>] [3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fi
-g/Hacheur4Quadrants/HacheurCourantIGBT50u.jpg>]
-<Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg, id=19, 1039.63406pt x 437.38
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg> <./Fig/Hacheur4Quadran
+ts/HacheurTensionCharge50u.jpg>] [3 <./Fig/Hacheur4Quadrants/HacheurTensionIGBT
+50u.jpg>]
+<Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg, id=20, 1039.63406pt x 437.38
 406pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg used 
-on input line 54.
+on input line 49.
 (pdftex.def)             Requested size: 519.81577pt x 218.69148pt.
 
-Overfull \hbox (50.06038pt too wide) in paragraph at lines 54--55
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg, id=20, 1039.63406pt x 447.17
+<Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg, id=21, 1039.63406pt x 447.17
 062pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg used 
-on input line 62.
+on input line 57.
 (pdftex.def)             Requested size: 519.81577pt x 223.58476pt.
 
-Overfull \hbox (50.06038pt too wide) in paragraph at lines 62--63
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg, id=21, 1025.33063pt x 453.1931
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg, id=22, 1025.33063pt x 453.1931
 3pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg used on
- input line 70.
+ input line 65.
 (pdftex.def)             Requested size: 512.66406pt x 226.59601pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 70--71
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 65--66
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg, id=22, 1039.63406pt x 448.6762
-5pt>
-File: Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg Graphic file (type jpg)
- <use Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg>
-Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg used on
- input line 77.
-(pdftex.def)             Requested size: 519.81577pt x 224.33757pt.
-
-Overfull \hbox (50.06038pt too wide) in paragraph at lines 77--78
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4
 
- <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
-uadrants/HacheurCourantCharge5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
-e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg>]
-[5 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
-4Quadrants/HacheurTensionIGBT5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
-e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurCourantIGBT5u.jpg>]
+ <./Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg>] [5 <./Fig/Hacheur4Quadra
+nts/HacheurTensionCharge5u.jpg> <./Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.j
+pg>]
 <Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=29, 1032.10594pt x 444.91
 219pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg used 
-on input line 87.
+on input line 77.
 (pdftex.def)             Requested size: 516.05171pt x 222.45554pt.
 
-Overfull \hbox (46.29633pt too wide) in paragraph at lines 87--88
+Overfull \hbox (46.29633pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
@@ -678,10 +696,10 @@ Overfull \hbox (46.29633pt too wide) in paragraph at lines 87--88
 File: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg used 
-on input line 95.
+on input line 85.
 (pdftex.def)             Requested size: 511.91124pt x 229.60724pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 95--96
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
@@ -691,15 +709,12 @@ Overfull \hbox (42.15585pt too wide) in paragraph at lines 95--96
 File: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
- input line 103.
+ input line 93.
 (pdftex.def)             Requested size: 513.41687pt x 227.72522pt.
 
-Overfull \hbox (43.66148pt too wide) in paragraph at lines 103--104
+Overfull \hbox (43.66148pt too wide) in paragraph at lines 93--94
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 <Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=32, 1025.33063pt x 447.9234
@@ -707,232 +722,194 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
- input line 110.
+ input line 100.
 (pdftex.def)             Requested size: 512.66406pt x 223.96117pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 110--111
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 100--101
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [6
 
- <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
-uadrants/HacheurCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
-e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>]
-[7 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
-4Quadrants/HacheurCourantIGBT1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
-e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>]
-<Fig/DCPDCN/DCPCourantCharge50u.jpg, id=40, 1029.09468pt x 433.62pt>
+ <./Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>] [7 <./Fig/Hacheur4Quadra
+nts/HacheurTensionCharge1u.jpg> <./Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.j
+pg>] [8 <./Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>]
+<Fig/DCPDCN/DCPCourantCharge50u.jpg, id=43, 1029.09468pt x 433.62pt>
 File: Fig/DCPDCN/DCPCourantCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge50u.jpg used on input line 
-125.
+116.
 (pdftex.def)             Requested size: 514.54608pt x 216.80946pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 125--126
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionCharge50u.jpg, id=41, 1032.85875pt x 461.47406pt>
+<Fig/DCPDCN/DCPTensionCharge50u.jpg, id=44, 1032.85875pt x 461.47406pt>
 File: Fig/DCPDCN/DCPTensionCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge50u.jpg used on input line 
-133.
+124.
 (pdftex.def)             Requested size: 516.42812pt x 230.73645pt.
 
-Overfull \hbox (46.67273pt too wide) in paragraph at lines 133--134
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=42, 1051.67906pt x 471.26062pt>
+<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=45, 1051.67906pt x 471.26062pt>
 File: Fig/DCPDCN/DCPCourantIGBT50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 14
-0.
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 13
+1.
 (pdftex.def)             Requested size: 525.83824pt x 235.62973pt.
 
-Overfull \hbox (56.08286pt too wide) in paragraph at lines 140--141
+Overfull \hbox (56.08286pt too wide) in paragraph at lines 131--132
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=43, 1057.70157pt x 467.49657pt>
+<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=46, 1057.70157pt x 467.49657pt>
 File: Fig/DCPDCN/DCPTensionIGBT50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 14
-7.
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 13
+8.
 (pdftex.def)             Requested size: 528.84949pt x 233.74771pt.
 
-Overfull \hbox (59.0941pt too wide) in paragraph at lines 147--148
+Overfull \hbox (59.0941pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
+[9
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8
-
- <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
-PCourantCharge50u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Valida
-tion/Tex/Fig/DCPDCN/DCPTensionCharge50u.jpg>] [9 <D:/LiberT/Documents/GitHub/De
-signIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT50u.jpg> <D:/LiberT
-/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGB
-T50u.jpg>]
-<Fig/DCPDCN/DCPCourantCharge5u.jpg, id=50, 1023.825pt x 447.17062pt>
+ <./Fig/DCPDCN/DCPCourantCharge50u.jpg>] [10 <./Fig/DCPDCN/DCPTensionCharge50u.
+jpg> <./Fig/DCPDCN/DCPCourantIGBT50u.jpg>] [11 <./Fig/DCPDCN/DCPTensionIGBT50u.
+jpg>] <Fig/DCPDCN/DCPCourantCharge5u.jpg, id=56, 1023.825pt x 447.17062pt>
 File: Fig/DCPDCN/DCPCourantCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge5u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge5u.jpg used on input line 1
-59.
+51.
 (pdftex.def)             Requested size: 511.91124pt x 223.58476pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 159--160
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionCharge5u.jpg, id=51, 1027.58907pt x 456.20438pt>
+<Fig/DCPDCN/DCPTensionCharge5u.jpg, id=57, 1027.58907pt x 456.20438pt>
 File: Fig/DCPDCN/DCPTensionCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge5u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge5u.jpg used on input line 1
-67.
+59.
 (pdftex.def)             Requested size: 513.79327pt x 228.10162pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 167--168
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=52, 1029.8475pt x 501.37312pt>
+<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=58, 1029.8475pt x 501.37312pt>
 File: Fig/DCPDCN/DCPCourantIGBT5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 174
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 166
 .
 (pdftex.def)             Requested size: 514.9225pt x 250.68594pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 174--175
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=53, 1030.60031pt x 470.50781pt>
+<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=59, 1030.60031pt x 470.50781pt>
 File: Fig/DCPDCN/DCPTensionIGBT5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 183
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 175
 .
 (pdftex.def)             Requested size: 515.29889pt x 235.25333pt.
 
-Overfull \hbox (45.5435pt too wide) in paragraph at lines 183--184
+Overfull \hbox (45.5435pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
+[12
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10
-
- <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
-PCourantCharge5u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
-ion/Tex/Fig/DCPDCN/DCPTensionCharge5u.jpg>] [11 <D:/LiberT/Documents/GitHub/Des
-ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT5u.jpg> <D:/LiberT/D
-ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT5
-u.jpg>]
-<Fig/DCPDCN/DCPCourantCharge1u.jpg, id=60, 1021.56656pt x 444.91219pt>
+ <./Fig/DCPDCN/DCPCourantCharge5u.jpg>] [13 <./Fig/DCPDCN/DCPTensionCharge5u.jp
+g> <./Fig/DCPDCN/DCPCourantIGBT5u.jpg>] [14 <./Fig/DCPDCN/DCPTensionIGBT5u.jpg>
+] <Fig/DCPDCN/DCPCourantCharge1u.jpg, id=70, 1021.56656pt x 444.91219pt>
 File: Fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge1u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
-96.
+89.
 (pdftex.def)             Requested size: 510.78203pt x 222.45554pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 196--197
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionCharge1u.jpg, id=61, 1029.8475pt x 456.95718pt>
+<Fig/DCPDCN/DCPTensionCharge1u.jpg, id=71, 1029.8475pt x 456.95718pt>
 File: Fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 2
-04.
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 1
+97.
 (pdftex.def)             Requested size: 514.9225pt x 228.47803pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 204--205
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=62, 1045.65656pt x 450.18187pt>
+<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=72, 1045.65656pt x 450.18187pt>
 File: Fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 212
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 205
 .
 (pdftex.def)             Requested size: 522.827pt x 225.09038pt.
 
-Overfull \hbox (53.07161pt too wide) in paragraph at lines 212--213
+Overfull \hbox (53.07161pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=63, 1029.09468pt x 466.74374pt>
+<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=73, 1029.09468pt x 466.74374pt>
 File: Fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 220
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 213
 .
 (pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 220--221
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
+[15
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12
-
- <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
-PCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validat
-ion/Tex/Fig/DCPDCN/DCPTensionCharge1u.jpg>] [13 <D:/LiberT/Documents/GitHub/Des
-ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT1u.jpg> <D:/LiberT/D
-ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT1
-u.jpg>]
-("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
-mulateurs.aux")
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <./Fig/DCPDCN/DCPCourantCharge1u.jpg>] [16 <./Fig/DCPDCN/DCPTensionCharge1u.jp
+g> <./Fig/DCPDCN/DCPCourantIGBT1u.jpg>] [17 <./Fig/DCPDCN/DCPTensionIGBT1u.jpg>
+] (./Validation_simulateurs.aux) ) 
 Here is how much of TeX's memory you used:
- 3778 strings out of 493921
- 51555 string characters out of 3144874
- 109741 words of memory out of 3000000
- 7007 multiletter control sequences out of 15000+200000
- 34494 words of font info for 26 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 27i,6n,24p,467b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmr10.pfb>
-Output written on Validation_simulateurs.pdf (13 pages, 3129899 bytes).
+ 4364 strings out of 493315
+ 61596 string characters out of 6137904
+ 128081 words of memory out of 5000000
+ 7696 multiletter control sequences out of 15000+600000
+ 46750 words of font info for 42 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,6n,24p,848b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc
+/dvips/lm/lm-ec.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-m
+athit.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/loca
+l/texlive/2013/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/lm/lmr10.pfb>
+Output written on Validation_simulateurs.pdf (17 pages, 2886894 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
