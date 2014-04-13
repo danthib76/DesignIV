@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 FEB 2014 11:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 APR 2014 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -617,30 +617,41 @@ Overfull \hbox (44.21976pt too wide) in paragraph at lines 54--55
  []
 
 [2 <./fig_courant_tension_mod.png (PNG copy)>]
-<commande_NPC_1.png, id=24, 1284.9606pt x 640.3122pt>
+<commande_NPC_1.png, id=24, 1284.9606pt x 629.2308pt>
 File: commande_NPC_1.png Graphic file (type png)
  <use commande_NPC_1.png>
 Package pdftex.def Info: commande_NPC_1.png used on input line 80.
-(pdftex.def)             Requested size: 513.97514pt x 256.12033pt.
+(pdftex.def)             Requested size: 513.97514pt x 251.68785pt.
 
 Overfull \hbox (44.21976pt too wide) in paragraph at lines 80--81
  [][] 
  []
 
 [3 <./Imoy_m.png (PNG copy)>] [4 <./commande_NPC_1.png (PNG copy)>]
-(./onduleur_nlevel.aux)
+<fig_ref_courant.png, id=31, 1284.9606pt x 394.5942pt>
+File: fig_ref_courant.png Graphic file (type png)
+
+<use fig_ref_courant.png>
+Package pdftex.def Info: fig_ref_courant.png used on input line 98.
+(pdftex.def)             Requested size: 513.97514pt x 157.83487pt.
+
+Overfull \hbox (44.21976pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
+
+[5 <./fig_ref_courant.png (PNG copy)>] [6] (./onduleur_nlevel.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4246 strings out of 493315
- 57154 string characters out of 6137904
- 129857 words of memory out of 5000000
- 7599 multiletter control sequences out of 15000+600000
+ 4254 strings out of 493315
+ 57306 string characters out of 6137904
+ 129888 words of memory out of 5000000
+ 7606 multiletter control sequences out of 15000+600000
  40753 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,9n,24p,736b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,24p,1561b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 13/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2013/texmf-d
@@ -656,10 +667,10 @@ public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/l
 mr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on onduleur_nlevel.pdf (4 pages, 474855 bytes).
+Output written on onduleur_nlevel.pdf (6 pages, 542138 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
