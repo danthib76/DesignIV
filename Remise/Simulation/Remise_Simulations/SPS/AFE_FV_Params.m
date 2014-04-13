@@ -1,5 +1,5 @@
-clear;
 clc;
+clear all;
 %On déclare les variables
 %Inductance de source ac L = (0.16pu/(100*pi))*1.6
 Lac =  8.1487e-04;
@@ -8,7 +8,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 5e-6;
+Tpas = 1e-6;
 % Capacité bus CC
 Cbus=300e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)

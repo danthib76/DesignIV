@@ -8,7 +8,7 @@ Vac = 2000;
 %Frequence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 5e-5;
+Tpas = 1e-6;
 %Resistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 R = 9.26;
 %Capacité du banc de condensateur
@@ -16,7 +16,7 @@ C = 300e-3;
 %Resistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 9.26;
 %Seuil hystérésis
-hys = 100;
+hys = 450;
 %tension de reference dc
 Vdc = 5000;
 %Courant maximal
