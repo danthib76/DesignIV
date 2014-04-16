@@ -8,7 +8,7 @@ Vac = 2000;
 %Frequence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 1e-6;
+Tpas = 5e-6;
 %Resistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 R = 9.26;
 %Capacité du banc de condensateur

@@ -204,3 +204,61 @@ xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 
+
+
+
+
+figure(5)
+%Tension IGBT
+subplot(5,1,1)
+plot(Time,DCNVigbt,hacheur4quadrants.time,hacheur4quadrants.signals(6).values(:,1) )
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Tension (V)','FontSize',15)
+xlim([5.7725e-1,5.773e-1]);
+legend('PSIM','SPS')
+
+subplot(5,1,2)
+plot(Time,DCPB2,hacheur4quadrants.time,hacheur4quadrants.signals(4).values)
+xlim([5.7725e-1,5.773e-1]);
+legend('PSIM','SPS')
+
+%Tension IGBT
+subplot(5,1,3)
+plot(Time,DCNVigbt,hacheur4quadrants.time,hacheur4quadrants.signals(6).values(:,1) )
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Tension (V)','FontSize',15)
+xlim([5.765e-1,5.766e-1]);
+
+
+subplot(5,1,4)
+plot(Time,DCPB2,hacheur4quadrants.time,hacheur4quadrants.signals(4).values)
+xlim([5.765e-1,5.766e-1]);
+legend('PSIM','SPS')
+
+
+subplot(5,1,5)
+plot(Time,DCNVigbt,hacheur4quadrants.time,hacheur4quadrants.signals(6).values(:,1) )
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Tension (V)','FontSize',15)
+xlim([5.765e-1,5.773e-1]);
+
+figure(6)
+plot(Time,IRef,hacheur4quadrants.time,hacheur4quadrants.signals(1).values(:,1))
+legend('PSIM','SPS')
+xlim([5.7725e-1,5.773e-1]);
+
+figure(7)
+subplot(3,1,1)
+plot(Time,S4Step,hacheur4quadrants.time,Step.signals(1).values)
+xlim([5.7725e-1,5.773e-1]);
+legend('PSIM','SPS')
+
+subplot(3,1,2)
+plot(Time,S4PI,hacheur4quadrants.time,Step.signals(2).values)
+xlim([5.7725e-1,5.773e-1]);
+legend('PSIM','SPS')
+
+subplot(3,1,3)
+plot(Time,S4FI,hacheur4quadrants.time,Step.signals(3).values)
+xlim([5.7725e-1,5.773e-1]);
+legend('PSIM','SPS')

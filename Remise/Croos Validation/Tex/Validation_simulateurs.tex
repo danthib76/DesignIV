@@ -13,11 +13,18 @@
 Dans ce chapitre, les simulateurs seront comparés selon les paramètres des simulations critiques (courant dans les électroaimants, tension aux bornes des électroaimants, courant d'entrée, tension du bus CC, etc.). Les différences seront analysées selon les sous-modèles implantés, qui seront détaillés plus loin dans cet ouvrage. Les sous-modèles se séparent en plusieurs catégories, soit les simulations représentant l'AFE, celles représentant le convertisseur CC-CC et celles représentant un montage avec un AFE et un convertisseur CC-CC. Il est à noté que les temps de simulation qui seront employés pour fins d'analyse sont de 50$\mu$s, de 5$\mu$s et de 1$\mu s$. 
 
 \section{Différences entre PSIM et SPS}
-Cette section va décrire quelques différences découvertes au sein de deux systèmes de simulations utilisés pour simuler les différents modèles implantés lors de ce projet, soit PSIM et SPS. En premier lieu, PSIM est un système de simulation qui simule en continu tandis que pour nos simulations sur SPS tout est discrétisé. De plus,les algorithmes utilisés pour résoudre les simulations ne sont pas les mêmes. Lors d'un passage par zéro, SPS ne réagit pas de la même manière que PSIM ce qui peut faire apparaître des différences dans les résultats. Il faut comprendre que les différences encourues diminues à fur à mesure que le pas de calcul utilisé diminue.  
+Cette section va décrire quelques différences découvertes au sein de deux systèmes de simulations utilisés pour simuler les différents modèles implantés lors de ce projet, soit PSIM et SPS.
 
-Par rapport aux éléments utilisés, plusieurs différences ont été aperçu. Commençons par les IGBT, qui sont modélisé comme parfait sur SPS et non sur PSIM. De sorte, que sur PSIM il y a de faibles pertes par commutation ce que SPS n'a pas. De plus, les modèles implantés sur SPS ont un snubber RC tandis que sur PSIM il y en a pas. Pour contrer cette différence, une charge RC a été rajouté en parallèle à chaque IGBT avec les mêmes paramètres soit 50k$\Omega$.
+\subsection{Les algorithmes de simulation sur PSIM et SPS}
+Les deux systèmes de simulations embarqués qui ont été utilisés, utilisent des algorithmes différents. Pour augmenter la vitesse de simulation de l'électronique de puissance, SPS utilise un algorithme à commutation idéaux, tandis que PSIM utilise un algorithme fait pour l'électronique de puissance soit la méthode piecewise, des modèles génériques et un pas de calcul fixe.
 
-Les relay utilisés diffère entre les deux simulations. Sur SPS, il suffit juste d'indiquer les seuils voulus ce qui fait en sorte que le relay réagit instantanément ou presque lorsque le seuil est atteint(En fonction du pas de calcul). Sur PSIM en plus d'indiquer le seuil, il faut indiquer d'autres paramètres, entre autres, 'Operate time' et 'Release time' qui indique le temps d'attente entre la détection de l'atteinte du seuil et le changement d'état. Ces valeurs doivent correspondre à deux fois le pas de calcul ou plus.
+\subsection{Les IGBT}
+
+
+
+
+ 
+
 
 
 
