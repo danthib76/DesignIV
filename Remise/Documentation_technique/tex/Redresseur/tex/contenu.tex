@@ -8,7 +8,7 @@
 
 \chapter{Modélisation de l'alimentation électronique}
 \section{Fonctionnement d'un redresseur monophasé simple alternance}
-Le redresseur monophasé simple alternance est composé d'une source de courant alternatif, d'un interrupteur de type IGBT et d'une charge quelquonque tel que présenté à la figure \ref{fig:RedresseurMonophaseSimpleAlternanceIGBT}. Pour les besoin de l'exemple, une charge $RL$ théorique sera utilisée où la résistance se nomme $R$ et l'inductance $L$. De plus, l'on suppose que l'interrupteur IGBT entre en conduction lorsqu'un échelon de tension unitaire est appliqué à la grille de celui-ci. Finalement, en suposant des modèles sans perte, l'équation de circuit se résume à celle présentée à l'équation \ref{eq:RLSimple}. À noter que l'échelon unitaire est défini comme: $u(t<0) = 0, u(t\geq 0) = 1)$.
+Le redresseur monophasé simple alternance est composé d'une source de courant alternatif, d'un interrupteur de type IGBT et d'une charge quelconque tel que présenté à la figure \ref{fig:RedresseurMonophaseSimpleAlternanceIGBT}. Pour les besoin de l'exemple, une charge $RL$ théorique sera utilisée où la résistance se nomme $R$ et l'inductance $L$. De plus, l'on suppose que l'interrupteur IGBT entre en conduction lorsqu'un échelon de tension unitaire est appliqué à la grille de celui-ci. Finalement, en suposant des modèles sans perte, l'équation de circuit se résume à celle présentée à l'équation \ref{eq:RLSimple}. À noter que l'échelon unitaire est défini comme: $u(t<0) = 0, u(t\geq 0) = 1)$.
 
 \begin{figure}[htb!]
 	\begin{center}  
@@ -113,7 +113,7 @@ Finalement en allant remplacer $I_1$ dans l'équation \ref{eq:RedresseurMonophas
 \end{equation}
 
 \subsection{Mode discontinu}
-Le redresseur double alternange opère dans le mode continu lorsque le courant dans la charge ne retombe jamais à zero. Ainsi, il est nécessaire d'adapter l'équation \ref{eq:solutionRLSimple} trouvée dans la section précédente. Nous savons que le courant dans la charge RL une fois l'inductance chargée est donné par :
+Le redresseur double alternange opère dans le mode discontinu lorsque le courant dans la charge ne retombe jamais à zero. Ainsi, il est nécessaire d'adapter l'équation \ref{eq:solutionRLSimple} trouvée dans la section précédente. Nous savons que le courant dans la charge RL une fois l'inductance chargée est donné par :
 
 \begin{eqnarray}
 \label{eq:RedresseurMonophaseDoubleAlternanceContinu1}
