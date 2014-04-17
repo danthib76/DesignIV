@@ -12,19 +12,34 @@
 \chapter{Cross validation entre les différentes plateformes de simulations}
 Dans ce chapitre, les simulateurs seront comparés selon les paramètres des simulations critiques (courant dans les électroaimants, tension aux bornes des électroaimants, courant d'entrée, tension du bus CC, etc.). Les différences seront analysées selon les sous-modèles implantés, qui seront détaillés plus loin dans cet ouvrage. Les sous-modèles se séparent en plusieurs catégories, soit les simulations représentant l'AFE, celles représentant le convertisseur CC-CC et celles représentant un montage avec un AFE et un convertisseur CC-CC. Il est à noté que les temps de simulation qui seront employés pour fins d'analyse sont de 50$\mu$s, de 5$\mu$s et de 1$\mu s$. 
 
-\section{Différences entre PSIM et SPS}
-Cette section va décrire quelques différences découvertes au sein de deux systèmes de simulations utilisés pour simuler les différents modèles implantés lors de ce projet, soit PSIM et SPS.
+\section{Comparaison entre PSIM et SPS}
+Cette section va décrire quelques comparaisons faites sur des éléments au sein de deux systèmes de simulations utilisés pour simuler les différents modèles implantés lors de ce projet, soit PSIM et SPS.
 
 \subsection{Les algorithmes de simulation sur PSIM et SPS}
-Les deux systèmes de simulations embarqués qui ont été utilisés, utilisent des algorithmes différents. Pour augmenter la vitesse de simulation de l'électronique de puissance, SPS utilise un algorithme à commutation idéaux, tandis que PSIM utilise un algorithme fait pour l'électronique de puissance soit la méthode piecewise, des modèles génériques et un pas de calcul fixe.
+Les deux systèmes de simulations embarqués qui ont été utilisés utilisent des algorithmes différents. Pour augmenter la vitesse de simulation de l'électronique de puissance, SPS utilise un algorithme à commutation idéaux, tandis que PSIM utilise un algorithme fait pour l'électronique de puissance soit la méthode piecewise, des modèles génériques et un pas de calcul fixe.
 
-\subsection{Les IGBT}
+\subsection{IGBT}
 
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{Fig/Comp/IGBT.jpg}
+\caption{Commutation IGBT à un pas de calcul de 5$\mu$s}.
+\label{IG}
+\end{figure}
 
+Les IGBT sont des interrupteurs que nous utilisons dans chacun des sous-modèles que nous avons monté en simulation pour ce projet. On remarque sur la figure~\ref{IG} que le résultat de courant aux bornes de l'IGBT sont identique dans le cas d'un IGBT sur charge résistive de 50k$\Omega$. Pour les deux plateformes, ça prend 1 pas de calcul comme temps de commutation soit 5$\mu$s pour ce cas. L'IGBT est actionné 50\% du temps à une fréquence de 1KHz, est alimenté par une tension continu de 1000V et a une résistance interne de 0.01$\Omega$. 
 
-
+Étant donné que les IGBT de SPS ont un snubber intégré RC tandis que sur PSIM ils en a pas. Nous avons rajouté une charge RC en parallèle à chaque IGBT sur PSIM. Le snubber utilisé est un snubber résistif de 100k$\Omega$.
  
+\subsection{PI}
+Le bloc PI est un proportionnel intégrateur que nous utilisons dans les boucles de régulation de nos simulations. Sur SPS nous utilisons des PI en configuration parallèle, par contre dans PSIM les blocs PI sont en configuration idéal. De sorte que, nous avons décidé de monter notre propre proportionnel intégrale en parallèle sur PSIM. On remarque sur la figure~\ref{PI} que les résultats sont identiques. Le PI a un intégrateur à 0.02 et son proportionnel à 0.071. 
 
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{Fig/Comp/PI.jpg}
+\caption{Réponde d'un PI suite à une consigne en boucle}.
+\label{PI}
+\end{figure}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  14 APR 2014 03:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  16 APR 2014 23:10
 entering extended mode
 **Validation_simulateurs.tex
 
@@ -558,183 +558,207 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<Fig/Comp/IGBT.jpg, id=1, 1009.52156pt x 337.26pt>
+File: Fig/Comp/IGBT.jpg Graphic file (type jpg)
+ <use Fig/Comp/IGBT.jpg>
+Package pdftex.def Info: Fig/Comp/IGBT.jpg used on input line 25.
+(pdftex.def)             Requested size: 504.75955pt x 168.62958pt.
+
+Overfull \hbox (35.00417pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+[1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Fig/Hacheur4Quadrants/Hacheur.jpg, id=9, 322.95656pt x 229.60782pt>
+<Fig/Comp/PI.jpg, id=10, 1008.76875pt x 344.03531pt>
+File: Fig/Comp/PI.jpg Graphic file (type jpg)
+ <use Fig/Comp/PI.jpg>
+Package pdftex.def Info: Fig/Comp/PI.jpg used on input line 39.
+(pdftex.def)             Requested size: 504.38315pt x 172.01723pt.
+
+Overfull \hbox (34.62776pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+[2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Comp/IG
+BT.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Co
+mp/PI.jpg>]
+<Fig/Hacheur4Quadrants/Hacheur.jpg, id=15, 322.95656pt x 229.60782pt>
 File: Fig/Hacheur4Quadrants/Hacheur.jpg Graphic file (type jpg)
 
 <use Fig/Hacheur4Quadrants/Hacheur.jpg>
-Package pdftex.def Info: Fig/Hacheur4Quadrants/Hacheur.jpg used on input line 3
-0.
+Package pdftex.def Info: Fig/Hacheur4Quadrants/Hacheur.jpg used on input line 5
+2.
 (pdftex.def)             Requested size: 322.95576pt x 229.60725pt.
 
-<Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg, id=10, 1025.33063pt x 443.4
+<Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg, id=16, 1025.33063pt x 443.4
 0656pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg Graphic file (type jpg)
 
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg used
- on input line 40.
+ on input line 62.
 (pdftex.def)             Requested size: 512.66406pt x 221.70273pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 40--41
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg, id=11, 1031.35312pt x 469.0
+<Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg, id=17, 1031.35312pt x 469.0
 0218pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg Graphic file (type jpg)
 
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge50u.jpg used
- on input line 48.
+ on input line 70.
 (pdftex.def)             Requested size: 515.6753pt x 234.50052pt.
 
-Overfull \hbox (45.9199pt too wide) in paragraph at lines 48--49
+Overfull \hbox (45.9199pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg, id=12, 1019.30812pt x 461.474
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg, id=18, 1019.30812pt x 461.474
 06pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg used o
-n input line 56.
+n input line 78.
 (pdftex.def)             Requested size: 509.65282pt x 230.73645pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 56--57
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 78--79
  [][] 
  []
 
-[2 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
-4Quadrants/Hacheur.jpg>] [3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos V
+[3 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
+4Quadrants/Hacheur.jpg>] [4 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos V
 alidation/Tex/Fig/Hacheur4Quadrants/HacheurCourantCharge50u.jpg> <D:/LiberT/Doc
 uments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quadrants/Hacheu
-rTensionCharge50u.jpg>] [4 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Va
+rTensionCharge50u.jpg>] [5 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Va
 lidation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT50u.jpg>]
-<Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg, id=24, 1039.63406pt x 437.38
+<Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg, id=29, 1039.63406pt x 437.38
 406pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge5u.jpg used 
-on input line 67.
+on input line 89.
 (pdftex.def)             Requested size: 519.81577pt x 218.69148pt.
 
-Overfull \hbox (50.06038pt too wide) in paragraph at lines 67--68
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg, id=25, 1039.63406pt x 447.17
+<Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg, id=30, 1039.63406pt x 447.17
 062pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg used 
-on input line 76.
+on input line 98.
 (pdftex.def)             Requested size: 519.81577pt x 223.58476pt.
 
-Overfull \hbox (50.06038pt too wide) in paragraph at lines 76--77
+Overfull \hbox (50.06038pt too wide) in paragraph at lines 98--99
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg, id=26, 1025.33063pt x 453.1931
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg, id=31, 1025.33063pt x 453.1931
 3pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT5u.jpg used on
- input line 84.
+ input line 106.
 (pdftex.def)             Requested size: 512.66406pt x 226.59601pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 84--85
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-[5
+[6
 
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
-uadrants/HacheurCourantCharge5u.jpg>] [6 <D:/LiberT/Documents/GitHub/DesignIV/R
+uadrants/HacheurCourantCharge5u.jpg>] [7 <D:/LiberT/Documents/GitHub/DesignIV/R
 emise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge5u.jpg> <D
 :/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quad
 rants/HacheurTensionIGBT5u.jpg>]
-<Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=33, 1032.10594pt x 444.91
-219pt>
+<Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=39, 1022.31938pt x 340.27
+126pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg used 
-on input line 96.
-(pdftex.def)             Requested size: 516.05171pt x 222.45554pt.
+on input line 118.
+(pdftex.def)             Requested size: 511.15843pt x 170.13521pt.
 
-Overfull \hbox (46.29633pt too wide) in paragraph at lines 96--97
+Overfull \hbox (41.40305pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=34, 1023.825pt x 459.2156
-2pt>
+<Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=40, 1020.06094pt x 394.47
+375pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg used 
-on input line 104.
-(pdftex.def)             Requested size: 511.91124pt x 229.60724pt.
+on input line 126.
+(pdftex.def)             Requested size: 510.02922pt x 197.23639pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 104--105
+Overfull \hbox (40.27383pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=35, 1026.83624pt x 455.4515
-7pt>
+<Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=41, 1038.12843pt x 396.7322
+pt>
 File: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
- input line 112.
-(pdftex.def)             Requested size: 513.41687pt x 227.72522pt.
+ input line 134.
+(pdftex.def)             Requested size: 519.06294pt x 198.3656pt.
 
-Overfull \hbox (43.66148pt too wide) in paragraph at lines 112--113
+Overfull \hbox (49.30756pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
 
-<Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=36, 1025.33063pt x 447.9234
+<Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=42, 1024.57782pt x 398.9906
 3pt>
 File: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
  <use Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
 Package pdftex.def Info: Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
- input line 119.
-(pdftex.def)             Requested size: 512.66406pt x 223.96117pt.
+ input line 141.
+(pdftex.def)             Requested size: 512.28766pt x 199.49483pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 119--120
+Overfull \hbox (42.53227pt too wide) in paragraph at lines 141--142
  [][] 
  []
 
-[7
+[8
 
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Q
-uadrants/HacheurCourantCharge1u.jpg>] [8 <D:/LiberT/Documents/GitHub/DesignIV/R
-emise/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg> <D
-:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur4Quad
-rants/HacheurCourantIGBT1u.jpg>] [9 <D:/LiberT/Documents/GitHub/DesignIV/Remise
-/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>]
-<Fig/DCPDCN/DCP.jpg, id=47, 680.5425pt x 347.79938pt>
+uadrants/HacheurCourantCharge1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>]
+[9 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hacheur
+4Quadrants/HacheurCourantIGBT1u.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remis
+e/Croos Validation/Tex/Fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>]
+<Fig/DCPDCN/DCP.jpg, id=49, 680.5425pt x 347.79938pt>
 File: Fig/DCPDCN/DCP.jpg Graphic file (type jpg)
  <use Fig/DCPDCN/DCP.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCP.jpg used on input line 132.
+Package pdftex.def Info: Fig/DCPDCN/DCP.jpg used on input line 154.
 (pdftex.def)             Requested size: 340.27042pt x 173.89926pt.
 
-<Fig/DCPDCN/DCPCourantCharge50u.jpg, id=48, 1029.09468pt x 433.62pt>
+<Fig/DCPDCN/DCPCourantCharge50u.jpg, id=50, 1029.09468pt x 433.62pt>
 File: Fig/DCPDCN/DCPCourantCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge50u.jpg used on input line 
-144.
+166.
 (pdftex.def)             Requested size: 514.54608pt x 216.80946pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 144--145
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
@@ -743,39 +767,39 @@ Overfull \hbox (44.7907pt too wide) in paragraph at lines 144--145
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DC
 P.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP
 DCN/DCPCourantCharge50u.jpg>]
-<Fig/DCPDCN/DCPTensionCharge50u.jpg, id=52, 1032.85875pt x 461.47406pt>
+<Fig/DCPDCN/DCPTensionCharge50u.jpg, id=54, 1032.85875pt x 461.47406pt>
 File: Fig/DCPDCN/DCPTensionCharge50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge50u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge50u.jpg used on input line 
-153.
+175.
 (pdftex.def)             Requested size: 516.42812pt x 230.73645pt.
 
-Overfull \hbox (46.67273pt too wide) in paragraph at lines 153--154
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=53, 1051.67906pt x 471.26062pt>
+<Fig/DCPDCN/DCPCourantIGBT50u.jpg, id=55, 1051.67906pt x 471.26062pt>
 File: Fig/DCPDCN/DCPCourantIGBT50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 16
-0.
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT50u.jpg used on input line 18
+2.
 (pdftex.def)             Requested size: 525.83824pt x 235.62973pt.
 
-Overfull \hbox (56.08286pt too wide) in paragraph at lines 160--161
+Overfull \hbox (56.08286pt too wide) in paragraph at lines 182--183
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=54, 1057.70157pt x 467.49657pt>
+<Fig/DCPDCN/DCPTensionIGBT50u.jpg, id=56, 1057.70157pt x 467.49657pt>
 File: Fig/DCPDCN/DCPTensionIGBT50u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT50u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 16
-7.
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT50u.jpg used on input line 18
+9.
 (pdftex.def)             Requested size: 528.84949pt x 233.74771pt.
 
-Overfull \hbox (59.0941pt too wide) in paragraph at lines 167--168
+Overfull \hbox (59.0941pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
@@ -783,51 +807,51 @@ Overfull \hbox (59.0941pt too wide) in paragraph at lines 167--168
 /DCPTensionCharge50u.jpg>] [12 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croo
 s Validation/Tex/Fig/DCPDCN/DCPCourantIGBT50u.jpg> <D:/LiberT/Documents/GitHub/
 DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTensionIGBT50u.jpg>]
-<Fig/DCPDCN/DCPCourantCharge5u.jpg, id=61, 1023.825pt x 447.17062pt>
+<Fig/DCPDCN/DCPCourantCharge5u.jpg, id=63, 1023.825pt x 447.17062pt>
 File: Fig/DCPDCN/DCPCourantCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge5u.jpg used on input line 1
-84.
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge5u.jpg used on input line 2
+06.
 (pdftex.def)             Requested size: 511.91124pt x 223.58476pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 184--185
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionCharge5u.jpg, id=62, 1027.58907pt x 456.20438pt>
+<Fig/DCPDCN/DCPTensionCharge5u.jpg, id=64, 1027.58907pt x 456.20438pt>
 File: Fig/DCPDCN/DCPTensionCharge5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge5u.jpg used on input line 1
-92.
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge5u.jpg used on input line 2
+14.
 (pdftex.def)             Requested size: 513.79327pt x 228.10162pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 192--193
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=63, 1029.8475pt x 501.37312pt>
+<Fig/DCPDCN/DCPCourantIGBT5u.jpg, id=65, 1029.8475pt x 501.37312pt>
 File: Fig/DCPDCN/DCPCourantIGBT5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 201
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT5u.jpg used on input line 223
 .
 (pdftex.def)             Requested size: 514.9225pt x 250.68594pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 201--202
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=64, 1030.60031pt x 470.50781pt>
+<Fig/DCPDCN/DCPTensionIGBT5u.jpg, id=66, 1030.60031pt x 470.50781pt>
 File: Fig/DCPDCN/DCPTensionIGBT5u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT5u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 210
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT5u.jpg used on input line 232
 .
 (pdftex.def)             Requested size: 515.29889pt x 235.25333pt.
 
-Overfull \hbox (45.5435pt too wide) in paragraph at lines 210--211
+Overfull \hbox (45.5435pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
@@ -839,51 +863,51 @@ lidation/Tex/Fig/DCPDCN/DCPTensionCharge5u.jpg> <D:/LiberT/Documents/GitHub/Des
 ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT5u.jpg>] [15 <D:/Lib
 erT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTension
 IGBT5u.jpg>]
-<Fig/DCPDCN/DCPCourantCharge1u.jpg, id=75, 1021.56656pt x 444.91219pt>
+<Fig/DCPDCN/DCPCourantCharge1u.jpg, id=77, 1021.56656pt x 444.91219pt>
 File: Fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantCharge1u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 2
-25.
+47.
 (pdftex.def)             Requested size: 510.78203pt x 222.45554pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 225--226
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionCharge1u.jpg, id=76, 1029.8475pt x 456.95718pt>
+<Fig/DCPDCN/DCPTensionCharge1u.jpg, id=78, 1029.8475pt x 456.95718pt>
 File: Fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionCharge1u.jpg>
 Package pdftex.def Info: Fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 2
-34.
+56.
 (pdftex.def)             Requested size: 514.9225pt x 228.47803pt.
 
-Overfull \hbox (45.16711pt too wide) in paragraph at lines 234--235
+Overfull \hbox (45.16711pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
-<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=77, 1045.65656pt x 450.18187pt>
+<Fig/DCPDCN/DCPCourantIGBT1u.jpg, id=79, 1017.04968pt x 408.02437pt>
 File: Fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPCourantIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 242
+Package pdftex.def Info: Fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 264
 .
-(pdftex.def)             Requested size: 522.827pt x 225.09038pt.
+(pdftex.def)             Requested size: 508.52359pt x 204.01169pt.
 
-Overfull \hbox (53.07161pt too wide) in paragraph at lines 242--243
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=78, 1029.09468pt x 466.74374pt>
+<Fig/DCPDCN/DCPTensionIGBT1u.jpg, id=80, 1029.09468pt x 466.74374pt>
 File: Fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
 <use Fig/DCPDCN/DCPTensionIGBT1u.jpg>
-Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 250
+Package pdftex.def Info: Fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 272
 .
 (pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 250--251
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
@@ -894,65 +918,65 @@ PCourantCharge1u.jpg>] [17 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Va
 lidation/Tex/Fig/DCPDCN/DCPTensionCharge1u.jpg> <D:/LiberT/Documents/GitHub/Des
 ignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPCourantIGBT1u.jpg>] [18 <D:/Lib
 erT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCPDCN/DCPTension
-IGBT1u.jpg>] <Fig/AFEIDEAL/AFE.jpg, id=88, 583.42969pt x 330.48468pt>
+IGBT1u.jpg>] <Fig/AFEIDEAL/AFE.jpg, id=90, 583.42969pt x 330.48468pt>
 File: Fig/AFEIDEAL/AFE.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/AFE.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/AFE.jpg used on input line 263.
+Package pdftex.def Info: Fig/AFEIDEAL/AFE.jpg used on input line 285.
 (pdftex.def)             Requested size: 291.71413pt x 165.24193pt.
 
-<Fig/AFEIDEAL/CourantAC.jpg, id=89, 1021.56656pt x 386.94562pt>
+<Fig/AFEIDEAL/CourantAC.jpg, id=91, 1021.56656pt x 386.94562pt>
 File: Fig/AFEIDEAL/CourantAC.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/CourantAC.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/CourantAC.jpg used on input line 274.
+Package pdftex.def Info: Fig/AFEIDEAL/CourantAC.jpg used on input line 296.
 (pdftex.def)             Requested size: 510.78203pt x 193.47234pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 274--275
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
-<Fig/AFEIDEAL/pui45.jpg, id=90, 1004.25188pt x 375.65344pt>
+<Fig/AFEIDEAL/pui45.jpg, id=92, 1004.25188pt x 375.65344pt>
 File: Fig/AFEIDEAL/pui45.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/pui45.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/pui45.jpg used on input line 283.
+Package pdftex.def Info: Fig/AFEIDEAL/pui45.jpg used on input line 305.
 (pdftex.def)             Requested size: 502.12471pt x 187.82625pt.
 
-Overfull \hbox (32.36932pt too wide) in paragraph at lines 283--284
+Overfull \hbox (32.36932pt too wide) in paragraph at lines 305--306
  [][] 
  []
 
-<Fig/AFEIDEAL/pui135.jpg, id=91, 1023.07219pt x 369.63094pt>
+<Fig/AFEIDEAL/pui135.jpg, id=93, 1023.07219pt x 369.63094pt>
 File: Fig/AFEIDEAL/pui135.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/pui135.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/pui135.jpg used on input line 290.
+Package pdftex.def Info: Fig/AFEIDEAL/pui135.jpg used on input line 312.
 (pdftex.def)             Requested size: 511.53485pt x 184.815pt.
 
-Overfull \hbox (41.77946pt too wide) in paragraph at lines 290--291
+Overfull \hbox (41.77946pt too wide) in paragraph at lines 312--313
  [][] 
  []
 
-<Fig/AFEIDEAL/pui_45.jpg, id=92, 1010.27437pt x 371.88937pt>
+<Fig/AFEIDEAL/pui_45.jpg, id=94, 1010.27437pt x 371.88937pt>
 File: Fig/AFEIDEAL/pui_45.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/pui_45.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/pui_45.jpg used on input line 297.
+Package pdftex.def Info: Fig/AFEIDEAL/pui_45.jpg used on input line 319.
 (pdftex.def)             Requested size: 505.13594pt x 185.94423pt.
 
-Overfull \hbox (35.38055pt too wide) in paragraph at lines 297--298
+Overfull \hbox (35.38055pt too wide) in paragraph at lines 319--320
  [][] 
  []
 
-<Fig/AFEIDEAL/pui_135.jpg, id=93, 1017.04968pt x 371.88937pt>
+<Fig/AFEIDEAL/pui_135.jpg, id=95, 1017.04968pt x 371.88937pt>
 File: Fig/AFEIDEAL/pui_135.jpg Graphic file (type jpg)
 
 <use Fig/AFEIDEAL/pui_135.jpg>
-Package pdftex.def Info: Fig/AFEIDEAL/pui_135.jpg used on input line 304.
+Package pdftex.def Info: Fig/AFEIDEAL/pui_135.jpg used on input line 326.
 (pdftex.def)             Requested size: 508.52359pt x 185.94423pt.
 
-Overfull \hbox (38.7682pt too wide) in paragraph at lines 304--305
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 326--327
  [][] 
  []
 
@@ -965,43 +989,43 @@ alidation/Tex/Fig/AFEIDEAL/pui45.jpg>] [21 <D:/LiberT/Documents/GitHub/DesignIV
 /Remise/Croos Validation/Tex/Fig/AFEIDEAL/pui135.jpg> <D:/LiberT/Documents/GitH
 ub/DesignIV/Remise/Croos Validation/Tex/Fig/AFEIDEAL/pui_45.jpg> <D:/LiberT/Doc
 uments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFEIDEAL/pui_135.jpg>] <
-Fig/AFERC/FFTAnalysisToolResult5u.png, id=104, 616.55344pt x 517.18219pt>
+Fig/AFERC/FFTAnalysisToolResult5u.png, id=106, 616.55344pt x 517.18219pt>
 File: Fig/AFERC/FFTAnalysisToolResult5u.png Graphic file (type png)
 
 <use Fig/AFERC/FFTAnalysisToolResult5u.png>
 Package pdftex.def Info: Fig/AFERC/FFTAnalysisToolResult5u.png used on input li
-ne 317.
+ne 339.
 (pdftex.def)             Requested size: 308.27596pt x 258.59045pt.
 
-<Fig/AFERC/cour_al.jpg, id=105, 1028.34187pt x 386.19281pt>
+<Fig/AFERC/cour_al.jpg, id=107, 1028.34187pt x 386.19281pt>
 File: Fig/AFERC/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/AFERC/cour_al.jpg>
-Package pdftex.def Info: Fig/AFERC/cour_al.jpg used on input line 331.
+Package pdftex.def Info: Fig/AFERC/cour_al.jpg used on input line 353.
 (pdftex.def)             Requested size: 514.16968pt x 193.09592pt.
 
-Overfull \hbox (44.41429pt too wide) in paragraph at lines 331--332
+Overfull \hbox (44.41429pt too wide) in paragraph at lines 353--354
  [][] 
  []
 
-<Fig/AFERC/vch.jpg, id=106, 1017.04968pt x 373.395pt>
+<Fig/AFERC/vch.jpg, id=108, 1017.04968pt x 373.395pt>
 File: Fig/AFERC/vch.jpg Graphic file (type jpg)
  <use Fig/AFERC/vch.jpg>
-Package pdftex.def Info: Fig/AFERC/vch.jpg used on input line 341.
+Package pdftex.def Info: Fig/AFERC/vch.jpg used on input line 363.
 (pdftex.def)             Requested size: 508.52359pt x 186.69704pt.
 
-Overfull \hbox (38.7682pt too wide) in paragraph at lines 341--342
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 363--364
  [][] 
  []
 
-<Fig/AFERC/IGBT.jpg, id=107, 1029.09468pt x 371.88937pt>
+<Fig/AFERC/IGBT.jpg, id=109, 1029.09468pt x 371.88937pt>
 File: Fig/AFERC/IGBT.jpg Graphic file (type jpg)
 
 <use Fig/AFERC/IGBT.jpg>
-Package pdftex.def Info: Fig/AFERC/IGBT.jpg used on input line 350.
+Package pdftex.def Info: Fig/AFERC/IGBT.jpg used on input line 372.
 (pdftex.def)             Requested size: 514.54608pt x 185.94423pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 350--351
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 372--373
  [][] 
  []
 
@@ -1012,47 +1036,47 @@ AnalysisToolResult5u.png (PNG copy)>] [23 <D:/LiberT/Documents/GitHub/DesignIV/
 Remise/Croos Validation/Tex/Fig/AFERC/cour_al.jpg> <D:/LiberT/Documents/GitHub/
 DesignIV/Remise/Croos Validation/Tex/Fig/AFERC/vch.jpg>] [24 <D:/LiberT/Documen
 ts/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFERC/IGBT.jpg>]
-<Fig/AFE3LEVEL/50u/cour_al.jpg, id=117, 1009.52156pt x 419.31656pt>
+<Fig/AFE3LEVEL/50u/cour_al.jpg, id=119, 1009.52156pt x 419.31656pt>
 File: Fig/AFE3LEVEL/50u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/50u/cour_al.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/50u/cour_al.jpg used on input line 365.
+Package pdftex.def Info: Fig/AFE3LEVEL/50u/cour_al.jpg used on input line 387.
 (pdftex.def)             Requested size: 504.75955pt x 209.65776pt.
 
-Overfull \hbox (35.00417pt too wide) in paragraph at lines 365--366
+Overfull \hbox (35.00417pt too wide) in paragraph at lines 387--388
  [][] 
  []
 
-<Fig/AFE3LEVEL/50u/vch.jpg, id=118, 1023.825pt x 414.04688pt>
+<Fig/AFE3LEVEL/50u/vch.jpg, id=120, 1023.825pt x 414.04688pt>
 File: Fig/AFE3LEVEL/50u/vch.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/50u/vch.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/50u/vch.jpg used on input line 373.
+Package pdftex.def Info: Fig/AFE3LEVEL/50u/vch.jpg used on input line 395.
 (pdftex.def)             Requested size: 511.91124pt x 207.02292pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 373--374
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
-<Fig/AFE3LEVEL/50u/IGBT.jpg, id=119, 1022.31938pt x 415.5525pt>
+<Fig/AFE3LEVEL/50u/IGBT.jpg, id=121, 1022.31938pt x 415.5525pt>
 File: Fig/AFE3LEVEL/50u/IGBT.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/50u/IGBT.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/50u/IGBT.jpg used on input line 381.
+Package pdftex.def Info: Fig/AFE3LEVEL/50u/IGBT.jpg used on input line 403.
 (pdftex.def)             Requested size: 511.15843pt x 207.77574pt.
 
-Overfull \hbox (41.40305pt too wide) in paragraph at lines 381--382
+Overfull \hbox (41.40305pt too wide) in paragraph at lines 403--404
  [][] 
  []
 
-<Fig/AFE3LEVEL/50u/DIODE.jpg, id=120, 1016.29688pt x 411.03563pt>
+<Fig/AFE3LEVEL/50u/DIODE.jpg, id=122, 1016.29688pt x 411.03563pt>
 File: Fig/AFE3LEVEL/50u/DIODE.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/50u/DIODE.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/50u/DIODE.jpg used on input line 390.
+Package pdftex.def Info: Fig/AFE3LEVEL/50u/DIODE.jpg used on input line 412.
 (pdftex.def)             Requested size: 508.1472pt x 205.5173pt.
 
-Overfull \hbox (38.39182pt too wide) in paragraph at lines 390--391
+Overfull \hbox (38.39182pt too wide) in paragraph at lines 412--413
  [][] 
  []
 
@@ -1063,36 +1087,36 @@ Overfull \hbox (38.39182pt too wide) in paragraph at lines 390--391
 tion/Tex/Fig/AFE3LEVEL/50u/vch.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise
 /Croos Validation/Tex/Fig/AFE3LEVEL/50u/IGBT.jpg>] [27 <D:/LiberT/Documents/Git
 Hub/DesignIV/Remise/Croos Validation/Tex/Fig/AFE3LEVEL/50u/DIODE.jpg>]
-<Fig/AFE3LEVEL/5u/cour_al.jpg, id=131, 1012.5328pt x 409.53pt>
+<Fig/AFE3LEVEL/5u/cour_al.jpg, id=133, 1012.5328pt x 409.53pt>
 File: Fig/AFE3LEVEL/5u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/5u/cour_al.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/5u/cour_al.jpg used on input line 400.
+Package pdftex.def Info: Fig/AFE3LEVEL/5u/cour_al.jpg used on input line 422.
 (pdftex.def)             Requested size: 506.26517pt x 204.7645pt.
 
-Overfull \hbox (36.50978pt too wide) in paragraph at lines 400--401
+Overfull \hbox (36.50978pt too wide) in paragraph at lines 422--423
  [][] 
  []
 
-<Fig/AFE3LEVEL/5u/vch.jpg, id=132, 1032.85875pt x 408.02437pt>
+<Fig/AFE3LEVEL/5u/vch.jpg, id=134, 1032.85875pt x 408.02437pt>
 File: Fig/AFE3LEVEL/5u/vch.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/5u/vch.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/5u/vch.jpg used on input line 407.
+Package pdftex.def Info: Fig/AFE3LEVEL/5u/vch.jpg used on input line 429.
 (pdftex.def)             Requested size: 516.42812pt x 204.01169pt.
 
-Overfull \hbox (46.67273pt too wide) in paragraph at lines 407--408
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 429--430
  [][] 
  []
 
-<Fig/AFE3LEVEL/5u/IGBT.jpg, id=133, 1015.54407pt x 402.75468pt>
+<Fig/AFE3LEVEL/5u/IGBT.jpg, id=135, 1015.54407pt x 402.75468pt>
 File: Fig/AFE3LEVEL/5u/IGBT.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/5u/IGBT.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/5u/IGBT.jpg used on input line 415.
+Package pdftex.def Info: Fig/AFE3LEVEL/5u/IGBT.jpg used on input line 437.
 (pdftex.def)             Requested size: 507.7708pt x 201.37685pt.
 
-Overfull \hbox (38.01541pt too wide) in paragraph at lines 415--416
+Overfull \hbox (38.01541pt too wide) in paragraph at lines 437--438
  [][] 
  []
 
@@ -1101,50 +1125,50 @@ Overfull \hbox (38.01541pt too wide) in paragraph at lines 415--416
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFE3LEVEL
 /5u/cour_al.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/T
 ex/Fig/AFE3LEVEL/5u/vch.jpg>]
-<Fig/AFE3LEVEL/5u/DIODE.jpg, id=137, 1023.825pt x 400.49625pt>
+<Fig/AFE3LEVEL/5u/DIODE.jpg, id=139, 1023.825pt x 400.49625pt>
 File: Fig/AFE3LEVEL/5u/DIODE.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/5u/DIODE.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/5u/DIODE.jpg used on input line 424.
+Package pdftex.def Info: Fig/AFE3LEVEL/5u/DIODE.jpg used on input line 446.
 (pdftex.def)             Requested size: 511.91124pt x 200.24763pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 424--425
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 446--447
  [][] 
  []
 
 [29 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFE3LE
 VEL/5u/IGBT.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/T
 ex/Fig/AFE3LEVEL/5u/DIODE.jpg>]
-<Fig/AFE3LEVEL/1u/cour_al.jpg, id=141, 1011.02719pt x 395.97937pt>
+<Fig/AFE3LEVEL/1u/cour_al.jpg, id=143, 1011.02719pt x 395.97937pt>
 File: Fig/AFE3LEVEL/1u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/1u/cour_al.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/1u/cour_al.jpg used on input line 435.
+Package pdftex.def Info: Fig/AFE3LEVEL/1u/cour_al.jpg used on input line 457.
 (pdftex.def)             Requested size: 505.51236pt x 197.9892pt.
 
-Overfull \hbox (35.75697pt too wide) in paragraph at lines 435--436
+Overfull \hbox (35.75697pt too wide) in paragraph at lines 457--458
  [][] 
  []
 
-<Fig/AFE3LEVEL/1u/vch.jpg, id=142, 1048.66782pt x 389.95688pt>
+<Fig/AFE3LEVEL/1u/vch.jpg, id=144, 1048.66782pt x 389.95688pt>
 File: Fig/AFE3LEVEL/1u/vch.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/1u/vch.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/1u/vch.jpg used on input line 443.
+Package pdftex.def Info: Fig/AFE3LEVEL/1u/vch.jpg used on input line 465.
 (pdftex.def)             Requested size: 524.33263pt x 194.97795pt.
 
-Overfull \hbox (54.57724pt too wide) in paragraph at lines 443--444
+Overfull \hbox (54.57724pt too wide) in paragraph at lines 465--466
  [][] 
  []
 
-<Fig/AFE3LEVEL/1u/IGBT.jpg, id=143, 1025.33063pt x 387.69844pt>
+<Fig/AFE3LEVEL/1u/IGBT.jpg, id=145, 1025.33063pt x 387.69844pt>
 File: Fig/AFE3LEVEL/1u/IGBT.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/1u/IGBT.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/1u/IGBT.jpg used on input line 451.
+Package pdftex.def Info: Fig/AFE3LEVEL/1u/IGBT.jpg used on input line 473.
 (pdftex.def)             Requested size: 512.66406pt x 193.84874pt.
 
-Overfull \hbox (42.90868pt too wide) in paragraph at lines 451--452
+Overfull \hbox (42.90868pt too wide) in paragraph at lines 473--474
  [][] 
  []
 
@@ -1153,57 +1177,57 @@ Overfull \hbox (42.90868pt too wide) in paragraph at lines 451--452
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFE3LEVEL
 /1u/cour_al.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/T
 ex/Fig/AFE3LEVEL/1u/vch.jpg>]
-<Fig/AFE3LEVEL/1u/DIODE.jpg, id=147, 1026.83624pt x 400.49625pt>
+<Fig/AFE3LEVEL/1u/DIODE.jpg, id=149, 1026.83624pt x 400.49625pt>
 File: Fig/AFE3LEVEL/1u/DIODE.jpg Graphic file (type jpg)
 
 <use Fig/AFE3LEVEL/1u/DIODE.jpg>
-Package pdftex.def Info: Fig/AFE3LEVEL/1u/DIODE.jpg used on input line 459.
+Package pdftex.def Info: Fig/AFE3LEVEL/1u/DIODE.jpg used on input line 481.
 (pdftex.def)             Requested size: 513.41687pt x 200.24763pt.
 
-Overfull \hbox (43.66148pt too wide) in paragraph at lines 459--460
+Overfull \hbox (43.66148pt too wide) in paragraph at lines 481--482
  [][] 
  []
 
 [31 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/AFE3LE
 VEL/1u/IGBT.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/T
 ex/Fig/AFE3LEVEL/1u/DIODE.jpg>]
-<Fig/Hach_AFE/AFE.jpg, id=152, 618.05907pt x 184.43906pt>
+<Fig/Hach_AFE/AFE.jpg, id=154, 618.05907pt x 184.43906pt>
 File: Fig/Hach_AFE/AFE.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/AFE.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/AFE.jpg used on input line 470.
+Package pdftex.def Info: Fig/Hach_AFE/AFE.jpg used on input line 492.
 (pdftex.def)             Requested size: 309.02878pt x 92.2193pt.
 
-<Fig/Hach_AFE/50u/cour_al.jpg, id=153, 1019.30812pt x 441.90094pt>
+<Fig/Hach_AFE/50u/cour_al.jpg, id=155, 1019.30812pt x 441.90094pt>
 File: Fig/Hach_AFE/50u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/cour_al.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/50u/cour_al.jpg used on input line 481.
+Package pdftex.def Info: Fig/Hach_AFE/50u/cour_al.jpg used on input line 503.
 (pdftex.def)             Requested size: 509.65282pt x 220.94992pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 481--482
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 503--504
  [][] 
  []
 
-<Fig/Hach_AFE/50u/ten_bus.jpg, id=154, 1020.06094pt x 459.96844pt>
+<Fig/Hach_AFE/50u/ten_bus.jpg, id=156, 1020.06094pt x 459.96844pt>
 File: Fig/Hach_AFE/50u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/ten_bus.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/50u/ten_bus.jpg used on input line 489.
+Package pdftex.def Info: Fig/Hach_AFE/50u/ten_bus.jpg used on input line 511.
 (pdftex.def)             Requested size: 510.02922pt x 229.98366pt.
 
-Overfull \hbox (40.27383pt too wide) in paragraph at lines 489--490
+Overfull \hbox (40.27383pt too wide) in paragraph at lines 511--512
  [][] 
  []
 
-<Fig/Hach_AFE/50u/IGBT_AFE.jpg, id=155, 1018.55531pt x 426.84468pt>
+<Fig/Hach_AFE/50u/IGBT_AFE.jpg, id=157, 1018.55531pt x 426.84468pt>
 File: Fig/Hach_AFE/50u/IGBT_AFE.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/IGBT_AFE.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/50u/IGBT_AFE.jpg used on input line 498.
+Package pdftex.def Info: Fig/Hach_AFE/50u/IGBT_AFE.jpg used on input line 520.
 (pdftex.def)             Requested size: 509.27641pt x 213.42181pt.
 
-Overfull \hbox (39.52103pt too wide) in paragraph at lines 498--499
+Overfull \hbox (39.52103pt too wide) in paragraph at lines 520--521
  [][] 
  []
 
@@ -1212,51 +1236,51 @@ Overfull \hbox (39.52103pt too wide) in paragraph at lines 498--499
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hach_AFE/
 AFE.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/H
 ach_AFE/50u/cour_al.jpg>]
-<Fig/Hach_AFE/50u/hach_cou_ch.jpg, id=159, 1032.85875pt x 420.82219pt>
+<Fig/Hach_AFE/50u/hach_cou_ch.jpg, id=161, 1032.85875pt x 420.82219pt>
 File: Fig/Hach_AFE/50u/hach_cou_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/hach_cou_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/50u/hach_cou_ch.jpg used on input line 50
-6.
+Package pdftex.def Info: Fig/Hach_AFE/50u/hach_cou_ch.jpg used on input line 52
+8.
 (pdftex.def)             Requested size: 516.42812pt x 210.41057pt.
 
-Overfull \hbox (46.67273pt too wide) in paragraph at lines 506--507
+Overfull \hbox (46.67273pt too wide) in paragraph at lines 528--529
  [][] 
  []
 
-<Fig/Hach_AFE/50u/hach_ten_ch.jpg, id=160, 1027.58907pt x 426.84468pt>
+<Fig/Hach_AFE/50u/hach_ten_ch.jpg, id=162, 1027.58907pt x 426.84468pt>
 File: Fig/Hach_AFE/50u/hach_ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/hach_ten_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/50u/hach_ten_ch.jpg used on input line 51
-5.
+Package pdftex.def Info: Fig/Hach_AFE/50u/hach_ten_ch.jpg used on input line 53
+7.
 (pdftex.def)             Requested size: 513.79327pt x 213.42181pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 515--516
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 537--538
  [][] 
  []
 
-<Fig/Hach_AFE/50u/IGBT_cou_hach.jpg, id=161, 1026.08344pt x 423.08063pt>
+<Fig/Hach_AFE/50u/IGBT_cou_hach.jpg, id=163, 1026.08344pt x 423.08063pt>
 File: Fig/Hach_AFE/50u/IGBT_cou_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/IGBT_cou_hach.jpg>
 Package pdftex.def Info: Fig/Hach_AFE/50u/IGBT_cou_hach.jpg used on input line 
-524.
+546.
 (pdftex.def)             Requested size: 513.04047pt x 211.5398pt.
 
-Overfull \hbox (43.28508pt too wide) in paragraph at lines 524--525
+Overfull \hbox (43.28508pt too wide) in paragraph at lines 546--547
  [][] 
  []
 
-<Fig/Hach_AFE/50u/IGBT_ten_hach.jpg, id=162, 1021.56656pt x 420.82219pt>
+<Fig/Hach_AFE/50u/IGBT_ten_hach.jpg, id=164, 1021.56656pt x 420.82219pt>
 File: Fig/Hach_AFE/50u/IGBT_ten_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/50u/IGBT_ten_hach.jpg>
 Package pdftex.def Info: Fig/Hach_AFE/50u/IGBT_ten_hach.jpg used on input line 
-534.
+556.
 (pdftex.def)             Requested size: 510.78203pt x 210.41057pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 534--535
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 556--557
  [][] 
  []
 
@@ -1268,84 +1292,84 @@ ocuments/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hach_AFE/50u/hach_ten_
 ch.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/Ha
 ch_AFE/50u/IGBT_cou_hach.jpg>] [36 <D:/LiberT/Documents/GitHub/DesignIV/Remise/
 Croos Validation/Tex/Fig/Hach_AFE/50u/IGBT_ten_hach.jpg>]
-<Fig/Hach_AFE/5u/cour_al.jpg, id=175, 1027.58907pt x 457.71pt>
+<Fig/Hach_AFE/5u/cour_al.jpg, id=177, 1027.58907pt x 457.71pt>
 File: Fig/Hach_AFE/5u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/cour_al.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/cour_al.jpg used on input line 546.
+Package pdftex.def Info: Fig/Hach_AFE/5u/cour_al.jpg used on input line 568.
 (pdftex.def)             Requested size: 513.79327pt x 228.85445pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 546--547
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 568--569
  [][] 
  []
 
-<Fig/Hach_AFE/5u/ten_bus.jpg, id=176, 1018.55531pt x 457.71pt>
+<Fig/Hach_AFE/5u/ten_bus.jpg, id=178, 1018.55531pt x 457.71pt>
 File: Fig/Hach_AFE/5u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/ten_bus.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/ten_bus.jpg used on input line 555.
+Package pdftex.def Info: Fig/Hach_AFE/5u/ten_bus.jpg used on input line 577.
 (pdftex.def)             Requested size: 509.27641pt x 228.85445pt.
 
-Overfull \hbox (39.52103pt too wide) in paragraph at lines 555--556
+Overfull \hbox (39.52103pt too wide) in paragraph at lines 577--578
  [][] 
  []
 
-<Fig/Hach_AFE/5u/IGBT_AFE.jpg, id=177, 1026.83624pt x 453.19313pt>
+<Fig/Hach_AFE/5u/IGBT_AFE.jpg, id=179, 1026.83624pt x 453.19313pt>
 File: Fig/Hach_AFE/5u/IGBT_AFE.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/IGBT_AFE.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_AFE.jpg used on input line 564.
+Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_AFE.jpg used on input line 586.
 (pdftex.def)             Requested size: 513.41687pt x 226.59601pt.
 
-Overfull \hbox (43.66148pt too wide) in paragraph at lines 564--565
+Overfull \hbox (43.66148pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
-<Fig/Hach_AFE/5u/hach_cou_ch.jpg, id=178, 1052.43187pt x 447.92343pt>
+<Fig/Hach_AFE/5u/hach_cou_ch.jpg, id=180, 1052.43187pt x 447.92343pt>
 File: Fig/Hach_AFE/5u/hach_cou_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/hach_cou_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/hach_cou_ch.jpg used on input line 573
+Package pdftex.def Info: Fig/Hach_AFE/5u/hach_cou_ch.jpg used on input line 595
 .
 (pdftex.def)             Requested size: 526.21465pt x 223.96117pt.
 
-Overfull \hbox (56.45926pt too wide) in paragraph at lines 573--574
+Overfull \hbox (56.45926pt too wide) in paragraph at lines 595--596
  [][] 
  []
 
-<Fig/Hach_AFE/5u/hach_ten_ch.jpg, id=179, 1028.34187pt x 448.67625pt>
+<Fig/Hach_AFE/5u/hach_ten_ch.jpg, id=181, 1028.34187pt x 448.67625pt>
 File: Fig/Hach_AFE/5u/hach_ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/hach_ten_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/hach_ten_ch.jpg used on input line 582
+Package pdftex.def Info: Fig/Hach_AFE/5u/hach_ten_ch.jpg used on input line 604
 .
 (pdftex.def)             Requested size: 514.16968pt x 224.33757pt.
 
-Overfull \hbox (44.41429pt too wide) in paragraph at lines 582--583
+Overfull \hbox (44.41429pt too wide) in paragraph at lines 604--605
  [][] 
  []
 
-<Fig/Hach_AFE/5u/IGBT_cou_hach.jpg, id=180, 1015.54407pt x 438.13687pt>
+<Fig/Hach_AFE/5u/IGBT_cou_hach.jpg, id=182, 1015.54407pt x 438.13687pt>
 File: Fig/Hach_AFE/5u/IGBT_cou_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/IGBT_cou_hach.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_cou_hach.jpg used on input line 5
-91.
+Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_cou_hach.jpg used on input line 6
+13.
 (pdftex.def)             Requested size: 507.7708pt x 219.06789pt.
 
-Overfull \hbox (38.01541pt too wide) in paragraph at lines 591--592
+Overfull \hbox (38.01541pt too wide) in paragraph at lines 613--614
  [][] 
  []
 
-<Fig/Hach_AFE/5u/IGBT_ten_hach.jpg, id=181, 1017.04968pt x 447.92343pt>
+<Fig/Hach_AFE/5u/IGBT_ten_hach.jpg, id=183, 1017.04968pt x 447.92343pt>
 File: Fig/Hach_AFE/5u/IGBT_ten_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/5u/IGBT_ten_hach.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_ten_hach.jpg used on input line 5
-98.
+Package pdftex.def Info: Fig/Hach_AFE/5u/IGBT_ten_hach.jpg used on input line 6
+20.
 (pdftex.def)             Requested size: 508.52359pt x 223.96117pt.
 
-Overfull \hbox (38.7682pt too wide) in paragraph at lines 598--599
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 620--621
  [][] 
  []
 
@@ -1360,84 +1384,84 @@ itHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hach_AFE/5u/hach_cou_ch.jpg> <D:
 ach_ten_ch.jpg>] [40 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validati
 on/Tex/Fig/Hach_AFE/5u/IGBT_cou_hach.jpg> <D:/LiberT/Documents/GitHub/DesignIV/
 Remise/Croos Validation/Tex/Fig/Hach_AFE/5u/IGBT_ten_hach.jpg>]
-<Fig/Hach_AFE/1u/cour_al.jpg, id=195, 1021.56656pt x 472.01344pt>
+<Fig/Hach_AFE/1u/cour_al.jpg, id=197, 1021.56656pt x 472.01344pt>
 File: Fig/Hach_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/1u/cour_al.jpg used on input line 611.
+Package pdftex.def Info: Fig/Hach_AFE/1u/cour_al.jpg used on input line 633.
 (pdftex.def)             Requested size: 510.78203pt x 236.00613pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 611--612
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 633--634
  [][] 
  []
 
-<Fig/Hach_AFE/1u/ten_bus.jpg, id=196, 1010.27437pt x 456.95718pt>
+<Fig/Hach_AFE/1u/ten_bus.jpg, id=198, 1010.27437pt x 456.95718pt>
 File: Fig/Hach_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/1u/ten_bus.jpg used on input line 620.
+Package pdftex.def Info: Fig/Hach_AFE/1u/ten_bus.jpg used on input line 642.
 (pdftex.def)             Requested size: 505.13594pt x 228.47803pt.
 
-Overfull \hbox (35.38055pt too wide) in paragraph at lines 620--621
+Overfull \hbox (35.38055pt too wide) in paragraph at lines 642--643
  [][] 
  []
 
-<Fig/Hach_AFE/1u/IGBT_AFE.jpg, id=197, 1020.81375pt x 458.46281pt>
+<Fig/Hach_AFE/1u/IGBT_AFE.jpg, id=199, 1020.81375pt x 458.46281pt>
 File: Fig/Hach_AFE/1u/IGBT_AFE.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/IGBT_AFE.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/1u/IGBT_AFE.jpg used on input line 629.
+Package pdftex.def Info: Fig/Hach_AFE/1u/IGBT_AFE.jpg used on input line 651.
 (pdftex.def)             Requested size: 510.40562pt x 229.23083pt.
 
-Overfull \hbox (40.65024pt too wide) in paragraph at lines 629--630
+Overfull \hbox (40.65024pt too wide) in paragraph at lines 651--652
  [][] 
  []
 
-<Fig/Hach_AFE/1u/hach_cou_ch.jpg, id=198, 1021.56656pt x 450.18187pt>
+<Fig/Hach_AFE/1u/hach_cou_ch.jpg, id=200, 1021.56656pt x 450.18187pt>
 File: Fig/Hach_AFE/1u/hach_cou_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/hach_cou_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/1u/hach_cou_ch.jpg used on input line 638
+Package pdftex.def Info: Fig/Hach_AFE/1u/hach_cou_ch.jpg used on input line 660
 .
 (pdftex.def)             Requested size: 510.78203pt x 225.09038pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 638--639
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 660--661
  [][] 
  []
 
-<Fig/Hach_AFE/1u/hach_ten_ch.jpg, id=199, 1020.06094pt x 463.7325pt>
+<Fig/Hach_AFE/1u/hach_ten_ch.jpg, id=201, 1020.06094pt x 463.7325pt>
 File: Fig/Hach_AFE/1u/hach_ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/hach_ten_ch.jpg>
-Package pdftex.def Info: Fig/Hach_AFE/1u/hach_ten_ch.jpg used on input line 648
+Package pdftex.def Info: Fig/Hach_AFE/1u/hach_ten_ch.jpg used on input line 670
 .
 (pdftex.def)             Requested size: 510.02922pt x 231.86568pt.
 
-Overfull \hbox (40.27383pt too wide) in paragraph at lines 648--649
+Overfull \hbox (40.27383pt too wide) in paragraph at lines 670--671
  [][] 
  []
 
-<Fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=200, 1014.03844pt x 459.96844pt>
+<Fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=202, 1014.03844pt x 459.96844pt>
 File: Fig/Hach_AFE/1u/IGBT_cou_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/IGBT_cou_hach.jpg>
 Package pdftex.def Info: Fig/Hach_AFE/1u/IGBT_cou_hach.jpg used on input line 6
-55.
+77.
 (pdftex.def)             Requested size: 507.01797pt x 229.98366pt.
 
-Overfull \hbox (37.26259pt too wide) in paragraph at lines 655--656
+Overfull \hbox (37.26259pt too wide) in paragraph at lines 677--678
  [][] 
  []
 
-<Fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=201, 1027.58907pt x 461.47406pt>
+<Fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=203, 1027.58907pt x 461.47406pt>
 File: Fig/Hach_AFE/1u/IGBT_ten_hach.jpg Graphic file (type jpg)
 
 <use Fig/Hach_AFE/1u/IGBT_ten_hach.jpg>
 Package pdftex.def Info: Fig/Hach_AFE/1u/IGBT_ten_hach.jpg used on input line 6
-62.
+84.
 (pdftex.def)             Requested size: 513.79327pt x 230.73645pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 662--663
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 684--685
  [][] 
  []
 
@@ -1452,82 +1476,82 @@ itHub/DesignIV/Remise/Croos Validation/Tex/Fig/Hach_AFE/1u/hach_cou_ch.jpg> <D:
 ach_ten_ch.jpg>] [44 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validati
 on/Tex/Fig/Hach_AFE/1u/IGBT_cou_hach.jpg> <D:/LiberT/Documents/GitHub/DesignIV/
 Remise/Croos Validation/Tex/Fig/Hach_AFE/1u/IGBT_ten_hach.jpg>]
-<Fig/DCP_AFE/50u/cour_al.jpg, id=215, 1028.34187pt x 458.46281pt>
+<Fig/DCP_AFE/50u/cour_al.jpg, id=217, 1028.34187pt x 458.46281pt>
 File: Fig/DCP_AFE/50u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/cour_al.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/cour_al.jpg used on input line 677.
+Package pdftex.def Info: Fig/DCP_AFE/50u/cour_al.jpg used on input line 699.
 (pdftex.def)             Requested size: 514.16968pt x 229.23083pt.
 
-Overfull \hbox (44.41429pt too wide) in paragraph at lines 677--678
+Overfull \hbox (44.41429pt too wide) in paragraph at lines 699--700
  [][] 
  []
 
-<Fig/DCP_AFE/50u/ten_bus.jpg, id=216, 1019.30812pt x 455.45157pt>
+<Fig/DCP_AFE/50u/ten_bus.jpg, id=218, 1019.30812pt x 455.45157pt>
 File: Fig/DCP_AFE/50u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/ten_bus.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/ten_bus.jpg used on input line 686.
+Package pdftex.def Info: Fig/DCP_AFE/50u/ten_bus.jpg used on input line 708.
 (pdftex.def)             Requested size: 509.65282pt x 227.72522pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 686--687
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 708--709
  [][] 
  []
 
-<Fig/DCP_AFE/50u/IGBT_afe.jpg, id=217, 1023.825pt x 466.74374pt>
+<Fig/DCP_AFE/50u/IGBT_afe.jpg, id=219, 1023.825pt x 466.74374pt>
 File: Fig/DCP_AFE/50u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/IGBT_afe.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/IGBT_afe.jpg used on input line 695.
+Package pdftex.def Info: Fig/DCP_AFE/50u/IGBT_afe.jpg used on input line 717.
 (pdftex.def)             Requested size: 511.91124pt x 233.37129pt.
 
-Overfull \hbox (42.15585pt too wide) in paragraph at lines 695--696
+Overfull \hbox (42.15585pt too wide) in paragraph at lines 717--718
  [][] 
  []
 
-<Fig/DCP_AFE/50u/ten_diode_afe.jpg, id=218, 1041.8925pt x 471.26062pt>
+<Fig/DCP_AFE/50u/ten_diode_afe.jpg, id=220, 1041.8925pt x 471.26062pt>
 File: Fig/DCP_AFE/50u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/ten_diode_afe.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/50u/ten_diode_afe.jpg used on input line 7
-04.
+26.
 (pdftex.def)             Requested size: 520.94498pt x 235.62973pt.
 
-Overfull \hbox (51.18959pt too wide) in paragraph at lines 704--705
+Overfull \hbox (51.18959pt too wide) in paragraph at lines 726--727
  [][] 
  []
 
-<Fig/DCP_AFE/50u/cour_ch.jpg, id=219, 1043.39813pt x 447.17062pt>
+<Fig/DCP_AFE/50u/cour_ch.jpg, id=221, 1043.39813pt x 447.17062pt>
 File: Fig/DCP_AFE/50u/cour_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/cour_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/cour_ch.jpg used on input line 713.
+Package pdftex.def Info: Fig/DCP_AFE/50u/cour_ch.jpg used on input line 735.
 (pdftex.def)             Requested size: 521.69778pt x 223.58476pt.
 
-Overfull \hbox (51.9424pt too wide) in paragraph at lines 713--714
+Overfull \hbox (51.9424pt too wide) in paragraph at lines 735--736
  [][] 
  []
 
-<Fig/DCP_AFE/50u/ten_ch.jpg, id=220, 1040.38687pt x 456.20438pt>
+<Fig/DCP_AFE/50u/ten_ch.jpg, id=222, 1040.38687pt x 456.20438pt>
 File: Fig/DCP_AFE/50u/ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/ten_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/ten_ch.jpg used on input line 722.
+Package pdftex.def Info: Fig/DCP_AFE/50u/ten_ch.jpg used on input line 744.
 (pdftex.def)             Requested size: 520.19217pt x 228.10162pt.
 
-Overfull \hbox (50.43678pt too wide) in paragraph at lines 722--723
+Overfull \hbox (50.43678pt too wide) in paragraph at lines 744--745
  [][] 
  []
 
-<Fig/DCP_AFE/50u/hash_cou_IGBT.jpg, id=221, 1020.81375pt x 468.24937pt>
+<Fig/DCP_AFE/50u/hash_cou_IGBT.jpg, id=223, 1020.81375pt x 468.24937pt>
 File: Fig/DCP_AFE/50u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/hash_cou_IGBT.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/50u/hash_cou_IGBT.jpg used on input line 7
-31.
+53.
 (pdftex.def)             Requested size: 510.40562pt x 234.1241pt.
 
-Overfull \hbox (40.65024pt too wide) in paragraph at lines 731--732
+Overfull \hbox (40.65024pt too wide) in paragraph at lines 753--754
  [][] 
  []
 
@@ -1535,39 +1559,39 @@ Overfull \hbox (40.65024pt too wide) in paragraph at lines 731--732
 
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP_AFE/5
 0u/cour_al.jpg>]
-<Fig/DCP_AFE/50u/hash_ten_IGBT.jpg, id=225, 1032.10594pt x 456.20438pt>
+<Fig/DCP_AFE/50u/hash_ten_IGBT.jpg, id=227, 1032.10594pt x 456.20438pt>
 File: Fig/DCP_AFE/50u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/hash_ten_IGBT.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/50u/hash_ten_IGBT.jpg used on input line 7
-40.
+62.
 (pdftex.def)             Requested size: 516.05171pt x 228.10162pt.
 
-Overfull \hbox (46.29633pt too wide) in paragraph at lines 740--741
+Overfull \hbox (46.29633pt too wide) in paragraph at lines 762--763
  [][] 
  []
 
-<Fig/DCP_AFE/50u/hash_diode_cou.jpg, id=226, 1017.8025pt x 453.19313pt>
+<Fig/DCP_AFE/50u/hash_diode_cou.jpg, id=228, 1017.8025pt x 453.19313pt>
 File: Fig/DCP_AFE/50u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/hash_diode_cou.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/50u/hash_diode_cou.jpg used on input line 
-748.
+770.
 (pdftex.def)             Requested size: 508.90001pt x 226.59601pt.
 
-Overfull \hbox (39.14462pt too wide) in paragraph at lines 748--749
+Overfull \hbox (39.14462pt too wide) in paragraph at lines 770--771
  [][] 
  []
 
-<Fig/DCP_AFE/50u/hash_diode.jpg, id=227, 1021.56656pt x 444.15938pt>
+<Fig/DCP_AFE/50u/hash_diode.jpg, id=229, 1021.56656pt x 444.15938pt>
 File: Fig/DCP_AFE/50u/hash_diode.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/50u/hash_diode.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/50u/hash_diode.jpg used on input line 756.
+Package pdftex.def Info: Fig/DCP_AFE/50u/hash_diode.jpg used on input line 778.
 
 (pdftex.def)             Requested size: 510.78203pt x 222.07913pt.
 
-Overfull \hbox (41.02664pt too wide) in paragraph at lines 756--757
+Overfull \hbox (41.02664pt too wide) in paragraph at lines 778--779
  [][] 
  []
 
@@ -1583,117 +1607,117 @@ Remise/Croos Validation/Tex/Fig/DCP_AFE/50u/hash_ten_IGBT.jpg>] [50 <D:/LiberT/
 Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP_AFE/50u/hash_diod
 e_cou.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig
 /DCP_AFE/50u/hash_diode.jpg>]
-<Fig/DCP_AFE/5u/cour_al.jpg, id=244, 1016.29688pt x 471.26062pt>
+<Fig/DCP_AFE/5u/cour_al.jpg, id=246, 1016.29688pt x 471.26062pt>
 File: Fig/DCP_AFE/5u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/cour_al.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/cour_al.jpg used on input line 766.
+Package pdftex.def Info: Fig/DCP_AFE/5u/cour_al.jpg used on input line 788.
 (pdftex.def)             Requested size: 508.1472pt x 235.62973pt.
 
-Overfull \hbox (38.39182pt too wide) in paragraph at lines 766--767
+Overfull \hbox (38.39182pt too wide) in paragraph at lines 788--789
  [][] 
  []
 
-<Fig/DCP_AFE/5u/ten_bus.jpg, id=245, 1032.10594pt x 458.46281pt>
+<Fig/DCP_AFE/5u/ten_bus.jpg, id=247, 1032.10594pt x 458.46281pt>
 File: Fig/DCP_AFE/5u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/ten_bus.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/ten_bus.jpg used on input line 775.
+Package pdftex.def Info: Fig/DCP_AFE/5u/ten_bus.jpg used on input line 797.
 (pdftex.def)             Requested size: 516.05171pt x 229.23083pt.
 
-Overfull \hbox (46.29633pt too wide) in paragraph at lines 775--776
+Overfull \hbox (46.29633pt too wide) in paragraph at lines 797--798
  [][] 
  []
 
-<Fig/DCP_AFE/5u/IGBT_afe.jpg, id=246, 1017.04968pt x 453.94594pt>
+<Fig/DCP_AFE/5u/IGBT_afe.jpg, id=248, 1017.04968pt x 453.94594pt>
 File: Fig/DCP_AFE/5u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/IGBT_afe.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/IGBT_afe.jpg used on input line 784.
+Package pdftex.def Info: Fig/DCP_AFE/5u/IGBT_afe.jpg used on input line 806.
 (pdftex.def)             Requested size: 508.52359pt x 226.97241pt.
 
-Overfull \hbox (38.7682pt too wide) in paragraph at lines 784--785
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 806--807
  [][] 
  []
 
-<Fig/DCP_AFE/5u/ten_diode_afe.jpg, id=247, 1028.34187pt x 452.4403pt>
+<Fig/DCP_AFE/5u/ten_diode_afe.jpg, id=249, 1028.34187pt x 452.4403pt>
 File: Fig/DCP_AFE/5u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/ten_diode_afe.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/ten_diode_afe.jpg used on input line 79
-3.
+Package pdftex.def Info: Fig/DCP_AFE/5u/ten_diode_afe.jpg used on input line 81
+5.
 (pdftex.def)             Requested size: 514.16968pt x 226.2196pt.
 
-Overfull \hbox (44.41429pt too wide) in paragraph at lines 793--794
+Overfull \hbox (44.41429pt too wide) in paragraph at lines 815--816
  [][] 
  []
 
-<Fig/DCP_AFE/5u/cour_ch.jpg, id=248, 1022.31938pt x 441.14813pt>
+<Fig/DCP_AFE/5u/cour_ch.jpg, id=250, 1022.31938pt x 441.14813pt>
 File: Fig/DCP_AFE/5u/cour_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/cour_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/cour_ch.jpg used on input line 802.
+Package pdftex.def Info: Fig/DCP_AFE/5u/cour_ch.jpg used on input line 824.
 (pdftex.def)             Requested size: 511.15843pt x 220.57352pt.
 
-Overfull \hbox (41.40305pt too wide) in paragraph at lines 802--803
+Overfull \hbox (41.40305pt too wide) in paragraph at lines 824--825
  [][] 
  []
 
-<Fig/DCP_AFE/5u/ten_ch.jpg, id=249, 1019.30812pt x 445.665pt>
+<Fig/DCP_AFE/5u/ten_ch.jpg, id=251, 1019.30812pt x 445.665pt>
 File: Fig/DCP_AFE/5u/ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/ten_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/ten_ch.jpg used on input line 811.
+Package pdftex.def Info: Fig/DCP_AFE/5u/ten_ch.jpg used on input line 833.
 (pdftex.def)             Requested size: 509.65282pt x 222.83195pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 811--812
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 833--834
  [][] 
  []
 
-<Fig/DCP_AFE/5u/hash_cou_IGBT.jpg, id=250, 1038.12843pt x 450.9347pt>
+<Fig/DCP_AFE/5u/hash_cou_IGBT.jpg, id=252, 1038.12843pt x 450.9347pt>
 File: Fig/DCP_AFE/5u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/hash_cou_IGBT.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/hash_cou_IGBT.jpg used on input line 82
-0.
+Package pdftex.def Info: Fig/DCP_AFE/5u/hash_cou_IGBT.jpg used on input line 84
+2.
 (pdftex.def)             Requested size: 519.06294pt x 225.4668pt.
 
-Overfull \hbox (49.30756pt too wide) in paragraph at lines 820--821
+Overfull \hbox (49.30756pt too wide) in paragraph at lines 842--843
  [][] 
  []
 
-<Fig/DCP_AFE/5u/hash_ten_IGBT.jpg, id=251, 1027.58907pt x 474.27188pt>
+<Fig/DCP_AFE/5u/hash_ten_IGBT.jpg, id=253, 1027.58907pt x 474.27188pt>
 File: Fig/DCP_AFE/5u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/hash_ten_IGBT.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/hash_ten_IGBT.jpg used on input line 82
-9.
+Package pdftex.def Info: Fig/DCP_AFE/5u/hash_ten_IGBT.jpg used on input line 85
+1.
 (pdftex.def)             Requested size: 513.79327pt x 237.13536pt.
 
-Overfull \hbox (44.03789pt too wide) in paragraph at lines 829--830
+Overfull \hbox (44.03789pt too wide) in paragraph at lines 851--852
  [][] 
  []
 
-<Fig/DCP_AFE/5u/hash_diode_cou.jpg, id=252, 1046.40938pt x 462.22687pt>
+<Fig/DCP_AFE/5u/hash_diode_cou.jpg, id=254, 1046.40938pt x 462.22687pt>
 File: Fig/DCP_AFE/5u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/hash_diode_cou.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/5u/hash_diode_cou.jpg used on input line 8
-38.
+60.
 (pdftex.def)             Requested size: 523.20341pt x 231.11287pt.
 
-Overfull \hbox (53.44803pt too wide) in paragraph at lines 838--839
+Overfull \hbox (53.44803pt too wide) in paragraph at lines 860--861
  [][] 
  []
 
-<Fig/DCP_AFE/5u/hash_diode.jpg, id=253, 1038.12843pt x 467.49657pt>
+<Fig/DCP_AFE/5u/hash_diode.jpg, id=255, 1038.12843pt x 467.49657pt>
 File: Fig/DCP_AFE/5u/hash_diode.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/5u/hash_diode.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/5u/hash_diode.jpg used on input line 847.
+Package pdftex.def Info: Fig/DCP_AFE/5u/hash_diode.jpg used on input line 869.
 (pdftex.def)             Requested size: 519.06294pt x 233.74771pt.
 
-Overfull \hbox (49.30756pt too wide) in paragraph at lines 847--848
+Overfull \hbox (49.30756pt too wide) in paragraph at lines 869--870
  [][] 
  []
 
@@ -1712,36 +1736,36 @@ lidation/Tex/Fig/DCP_AFE/5u/hash_cou_IGBT.jpg>] [55 <D:/LiberT/Documents/GitHub
 erT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP_AFE/5u/hash_d
 iode_cou.jpg>] [56 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation
 /Tex/Fig/DCP_AFE/5u/hash_diode.jpg>]
-<Fig/DCP_AFE/1u/cour_al.jpg, id=273, 1004.25188pt x 419.31656pt>
+<Fig/DCP_AFE/1u/cour_al.jpg, id=275, 1004.25188pt x 419.31656pt>
 File: Fig/DCP_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/cour_al.jpg used on input line 859.
+Package pdftex.def Info: Fig/DCP_AFE/1u/cour_al.jpg used on input line 881.
 (pdftex.def)             Requested size: 502.12471pt x 209.65776pt.
 
-Overfull \hbox (32.36932pt too wide) in paragraph at lines 859--860
+Overfull \hbox (32.36932pt too wide) in paragraph at lines 881--882
  [][] 
  []
 
-<Fig/DCP_AFE/1u/ten_bus.jpg, id=274, 1018.55531pt x 401.24907pt>
+<Fig/DCP_AFE/1u/ten_bus.jpg, id=276, 1018.55531pt x 401.24907pt>
 File: Fig/DCP_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/ten_bus.jpg used on input line 868.
+Package pdftex.def Info: Fig/DCP_AFE/1u/ten_bus.jpg used on input line 890.
 (pdftex.def)             Requested size: 509.27641pt x 200.62404pt.
 
-Overfull \hbox (39.52103pt too wide) in paragraph at lines 868--869
+Overfull \hbox (39.52103pt too wide) in paragraph at lines 890--891
  [][] 
  []
 
-<Fig/DCP_AFE/1u/IGBT_afe.jpg, id=275, 1030.60031pt x 409.53pt>
+<Fig/DCP_AFE/1u/IGBT_afe.jpg, id=277, 1030.60031pt x 409.53pt>
 File: Fig/DCP_AFE/1u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/IGBT_afe.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 877.
+Package pdftex.def Info: Fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 899.
 (pdftex.def)             Requested size: 515.29889pt x 204.7645pt.
 
-Overfull \hbox (45.5435pt too wide) in paragraph at lines 877--878
+Overfull \hbox (45.5435pt too wide) in paragraph at lines 899--900
  [][] 
  []
 
@@ -1750,87 +1774,87 @@ Overfull \hbox (45.5435pt too wide) in paragraph at lines 877--878
  <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP_AFE/1
 u/cour_al.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex
 /Fig/DCP_AFE/1u/ten_bus.jpg>]
-<Fig/DCP_AFE/1u/ten_diode_afe.jpg, id=279, 1015.54407pt x 395.97937pt>
+<Fig/DCP_AFE/1u/ten_diode_afe.jpg, id=281, 1015.54407pt x 395.97937pt>
 File: Fig/DCP_AFE/1u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/ten_diode_afe.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 88
-6.
+Package pdftex.def Info: Fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 90
+8.
 (pdftex.def)             Requested size: 507.7708pt x 197.9892pt.
 
-Overfull \hbox (38.01541pt too wide) in paragraph at lines 886--887
+Overfull \hbox (38.01541pt too wide) in paragraph at lines 908--909
  [][] 
  []
 
-<Fig/DCP_AFE/1u/cour_ch.jpg, id=280, 1029.09468pt x 393.72093pt>
+<Fig/DCP_AFE/1u/cour_ch.jpg, id=282, 1029.09468pt x 393.72093pt>
 File: Fig/DCP_AFE/1u/cour_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/cour_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/cour_ch.jpg used on input line 895.
+Package pdftex.def Info: Fig/DCP_AFE/1u/cour_ch.jpg used on input line 917.
 (pdftex.def)             Requested size: 514.54608pt x 196.85999pt.
 
-Overfull \hbox (44.7907pt too wide) in paragraph at lines 895--896
+Overfull \hbox (44.7907pt too wide) in paragraph at lines 917--918
  [][] 
  []
 
-<Fig/DCP_AFE/1u/ten_ch.jpg, id=281, 1015.54407pt x 392.96812pt>
+<Fig/DCP_AFE/1u/ten_ch.jpg, id=283, 1015.54407pt x 392.96812pt>
 File: Fig/DCP_AFE/1u/ten_ch.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/ten_ch.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/ten_ch.jpg used on input line 904.
+Package pdftex.def Info: Fig/DCP_AFE/1u/ten_ch.jpg used on input line 926.
 (pdftex.def)             Requested size: 507.7708pt x 196.48357pt.
 
-Overfull \hbox (38.01541pt too wide) in paragraph at lines 904--905
+Overfull \hbox (38.01541pt too wide) in paragraph at lines 926--927
  [][] 
  []
 
-<Fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=282, 1017.04968pt x 394.47375pt>
+<Fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=284, 1017.04968pt x 394.47375pt>
 File: Fig/DCP_AFE/1u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/hash_cou_IGBT.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 91
-3.
+Package pdftex.def Info: Fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 93
+5.
 (pdftex.def)             Requested size: 508.52359pt x 197.23639pt.
 
-Overfull \hbox (38.7682pt too wide) in paragraph at lines 913--914
+Overfull \hbox (38.7682pt too wide) in paragraph at lines 935--936
  [][] 
  []
 
-<Fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=283, 1013.28563pt x 393.72093pt>
+<Fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=285, 1013.28563pt x 393.72093pt>
 File: Fig/DCP_AFE/1u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/hash_ten_IGBT.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 92
-2.
+Package pdftex.def Info: Fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 94
+4.
 (pdftex.def)             Requested size: 506.64159pt x 196.85999pt.
 
-Overfull \hbox (36.8862pt too wide) in paragraph at lines 922--923
+Overfull \hbox (36.8862pt too wide) in paragraph at lines 944--945
  [][] 
  []
 
-<Fig/DCP_AFE/1u/hash_diode_cou.jpg, id=284, 1034.36438pt x 383.93437pt>
+<Fig/DCP_AFE/1u/hash_diode_cou.jpg, id=286, 1034.36438pt x 383.93437pt>
 File: Fig/DCP_AFE/1u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/hash_diode_cou.jpg>
 Package pdftex.def Info: Fig/DCP_AFE/1u/hash_diode_cou.jpg used on input line 9
-31.
+53.
 (pdftex.def)             Requested size: 517.18092pt x 191.9667pt.
 
-Overfull \hbox (47.42554pt too wide) in paragraph at lines 931--932
+Overfull \hbox (47.42554pt too wide) in paragraph at lines 953--954
  [][] 
  []
 
 [58 <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation/Tex/Fig/DCP_AF
 E/1u/IGBT_afe.jpg> <D:/LiberT/Documents/GitHub/DesignIV/Remise/Croos Validation
 /Tex/Fig/DCP_AFE/1u/ten_diode_afe.jpg>]
-<Fig/DCP_AFE/1u/hash_diode.jpg, id=288, 1019.30812pt x 380.92313pt>
+<Fig/DCP_AFE/1u/hash_diode.jpg, id=290, 1019.30812pt x 380.92313pt>
 File: Fig/DCP_AFE/1u/hash_diode.jpg Graphic file (type jpg)
 
 <use Fig/DCP_AFE/1u/hash_diode.jpg>
-Package pdftex.def Info: Fig/DCP_AFE/1u/hash_diode.jpg used on input line 940.
+Package pdftex.def Info: Fig/DCP_AFE/1u/hash_diode.jpg used on input line 962.
 (pdftex.def)             Requested size: 509.65282pt x 190.46109pt.
 
-Overfull \hbox (39.89743pt too wide) in paragraph at lines 940--941
+Overfull \hbox (39.89743pt too wide) in paragraph at lines 962--963
  [][] 
  []
 
@@ -1845,10 +1869,10 @@ alidation/Tex/Fig/DCP_AFE/1u/hash_diode.jpg>]
 ("D:\LiberT\Documents\GitHub\DesignIV\Remise\Croos Validation\Tex\Validation_si
 mulateurs.aux") ) 
 Here is how much of TeX's memory you used:
- 4280 strings out of 493921
- 64786 string characters out of 3144874
- 113634 words of memory out of 3000000
- 7439 multiletter control sequences out of 15000+200000
+ 4292 strings out of 493921
+ 64979 string characters out of 3144874
+ 114657 words of memory out of 3000000
+ 7449 multiletter control sequences out of 15000+200000
  46750 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,7n,24p,1009b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1860,9 +1884,9 @@ fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
 /lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb>
 
-Output written on Validation_simulateurs.pdf (62 pages, 12784237 bytes).
+Output written on Validation_simulateurs.pdf (62 pages, 12807076 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
+ 327 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 491 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

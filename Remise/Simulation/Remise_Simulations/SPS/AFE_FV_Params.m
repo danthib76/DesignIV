@@ -111,7 +111,7 @@ PIdisc=c2d(PIcont,Tpas);
 % P4Q=Numd(1)/Dend(1);
 % I4Q=(P4Q+Numd(2)/Dend(1))/Ts;
 P4Q = 0.071;
-I4Q = 0.02;
+I4Q = 1/0.02;
 
 % Time constant current Low Pass Filter (ripple)
 % aussi 
