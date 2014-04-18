@@ -10,16 +10,22 @@
 \usepackage[stable]{footmisc}
 \usepackage[left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 \begin{document}
-\chapter{Cross validation entre les différentes plateformes de simulations}
-Dans ce chapitre, les simulateurs seront comparés selon les paramètres des simulations critiques (courant dans les électroaimants, tension aux bornes des électroaimants, courant d'entrée, tension du bus CC, etc.). Les différences seront analysées selon les sous-modèles implantés, qui seront détaillés plus loin dans cet ouvrage. Les sous-modèles se séparent en plusieurs catégories, soit les simulations représentant l'AFE, celles représentant le convertisseur CC-CC et celles représentant un montage avec un AFE et un convertisseur CC-CC. Il est à noté que le temps de simulation qui est employé pour fin d'analyse est de 1$\mu$s. 
+\chapter{Validation croisée entre les différentes plateformes de simulations}
+Ce chapitre présente une comparaison des simulateurs selon les paramètres des simulation critiques: courant dans les électroaimants, tension aux bornes des électroaimants, courant à l'entrée de l'AFE, tension du bus CC, courants et tensions dans les IGBT. Les sous-modèles se séparent en plusieurs catégories, soit les simulations représentant l'AFE, ceux représentant le convertisseur CC-CC et ceux représentant un montage avec un AFE et un convertisseur CC-CC. Il est à noté que le temps de simulation qui est employé pour fins d'analyse est de 1$\mu$s. 
 
 \section{Comparaison entre PSIM et SPS}
-Cette section va décrire quelques comparaisons faites sur des éléments au sein de deux systèmes de simulations utilisés pour simuler les différents modèles implantés lors de ce projet, soit PSIM et SPS.
+Cette section décrit des comparaisons faites sur le fonctionnement des éléments de bases fondamentaux pour le projet, dans les simulateurs PSIM et SPS.
+\subsection{Algorithmes de simulation sur PSIM et SPS}
+PSIM et SPS utilisent des méthodes de résolution différentes. SPS est un outil de simulation puissant et générique. Il établit un système d'équations d'états à partir du modèle de simulation, ces équations permettant de déterminer la solution du circuit. Les éléments non-linéaires sont modélisés comme des sources de courants. Les interrupteurs sont modélisés par une faible résistance en conduction et une forte résistance en blocage. Afin d'obtenir des modèles discrets, SPS discrétise les équations d'états continues en utilisant la méthode de Tustin  \footnote{http://www.mathworks.com/products/simpower/description4.html, 17 avril 2014}, la figure \ref{fig_solving_SPS} présente un résumé schématique de l'implémentation. Afin d'augmenter la vitesse de simulation de l'électronique de puissance, SPS utilise un algorithme dans lequel les commutations sont idéales. Il existe deux méthodes de détection des passages par zéro dans SPS , soit la méthode Tustin  (équivalente à une méthode trapézoïdale) et la méthode Backward Euler. La méthode trapézoïdale offre une meilleur précision pour un temps de calcul fixe, mais peut parfois présenter des oscillations numériques. La méthode Backward Euler est moins précise pour un pas de simulation donné, mais permet d'éviter les oscillations numériques. PSIM implémente les modèles au moyen d'une matrice d'admittance nodale\footnote{http://powersimtech.com/support/frequently-asked-questions/, 17 avril 2014}. Les interrupteurs sont idéaux et représentés par une résistance faible en conduction et par une résistance élevée en blocage. La méthode de simulation de PSIM est moins adaptée à l'étude des transitoires pour l'électronique. Elle est cependant plus rapide et permet des études de plus haut niveau. La méthode de détection des passages par zéro de PSIM est une méthode trapézoïdale. 
 
-\subsection{Les algorithmes de simulation sur PSIM et SPS}
-Les deux systèmes de simulations embarqués qui ont été utilisés utilisent des algorithmes différents. Pour augmenter la vitesse de simulation de l'électronique de puissance, SPS utilise un algorithme à commutation idéaux, tandis que PSIM utilise un algorithme fait pour l'électronique de puissance soit la méthode piecewise, des modèles génériques et un pas de calcul fixe. Pour être plus précis, sur SPS, on a le choix entre trois méthodes (continue, discret ou phasor)\footnote{http://www.mathworks.com/products/simpower/description4.html, 17 avril 2014} tandis que PSIM utilise l'analyse nodal et une intégration par méthode trapézoïdale.\footnote{http://powersimtech.com/support/frequently-asked-questions/, 17 avril 2014}
+\begin{figure}
+\centering
+\includegraphics[scale=0.7]{Fig/Comp/improving_performance5.png}
+\caption{Méthode de solution des systèmes implantée dans SPS}
+\label{fig_solving_SPS}
+\end{figure}
 
-\subsection{IGBT}
+\subsection{Comparaison des modèles d'IGBT}
 
 \begin{figure}[htb]
 \centering
@@ -28,47 +34,47 @@ Les deux systèmes de simulations embarqués qui ont été utilisés utilisent d
 \label{IG}
 \end{figure}
 
-Les IGBT sont des interrupteurs que nous utilisons dans chacun des sous-modèles que nous avons monté en simulation pour ce projet. On remarque sur la figure~\ref{IG} que le résultat de courant aux bornes de l'IGBT sont identique dans le cas d'un IGBT sur charge résistive de 50k$\Omega$. Pour les deux plateformes, ça prend 1 pas de calcul comme temps de commutation soit 5$\mu$s pour ce cas. L'IGBT est actionné 50\% du temps à une fréquence de 1KHz, est alimenté par une tension continu de 1000V et a une résistance interne de 0.01$\Omega$. 
+Les IGBT sont les interrupteurs utilisés dans chacun des sous-modèles simulés du projet. On remarque sur la figure \ref{IG} que le  courant traversant l'IGBT est identique dans le cas d'un IGBT sur une charge résistive de 50k$\Omega$. Le pas de calcul employé sur les deux plateformes est de 5$\mu$s. L'indice de modulation des IGBT est de 0.5 et la fréquence de commutation de kKHz. Le montage est alimenté par une tension continue de 1kV et possède une résistance interne de 0.01$\Omega$. 
 
-Étant donné que les IGBT de SPS ont un snubber intégré RC tandis que sur PSIM ils en ont pas. Nous avons rajouté une charge RC en parallèle à chaque IGBT sur PSIM. Le snubber utilisé est un snubber résistif de 100k$\Omega$.
+Sur SPS, l'IGBT possède un snubber RC intégré, tandis que sur PSIM il faut l'incorporer manuellement. Pour les deux simulations, le snubber employé est une résistance de 100k$\Omega$.
  
-\subsection{PI}
-Le bloc PI est un proportionnel intégrateur que nous utilisons dans les boucles de régulation de nos simulations. Sur SPS nous utilisons des PI en configuration parallèle, par contre dans PSIM les blocs PI sont en configuration idéal. De sorte que, nous avons décidé de monter notre propre proportionnel intégrale en parallèle sur PSIM. On remarque sur la figure~\ref{PI} que les résultats sont identiques. Le PI a un intégrateur à 50 et son proportionnel à 0.071. 
+\subsection{Contrôleur proportionnel-intégrateur (PI)}
+L'implantation des blocs PI est différente entre SPS et PSIM. Sur SPS, il est possible d'obtenir une forme idéale ainsi qu'une forme parallèle, tandis que sur PSIM, les blocs par défaut ne comportent que la forme idéale. La forme parallèle doit être implantée manuellement. On remarque sur la figure \ref{PI} que les résultats sont identiques entre une implantation manuelle sur PSIM et le bloc par défaut de SPS. La valeur du gain intégrateur du PI est de 50 et celle du gain proportionnel de 0.071. 
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/Comp/PI.jpg}
-\caption{Réponse d'un PI suite à une consigne d'erreur}.
+\caption{Réponse d'un contrôleur PI suite à une consigne d'erreur}.
 \label{PI}
 \end{figure}
 
 \clearpage
-\section{Pont DCP/DCN: Validation PSIM/SPS}
-\subsection{Hacheur 4 quadrants}
-Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs IGBT commandés au moyen d'une régulation MLI. La figure~\ref{hach} présente une représentation schématique d'un tel convertisseur. Ce type de montage est un montage de base utilisé afin de valider le concept de fonctionnement d'un convertisseur CC-CC et afin d'établir la méthodologie de comparaison des simulations. Le tableau~\ref{p_hash} représente les paramètres utilisé pour le hacheur 4 quadrants.
+\section{Hacheur 4 quadrants à 4 interrupteurs IGBT}
+\subsection{Description du sous-système}
+Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs IGBT commandés au moyen d'une régulation MLI. La figure \ref{hach} présente une représentation schématique d'un tel convertisseur. Ce type de montage est un montage de base utilisé afin de valider le concept de fonctionnement d'un convertisseur CC-CC et d'établir la méthodologie de comparaison des simulations. Le tableau \ref{p_hash} représente les paramètres utilisés pour le hacheur 4 quadrants.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=1]{Fig/Hacheur4Quadrants/Hacheur.jpg}
-\caption{Pont en H à 4 intérrupteurs}.
+\caption{Pont en H à 4 interrupteurs}.
 \label{hach}
 \end{figure}
 
 \begin{table}[htb]
 \centering
-\begin{tabular}{|c|c|} 
+\begin{tabular}{|l|c|} 
   \hline
   \textbf{Paramètre} & \textbf{Valeur}  \\
   \hline\hline
   Tension CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz\\ \hline
-  Saturation & 0.95 \\ \hline \hline
+  Rapport cyclique maximal & 0.95 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI}}\\ \hline
-  Proportionnel & 0.071 \\
-  Intégrateur & 50 \\ \hline \hline
+  Gain proportionnel & 0.071 \\
+  Gain intégrateur & 50 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 0.28 $\Omega$\\
   Inductance & 0.1 H\\
@@ -79,7 +85,7 @@ Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs 
 \end{table}
 
 \subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+Cette section présente les résultats de simulations du hacheur 4 quadrants,modélisés avec 4 interrupteurs IGBT, pour un pas de calcul de 1$\mu$s. 
 
 
 \begin{figure}[htb]
@@ -114,8 +120,8 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 
 
 \clearpage
-\subsection{DCP/DCN}
-Le DCP/DCN est un convertisseur CC-CC, qui représente un système plus complexe du fonctionnement du hacheur 4 quadrants. Il est composé de 24 interrupteurs IGBT/DIODE commandé avec une commande MLI ainsi que de 12 diodes de retour. La figure~\ref{DC_DP} représente une configuration schématique simple d'un tel système. Le tableau~\ref{p_DCP} représente les données utilisé pour ce sous-système.
+\section{Hacheur 4 quadrants formé de 2 convertisseurs 3 niveaux NPC}
+Le montage implanté au CERN est un convertisseur CC-CC formé de 2 onduleurs triphasés 3 niveaux NPC. La cellule supérieure étant dénotée par DCP et la cellule inférieure par DCN. L'assemblage des onduleurs est tel qu'il permet le fonctionnement dans les 4 quadrants. Cette version reproduit le fonctionnement du hacheur 4 quadrants de base avec un plus grand degré de liberté. Il est composé au total de 24 interrupteurs IGBT/DIODE commandé par MLI ainsi que de 12 diodes de point milieu. La figure \ref{DC_DP} représente la commande d'un tel système au moyen d'un schéma simplifié. Le tableau \ref{p_DCP} présente les données utilisées pour ce sous-système.
 
 \begin{figure}[htb]
 \centering
@@ -132,14 +138,14 @@ Le DCP/DCN est un convertisseur CC-CC, qui représente un système plus complexe
   \hline\hline
   Tension CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz\\ \hline
-  Saturation & 1 \\ \hline
+  Rapport cyclique maximal & 1 \\ \hline
   Inductance de couplage & 10e-6 H \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber  & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI}}\\ \hline
-  Proportionnel & 1.5611 \\
-  Intégrateur & 24.6 \\ \hline \hline
+  Gain proportionnel & 1.5611 \\
+  Gain intégrateur & 24.6 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 0.28 $\Omega$\\
   Inductance & 0.1 H \\
@@ -150,8 +156,8 @@ Le DCP/DCN est un convertisseur CC-CC, qui représente un système plus complexe
 \end{table}
 
 
-\subsubsection{Vérification à un pas de calcul de 1us}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. .
+\subsection{Vérification à un pas de calcul de 1us}
+Cette section présente les résultats de simulation obtenus sur PSIM et SPS pour un pas de calcul discret de 1$\mu$s.
 
 
 
@@ -189,14 +195,13 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 
 
 \clearpage
-\section{AFE: Validation PSIM/SPS}
-\subsection{AFE source idéal}
-L'AFE source idéal est constitué de 6 interrupteurs, soit deux par phase de tension. Ce système sert comme onduleur et sa tache est d'alimenter un bus CC pour qu'il ait une tension de 5000V. Ce sous-système sert à vérifier le fonctionnement 4 quadrant de l'AFE au niveau de l'échange de puissance. Il est composé d'une source AC d'un côté et DC parfaite de l'autre. Il est régulé en courant (Amplitude et phase) grâce à une régulation par hystérésis. La figure~\ref{AFE} est une représentation schématique de l'AFE source idéal. Le tableau~\ref{p_AF_ID} représente les paramètres utilisé pour la simulation de l'AFE source idéal.
+\section{AFE 2 niveaux avec contrôle par hystérésis débitant sur une source idéale}
+L'AFE (Active Front End) est un redresseur triphasé permettant de réguler le facteur de puissance à l'entrée du montage. La charge étant une source idéale pour cette simulation, il est possible d'en observer le fonctionnement dans les 4 quadrants. Ce convertisseur CA/CC est constitué de 6 interrupteurs, soit deux par bras. Ce système a pour fonction d'alimenter un bus CC et de maintenir sa tension à 5kV avec un facteur de puissance variable vu à l'entrée. pour qu'il ait une tension de 5000V. Une méthode de contrôle par hystérésis est employée afin de réguler le courant (en amplitude et en phase) du côté du réseau. La figure \ref{AFE} est une représentation schématique de la commande de l'AFE débitant sur une source idéale. Le tableau~\ref{p_AF_ID} présente les paramètres utilisés pour la simulation.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/AFE.jpg}
-\caption{Schéma bloc de l'AFE 2 level source parfaite avec régulation par hystérésis}
+\caption{Schéma bloc de l'AFE 2 niveau sur source parfaite avec régulation par hystérésis}
 \label{AFE}
 \end{figure}
 
@@ -208,31 +213,31 @@ L'AFE source idéal est constitué de 6 interrupteurs, soit deux par phase de te
   \hline\hline
   Tension bus CC & 5000\\ \hline
   Courant référence & 1000A\\ \hline
-  Seuil hystérésis & 450\\ \hline
-  Saturation de courant& 1500 \\ \hline \hline
+  Seuil hystérésis & 450A\\ \hline
+  Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT}}\\ \hline
-  Résistance interne & 0.001\\
-  Snubber résistance & 100k\\ \hline \hline
-   \multicolumn{2}{|c|}{\textbf{PI courant}}\\ \hline
-  Proportionnel & 5 \\
-  Intégrateur & 20 \\ \hline \hline
-  \multicolumn{2}{|c|}{\textbf{PI phase}}\\ \hline
-  Proportionnel & 0.48 \\
-  Intégrateur & 8 \\ \hline \hline
+  Résistance interne & 0.001$\Omega$\\
+  Résistance du snubber & 100k$\Omega$\\ \hline \hline
+   \multicolumn{2}{|c|}{\textbf{PI de courant}}\\ \hline
+  Gain proportionnel & 5 \\
+  Gain intégrateur & 20 \\ \hline \hline
+  \multicolumn{2}{|c|}{\textbf{PI de phase}}\\ \hline
+  Gain proportionnel & 0.48 \\
+  Gain intégrateur & 8 \\ \hline \hline
   \hline
 \end{tabular}
-\caption{Paramètres de simulation pour l'AFE source idéal}
+\caption{Paramètres de simulation pour l'AFE débitant sur une source idéale}
 \label{p_AF_ID}
 \end{table}
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+Cette section présente les résultats de simulation de l'AFE 2 niveaux avec contrôle par hystérésis débitant sur une source idéale pour un pas de calcul discret de 1$\mu$s. 
 
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/CourantAC.jpg}
-\caption{Le courant d'entré à 1$\mu$s pour l'AFE source idéal}
+\caption{Le courant d'entrée avec un pas de calcul de 1$\mu$s pour l'AFE 2 niveaux avec contrôle par hystérésis sur source idéale}
 \label{AF_I_cou}
 \end{figure}
 
@@ -241,41 +246,40 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/pui45.jpg}
-\caption{La puissance à une phase de 45 degré à 1$\mu$s pour l'AFE source idéal}
+\caption{Puissances active et réactive pour une courant déphasé de 45 degré pour un pas de calcul 1$\mu$s}
 \label{AF_I_pui_45}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/pui135.jpg}
-\caption{La puissance à une phase de 135 degré à 1$\mu$s pour l'AFE source idéal}
+\caption{Puissances active et réactive pour une courant déphasé de 135 degré pour un pas de calcul 1$\mu$s}
 \label{AF_I_pui_135}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/pui_45.jpg}
-\caption{La puissance à une phase de -45 degré à 1$\mu$s pour l'AFE source idéal}
+\caption{Puissances active et réactive pour une courant déphasé de -45 degré pour un pas de calcul 1$\mu$s}
 \label{AF_I_pui__45}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFEIDEAL/pui_135.jpg}
-\caption{La puissance à une phase de -135 degré à 1$\mu$s pour l'AFE source idéal}
+\caption{Puissances active et réactive pour une courant déphasé de -135 degré pour un pas de calcul 1$\mu$s}
 \label{AF_I_pui__135}
 \end{figure}
 
 
 \clearpage
-\subsection{AFE avec charge RC}
-L'AFE avec charge RC est le même système que présenté dans la figure~\ref{AFE}. Les différences sont, qu'à la place d'une charge parfaite à 5000V, il est constitué d'une charge RC de 9.26$\Omega$ et 300mF.
-De plus, le courant du réseau est mit en phase avec la tension du réseau. La figure~\ref{fft_RC} représente le calcul de fft d'une phase du courant d'entrée. Les paramètres de l'hystérésis ont été calibré pour que sa fréquence secondaire soit d'environs 1000Hz. Le tableau~\ref{p_AF_RC} représente les paramètres utilisés pour l'AFE avec charge RC.
+\section{AFE 2 niveaux avec contrôle par hystérésis débitant sur une charge RC}
+Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant sur une charge RC est le même que celui présenté dans la figure \ref{AFE}. La source idéale du montage précédent est remplacée par une charge RC, composée d'une résistance de 9.26$\Omega$ et d'un condensateur initialement chargé à 5000V, d'une capacité de 330mF. De plus, contrairement au montage précédent, il n'y a plus de rétroaction sur l'angle du courant. L'angle de la référence de courant est en phase avec la tension du réseau (pour un fonctionnement à facteur unitaire). La figure~\ref{fft_RC} représente le calcul de transformée de Fourier discrète (fft) d'une phase du courant d'entrée. Les paramètres de l'hystérésis ont été calibrés afin que la fréquence de commutation (qui glisse avec cette méthode de commande), soit proche de 1kHz. Le tableau~\ref{p_AF_RC} présente les paramètres utilisés pour l'AFE 2 niveaux débitant sur une charge RC.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFERC/FFTAnalysisToolResult5u.png}
-\caption{La FFT du courant d'entrée à 1$\mu$s}
+\caption{La transformée de Fourier discrète (fft) du courant d'entrée à 1$\mu$s}
 \label{fft_RC}
 \end{figure}
 
@@ -285,27 +289,27 @@ De plus, le courant du réseau est mit en phase avec la tension du réseau. La f
   \hline
   \textbf{Paramètre} & \textbf{Valeur}  \\
   \hline\hline
-  Tension référence CC & 5000 V\\ \hline
-  Seuil hystérésis & 450\\ \hline
-  Saturation de courant& 1500 \\ \hline \hline
+  Tension de référence CC & 5000 V\\ \hline
+  Seuil hystérésis & 450 A\\ \hline
+  Courant maximal à l'entrée& 1500 A \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI courant}}\\ \hline
-  Proportionnel & 5 \\
-  Intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 5 \\
+  Gain intégrateur & 20 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 9.26 $\Omega$ \\
-  Condensateur & 300 mF\\
+  Capacité d'entrée & 330 mF\\
   \hline
 \end{tabular}
-\caption{Paramètres de simulation pour l'AFE charge RC}
+\caption{Paramètres de simulation pour l'AFE 2 niveaux avec contrôle par hystérésis débitant sur charge RC}
 \label{p_AF_RC}
 \end{table}
 
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+Cette section présente les résultats de simulation de l'AFE 2 niveaux avec contrôle pas hystérésis sur charge RC pour un pas de calcul discret de 1$\mu$s. 
 
 
 
@@ -337,8 +341,8 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 \end{figure}
 
 \clearpage
-\subsection{AFE 3 niveaux}
-L'AFE 3 niveaux est composé de 12 interrupteurs IGBT ainsi que de 6 diodes de retour. Il est régulé grâce à une régulation par MLI. Il représente la version finale du sous-système de l'AFE. Le tableau~\ref{p_AF_3level} représente les paramètres utilisés avec l'AFE 3 niveaux.
+\section{AFE 3 niveaux NPC avec contrôle par MLI}
+L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT ainsi que de 6 diodes de point milieu. Il représente la version finale du sous-système de l'AFE. La méthode de commande implantée diffère de celle implantée au CERN qui utilise une transformation de Park afin de simplifier le contrôle. Le tableau \ref{p_AF_3level} présente les paramètres utilisés avec l'AFE 3 niveaux NPC.
 
 \begin{table}[htb]
 \centering
@@ -348,28 +352,28 @@ L'AFE 3 niveaux est composé de 12 interrupteurs IGBT ainsi que de 6 diodes de r
   \hline\hline
   Tension référence CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz \\ \hline
-  Saturation de courant& 1500 \\ \hline \hline
+  Courant maximal à l'entrée& 1500 A \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI courant}}\\ \hline
-  Proportionnel & 5 \\
-  Intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 5 \\
+  Gain intégrateur & 20 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{PI commande}}\\ \hline
-  Saturation & 0.95\\
-  Proportionnel & 1.5611 \\
-  Intégrateur & 24.6 \\ \hline \hline
+  Rapport cyclique maximal & 0.95\\
+  Gain proportionnel & 1.5611 \\
+  Gain intégrateur & 24.6 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 9.26 $\Omega$ \\
-  Condensateur & 300 mF\\
+  Capacité d'entrée & 330 mF\\
   \hline
 \end{tabular}
-\caption{Paramètres de simulation pour l'AFE 3 niveaux}
+\caption{Paramètres de simulation pour l'AFE 3 niveaux NPC avec contrôle par MLI}
 \label{p_AF_3level}
 \end{table}
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+Cette section présente les courbes d'intérêt pour la simulation de l'AGE 3 niveaux NPC avec contrôle par MLI pour un pas de 1$\mu$s. 
 
 \begin{figure}[htb]
 \centering
@@ -403,14 +407,12 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 
 
 \clearpage
-\section{Implémentation AFE avec DCP/DCN}
-\subsection{AFE 2 level avec hacheur 4 quadrants}
-Cette section va discuter des différences entre les résultat de simulations pour l'implémentation finale entre l'AFE 2 niveaux et le hacheur 4 quadrants. La figure~\ref{AF_DC} représente l'implémentation des deux sous-systèmes d'une façon schématique. Le tableau~\ref{p_AF_hash} représente les paramètres utilisés pour ce système.
-
+\section{AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT}
+Cette section présente les résultat de simulations obtenus sur PSIM et SPS pour l'AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT. La figure \ref{AF_DC} présente un schéma de l'implantation des deux sous-systèmes. Le tableau \ref{p_AF_hash} présente les paramètres utilisés dans les simulations.
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/Hach_AFE/AFE.jpg}
-\caption{Représentation schématique de l'implémentation de l'AFE et du DCP/DCN}
+\caption{Schéma de l'implantation de l'AFE 2 niveaux et du hacheur 4 quadrants}
 \label{AF_DC}
 \end{figure}
 
@@ -423,38 +425,38 @@ Cette section va discuter des différences entre les résultat de simulations po
   \hline\hline \hline
   \multicolumn{2}{|c|}{\textbf{AFE 2 niveaux}}\\ \hline \hline 
   Tension référence CC & 5000 V\\ \hline
-  Seuil hystérésis & 450\\ \hline
-  Saturation de courant& 1500 \\ \hline \hline
+  Seuil hystérésis & 450A\\ \hline
+  Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT AFE}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI courant AFE}}\\ \hline
-  Proportionnel & 5 \\
-  Intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 5 \\
+  Gain intégrateur & 20 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Bus CC}}\\ \hline
-  Condensateur & 300 mF\\
+  Capacité d'entrée & 330 mF\\
   \hline \hline \hline
   
   \multicolumn{2}{|c|}{\textbf{Hacheur 4 quadrants}}\\ \hline \hline
   Fréquence de modulation & 1000 Hz\\ \hline
-  Saturation & 0.95 \\ \hline \hline
+  Rapport cyclique maximal & 0.95 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT hacheur}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI hacheur}}\\ \hline
-  Proportionnel & 0.071 \\
-  Intégrateur & 50 \\ \hline \hline
+  Gain proportionnel & 0.071 \\
+  Gain intégrateur & 50 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 0.28 $\Omega$\\
   Inductance & 0.1 H\\
   \hline
 \end{tabular}
-\caption{Paramètres de simulation pour le pont en H à 4 intérrupteurs avec l'AFE 2 level}
+\caption{Paramètres de simulation pour l'hacheur 4 quadrants à 4 interrupteurs avec l'AFE 2 niveaux}
 \label{p_AF_hash}
 \end{table}
 
 \subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+Cette section présente les résultats de simulation pour l'hacheur 4 quadrants à 4 interrupteurs avec l'AFE 2 niveaux sur PSIM et sur SPS, pour un pas de calcul discret de 1$\mu$s. 
 
 
 \begin{figure}[htb]
@@ -515,8 +517,8 @@ Cette section présente les courbes d'intérêt pour un pas de calcul discret de
 
 
 \clearpage
-\subsection{AFE 3 niveaux avec le DCP/DCN}
-Cette section va discuter des différences au niveau des résultats de simulation par rapport au système regroupant l'AFE 3 niveaux avec le DCP/DCN. La figure~\ref{AF_DC} représente un schéma de l'implémentation des deux systèmes. Le tableau~\ref{p_AF_DCP} représente les paramètres utilisés dans ce système.
+\section{AFE 3 niveaux avec le DCP/DCN}
+Cette section présente les résultats de simulations obtenus sur PSIM et sur SPS pour le système complet, formé d'un redresseur AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux.  La figure~\ref{AF_DC} présente un schéma de l'implantation du système complet. Le tableau \ref{p_AF_DCP} présente les paramètres utilisés dans les sous-systèmes.
 
 \begin{table}[htb]
 \centering
@@ -527,31 +529,31 @@ Cette section va discuter des différences au niveau des résultats de simulatio
   \multicolumn{2}{|c|}{\textbf{AFE 3 niveaux}}\\ \hline \hline 
   Tension référence CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz \\ \hline
-  Saturation de courant& 1500 \\ \hline \hline
+  Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT AFE}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI courant AFE}}\\ \hline
-  Proportionnel & 5 \\
-  Intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 5 \\
+  Gain intégrateur & 20 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{PI commande AFE}}\\ \hline
-  Saturation & 0.95\\
-  Proportionnel & 1.5611 \\
-  Intégrateur & 24.6 \\ \hline \hline
+  Rapport cyclique maximal & 0.95\\
+  Gain proportionnel & 1.5611 \\
+  Gain intégrateur & 24.6 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Bus CC}}\\ \hline
-  Condensateur & 300 mF\\
+  Capacité & 330 mF\\
   \hline \hline \hline
   
   \multicolumn{2}{|c|}{\textbf{DCP/DCN}}\\ \hline \hline
-  Fréquence de modulation & 1000 Hz\\ \hline
-  Saturation & 1 \\ \hline
+  Fréquence de modulation & 333 Hz\\ \hline
+  Rapport cyclique maximal & 1 \\ \hline
   Inductance de couplage & 10e-6 H \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{IGBT DCP/DCN}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
-  Snubber résistance & 100k $\Omega$\\ \hline \hline
+  Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|c|}{\textbf{PI DCP/DCN}}\\ \hline
-  Proportionnel & 1.5611 \\
-  Intégrateur & 24.6 \\ \hline \hline
+  Gain proportionnel & 1.5611 \\
+  Gain intégrateur & 24.6 \\ \hline \hline
   \multicolumn{2}{|c|}{\textbf{Charge}}\\ \hline
   Résistance & 0.28 $\Omega$\\
   Inductance & 0.1 H \\
@@ -561,8 +563,8 @@ Cette section va discuter des différences au niveau des résultats de simulatio
 \label{p_AF_DCP}
 \end{table}
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
-Cette section présente les courbes d'intérêt pour un pas de calcul discret de 1$\mu$s. 
+\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+Cette section présente les résultats de simulations pour le système complet formé de l'AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux pour un pas de calcul discret de 1$\mu$s. 
 
 \begin{figure}[htb]
 \centering
