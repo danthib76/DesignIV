@@ -144,7 +144,7 @@ H(s) = \frac{R}{RCs + 1}
 \end{equation}
 Il est possible de supposer que le courant injecté par chaque bras du redresseur dans la charge est modulable selon le temps de conduction de l'IGBT concerné selon la phase du signal par rapport aux autres (seul le montage dont la tension est supérieure (en valeur absolue) aux autres s'amorce. La période de conduction totale et maximale d'un IGBT est de 60 degrés, sur une période totale de 360 degrés. Pour simplifier l'analyse, on peut analyser le montage comme 6 montages redresseurs monophasés simple alternance et ne se concentrer que sur un IGBT. Par ailleurs, on peut négliger l'ondulation liée à la nature sinusoïdale de la charge et approximer par la valeur moyenne d'un sinus sur cette période, que l'on calcule comme suit (fonctionnement pleine onde):
 \begin{equation}
-I_{moy} = \frac{3}{\pi}\int_{60}^{120} I_M \sin(\theta)d\theta = \frac{3I_M}{\pi}\left( \cos(60)-\cos(120)\right) = \frac{3I_M}{pi}
+I_{moy} = \frac{3}{\pi}\int_{60}^{120} I_M \sin(\theta)d\theta = \frac{3I_M}{\pi}\left( \cos(60)-\cos(120)\right) = \frac{3I_M}{\pi}
 \end{equation}
 On trouve par la suite que selon l'indice de modulation ($m_x$) sur la période de 60 degrés donnée et ce, pour une fréquence de modulation de $f_{mod} = \frac{1}{T_{mod}}$ on peut approximer le courant dans la charge par $I_{CH} = \frac{3I_M m_x}{pi}$. Pour le reste de la période de modulation, on a 0A. Pour une période de modulation, la tension vue à la charge est donnée par l'équation suivante dans le domaine de Laplace:
 \begin{equation}
@@ -181,5 +181,36 @@ Sur l'ensemble d'une période du signal, on a donc:
 \begin{equation}
 I_{RMS} =  \sqrt{1/6\int_0^{m_x} I_{CH}^2} = \frac{1}{\sqrt{6}}\cdot 917.26A = 374.47A.
 \end{equation}
+
+Il est aussi possible d'extraire directement la forme de tension du BUS CC et d'utiliser la puissance moyenne dissipée dans les électroaimants afin de dimensionner les interrupteurs. À puissance crête nous avons déterminé que le courant maximal RMS que doivent pouvoir commuter les interrupteurs est de l'ordre de 1324A. En fonctionnement normal, la documentation technique du CERN évalue la puissance moyenne dissipée sur 0.9s (un cycle) à 2.25MW. Soit la courbe de la tension moyenne du bus CC en fonction du temps pour un cycle donné, présenté à la figure \ref{fig_Tension_BUSCC}, il est possible de déterminer le courant moyen en fonction du temps si l'on suppose une puissance constante de 2.25MW. Il est par la suite possible de calculer la valeur RMS de ce courant. Cette valeur RMS nous donne 490A, elle est calculée en utilisant la puissance constante de 2.25MW ainsi que la tension du bus CC présentée à la figure \ref{eq:RLSimple} et en calculant la valeur RMS du courant obtenu. Avec cette valeur, on peut déterminer l'indice de modulation nécessaire. On cherche donc $m_x$, tel que $1559.39m_x = 490$. On trouve alors $m_x = 0.314$. Sur la période de conduction de l'interrupteur on a que
+\begin{equation}
+I_{RMS} = \sqrt{\int_0^{m_x} I_{CH}^2} = \sqrt{m_x}I_{CH}  \sqrt{0.314}I_{CH}= 873.815A
+\end{equation}
+
+Sur l'ensemble d'une période du signal, on a donc:
+\begin{equation}
+I_{RMS} =  \sqrt{1/6\int_0^{m_x} I_{CH}^2} = \frac{1}{\sqrt{6}}\cdot 873.815A = 356.73A
+\end{equation}
+
+Le tableau \ref{tab_Courant_AFE} présente un résumé des différentes valeurs obtenues
+
+\begin{table}[htb]
+\begin{tabular}{|c|c|c|}
+\hline
+\multirow{2}{*}{Puissance (MW)} & \multirow{2}{*}{Courant RMS (A) sur 60$^\circ$} & \multirow{2}{*}{Courant RMS (A) sur une période complète} \\
+                                &                                                 &                                                           \\ \hline
+2.25                            & 873.8                                           & 356.73                                                    \\ \hline
+2.7                             & 917.26                                          & 374.47                                                    \\ \hline
+3.6                             & 1324                                            & 540.52                                                    \\ \hline
+\end{tabular}
+\caption{Courants RMS approximatifs vus par les interrupteurs de l'AFE}
+\label{tab_Courant_AFE}
+\end{table}
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{fig/fig_VbusCC.png}
+\caption{Tension du bus CC en fonction du temps pour un cycle du PS-Booster}
+\label{fig_Tension_BUSCC}
+\end{figure}
 \section{Fonctionnement d'un redresseur triphasé 3 niveaux NPC}
 Le projet implanté au CERN emploie un redresseur triphasé à 3 niveaux NPC dont le schéma est présenté à la figure INCORPORER FIGURE AFE 3L ici. L'avantage de cette configuration par rapport à la précédente est au niveau de la tension vue aux bornes des interrupteurs. En fonctionnement normal, l'ajout d'un niveau supplémentaire divise par 2 la tension commutée par les interrupteurs, ce qui permet d'avoir des composantes de dimensions inférieures. Au point de vue logique et commande, les calculs théoriques approximatifs tiennent toujours, le fonctionnement  de base est pratiquement inchangé du point de vue du courant. Cependant, dans cette configuration, les interrupteurs conduisent par paires dans chaque bras, ce qui modifie la commande à appliquer. De plus, l'ajout d'un point milieu \og clampé \fg{} par des diodes modifie substantiellement la stabilité de la tension 0 dans cette configuration. les séquences d'enclenchement des niveaux vont perturber la tension de neutre. En pratique, cette tension doit être équilibrée par un circuit de commande auxiliaire. Aussi, il faut donc dimensionner les interrupteurs de manière à pouvoir commuter la moitiée de la tension du bus CC de  5kV, soit 2.5kV. Le bus CC pouvant monter jusqu'à 5.1kV, il est nécessaire de dimensionner les IGBT pour obtenir une tension de 2.75kV en répétition à leurs bornes.
