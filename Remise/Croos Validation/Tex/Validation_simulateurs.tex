@@ -55,7 +55,7 @@ Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=1]{Fig/Hacheur4Quadrants/Hacheur.jpg}
+\includegraphics[scale=0.5]{Fig/Hacheur4Quadrants/H4Q.pdf}
 \caption{Pont en H à 4 interrupteurs}.
 \label{hach}
 \end{figure}
@@ -125,7 +125,7 @@ Le montage implanté au CERN est un convertisseur CC-CC formé de 2 onduleurs tr
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=0.5]{Fig/DCPDCN/DCP.jpg}
+\includegraphics[scale=0.7]{Fig/DCPDCN/DCP_DCN.pdf}
 \caption{Schéma bloc du DCP/DCN avec une commande MLI à la charge}
 \label{DC_DP}
 \end{figure}
@@ -200,7 +200,7 @@ L'AFE (Active Front End) est un redresseur triphasé permettant de réguler le f
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=0.5]{Fig/AFEIDEAL/AFE.jpg}
+\includegraphics[scale=0.5]{Fig/AFEIDEAL/AFE_IDEAL.pdf}
 \caption{Schéma bloc de l'AFE 2 niveau sur source parfaite avec régulation par hystérésis}
 \label{AFE}
 \end{figure}
@@ -276,11 +276,20 @@ Cette section présente les résultats de simulation de l'AFE 2 niveaux avec con
 \section{AFE 2 niveaux avec contrôle par hystérésis débitant sur une charge RC}
 Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant sur une charge RC est le même que celui présenté dans la figure \ref{AFE}. La source idéale du montage précédent est remplacée par une charge RC, composée d'une résistance de 9.26$\Omega$ et d'un condensateur initialement chargé à 5000V, d'une capacité de 330mF. De plus, contrairement au montage précédent, il n'y a plus de rétroaction sur l'angle du courant. L'angle de la référence de courant est en phase avec la tension du réseau (pour un fonctionnement à facteur unitaire). La figure~\ref{fft_RC} représente le calcul de transformée de Fourier discrète (fft) d'une phase du courant d'entrée. Les paramètres de l'hystérésis ont été calibrés afin que la fréquence de commutation (qui glisse avec cette méthode de commande), soit proche de 1kHz. Le tableau~\ref{p_AF_RC} présente les paramètres utilisés pour l'AFE 2 niveaux débitant sur une charge RC.
 
+
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{Fig/AFERC/FFTAnalysisToolResult5u.png}
 \caption{La transformée de Fourier discrète (fft) du courant d'entrée à 1$\mu$s}
 \label{fft_RC}
+\end{figure}
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.6]{Fig/AFERC/AFE_2L_RC.pdf}
+\caption{Circuit électrique d'un AFE 2 niveaux sur charge RC}
+\label{AFE_RC}
 \end{figure}
 
 \begin{table}[htb]
@@ -343,6 +352,13 @@ Cette section présente les résultats de simulation de l'AFE 2 niveaux avec con
 \clearpage
 \section{AFE 3 niveaux NPC avec contrôle par MLI}
 L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT ainsi que de 6 diodes de point milieu. Il représente la version finale du sous-système de l'AFE. La méthode de commande implantée diffère de celle implantée au CERN qui utilise une transformation de Park afin de simplifier le contrôle. Le tableau \ref{p_AF_3level} présente les paramètres utilisés avec l'AFE 3 niveaux NPC.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.6]{Fig/AFE3LEVEL/AFE_3L_RC.pdf}
+\caption{Circuit électrique d'un AFE 3 niveaux sur charge RC}
+\label{AFE_3L}
+\end{figure}
 
 \begin{table}[htb]
 \centering
@@ -411,8 +427,8 @@ Cette section présente les courbes d'intérêt pour la simulation de l'AGE 3 ni
 Cette section présente les résultat de simulations obtenus sur PSIM et SPS pour l'AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT. La figure \ref{AF_DC} présente un schéma de l'implantation des deux sous-systèmes. Le tableau \ref{p_AF_hash} présente les paramètres utilisés dans les simulations.
 \begin{figure}[htb]
 \centering
-\includegraphics[scale=0.5]{Fig/Hach_AFE/AFE.jpg}
-\caption{Schéma de l'implantation de l'AFE 2 niveaux et du hacheur 4 quadrants}
+\includegraphics[scale=0.7]{Fig/Hach_AFE/H4Q_AFE_2L_RC.pdf}
+\caption{Circuit électrique de l'implantation de l'AFE 2 niveaux et du hacheur 4 quadrants}
 \label{AF_DC}
 \end{figure}
 
@@ -518,7 +534,14 @@ Cette section présente les résultats de simulation pour l'hacheur 4 quadrants 
 
 \clearpage
 \section{AFE 3 niveaux avec le DCP/DCN}
-Cette section présente les résultats de simulations obtenus sur PSIM et sur SPS pour le système complet, formé d'un redresseur AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux.  La figure~\ref{AF_DC} présente un schéma de l'implantation du système complet. Le tableau \ref{p_AF_DCP} présente les paramètres utilisés dans les sous-systèmes.
+Cette section présente les résultats de simulations obtenus sur PSIM et sur SPS pour le système complet, formé d'un redresseur AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux.  La figure~\ref{AF3_DC} présente un schéma de l'implantation du système complet. Le tableau \ref{p_AF_DCP} présente les paramètres utilisés dans les sous-systèmes.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.65]{Fig/DCP_AFE/AFE_3L_RC_DCP_DCN.pdf}
+\caption{Circuit électrique de l'implémentation final de l'AFE 3 niveaux avec le DCP/DCN}
+\label{AF3_DC}
+\end{figure}
 
 \begin{table}[htb]
 \centering
