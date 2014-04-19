@@ -18,7 +18,7 @@ grid on
 
 %Courant PSIM
 subplot(2,1,2)
-plot(Time,V62,Time, V63, Time, V64)
+plot(Time,Ia,Time, Ib, Time, Ic)
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 xlim([0.5,0.6])
@@ -39,7 +39,7 @@ grid on
 %Tension IGBT
 figure(3)
 subplot(2,1,1)
-plot(Time,S3Vigbt,AFE3LEVEL.time,IGBT.signals.values(:,2))
+plot(Time,S9IGBT,AFE3LEVEL.time,IGBT.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension IGBT', 'SPS Tension IGBT')
@@ -48,7 +48,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,IS3IGBT1,AFE3LEVEL.time,IGBT.signals.values(:,1))
+plot(Time,IS9IGBT1,AFE3LEVEL.time,IGBT.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant IGBT', 'SPS Courant IGBT')
@@ -59,7 +59,7 @@ grid on
 %Tension Diode
 figure(4)
 subplot(2,1,1)
-plot(Time,S3Vdiode*-1,AFE3LEVEL.time,DIODE.signals.values(:,2))
+plot(Time,S9DIODE*-1,AFE3LEVEL.time,DIODE.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension diode', 'SPS Tension diode')
@@ -68,7 +68,7 @@ grid on
 
 %Courant Diode
 subplot(2,1,2)
-plot(Time,IS3D1,AFE3LEVEL.time,DIODE.signals.values(:,1))
+plot(Time,IS9D1,AFE3LEVEL.time,DIODE.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant diode', 'SPS Courant diode')

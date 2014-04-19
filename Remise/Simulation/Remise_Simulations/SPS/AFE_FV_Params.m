@@ -10,7 +10,7 @@ Freq = 50;
 %Pas de simulation
 Tpas = 10e-6;
 % Capacité bus CC
-Cbus=300e-3;
+Cbus=330e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 5000^2/2.7e6;
 %Seuil hystérésis

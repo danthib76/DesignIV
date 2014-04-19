@@ -39,7 +39,7 @@ grid on
 %Tension IGBT
 figure(3)
 subplot(2,1,1)
-plot(Time,S1Vigbt,AFESourceRC.time,IGBT.signals.values(:,2))
+plot(Time,S2Vigbt,AFESourceRC.time,IGBT.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension IGBT', 'SPS Tension IGBT')
@@ -48,7 +48,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,IS1IGBT,AFESourceRC.time,IGBT.signals.values(:,1))
+plot(Time,IS2IGBT,AFESourceRC.time,IGBT.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant IGBT', 'SPS Courant IGBT')
