@@ -37,8 +37,9 @@ L'implantation des blocs PI est différente entre SPS et PSIM. Sur SPS, il est p
 \end{figure}
 
 \clearpage
+\subsection{Calibration des contrôleurs (PI)}
+Les contrôleurs PI sont calibrés en utilisant des modèles continus équivalents des charges alimentées par les convertisseurs et ce, en excluant l'impact de la modulation. L'objectif étant d'obtenir la constante de temps dominante du circuit. Soit un circuit RL série, qui représente les électroaimants à alimenter, il est possible d'établir que la constante de temps dominante du contrôleur PI du convertisseur est de $T_i = \tau = L/R$. Le modèle de base d'un contrôleur PI pouvant être représenté par une équation dans le domaine de Laplace de la forme: $H(s) = \frac{1 + K_p T_is}{T_i s}$. Il suffit par la suite de procéder à une analyse dynamique du comportement du convertisseur afin de déterminer le gain $K_p$ fournissant la réponse optimale. Par la suite, il est nécessaire de procéder à une discrétisation du régulateur selon le pas de calcul, selon la méthode de Tustin. 
 \section{Convertisseur CC-CC 4 quadrants à 4 interrupteurs IGBT}
-\subsection{Description du sous-système}
 Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs IGBT commandés au moyen d'une régulation MLI. La figure \ref{hach} présente le circuit électrique associé à un tel convertisseur. Ce type de montage est un montage de base utilisé afin de valider le concept de fonctionnement d'un convertisseur CC-CC et d'établir la méthodologie de comparaison des simulations. Le tableau \ref{p_hash} présente les paramètres utilisés pour le hacheur 4 quadrants.
 
 \begin{figure}[htb]
@@ -469,7 +470,7 @@ Cette section présente les résultat de simulations obtenus sur PSIM et SPS pou
 \end{table}
 \clearpage
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Vérification pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulation pour l'hacheur 4 quadrants à 4 interrupteurs avec l'AFE 2 niveaux sur PSIM et sur SPS, pour un pas de calcul discret de 1$\mu$s. 
 
 

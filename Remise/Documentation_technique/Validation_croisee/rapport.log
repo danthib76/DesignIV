@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 APR 2014 21:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 APR 2014 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,7 +1076,7 @@ LaTeX Info: Redefining \nameref on input line 78.
 \openout3 = `rapport.out'.
 
 
-<./fig/ul_logo.pdf, id=132, 313.17pt x 129.48375pt>
+<./fig/ul_logo.pdf, id=128, 313.17pt x 129.48375pt>
 File: ./fig/ul_logo.pdf Graphic file (type pdf)
  <use ./fig/ul_logo.pdf>
 Package pdftex.def Info: ./fig/ul_logo.pdf used on input line 78.
@@ -1115,10 +1115,25 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 l_logo.pdf>]
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count159
- (./tex/AFE.tex
+ (./rapport.toc [1
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `rapport.toc'.
+
+ [2] (./rapport.lof
+[3
+
+] [4])
+\tf@lof=\write5
+\openout5 = `rapport.lof'.
+
+ (./tex/AFE.tex [5]
 Chapitre 1.
 
-<Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf, id=149, 477.18274pt x 219
+<Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf, id=347, 477.18274pt x 219
 .26216pt>
 File: Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf Graphic file (type pd
 f)
@@ -1126,9 +1141,7 @@ f)
 Package pdftex.def Info: Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf us
 ed on input line 15.
 (pdftex.def)             Requested size: 330.42041pt x 151.83304pt.
- [1
-
-
+ [6
 
  <./Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf, page is rotated 270 de
 grees>]
@@ -1137,7 +1150,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 44.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Graphs/RedresseurMonophaseSimpleAlternance50.pdf, id=166, 794.97pt x 614.295pt
+<Graphs/RedresseurMonophaseSimpleAlternance50.pdf, id=360, 794.97pt x 614.295pt
 >
 File: Graphs/RedresseurMonophaseSimpleAlternance50.pdf Graphic file (type pdf)
  <use Graphs/RedresseurMonophaseSimpleAlternance50.pdf>
@@ -1145,7 +1158,7 @@ Package pdftex.def Info: Graphs/RedresseurMonophaseSimpleAlternance50.pdf used
 on input line 52.
 (pdftex.def)             Requested size: 320.97777pt x 248.02885pt.
 
-<Graphs/RedresseurMonophaseSimpleAlternance100.pdf, id=167, 794.97pt x 614.295p
+<Graphs/RedresseurMonophaseSimpleAlternance100.pdf, id=361, 794.97pt x 614.295p
 t>
 File: Graphs/RedresseurMonophaseSimpleAlternance100.pdf Graphic file (type pdf)
 
@@ -1153,7 +1166,7 @@ File: Graphs/RedresseurMonophaseSimpleAlternance100.pdf Graphic file (type pdf)
 Package pdftex.def Info: Graphs/RedresseurMonophaseSimpleAlternance100.pdf used
  on input line 56.
 (pdftex.def)             Requested size: 320.97777pt x 248.02885pt.
- [2] [3 <./Graphs/RedresseurMonophaseSimpleAlternance50.pdf, page is rotated 90
+ [7] [8 <./Graphs/RedresseurMonophaseSimpleAlternance50.pdf, page is rotated 90
  degrees> <./Graphs/RedresseurMonophaseSimpleAlternance100.pdf, page is rotated
  90 degrees>]
 Overfull \hbox (0.91542pt too wide) in paragraph at lines 76--76
@@ -1161,7 +1174,7 @@ Overfull \hbox (0.91542pt too wide) in paragraph at lines 76--76
  []
 
 
-<Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, id=235, 563.55846pt x 379
+<Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, id=425, 563.55846pt x 379
 .93344pt>
 File: Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf Graphic file (type pd
 f)
@@ -1169,27 +1182,27 @@ f)
 Package pdftex.def Info: Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf us
 ed on input line 81.
 (pdftex.def)             Requested size: 330.42041pt x 222.76743pt.
- [4]
-[5 <./Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, page is rotated 270 
-degrees>] [6] [7]
+ [9]
+[10 <./Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, page is rotated 270
+ degrees>] [11] [12]
 Overfull \hbox (13.04001pt too wide) detected at line 156
 \OML/lmm/m/it/12 v\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 t\OT1/lmr/m/n/12 ) = \OML/l
 mm/m/it/12 R [] I[] [] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 v[]\OT1/lmr/m/n/12 (\
 OML/lmm/m/it/12 t[]\OT1/lmr/m/n/12 )
  []
 
-[8] [9]
+[13] [14]
 Overfull \hbox (12.31485pt too wide) in paragraph at lines 198--206
 [][] 
  []
 
-<fig/fig_VbusCC.png, id=296, 1284.9606pt x 415.5525pt>
+<fig/fig_VbusCC.png, id=485, 1284.9606pt x 415.5525pt>
 File: fig/fig_VbusCC.png Graphic file (type png)
 
 <use fig/fig_VbusCC.png>
 Package pdftex.def Info: fig/fig_VbusCC.png used on input line 211.
 (pdftex.def)             Requested size: 449.74295pt x 145.44554pt.
-) (./tex/DCP_DCN.tex [10 <./fig/fig_VbusCC.png (PNG copy)>] [11]
+) (./tex/DCP_DCN.tex [15 <./fig/fig_VbusCC.png (PNG copy)>] [16]
 Chapitre 2.
 
 Overfull \hbox (11.6583pt too wide) in paragraph at lines 1--1
@@ -1197,9 +1210,9 @@ Overfull \hbox (11.6583pt too wide) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 3.
+LaTeX Warning: Reference `' on page 17 undefined on input line 3.
 
-<fig/fig_courant_tension_mod.png, id=310, 1284.9606pt x 640.3122pt>
+<fig/fig_courant_tension_mod.png, id=499, 1284.9606pt x 640.3122pt>
 File: fig/fig_courant_tension_mod.png Graphic file (type png)
 
 <use fig/fig_courant_tension_mod.png>
@@ -1211,9 +1224,9 @@ Overfull \hbox (41.94391pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-[12
+[17
 
-] <fig/Imoy_m.png, id=320, 1284.9606pt x 373.395pt>
+] <fig/Imoy_m.png, id=507, 1284.9606pt x 373.395pt>
 File: fig/Imoy_m.png Graphic file (type png)
  <use fig/Imoy_m.png>
 Package pdftex.def Info: fig/Imoy_m.png used on input line 43.
@@ -1223,8 +1236,8 @@ Overfull \hbox (41.94391pt too wide) in paragraph at lines 43--44
  [][] 
  []
 
-[13 <./fig/fig_courant_tension_mod.png (PNG copy)>] [14 <./fig/Imoy_m.png (PNG 
-copy)>] <fig/commande_NPC_1.png, id=337, 1284.9606pt x 629.2308pt>
+[18 <./fig/fig_courant_tension_mod.png (PNG copy)>] [19 <./fig/Imoy_m.png (PNG 
+copy)>] <fig/commande_NPC_1.png, id=523, 1284.9606pt x 629.2308pt>
 File: fig/commande_NPC_1.png Graphic file (type png)
 
 <use fig/commande_NPC_1.png>
@@ -1235,8 +1248,8 @@ Overfull \hbox (41.94391pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[15 <./fig/commande_NPC_1.png (PNG copy)>]
-<fig/fig_ref_courant.png, id=345, 1284.9606pt x 394.5942pt>
+[20 <./fig/commande_NPC_1.png (PNG copy)>]
+<fig/fig_ref_courant.png, id=530, 1284.9606pt x 394.5942pt>
 File: fig/fig_ref_courant.png Graphic file (type png)
 
 <use fig/fig_ref_courant.png>
@@ -1253,12 +1266,12 @@ Overfull \hbox (16.61147pt too wide) in paragraph at lines 92--92
 
  []
 
-[16]) (./tex/validation_simulateurs.tex [17 <./fig/fig_ref_courant.png (PNG cop
-y)>] [18]
+[21]) (./tex/validation_simulateurs.tex [22 <./fig/fig_ref_courant.png (PNG cop
+y)>] [23]
 Chapitre 3.
-[19
+[24
 
-] <Fig/Comp/improving_performance5.png, id=373, 395.4775pt x 142.5325pt>
+] <Fig/Comp/improving_performance5.png, id=556, 395.4775pt x 142.5325pt>
 File: Fig/Comp/improving_performance5.png Graphic file (type png)
 
 <use Fig/Comp/improving_performance5.png>
@@ -1266,7 +1279,7 @@ Package pdftex.def Info: Fig/Comp/improving_performance5.png used on input line
  11.
 (pdftex.def)             Requested size: 276.83235pt x 99.77205pt.
 
-<fig/Comp/IGBT.jpg, id=374, 1009.52156pt x 337.26pt>
+<fig/Comp/IGBT.jpg, id=557, 1009.52156pt x 337.26pt>
 File: fig/Comp/IGBT.jpg Graphic file (type jpg)
  <use fig/Comp/IGBT.jpg>
 Package pdftex.def Info: fig/Comp/IGBT.jpg used on input line 20.
@@ -1276,8 +1289,8 @@ Overfull \hbox (32.72832pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-[20 <./Fig/Comp/improving_performance5.png> <./fig/Comp/IGBT.jpg>]
-<fig/Comp/PI.jpg, id=383, 1008.76875pt x 344.03531pt>
+[25 <./Fig/Comp/improving_performance5.png> <./fig/Comp/IGBT.jpg>]
+<fig/Comp/PI.jpg, id=565, 1008.76875pt x 344.03531pt>
 File: fig/Comp/PI.jpg Graphic file (type jpg)
  <use fig/Comp/PI.jpg>
 Package pdftex.def Info: fig/Comp/PI.jpg used on input line 34.
@@ -1287,643 +1300,649 @@ Overfull \hbox (32.35191pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-[21 <./fig/Comp/PI.jpg>]
+[26 <./fig/Comp/PI.jpg>]
 
-LaTeX Warning: Reference `hach' on page 22 undefined on input line 42.
+LaTeX Warning: Reference `hach' on page 27 undefined on input line 43.
 
-<fig/H4Q.png, id=390, 707.5233pt x 497.2176pt>
+<fig/H4Q.png, id=571, 707.5233pt x 497.2176pt>
 File: fig/H4Q.png Graphic file (type png)
  <use fig/H4Q.png>
-Package pdftex.def Info: fig/H4Q.png used on input line 46.
+Package pdftex.def Info: fig/H4Q.png used on input line 47.
 (pdftex.def)             Requested size: 353.76077pt x 248.60818pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 74.
+(hyperref)                removing `math shift' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 74.
+(hyperref)                removing `\mu' on input line 75.
 
 
-<fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=392, 1022.31938pt x 340.2
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 75.
+
+
+<fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=573, 1022.31938pt x 340.2
 7126pt>
 File: fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
 Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg used 
-on input line 80.
+on input line 81.
 (pdftex.def)             Requested size: 511.15843pt x 170.13521pt.
 
-Overfull \hbox (39.1272pt too wide) in paragraph at lines 80--81
+Overfull \hbox (39.1272pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
 
-<fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=393, 1020.06094pt x 394.4
+<fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=574, 1020.06094pt x 394.4
 7375pt>
 File: fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>
 Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg used 
-on input line 88.
+on input line 89.
 (pdftex.def)             Requested size: 510.02922pt x 197.23639pt.
 
-Overfull \hbox (37.99799pt too wide) in paragraph at lines 88--89
+Overfull \hbox (37.99799pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
 
-<fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=394, 1038.12843pt x 396.732
+<fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=575, 1038.12843pt x 396.732
 2pt>
 File: fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
 Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
- input line 96.
+ input line 97.
 (pdftex.def)             Requested size: 519.06294pt x 198.3656pt.
 
-Overfull \hbox (47.03171pt too wide) in paragraph at lines 96--97
+Overfull \hbox (47.03171pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
 
-<fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=395, 1024.57782pt x 398.990
+<fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=576, 1024.57782pt x 398.990
 63pt>
 File: fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
 Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg used on
- input line 103.
+ input line 104.
 (pdftex.def)             Requested size: 512.28766pt x 199.49483pt.
 
-Overfull \hbox (40.25642pt too wide) in paragraph at lines 103--104
+Overfull \hbox (40.25642pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-[22
+[27
 
- <./fig/H4Q.png>] [23 <./fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>]
-[24 <./fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg> <./fig/Hacheur4Quadran
-ts/HacheurCourantIGBT1u.jpg>] [25 <./fig/Hacheur4Quadrants/HacheurTensionIGBT1u
-.jpg>]
-Overfull \hbox (15.18301pt too wide) in paragraph at lines 110--110
+] [28 <./fig/H4Q.png>] [29 <./fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
+ <./fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>] [30 <./fig/Hacheur4Quadr
+ants/HacheurCourantIGBT1u.jpg> <./fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jp
+g>]
+Overfull \hbox (15.18301pt too wide) in paragraph at lines 111--111
  |[]\T1/lmr/bx/n/17.28 Convertisseur CC-CC 4 qua-drants formé de 2 conver-
  []
 
-<fig/DCP_DCN.png, id=422, 621.522pt x 600.0819pt>
+<fig/DCP_DCN.png, id=600, 621.522pt x 600.0819pt>
 File: fig/DCP_DCN.png Graphic file (type png)
  <use fig/DCP_DCN.png>
-Package pdftex.def Info: fig/DCP_DCN.png used on input line 116.
+Package pdftex.def Info: fig/DCP_DCN.png used on input line 117.
 (pdftex.def)             Requested size: 466.14037pt x 450.0603pt.
 
-[26
+[31
 
-] [27 <./fig/DCP_DCN.png>]
-<fig/DCPDCN/DCPCourantCharge1u.jpg, id=434, 1021.56656pt x 444.91219pt>
+] [32 <./fig/DCP_DCN.png>]
+<fig/DCPDCN/DCPCourantCharge1u.jpg, id=611, 1021.56656pt x 444.91219pt>
 File: fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPCourantCharge1u.jpg>
 Package pdftex.def Info: fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
-56.
+57.
 (pdftex.def)             Requested size: 510.78203pt x 222.45554pt.
 
-Overfull \hbox (38.7508pt too wide) in paragraph at lines 156--157
+Overfull \hbox (38.7508pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-<fig/DCPDCN/DCPTensionCharge1u.jpg, id=435, 1029.8475pt x 456.95718pt>
+<fig/DCPDCN/DCPTensionCharge1u.jpg, id=612, 1029.8475pt x 456.95718pt>
 File: fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPTensionCharge1u.jpg>
 Package pdftex.def Info: fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 1
-65.
+66.
 (pdftex.def)             Requested size: 514.9225pt x 228.47803pt.
 
-Overfull \hbox (42.89127pt too wide) in paragraph at lines 165--166
+Overfull \hbox (42.89127pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
-<fig/DCPDCN/DCPCourantIGBT1u.jpg, id=436, 1017.04968pt x 408.02437pt>
+<fig/DCPDCN/DCPCourantIGBT1u.jpg, id=613, 1017.04968pt x 408.02437pt>
 File: fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPCourantIGBT1u.jpg>
-Package pdftex.def Info: fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 173
+Package pdftex.def Info: fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 174
 .
 (pdftex.def)             Requested size: 508.52359pt x 204.01169pt.
 
-Overfull \hbox (36.49236pt too wide) in paragraph at lines 173--174
+Overfull \hbox (36.49236pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
-<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=437, 1029.09468pt x 466.74374pt>
+<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=614, 1029.09468pt x 466.74374pt>
 File: fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPTensionIGBT1u.jpg>
-Package pdftex.def Info: fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 181
+Package pdftex.def Info: fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 182
 .
 (pdftex.def)             Requested size: 514.54608pt x 233.37129pt.
 
-Overfull \hbox (42.51485pt too wide) in paragraph at lines 181--182
- [][] 
- []
-
-[28
-
- <./fig/DCPDCN/DCPCourantCharge1u.jpg>] [29 <./fig/DCPDCN/DCPTensionCharge1u.jp
-g> <./fig/DCPDCN/DCPCourantIGBT1u.jpg>] [30 <./fig/DCPDCN/DCPTensionIGBT1u.jpg>
-]
-
-LaTeX Warning: Reference `AFE' on page 31 undefined on input line 189.
-
-<fig/AFE_IDEAL.png, id=458, 774.0117pt x 401.8212pt>
-File: fig/AFE_IDEAL.png Graphic file (type png)
- <use fig/AFE_IDEAL.png>
-Package pdftex.def Info: fig/AFE_IDEAL.png used on input line 193.
-(pdftex.def)             Requested size: 464.4106pt x 241.09457pt.
-
-[31
-
- <./fig/AFE_IDEAL.png>] [32]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 225.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 225.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 225.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 225.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 225.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 225.
-
-<fig/AFEIDEAL/CourantAC.jpg, id=470, 1021.56656pt x 386.94562pt>
-File: fig/AFEIDEAL/CourantAC.jpg Graphic file (type jpg)
-
-<use fig/AFEIDEAL/CourantAC.jpg>
-Package pdftex.def Info: fig/AFEIDEAL/CourantAC.jpg used on input line 231.
-(pdftex.def)             Requested size: 510.78203pt x 193.47234pt.
-
-Overfull \hbox (38.7508pt too wide) in paragraph at lines 231--232
- [][] 
- []
-
-<fig/AFEIDEAL/pui45.jpg, id=471, 1004.25188pt x 375.65344pt>
-File: fig/AFEIDEAL/pui45.jpg Graphic file (type jpg)
-
-<use fig/AFEIDEAL/pui45.jpg>
-Package pdftex.def Info: fig/AFEIDEAL/pui45.jpg used on input line 240.
-(pdftex.def)             Requested size: 502.12471pt x 187.82625pt.
-
-Overfull \hbox (30.09348pt too wide) in paragraph at lines 240--241
- [][] 
- []
-
-<fig/AFEIDEAL/pui135.jpg, id=472, 1023.07219pt x 369.63094pt>
-File: fig/AFEIDEAL/pui135.jpg Graphic file (type jpg)
-
-<use fig/AFEIDEAL/pui135.jpg>
-Package pdftex.def Info: fig/AFEIDEAL/pui135.jpg used on input line 247.
-(pdftex.def)             Requested size: 511.53485pt x 184.815pt.
-
-Overfull \hbox (39.50362pt too wide) in paragraph at lines 247--248
- [][] 
- []
-
-<fig/AFEIDEAL/pui_45.jpg, id=473, 1010.27437pt x 371.88937pt>
-File: fig/AFEIDEAL/pui_45.jpg Graphic file (type jpg)
-
-<use fig/AFEIDEAL/pui_45.jpg>
-Package pdftex.def Info: fig/AFEIDEAL/pui_45.jpg used on input line 254.
-(pdftex.def)             Requested size: 505.13594pt x 185.94423pt.
-
-Overfull \hbox (33.1047pt too wide) in paragraph at lines 254--255
- [][] 
- []
-
-<fig/AFEIDEAL/pui_135.jpg, id=474, 1017.04968pt x 371.88937pt>
-File: fig/AFEIDEAL/pui_135.jpg Graphic file (type jpg)
-
-<use fig/AFEIDEAL/pui_135.jpg>
-Package pdftex.def Info: fig/AFEIDEAL/pui_135.jpg used on input line 261.
-(pdftex.def)             Requested size: 508.52359pt x 185.94423pt.
-
-Overfull \hbox (36.49236pt too wide) in paragraph at lines 261--262
+Overfull \hbox (42.51485pt too wide) in paragraph at lines 182--183
  [][] 
  []
 
 [33
 
- <./fig/AFEIDEAL/CourantAC.jpg>] [34 <./fig/AFEIDEAL/pui45.jpg> <./fig/AFEIDEAL
-/pui135.jpg>] [35 <./fig/AFEIDEAL/pui_45.jpg> <./fig/AFEIDEAL/pui_135.jpg>]
-<fig/AFE_2L_RC.png, id=495, 703.428pt x 343.5234pt>
-File: fig/AFE_2L_RC.png Graphic file (type png)
- <use fig/AFE_2L_RC.png>
-Package pdftex.def Info: fig/AFE_2L_RC.png used on input line 273.
-(pdftex.def)             Requested size: 422.06006pt x 206.11562pt.
+ <./fig/DCPDCN/DCPCourantCharge1u.jpg>] [34 <./fig/DCPDCN/DCPTensionCharge1u.jp
+g> <./fig/DCPDCN/DCPCourantIGBT1u.jpg>] [35 <./fig/DCPDCN/DCPTensionIGBT1u.jpg>
+]
 
-<fig/AFERC/FFTAnalysisToolResult5u.png, id=496, 616.55344pt x 517.18219pt>
-File: fig/AFERC/FFTAnalysisToolResult5u.png Graphic file (type png)
+LaTeX Warning: Reference `AFE' on page 36 undefined on input line 190.
 
-<use fig/AFERC/FFTAnalysisToolResult5u.png>
-Package pdftex.def Info: fig/AFERC/FFTAnalysisToolResult5u.png used on input li
-ne 281.
-(pdftex.def)             Requested size: 308.27596pt x 258.59045pt.
- [36
+<fig/AFE_IDEAL.png, id=629, 774.0117pt x 401.8212pt>
+File: fig/AFE_IDEAL.png Graphic file (type png)
+ <use fig/AFE_IDEAL.png>
+Package pdftex.def Info: fig/AFE_IDEAL.png used on input line 194.
+(pdftex.def)             Requested size: 464.4106pt x 241.09457pt.
 
- <./fig/AFE_2L_RC.png>] [37 <./fig/AFERC/FFTAnalysisToolResult5u.png (PNG copy)
->]
+[36
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 313.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 313.
+ <./fig/AFE_IDEAL.png>] [37]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 226.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 226.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 226.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 313.
+(hyperref)                removing `math shift' on input line 226.
 
-<fig/AFERC/cour_al.jpg, id=510, 1028.34187pt x 386.19281pt>
-File: fig/AFERC/cour_al.jpg Graphic file (type jpg)
 
-<use fig/AFERC/cour_al.jpg>
-Package pdftex.def Info: fig/AFERC/cour_al.jpg used on input line 321.
-(pdftex.def)             Requested size: 514.16968pt x 193.09592pt.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 226.
 
-Overfull \hbox (42.13844pt too wide) in paragraph at lines 321--322
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 226.
+
+<fig/AFEIDEAL/CourantAC.jpg, id=641, 1021.56656pt x 386.94562pt>
+File: fig/AFEIDEAL/CourantAC.jpg Graphic file (type jpg)
+
+<use fig/AFEIDEAL/CourantAC.jpg>
+Package pdftex.def Info: fig/AFEIDEAL/CourantAC.jpg used on input line 232.
+(pdftex.def)             Requested size: 510.78203pt x 193.47234pt.
+
+Overfull \hbox (38.7508pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-<fig/AFERC/vch.jpg, id=511, 1017.04968pt x 373.395pt>
-File: fig/AFERC/vch.jpg Graphic file (type jpg)
- <use fig/AFERC/vch.jpg>
-Package pdftex.def Info: fig/AFERC/vch.jpg used on input line 331.
-(pdftex.def)             Requested size: 508.52359pt x 186.69704pt.
+<fig/AFEIDEAL/pui45.jpg, id=642, 1004.25188pt x 375.65344pt>
+File: fig/AFEIDEAL/pui45.jpg Graphic file (type jpg)
 
-Overfull \hbox (36.49236pt too wide) in paragraph at lines 331--332
+<use fig/AFEIDEAL/pui45.jpg>
+Package pdftex.def Info: fig/AFEIDEAL/pui45.jpg used on input line 241.
+(pdftex.def)             Requested size: 502.12471pt x 187.82625pt.
+
+Overfull \hbox (30.09348pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
-<fig/AFERC/IGBT.jpg, id=512, 1029.09468pt x 371.88937pt>
-File: fig/AFERC/IGBT.jpg Graphic file (type jpg)
+<fig/AFEIDEAL/pui135.jpg, id=643, 1023.07219pt x 369.63094pt>
+File: fig/AFEIDEAL/pui135.jpg Graphic file (type jpg)
 
-<use fig/AFERC/IGBT.jpg>
-Package pdftex.def Info: fig/AFERC/IGBT.jpg used on input line 340.
-(pdftex.def)             Requested size: 514.54608pt x 185.94423pt.
+<use fig/AFEIDEAL/pui135.jpg>
+Package pdftex.def Info: fig/AFEIDEAL/pui135.jpg used on input line 248.
+(pdftex.def)             Requested size: 511.53485pt x 184.815pt.
 
-Overfull \hbox (42.51485pt too wide) in paragraph at lines 340--341
+Overfull \hbox (39.50362pt too wide) in paragraph at lines 248--249
+ [][] 
+ []
+
+<fig/AFEIDEAL/pui_45.jpg, id=644, 1010.27437pt x 371.88937pt>
+File: fig/AFEIDEAL/pui_45.jpg Graphic file (type jpg)
+
+<use fig/AFEIDEAL/pui_45.jpg>
+Package pdftex.def Info: fig/AFEIDEAL/pui_45.jpg used on input line 255.
+(pdftex.def)             Requested size: 505.13594pt x 185.94423pt.
+
+Overfull \hbox (33.1047pt too wide) in paragraph at lines 255--256
+ [][] 
+ []
+
+<fig/AFEIDEAL/pui_135.jpg, id=645, 1017.04968pt x 371.88937pt>
+File: fig/AFEIDEAL/pui_135.jpg Graphic file (type jpg)
+
+<use fig/AFEIDEAL/pui_135.jpg>
+Package pdftex.def Info: fig/AFEIDEAL/pui_135.jpg used on input line 262.
+(pdftex.def)             Requested size: 508.52359pt x 185.94423pt.
+
+Overfull \hbox (36.49236pt too wide) in paragraph at lines 262--263
  [][] 
  []
 
 [38
 
- <./fig/AFERC/cour_al.jpg> <./fig/AFERC/vch.jpg>] [39 <./fig/AFERC/IGBT.jpg>] <
-fig/AFE_3L_RC.png, id=526, 758.3532pt x 440.6061pt>
+ <./fig/AFEIDEAL/CourantAC.jpg>] [39 <./fig/AFEIDEAL/pui45.jpg> <./fig/AFEIDEAL
+/pui135.jpg>] [40 <./fig/AFEIDEAL/pui_45.jpg> <./fig/AFEIDEAL/pui_135.jpg>]
+<fig/AFE_2L_RC.png, id=661, 703.428pt x 343.5234pt>
+File: fig/AFE_2L_RC.png Graphic file (type png)
+ <use fig/AFE_2L_RC.png>
+Package pdftex.def Info: fig/AFE_2L_RC.png used on input line 274.
+(pdftex.def)             Requested size: 422.06006pt x 206.11562pt.
+
+<fig/AFERC/FFTAnalysisToolResult5u.png, id=662, 616.55344pt x 517.18219pt>
+File: fig/AFERC/FFTAnalysisToolResult5u.png Graphic file (type png)
+
+<use fig/AFERC/FFTAnalysisToolResult5u.png>
+Package pdftex.def Info: fig/AFERC/FFTAnalysisToolResult5u.png used on input li
+ne 282.
+(pdftex.def)             Requested size: 308.27596pt x 258.59045pt.
+ [41
+
+ <./fig/AFE_2L_RC.png>] [42 <./fig/AFERC/FFTAnalysisToolResult5u.png (PNG copy)
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 314.
+
+<fig/AFERC/cour_al.jpg, id=674, 1028.34187pt x 386.19281pt>
+File: fig/AFERC/cour_al.jpg Graphic file (type jpg)
+
+<use fig/AFERC/cour_al.jpg>
+Package pdftex.def Info: fig/AFERC/cour_al.jpg used on input line 322.
+(pdftex.def)             Requested size: 514.16968pt x 193.09592pt.
+
+Overfull \hbox (42.13844pt too wide) in paragraph at lines 322--323
+ [][] 
+ []
+
+<fig/AFERC/vch.jpg, id=675, 1017.04968pt x 373.395pt>
+File: fig/AFERC/vch.jpg Graphic file (type jpg)
+ <use fig/AFERC/vch.jpg>
+Package pdftex.def Info: fig/AFERC/vch.jpg used on input line 332.
+(pdftex.def)             Requested size: 508.52359pt x 186.69704pt.
+
+Overfull \hbox (36.49236pt too wide) in paragraph at lines 332--333
+ [][] 
+ []
+
+<fig/AFERC/IGBT.jpg, id=676, 1029.09468pt x 371.88937pt>
+File: fig/AFERC/IGBT.jpg Graphic file (type jpg)
+
+<use fig/AFERC/IGBT.jpg>
+Package pdftex.def Info: fig/AFERC/IGBT.jpg used on input line 341.
+(pdftex.def)             Requested size: 514.54608pt x 185.94423pt.
+
+Overfull \hbox (42.51485pt too wide) in paragraph at lines 341--342
+ [][] 
+ []
+
+[43
+
+ <./fig/AFERC/cour_al.jpg> <./fig/AFERC/vch.jpg>] [44 <./fig/AFERC/IGBT.jpg>] <
+fig/AFE_3L_RC.png, id=687, 758.3532pt x 440.6061pt>
 File: fig/AFE_3L_RC.png Graphic file (type png)
  <use fig/AFE_3L_RC.png>
-Package pdftex.def Info: fig/AFE_3L_RC.png used on input line 380.
+Package pdftex.def Info: fig/AFE_3L_RC.png used on input line 381.
 (pdftex.def)             Requested size: 455.01543pt x 264.36569pt.
 
-[40
+[45
 
-] [41 <./fig/AFE_3L_RC.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 387.
-
+] [46 <./fig/AFE_3L_RC.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 387.
+(hyperref)                removing `math shift' on input line 388.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 387.
+(hyperref)                removing `\mu' on input line 388.
 
-<fig/AFE3LEVEL/1u/cour_al.jpg, id=538, 1011.02719pt x 395.97937pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 388.
+
+<fig/AFE3LEVEL/1u/cour_al.jpg, id=698, 1011.02719pt x 395.97937pt>
 File: fig/AFE3LEVEL/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/cour_al.jpg>
-Package pdftex.def Info: fig/AFE3LEVEL/1u/cour_al.jpg used on input line 392.
+Package pdftex.def Info: fig/AFE3LEVEL/1u/cour_al.jpg used on input line 393.
 (pdftex.def)             Requested size: 505.51236pt x 197.9892pt.
 
-Overfull \hbox (33.48112pt too wide) in paragraph at lines 392--393
+Overfull \hbox (33.48112pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
-<fig/AFE3LEVEL/1u/vch.jpg, id=539, 1048.66782pt x 389.95688pt>
+<fig/AFE3LEVEL/1u/vch.jpg, id=699, 1048.66782pt x 389.95688pt>
 File: fig/AFE3LEVEL/1u/vch.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/vch.jpg>
-Package pdftex.def Info: fig/AFE3LEVEL/1u/vch.jpg used on input line 400.
+Package pdftex.def Info: fig/AFE3LEVEL/1u/vch.jpg used on input line 401.
 (pdftex.def)             Requested size: 524.33263pt x 194.97795pt.
 
-Overfull \hbox (52.30139pt too wide) in paragraph at lines 400--401
+Overfull \hbox (52.30139pt too wide) in paragraph at lines 401--402
  [][] 
  []
 
-<fig/AFE3LEVEL/1u/IGBT.jpg, id=540, 1025.33063pt x 387.69844pt>
+<fig/AFE3LEVEL/1u/IGBT.jpg, id=700, 1025.33063pt x 387.69844pt>
 File: fig/AFE3LEVEL/1u/IGBT.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/IGBT.jpg>
-Package pdftex.def Info: fig/AFE3LEVEL/1u/IGBT.jpg used on input line 408.
+Package pdftex.def Info: fig/AFE3LEVEL/1u/IGBT.jpg used on input line 409.
 (pdftex.def)             Requested size: 512.66406pt x 193.84874pt.
 
-Overfull \hbox (40.63283pt too wide) in paragraph at lines 408--409
+Overfull \hbox (40.63283pt too wide) in paragraph at lines 409--410
  [][] 
  []
 
-<fig/AFE3LEVEL/1u/DIODE.jpg, id=541, 1026.83624pt x 400.49625pt>
+<fig/AFE3LEVEL/1u/DIODE.jpg, id=701, 1026.83624pt x 400.49625pt>
 File: fig/AFE3LEVEL/1u/DIODE.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/DIODE.jpg>
-Package pdftex.def Info: fig/AFE3LEVEL/1u/DIODE.jpg used on input line 415.
+Package pdftex.def Info: fig/AFE3LEVEL/1u/DIODE.jpg used on input line 416.
 (pdftex.def)             Requested size: 513.41687pt x 200.24763pt.
 
-Overfull \hbox (41.38564pt too wide) in paragraph at lines 415--416
- [][] 
- []
-
-[42
-
- <./fig/AFE3LEVEL/1u/cour_al.jpg>] [43 <./fig/AFE3LEVEL/1u/vch.jpg> <./fig/AFE3
-LEVEL/1u/IGBT.jpg>] [44 <./fig/AFE3LEVEL/1u/DIODE.jpg>]
-<fig/H4Q_AFE_2L_RC.png, id=561, 658.1388pt x 270.0489pt>
-File: fig/H4Q_AFE_2L_RC.png Graphic file (type png)
-
-<use fig/H4Q_AFE_2L_RC.png>
-Package pdftex.def Info: fig/H4Q_AFE_2L_RC.png used on input line 427.
-(pdftex.def)             Requested size: 394.88632pt x 162.0306pt.
- [45
-
- <./fig/H4Q_AFE_2L_RC.png>] [46]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 472.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 472.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 472.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 472.
-
-<fig/Hach_AFE/1u/cour_al.jpg, id=573, 1021.56656pt x 472.01344pt>
-File: fig/Hach_AFE/1u/cour_al.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/cour_al.jpg used on input line 478.
-(pdftex.def)             Requested size: 510.78203pt x 236.00613pt.
-
-Overfull \hbox (38.7508pt too wide) in paragraph at lines 478--479
- [][] 
- []
-
-<fig/Hach_AFE/1u/ten_bus.jpg, id=574, 1010.27437pt x 456.95718pt>
-File: fig/Hach_AFE/1u/ten_bus.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/ten_bus.jpg used on input line 486.
-(pdftex.def)             Requested size: 505.13594pt x 228.47803pt.
-
-Overfull \hbox (33.1047pt too wide) in paragraph at lines 486--487
- [][] 
- []
-
-<fig/Hach_AFE/1u/IGBT_AFE.jpg, id=575, 1020.81375pt x 458.46281pt>
-File: fig/Hach_AFE/1u/IGBT_AFE.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/IGBT_AFE.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_AFE.jpg used on input line 495.
-(pdftex.def)             Requested size: 510.40562pt x 229.23083pt.
-
-Overfull \hbox (38.37439pt too wide) in paragraph at lines 495--496
- [][] 
- []
-
-<fig/Hach_AFE/1u/hach_cou_ch.jpg, id=576, 1021.56656pt x 450.18187pt>
-File: fig/Hach_AFE/1u/hach_cou_ch.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/hach_cou_ch.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/hach_cou_ch.jpg used on input line 503
-.
-(pdftex.def)             Requested size: 510.78203pt x 225.09038pt.
-
-Overfull \hbox (38.7508pt too wide) in paragraph at lines 503--504
- [][] 
- []
-
-<fig/Hach_AFE/1u/hach_ten_ch.jpg, id=577, 1020.06094pt x 463.7325pt>
-File: fig/Hach_AFE/1u/hach_ten_ch.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/hach_ten_ch.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/hach_ten_ch.jpg used on input line 512
-.
-(pdftex.def)             Requested size: 510.02922pt x 231.86568pt.
-
-Overfull \hbox (37.99799pt too wide) in paragraph at lines 512--513
- [][] 
- []
-
-<fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=578, 1014.03844pt x 459.96844pt>
-File: fig/Hach_AFE/1u/IGBT_cou_hach.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/IGBT_cou_hach.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_cou_hach.jpg used on input line 5
-19.
-(pdftex.def)             Requested size: 507.01797pt x 229.98366pt.
-
-Overfull \hbox (34.98674pt too wide) in paragraph at lines 519--520
- [][] 
- []
-
-<fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=579, 1027.58907pt x 461.47406pt>
-File: fig/Hach_AFE/1u/IGBT_ten_hach.jpg Graphic file (type jpg)
-
-<use fig/Hach_AFE/1u/IGBT_ten_hach.jpg>
-Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_ten_hach.jpg used on input line 5
-26.
-(pdftex.def)             Requested size: 513.79327pt x 230.73645pt.
-
-Overfull \hbox (41.76204pt too wide) in paragraph at lines 526--527
+Overfull \hbox (41.38564pt too wide) in paragraph at lines 416--417
  [][] 
  []
 
 [47
 
- <./fig/Hach_AFE/1u/cour_al.jpg>] [48 <./fig/Hach_AFE/1u/ten_bus.jpg> <./fig/Ha
-ch_AFE/1u/IGBT_AFE.jpg>] [49 <./fig/Hach_AFE/1u/hach_cou_ch.jpg> <./fig/Hach_AF
-E/1u/hach_ten_ch.jpg>] [50 <./fig/Hach_AFE/1u/IGBT_cou_hach.jpg> <./fig/Hach_AF
+ <./fig/AFE3LEVEL/1u/cour_al.jpg>] [48 <./fig/AFE3LEVEL/1u/vch.jpg> <./fig/AFE3
+LEVEL/1u/IGBT.jpg>] [49 <./fig/AFE3LEVEL/1u/DIODE.jpg>]
+<fig/H4Q_AFE_2L_RC.png, id=718, 658.1388pt x 270.0489pt>
+File: fig/H4Q_AFE_2L_RC.png Graphic file (type png)
+
+<use fig/H4Q_AFE_2L_RC.png>
+Package pdftex.def Info: fig/H4Q_AFE_2L_RC.png used on input line 428.
+(pdftex.def)             Requested size: 394.88632pt x 162.0306pt.
+ [50
+
+ <./fig/H4Q_AFE_2L_RC.png>] [51]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 473.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 473.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 473.
+
+<fig/Hach_AFE/1u/cour_al.jpg, id=729, 1021.56656pt x 472.01344pt>
+File: fig/Hach_AFE/1u/cour_al.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/cour_al.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/cour_al.jpg used on input line 479.
+(pdftex.def)             Requested size: 510.78203pt x 236.00613pt.
+
+Overfull \hbox (38.7508pt too wide) in paragraph at lines 479--480
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/ten_bus.jpg, id=730, 1010.27437pt x 456.95718pt>
+File: fig/Hach_AFE/1u/ten_bus.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/ten_bus.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/ten_bus.jpg used on input line 487.
+(pdftex.def)             Requested size: 505.13594pt x 228.47803pt.
+
+Overfull \hbox (33.1047pt too wide) in paragraph at lines 487--488
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/IGBT_AFE.jpg, id=731, 1020.81375pt x 458.46281pt>
+File: fig/Hach_AFE/1u/IGBT_AFE.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/IGBT_AFE.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_AFE.jpg used on input line 496.
+(pdftex.def)             Requested size: 510.40562pt x 229.23083pt.
+
+Overfull \hbox (38.37439pt too wide) in paragraph at lines 496--497
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/hach_cou_ch.jpg, id=732, 1021.56656pt x 450.18187pt>
+File: fig/Hach_AFE/1u/hach_cou_ch.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/hach_cou_ch.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/hach_cou_ch.jpg used on input line 504
+.
+(pdftex.def)             Requested size: 510.78203pt x 225.09038pt.
+
+Overfull \hbox (38.7508pt too wide) in paragraph at lines 504--505
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/hach_ten_ch.jpg, id=733, 1020.06094pt x 463.7325pt>
+File: fig/Hach_AFE/1u/hach_ten_ch.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/hach_ten_ch.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/hach_ten_ch.jpg used on input line 513
+.
+(pdftex.def)             Requested size: 510.02922pt x 231.86568pt.
+
+Overfull \hbox (37.99799pt too wide) in paragraph at lines 513--514
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=734, 1014.03844pt x 459.96844pt>
+File: fig/Hach_AFE/1u/IGBT_cou_hach.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/IGBT_cou_hach.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_cou_hach.jpg used on input line 5
+20.
+(pdftex.def)             Requested size: 507.01797pt x 229.98366pt.
+
+Overfull \hbox (34.98674pt too wide) in paragraph at lines 520--521
+ [][] 
+ []
+
+<fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=735, 1027.58907pt x 461.47406pt>
+File: fig/Hach_AFE/1u/IGBT_ten_hach.jpg Graphic file (type jpg)
+
+<use fig/Hach_AFE/1u/IGBT_ten_hach.jpg>
+Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_ten_hach.jpg used on input line 5
+27.
+(pdftex.def)             Requested size: 513.79327pt x 230.73645pt.
+
+Overfull \hbox (41.76204pt too wide) in paragraph at lines 527--528
+ [][] 
+ []
+
+[52
+
+ <./fig/Hach_AFE/1u/cour_al.jpg>] [53 <./fig/Hach_AFE/1u/ten_bus.jpg> <./fig/Ha
+ch_AFE/1u/IGBT_AFE.jpg>] [54 <./fig/Hach_AFE/1u/hach_cou_ch.jpg> <./fig/Hach_AF
+E/1u/hach_ten_ch.jpg>] [55 <./fig/Hach_AFE/1u/IGBT_cou_hach.jpg> <./fig/Hach_AF
 E/1u/IGBT_ten_hach.jpg>]
-<fig/AFE_3L_RC_DCP_DCN.png, id=607, 763.653pt x 547.3248pt>
+<fig/AFE_3L_RC_DCP_DCN.png, id=755, 763.653pt x 547.3248pt>
 File: fig/AFE_3L_RC_DCP_DCN.png Graphic file (type png)
 
 <use fig/AFE_3L_RC_DCP_DCN.png>
-Package pdftex.def Info: fig/AFE_3L_RC_DCP_DCN.png used on input line 539.
+Package pdftex.def Info: fig/AFE_3L_RC_DCP_DCN.png used on input line 540.
 (pdftex.def)             Requested size: 458.19534pt x 328.3974pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 588.
+(hyperref)                removing `math shift' on input line 589.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 588.
+(hyperref)                removing `\mu' on input line 589.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 588.
+(hyperref)                removing `math shift' on input line 589.
 
-[51
+[56
 
  <./fig/AFE_3L_RC_DCP_DCN.png>]
-<fig/DCP_AFE/1u/cour_al.jpg, id=615, 1004.25188pt x 419.31656pt>
+<fig/DCP_AFE/1u/cour_al.jpg, id=762, 1004.25188pt x 419.31656pt>
 File: fig/DCP_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 593.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 594.
 (pdftex.def)             Requested size: 502.12471pt x 209.65776pt.
 
-Overfull \hbox (30.09348pt too wide) in paragraph at lines 593--594
+Overfull \hbox (30.09348pt too wide) in paragraph at lines 594--595
  [][] 
  []
 
-<fig/DCP_AFE/1u/ten_bus.jpg, id=616, 1018.55531pt x 401.24907pt>
+<fig/DCP_AFE/1u/ten_bus.jpg, id=763, 1018.55531pt x 401.24907pt>
 File: fig/DCP_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 601.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 602.
 (pdftex.def)             Requested size: 509.27641pt x 200.62404pt.
 
-Overfull \hbox (37.24518pt too wide) in paragraph at lines 601--602
+Overfull \hbox (37.24518pt too wide) in paragraph at lines 602--603
  [][] 
  []
 
-<fig/DCP_AFE/1u/IGBT_afe.jpg, id=617, 1030.60031pt x 409.53pt>
+<fig/DCP_AFE/1u/IGBT_afe.jpg, id=764, 1030.60031pt x 409.53pt>
 File: fig/DCP_AFE/1u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/IGBT_afe.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 610.
+Package pdftex.def Info: fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 611.
 (pdftex.def)             Requested size: 515.29889pt x 204.7645pt.
 
-Overfull \hbox (43.26765pt too wide) in paragraph at lines 610--611
+Overfull \hbox (43.26765pt too wide) in paragraph at lines 611--612
  [][] 
  []
 
-<fig/DCP_AFE/1u/ten_diode_afe.jpg, id=618, 1015.54407pt x 395.97937pt>
+<fig/DCP_AFE/1u/ten_diode_afe.jpg, id=765, 1015.54407pt x 395.97937pt>
 File: fig/DCP_AFE/1u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_diode_afe.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 61
-8.
+9.
 (pdftex.def)             Requested size: 507.7708pt x 197.9892pt.
 
-Overfull \hbox (35.73956pt too wide) in paragraph at lines 618--619
+Overfull \hbox (35.73956pt too wide) in paragraph at lines 619--620
  [][] 
  []
 
-<fig/DCP_AFE/1u/cour_ch.jpg, id=619, 1029.09468pt x 393.72093pt>
+<fig/DCP_AFE/1u/cour_ch.jpg, id=766, 1029.09468pt x 393.72093pt>
 File: fig/DCP_AFE/1u/cour_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_ch.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 626.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 627.
 (pdftex.def)             Requested size: 514.54608pt x 196.85999pt.
 
-Overfull \hbox (42.51485pt too wide) in paragraph at lines 626--627
+Overfull \hbox (42.51485pt too wide) in paragraph at lines 627--628
  [][] 
  []
 
-<fig/DCP_AFE/1u/ten_ch.jpg, id=620, 1015.54407pt x 392.96812pt>
+<fig/DCP_AFE/1u/ten_ch.jpg, id=767, 1015.54407pt x 392.96812pt>
 File: fig/DCP_AFE/1u/ten_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_ch.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_ch.jpg used on input line 635.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_ch.jpg used on input line 636.
 (pdftex.def)             Requested size: 507.7708pt x 196.48357pt.
 
-Overfull \hbox (35.73956pt too wide) in paragraph at lines 635--636
+Overfull \hbox (35.73956pt too wide) in paragraph at lines 636--637
  [][] 
  []
 
-<fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=621, 1017.04968pt x 394.47375pt>
+<fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=768, 1017.04968pt x 394.47375pt>
 File: fig/DCP_AFE/1u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_cou_IGBT.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 64
-4.
+5.
 (pdftex.def)             Requested size: 508.52359pt x 197.23639pt.
 
-Overfull \hbox (36.49236pt too wide) in paragraph at lines 644--645
+Overfull \hbox (36.49236pt too wide) in paragraph at lines 645--646
  [][] 
  []
 
-<fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=622, 1013.28563pt x 393.72093pt>
+<fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=769, 1013.28563pt x 393.72093pt>
 File: fig/DCP_AFE/1u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_ten_IGBT.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 65
-3.
+4.
 (pdftex.def)             Requested size: 506.64159pt x 196.85999pt.
 
-Overfull \hbox (34.61035pt too wide) in paragraph at lines 653--654
+Overfull \hbox (34.61035pt too wide) in paragraph at lines 654--655
  [][] 
  []
 
-<fig/DCP_AFE/1u/hash_diode_cou.jpg, id=623, 1034.36438pt x 383.93437pt>
+<fig/DCP_AFE/1u/hash_diode_cou.jpg, id=770, 1034.36438pt x 383.93437pt>
 File: fig/DCP_AFE/1u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode_cou.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode_cou.jpg used on input line 6
-62.
+63.
 (pdftex.def)             Requested size: 517.18092pt x 191.9667pt.
 
-Overfull \hbox (45.14969pt too wide) in paragraph at lines 662--663
+Overfull \hbox (45.14969pt too wide) in paragraph at lines 663--664
  [][] 
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 663--663
+Underfull \hbox (badness 1117) in paragraph at lines 664--664
 []\T1/lmr/m/it/12 Figure 3.47 ^^U |Le cou-rant tra-ver-sant une diode de point 
 mi-lieu du
  []
 
-<fig/DCP_AFE/1u/hash_diode.jpg, id=624, 1019.30812pt x 380.92313pt>
+<fig/DCP_AFE/1u/hash_diode.jpg, id=771, 1019.30812pt x 380.92313pt>
 File: fig/DCP_AFE/1u/hash_diode.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode.jpg used on input line 670.
+Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode.jpg used on input line 671.
 (pdftex.def)             Requested size: 509.65282pt x 190.46109pt.
 
-Overfull \hbox (37.62158pt too wide) in paragraph at lines 670--671
+Overfull \hbox (37.62158pt too wide) in paragraph at lines 671--672
  [][] 
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
- [52 <./fig/DCP_AFE/1u/cour_al.jpg>] [53 <./fig/DCP_AFE/1u/ten_bus.jpg> <./fig/
-DCP_AFE/1u/IGBT_afe.jpg>] [54] [55 <./fig/DCP_AFE/1u/ten_diode_afe.jpg> <./fig/
-DCP_AFE/1u/cour_ch.jpg>] [56 <./fig/DCP_AFE/1u/ten_ch.jpg> <./fig/DCP_AFE/1u/ha
-sh_cou_IGBT.jpg>] [57 <./fig/DCP_AFE/1u/hash_ten_IGBT.jpg> <./fig/DCP_AFE/1u/ha
-sh_diode_cou.jpg>] [58 <./fig/DCP_AFE/1u/hash_diode.jpg>]
+ [57 <./fig/DCP_AFE/1u/cour_al.jpg>] [58 <./fig/DCP_AFE/1u/ten_bus.jpg> <./fig/
+DCP_AFE/1u/IGBT_afe.jpg>] [59] [60 <./fig/DCP_AFE/1u/ten_diode_afe.jpg> <./fig/
+DCP_AFE/1u/cour_ch.jpg>] [61 <./fig/DCP_AFE/1u/ten_ch.jpg> <./fig/DCP_AFE/1u/ha
+sh_cou_IGBT.jpg>] [62 <./fig/DCP_AFE/1u/hash_ten_IGBT.jpg> <./fig/DCP_AFE/1u/ha
+sh_diode_cou.jpg>] [63 <./fig/DCP_AFE/1u/hash_diode.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (./rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F41B45E037BD38FC55B37F43F0424755;3253.
 
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: C6D5196248CE46C28EBE43C65A8B17A6;3159
+(rerunfilecheck)             After:  B28E4F1008DC3AC0096CE9BABED5DC8D;3250.
 
 LaTeX Warning: There were undefined references.
 
@@ -1933,13 +1952,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 13361 strings out of 493315
- 201787 string characters out of 6137904
- 304884 words of memory out of 5000000
+ 13374 strings out of 493315
+ 201886 string characters out of 6137904
+ 308885 words of memory out of 5000000
  16301 multiletter control sequences out of 15000+600000
  66349 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,12n,42p,1985b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,42p,1985b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1965,10 +1984,10 @@ cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/
 s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
 blic/lm/lmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb>
-Output written on rapport.pdf (59 pages, 6943933 bytes).
+Output written on rapport.pdf (64 pages, 6957730 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
- 190 named destinations out of 1000 (max. 500000)
- 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 731 compressed objects within 8 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 539 words of extra memory for PDF output out of 10000 (max. 10000000)
 
