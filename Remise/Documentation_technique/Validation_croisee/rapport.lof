@@ -43,6 +43,7 @@
 \contentsline {figure}{\numberline {3.27}{\ignorespaces La tension \IeC {\`a} la charge pour un pas de calcul de 1$\mu $s, pour l'AFE 3 niveaux\relax }}{50}{figure.caption.45}
 \contentsline {figure}{\numberline {3.28}{\ignorespaces La tension et le courant au niveau d'un IGBT pour un pas de calcul de 1$\mu $s, pour l'AFE 3 niveaux\relax }}{50}{figure.caption.46}
 \contentsline {figure}{\numberline {3.29}{\ignorespaces La tension et le courant au niveau d'une diode pour un pas de calcul de 1$\mu $s, pour l'AFE 3 niveaux\relax }}{51}{figure.caption.47}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.30}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT\relax }}{53}{figure.caption.48}
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Le courant d'entr\IeC {\'e} \IeC {\`a} 1$\mu $s section AFE\relax }}{55}{figure.caption.50}
 \contentsline {figure}{\numberline {3.32}{\ignorespaces La tension au bus CC \IeC {\`a} 1$\mu $s section AFE\relax }}{56}{figure.caption.51}
@@ -62,3 +63,27 @@
 \contentsline {figure}{\numberline {3.46}{\ignorespaces La tension aux bornes d'un IGBT du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{67}{figure.caption.66}
 \contentsline {figure}{\numberline {3.47}{\ignorespaces Le courant traversant une diode de point milieu du DCP/DCN pour un pas de calcul d 1$\mu $s\relax }}{67}{figure.caption.67}
 \contentsline {figure}{\numberline {3.48}{\ignorespaces La tension aux bornes d'une diode de point milieu du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{68}{figure.caption.68}
+=======
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT\relax }}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Le courant d'entr\IeC {\'e} \IeC {\`a} 1$\mu $s section AFE\relax }}{54}{figure.caption.50}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces La tension au bus CC \IeC {\`a} 1$\mu $s section AFE\relax }}{55}{figure.caption.51}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces La tension et le courant au niveau d'un IGBT \IeC {\`a} 1$\mu $s au niveau de l'AFE\relax }}{55}{figure.caption.52}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Le courant au niveau de la charge \IeC {\`a} 1$\mu $s\relax }}{56}{figure.caption.53}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces La tension au niveau de la charge \IeC {\`a} 1$\mu $s\relax }}{56}{figure.caption.54}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Le courant aux bornesu d'un IGBT \IeC {\`a} 1$\mu $s pour le hacheur 4 quadrants\relax }}{57}{figure.caption.55}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces La tension aux bornes d'un IGBT \IeC {\`a} 1$\mu $s pour le hacheur 4 quadrants\relax }}{57}{figure.caption.56}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 3 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis avec le DCP/DCN\relax }}{58}{figure.caption.57}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Le courant d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{59}{figure.caption.59}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces La tension ligne-ligne d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{60}{figure.caption.60}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces La tension du bus CC pour un pas de calcul de 1$\mu $s\relax }}{60}{figure.caption.61}
+\contentsline {figure}{\numberline {3.42}{\ignorespaces La tension aux bornes d'un IGBT de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{62}{figure.caption.62}
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Le courant aux bornes d'un IGBT de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{62}{figure.caption.63}
+\contentsline {figure}{\numberline {3.44}{\ignorespaces La tension aux bornes d'une diode de point milieu de l'AFE \IeC {\`a} 1$\mu $s\relax }}{63}{figure.caption.64}
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Le courant aux bornes d'une diode de point milieu de l'AFE \IeC {\`a} 1$\mu $s\relax }}{63}{figure.caption.65}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Le courant aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{64}{figure.caption.66}
+\contentsline {figure}{\numberline {3.47}{\ignorespaces La tension aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{64}{figure.caption.67}
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Le courant traversant un IGBT du DCP/DCN pour un pas de calcul de \IeC {\`a} 1$\mu $s\relax }}{65}{figure.caption.68}
+\contentsline {figure}{\numberline {3.49}{\ignorespaces La tension aux bornes d'un IGBT du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{65}{figure.caption.69}
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Le courant traversant une diode de point milieu du DCP/DCN pour un pas de calcul d 1$\mu $s\relax }}{66}{figure.caption.70}
+\contentsline {figure}{\numberline {3.51}{\ignorespaces La tension aux bornes d'une diode de point milieu du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{66}{figure.caption.71}
+>>>>>>> FETCH_HEAD

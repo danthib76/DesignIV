@@ -25,7 +25,7 @@ R=.28;
 L=.1;
 
 %Valeurs de l'inductance de couplage
-Lcoup = 10e-6;
+Lcoup = 1e-6;
 
 %Valeurs des snubbers et IGBT
 Rs = 100000;
