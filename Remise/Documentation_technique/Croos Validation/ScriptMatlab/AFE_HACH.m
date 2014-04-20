@@ -69,7 +69,7 @@ grid on
 subplot(4,1,2)
 plot(Time,IMagnet,hach4quadrants.time,hash.signals(1).values(:,2),Time,IRef)
 xlim([0.495,0.505]);
-ylim([5920,6080]);
+ylim([5980,6020]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 grid on
@@ -78,7 +78,7 @@ grid on
 subplot(4,1,3)
 plot(Time,IMagnet,hach4quadrants.time,hash.signals(1).values(:,2),Time,IRef)
 xlim([0.455,0.465]);
-ylim([5400,5700]);
+ylim([5400,5620]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 grid on
@@ -87,7 +87,7 @@ grid on
 subplot(4,1,4)
 plot(Time,IMagnet,hach4quadrants.time,hash.signals(1).values(:,2),Time,IRef)
 xlim([0.122,0.132]);
-ylim([800,1300]);
+ylim([800,1050]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 grid on
