@@ -18,7 +18,7 @@ grid on
 
 %Courant PSIM
 subplot(2,1,2)
-plot(Time,V62,Time, V63, Time, V64)
+plot(Time,Ia,Time, Ib, Time, Ic)
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 xlim([0.5,0.6])
@@ -38,7 +38,7 @@ grid on
 %Tension IGBT
 figure(3)
 subplot(2,1,1)
-plot(Time,S1Vigbt,hach4quadrants.time,IGBTA.signals.values(:,2))
+plot(Time,S12Vigbt,hach4quadrants.time,IGBTA.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension IGBT', 'SPS Tension IGBT')
@@ -47,7 +47,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,IS1IGBT,hach4quadrants.time,IGBTA.signals.values(:,1))
+plot(Time,IS12IGBT,hach4quadrants.time,IGBTA.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant IGBT', 'SPS Courant IGBT')
@@ -114,7 +114,7 @@ grid on
 %Courant IGBT
 figure(6)
 subplot(2,1,1)
-plot(Time,DCNIigbt,hach4quadrants.time,IGBTH.signals.values(:,1) )
+plot(Time,S7Iigbt,hach4quadrants.time,IGBTH.signals.values(:,1) )
 legend('PSIM','SPS')
 xlim([0,0.9])
 ylim([-1000,7000])
@@ -124,7 +124,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,DCNIigbt,hach4quadrants.time,IGBTH.signals.values(:,1) )
+plot(Time,S7Iigbt,hach4quadrants.time,IGBTH.signals.values(:,1) )
 xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
@@ -133,7 +133,7 @@ ylabel('Courant (A)','FontSize',15)
 %Tension IGBT
 figure(7)
 subplot(2,1,1)
-plot(Time,DCNVigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
+plot(Time,S7Vigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
 legend('PSIM','SPS')
 xlim([0,0.9])
 ylim([-1000,7000])
@@ -143,7 +143,7 @@ grid on
 
 %Tension IGBT
 subplot(2,1,2)
-plot(Time,DCNVigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
+plot(Time,S7Vigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
 xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
