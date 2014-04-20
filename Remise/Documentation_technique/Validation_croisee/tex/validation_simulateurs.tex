@@ -217,6 +217,7 @@ L'AFE (Active Front End) est un redresseur triphasé permettant de réguler le f
   Tension bus CC & 5000\\ \hline
   Courant référence & 1000A\\ \hline
   Seuil hystérésis & 450A\\ \hline
+  Inductance côté AC& 81.487 mH\\ \hline
   Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001$\Omega$\\
@@ -311,6 +312,7 @@ Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant
   \hline\hline
   Tension de référence CC & 5000 V\\ \hline
   Seuil hystérésis & 450 A\\ \hline
+  Inductance côté AC& 81.487 mH\\ \hline
   Courant maximal à l'entrée& 1500 A \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
@@ -384,6 +386,7 @@ L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT
   \hline\hline
   Tension référence CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz \\ \hline
+  Inductance côté AC& 81.487 mH\\ \hline
   Courant maximal à l'entrée& 1500 A \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{IGBT}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
@@ -473,6 +476,7 @@ Cette section présente les résultat de simulations obtenus sur PSIM et SPS pou
   \multicolumn{2}{|l|}{\textbf{AFE 2 niveaux}}\\ \hline \hline 
   Tension référence CC & 5000 V\\ \hline
   Seuil hystérésis & 450A\\ \hline
+  Inductance côté AC& 81.487 mH\\ \hline
   Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{IGBT AFE}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
@@ -585,6 +589,7 @@ Cette section présente les résultats de simulations obtenus sur PSIM et sur SP
   \multicolumn{2}{|l|}{\textbf{AFE 3 niveaux}}\\ \hline \hline 
   Tension référence CC & 5000 V\\ \hline
   Fréquence de modulation & 1000 Hz \\ \hline
+  Inductance côté AC& 81.487 mH\\ \hline
   Courant maximal à l'entrée& 1500A \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{IGBT AFE}}\\ \hline
   Résistance interne & 0.001 $\Omega$\\
@@ -632,6 +637,14 @@ Cette section présente les résultats de simulations pour le système complet f
 
 \begin{figure}[htb]
 \centering
+\includegraphics[scale=0.5]{fig/DCP_AFE/1u/ten_ligne_ligne.jpg}
+\caption{La tension ligne-ligne d'entrée de l'AFE pour un pas de calcul de 1$\mu$s}
+\label{AF_DC_ten1}
+\end{figure}
+
+
+\begin{figure}[htb]
+\centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/ten_bus.jpg}
 \caption{La tension du bus CC pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_vch1}
@@ -642,16 +655,32 @@ Cette section présente les résultats de simulations pour le système complet f
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/IGBT_afe.jpg}
-\caption{La tension et le courant aux bornes d'un IGBT de l'AFE pour un pas de calcul de 1$\mu$s}
+\caption{La tension aux bornes d'un IGBT de l'AFE pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_IGBT1}
 \end{figure}
 
 
 \begin{figure}[htb]
 \centering
+\includegraphics[scale=0.5]{fig/DCP_AFE/1u/cou_IGBT_afe.jpg}
+\caption{Le courant aux bornes d'un IGBT de l'AFE pour un pas de calcul de 1$\mu$s}
+\label{AF_DC_IGBT2}
+\end{figure}
+
+
+\begin{figure}[htb]
+\centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/ten_diode_afe.jpg}
-\caption{La tension et le courant aux bornes d'une diode de point milieu de l'AFE à 1$\mu$s}
+\caption{La tension aux bornes d'une diode de point milieu de l'AFE à 1$\mu$s}
 \label{AF_DC_DI1}
+\end{figure}
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{fig/DCP_AFE/1u/cou_diode_afe.jpg}
+\caption{Le courant aux bornes d'une diode de point milieu de l'AFE à 1$\mu$s}
+\label{AF_DC_DI2}
 \end{figure}
 
 
