@@ -72,7 +72,7 @@ Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs 
 \label{p_hash}
 \end{table}
 
-\subsubsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulations du convertisseur CC-CC 4 quadrants, formé avec 4 interrupteurs IGBT, pour un pas de calcul de 1$\mu$s. 
 
 
@@ -108,6 +108,13 @@ Cette section présente les résultats de simulations du convertisseur CC-CC 4 q
 
 
 \clearpage
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+
+Les résultats obtenus pour la simulation du hacheur 4 quadrants permettent d'établir la méthodologie du projet. On note que les simulations confirment le fonctionnement dans la zone de maintien du courant à 6kA, ce qu'on peut remarquer à la figure \ref{hc_cou_ch_1}. Il est pratiquement impossible de discerner des différentes dans les résultats de simulation pour ce cas. À la même figure, il est possible de noter les courants dans les différentes phases du cycle des électroaimants. On remarque que les courbes de PSIM et SPS sont presque parfaitement supersposée en montée. La figure \ref{hc_ten_ch_1} permet d'observer la tension aux bornes de la charge. On remarque qu'il est presque impossible de discerner une différence à l'échelle de la commutation entre les simulations. La conclusion est identique pour les figures représentant la tension et le courant vus par l'un des IGBT. Cette simulation simple d'un convertisseur CC-CC permet d'assoir la méthodologie de conception et d'observer le comportement du convertisseur CC-CC escompté Les considérations de filtrage de l'onde ont été prises en compte et on remarque qu'il ne semble pas y avoir une quantité de réammorçages excessives. La bande passante observée correspond donc à celle désirée et le comportement est corrélé à travers 2 simulateurs
+
+
+
+
 \section{Convertisseur CC-CC 4 quadrants formé de 2 convertisseurs 3 niveaux NPC}
 Le montage implanté au CERN est un convertisseur CC-CC formé de 2 onduleurs triphasés 3 niveaux NPC. La cellule supérieure est dénotée par DCP et la cellule inférieure par DCN. L'assemblage des onduleurs est tel qu'il permet le fonctionnement dans les 4 quadrants. Cette version reproduit le fonctionnement du hacheur 4 quadrants de base avec un plus grand degré de liberté. Il est composé au total de 24 interrupteurs IGBT/DIODE commandé par MLI ainsi que de 12 diodes de point milieu. La figure \ref{circuit_DCP_DCN} présente le circuit électrique du convertisseur. Le tableau \ref{p_DCP} présente les données utilisées pour ce sous-système.
 
@@ -147,7 +154,7 @@ Le montage implanté au CERN est un convertisseur CC-CC formé de 2 onduleurs tr
 \clearpage
 
 
-\subsection{Vérification à un pas de calcul de 1us}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulation obtenus sur PSIM et SPS pour le convertisseur CC-CC 4 quadrants formé de 2 cellules NPC 3 niveaux, pour un pas de calcul discret de 1$\mu$s.
 
 
@@ -186,6 +193,10 @@ Cette section présente les résultats de simulation obtenus sur PSIM et SPS pou
 
 
 \clearpage
+
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+
+La figure \ref{DC_ch_cou_1} présente le courant dans la charge de manière globale , dans la zone de maintien, en montée initiale et et montée rapide. On remarque dans la figure montrant le courant dans la charge dans la zone de maintien que la fréquence de l'un des 2 simulateurs glisse par rapport à l'autre. La simulation de PSIM utilisant une analyse nodale et SPS des matrices d'équations d'états, on se doute que la détection des passages par 0 ne s'effectue pas nécessairement de manière synchrone dans les 2 simulations. De plus, la discrétisation est effectuée de manière différente dans les 2 simulations, ce qui rend les instants de détection par 0 potentiellement différents dans les 2 simulations. Les paramètres de SPS ont été réglés de manière à utiliser une méthode similaire à une méthode trapézoïdale, mais qui n'est pas nécessairement implantée de la même façon. On comprend, par rapport au hacheur 4 quadrants simple, que l'augmentation de la taille de la matrice d'équations d'états (SPS) et l'augmentation de la matrice d'admittance nodale (PSIM) permettent de constater les différences cumulatives des 2 méthodes de résolution. Les formes de courant en montée initiale et rapide montrent le même phénomène qu'en maintien, soit un glissement de la fréquence. Cependant, il est à noter que la symétrie est préservée ainsi que les amplitudes des variations.
 \section{AFE 2 niveaux avec contrôle par hystérésis débitant sur une source idéale}
 L'AFE (Active Front End) est un redresseur triphasé permettant de réguler le facteur de puissance à l'entrée du montage. La charge étant une source idéale pour cette simulation, il est possible d'en observer le fonctionnement dans les 4 quadrants. Ce convertisseur CA/CC est constitué de 6 interrupteurs, soit deux par bras. Ce système a pour fonction d'alimenter un bus CC et de maintenir sa tension à 5kV avec un facteur de puissance variable vu à l'entrée. Une méthode de contrôle par hystérésis est employée afin de réguler le courant (en amplitude et en phase) du côté du réseau. La figure \ref{AFE} est une représentation schématique de la commande de l'AFE débitant sur une source idéale. La figure \ref{circuit_AFE_IDEAL} présente le circuit électrique du convertisseur. Le tableau~\ref{p_AF_ID} présente les paramètres utilisés pour la simulation.
 
@@ -223,7 +234,7 @@ L'AFE (Active Front End) est un redresseur triphasé permettant de réguler le f
 \end{table}
 \clearpage
 
-\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulation de l'AFE 2 niveaux avec contrôle par hystérésis, débitant sur une source idéale, pour un pas de calcul discret de 1$\mu$s. 
 
 
@@ -266,6 +277,13 @@ Cette section présente les résultats de simulation de l'AFE 2 niveaux avec con
 
 
 \clearpage
+
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+La figure \ref{AF_I_cou} présente le courant à l'entrée du redresseur. On remarque que les patrons de courants sont similaires, mais qu'il existe un décalage entre les 2 simulations. Il existe des différences notables dans l'onde lorsque celle-ci dépasse une valeur angulaire de ($\pi/2$), si l'on suppose un sinus. Cette différence ainsi que le décalage s'expliquent par l'implantation de la fonction d'hystérésis qui n'est pas identique dans les 2 simulateurs. On note que les fonctions non-linéaires comme la fonction de seuillage par hystérésis sont sensibles aux méthodes de calculs et aux particularités des simulateurs. On peut le constater par la figure du courant d'entrée.
+
+Ls figure \ref{AF_I_pui_45} présente la puissance active et réactive mesurée dans les 2 simulateurs pour une valeur d'angle imposée de 45$^\circ$ de déphasage du courant par rapport à la tension. On note rapidement que la lecture n'est précise qu'à partir d'un nombre important de cycles, l'initialisation du calcul étant intrinsèquement liés aux méthode de simulation jumelé à l'implantation du bloc dans le simulateur. La mesure de puissance implique des transformations fréquentielles ainsi que des filtres qui réduisent la dynamique du système. Les filtres employés sont sensibles au pas de calcul et peuvent présenter des différences entre les simulateurs. On note que les mesures sont lentes à comparer du procédé.
+
+Les figures \ref{AF_I_pui_135}, \ref{AF_I_pui__45} et \ref{AF_I_pui__135} présentent la puissance active et réactive sur les 2 simulateurs pour des valeurs de déphasage de courant qui sont de 135$^\circ$, -45$^\circ$ et -135$^\circ$. Les constatations sont analogues à celles effectuées précédemment. Ces résultats montrent le fonctionnement 4 quadrant de l'AFE sur source idéale avec régulation de courant côté source et permettent de constater l'usage d'un tel dispositif, soit d'imposer le facteur de puissance vu de la source. 
 \section{AFE 2 niveaux avec contrôle par hystérésis débitant sur une charge RC}
 Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant sur une charge RC est le même que celui présenté à la section précédente. Le circuit du convertisseur est présenté à la figure \ref{circuit_AFE_2L_RC}. La source idéale du montage précédent est remplacée par une charge RC, composée d'une résistance de 9.26$\Omega$ et d'un condensateur initialement chargé à 5000V, d'une capacité de 330mF. De plus, contrairement au montage précédent, il n'y a plus de rétroaction sur l'angle du courant. L'angle de la référence de courant est en phase avec la tension du réseau (pour un fonctionnement à facteur unitaire). La figure \ref{fft_RC} représente le calcul de transformée de Fourier discrète (fft) d'une phase du courant d'entrée. Les paramètres de l'hystérésis ont été ajustés afin que la fréquence de commutation (qui glisse avec cette méthode de commande), soit proche de 1kHz. Le tableau \ref{p_AF_RC} présente les paramètres utilisés pour l'AFE 2 niveaux débitant sur une charge RC.
 
@@ -311,7 +329,7 @@ Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant
 
 \clearpage
 
-\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulation de l'AFE 2 niveaux avec contrôle pas hystérésis sur charge RC, pour un pas de calcul discret de 1$\mu$s. 
 
 
@@ -344,6 +362,16 @@ Cette section présente les résultats de simulation de l'AFE 2 niveaux avec con
 \end{figure}
 
 \clearpage
+
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+
+La figure \ref{AF_RC_cou} présente le courant à l'entrée de l'AFE pour les 2 simulateurs. Tout comme dans la section précédente, force est de constater que le comportement de l'hystérésis impact sur la qualité de l'onde dans PSIM. On remarque que le comportement dans SPS est plus régulier et permet d'obtenir un fonctionnement plus réaliste et potentiellement un glissement de fréquence de commutation (dispersion harmonique) plus faible. Les niveaux d'amplitudes sont différents en raison des surtensions dans PSIM. Le déphasage des fondamentales est moins important que dans la simulation précédente, en raison de l'absence de la régulation d'angle. 
+
+La figure \ref{AF_RC_ten} présente la tension du bus CC en fonction du temps pour un condensateur initialement chargé. Le but est d'observer la dynamique de régulation de l'AFE, on constate que les différences sont faibles et que les 2 simulateurs fournissent un résultat similaire, malgré le courant d'entrée qui est différent.
+
+La figure \ref{AF_RC_igbt} présente la tension et le courant d'un IGBT de l'AFE dans les 2 simulateurs. On remarque que la tension des IGBT présente des différences importantes, que l'on attribue au comportement de l'hystérésis qui détermine les temps de conduction. La forme d'onde de tension explique ce qui est observé sur l'onde de courant à l'entrée de l'AFE. Il en est de même pour l'onde de courant qui montre une plus grande régularité dans SPS.
+
+
 \section{AFE 3 niveaux NPC avec contrôle par MLI}
 L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT ainsi que de 6 diodes de point milieu. Il représente la version finale du sous-système de l'AFE. La méthode de commande implantée diffère de celle implantée au CERN qui utilise une transformation de Park afin de simplifier le contrôle. Le circuit électrique de l'AFE 3 niveaux sur charge RC est présenté à la figure \ref{circuit_AFE_3L_RC}. Le tableau \ref{p_AF_3level} présente les paramètres utilisés avec l'AFE 3 niveaux NPC.
 
@@ -385,7 +413,9 @@ L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT
 
 
 \clearpage
-\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+
+
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les courbes d'intérêt pour la simulation de l'AFE 3 niveaux NPC avec contrôle par MLI, pour un pas de 1$\mu$s. 
 
 \begin{figure}[htb]
@@ -420,6 +450,9 @@ Cette section présente les courbes d'intérêt pour la simulation de l'AFE 3 ni
 
 
 \clearpage
+
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+
 \section{AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT}
 Cette section présente les résultat de simulations obtenus sur PSIM et SPS pour l'AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT. Le circuit électronique des 2 convertisseurs est présenté à la figure \ref{circuit_H4Q_AFE_2L_RC}. Le tableau \ref{p_AF_hash} présente les paramètres utilisés dans les simulations.
 
