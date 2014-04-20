@@ -452,7 +452,13 @@ Cette section présente les courbes d'intérêt pour la simulation de l'AFE 3 ni
 \clearpage
 
 \subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+La figure \ref{AF_3_cou} présente le courant d'entrée de l'AFE 3 niveaux avec contrôle par MLI. Contrairement au contrôle par hystérésis, le contrôle par MLI offre un fonctionnement beaucoup plus stable dans les 2 simulateurs. Les courbes sont pratiquement indissociable. Cela signifie que la dynamique d'implantation des PI est pratiquement identique pour les 2 simulateurs.
 
+La figure \ref{AF_3_vch} présente la tension à la charge pour le redresseur 3 niveaux. On remarque que l'ondulation de tension est beaucoup plus faible et que les courbes sont indissociables. 
+
+La figure \ref{AF_3_IGBT} présente la tension et le courant dans l'un des IGBT de l'AFE 3 niveaux. Contrairement à l'AFE 2 niveaux par hystérésis, on remarque une superposition des courbes et des décalages beaucoup plus faible. Les erreurs sont minimes et causées par la détection de passage par 0 qui varie suivant la méthode de solution (équations d'états ou matrice d'admittances) ainsi que selon l'algorithme de détection de passage par 0 (Tustin ou trapézoïdal pur).
+
+La figure \ref{AF_3_DIODE} présente la tension et le courant dans l'une des diode de point milieu de l'AFE 3 niveaux. La tension aux bornes des diodes montre qu'elles s'amorcent aux mêmes instants. Les constats sont les même que ceux des IGBT sur les source d'erreur. 
 \section{AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT}
 Cette section présente les résultat de simulations obtenus sur PSIM et SPS pour l'AFE 2 niveaux avec contrôle par hystérésis et hacheur 4 quadrants à 4 IGBT. Le circuit électronique des 2 convertisseurs est présenté à la figure \ref{circuit_H4Q_AFE_2L_RC}. Le tableau \ref{p_AF_hash} présente les paramètres utilisés dans les simulations.
 
@@ -503,7 +509,7 @@ Cette section présente les résultat de simulations obtenus sur PSIM et SPS pou
 \end{table}
 \clearpage
 
-\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulation pour l'hacheur 4 quadrants à 4 interrupteurs avec l'AFE 2 niveaux sur PSIM et sur SPS, pour un pas de calcul discret de 1$\mu$s. 
 
 
@@ -551,7 +557,7 @@ Cette section présente les résultats de simulation pour l'hacheur 4 quadrants 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/Hach_AFE/1u/IGBT_cou_hach.jpg}
-\caption{Le courant aux bornesu d'un IGBT à 1$\mu$s pour le hacheur 4 quadrants}
+\caption{Le courant aux bornes d'un IGBT à 1$\mu$s pour le hacheur 4 quadrants}
 \label{AF_HA_HAA1}
 \end{figure}
 
@@ -565,6 +571,13 @@ Cette section présente les résultats de simulation pour l'hacheur 4 quadrants 
 
 
 \clearpage
+
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+
+La figure \ref{AF_HA_cou1} présente le courant d'entrée de l'AFE 2 niveaux avec contrôle par hystérésis. On remarque premièrement que les signaux sont en phases et que les amplitudes sont identiques. Cependant, l'impact des commutations sur la forme de courant diffère d'une simulation à l'autre pour les mêmes raisons qu'énoncées à la section portant sur l'AFE 2 niveaux avec controle par hystérésis sur charge RC. On remarque cependant que le fonctionnement est plus régulier.
+
+La figure \ref{AF_DC_vch1} présente la tension du bus CC en fonction du temps pour un cycle d'alimentation des électroaimants. On remarque que les courbes ont exactement la même forme, mais qu'il y a un facteur d'échelle allant jusqu'à 200V entre les courbes. Le fonctionnement du hacheur 4 quadrants à 4 IGBT ne présentant pas de différences par rapport à celui analysé précédemment, tel qu'on peut l'observer aux figures \ref{AF_HA_CHA1} et \ref{AF_HA_CHV1}. Comme il a déjà été statué que les contrôleurs possédaient la même dynamique selon les simulateurs, il ne reste que les blocs d'hystérésis qui peuvent occasionner des différences telles que notées. La forme d'onde de courant étant différente, on se doute que la puissance instantanée est différente et qu'en contrôle dynamique, les erreurs sont cumulatives. Les hypothèses peuvent être confirmée par le courant et la tension des IGBT de l'AFE, présenté à la figure \ref{AF_HA_IGBT1}. On voit clairement les différence entre les formes de tension et de courant, ce qui confirme qu'ils ne conduisent pas aux mêmes moments. Cependant, à la figure \ref{AF_HA_HAA1} ainsi qu'à la figure \ref{AF_HA_HAV1} on constate que les interrupteurs du hacheur conduisent au mêmes moments. La preuve est donc faite que la source d'erreur apparente est inhérente aux modèles d'interrupteurs et est reliée à l'implantation de l'hystérésis du côté de l'AFE. 
+
 \section{AFE 3 niveaux NPC avec contrôle par MLI avec convertisseur CC-CC formé de 2 cellules NPC 3 niveaux}
 Cette section présente les résultats de simulations obtenus sur PSIM et sur SPS pour le système complet, formé d'un redresseur AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux.  Le circuit électronique du système complet est présenté à la figure \ref{circuit_AFE_3L_RC_DCP_DCN}. Le tableau \ref{p_AF_DCP} présente les paramètres utilisés dans les sous-systèmes.
 
@@ -619,7 +632,7 @@ Cette section présente les résultats de simulations obtenus sur PSIM et sur SP
 \label{p_AF_DCP}
 \end{table}
 
-\subsection{Vérification pour un pas de calcul de 1$\mu$s}
+\subsection{Résultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu$s}
 Cette section présente les résultats de simulations pour le système complet formé de l'AFE 3 niveaux avec régulation MLI et d'un convertisseur CC-CC composé de 2 cellules NPC 3 niveaux, pour un pas de calcul discret de 1$\mu$s. 
 
 \begin{figure}[htb]
@@ -705,3 +718,14 @@ Cette section présente les résultats de simulations pour le système complet f
 \caption{La tension aux bornes d'une diode de point milieu du DCP/DCN pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_HV1}
 \end{figure}
+
+
+\subsection{Analyse du fonctionnement du système intégré}
+Cette section correspond au point culminant du projet. La méthodologie ayant été respectée dans les précédents modèles, la construction du simulateur complet est fondée sur la compréhension acquise dans les constructions élémentaires. Ce modèle est une approximation permettant d'observer la dynamique du système comprenant des convertisseurs 3 niveaux. L'objectif ici n'est pas de documenter les sources d'erreurs, mais d'observer la dynamique globale et de comprendre les motifs liés aux contraintes physiques des systèmes implantés. La puissance traitée étant relativement élevée, les interrupteurs sont à la fois amenés à des contraintes de puissance élevées, mais aussi à des contraintes de longévité et de fiabilité. L'utilisation du modèle complet, qui est une évolution des sous-modèles présentés précédemment, permet avant tout de mettre en perspective l'impact de la charge sur le réseau qui est minimisé par l'usage d'un banc de capacité d'envergure. La pulsation de 18MW crête est fournie en grande partie par le banc de condensateur. L'AFE 3 niveaux permet à tout le moins de ramener la tension du bus à 5kV, suivant une baisse de tension causée par la demande croissante de puissance pendant la pulsation. Un AFE plus lent provoque une baisse plus marquée de la tension du bus CC, mais une perturbation moins marquée du côté du réseau. Cependant, l'atteinte du régime permanent en ce qui attrait à la tension du bus CC est plus longue et limite la fréquence des cycles. Par ailleurs, d'un point de vue économique, il est relativement plus simple d'augmenter la taille du banc de condensateurs (formés d'éléments simples) que d'utiliser des interrupteurs avec une température de jonction plus élevée. La fiabilité des interrupteurs est aussi en cause, puisqu'une augmentation de la température de jonction (causée par un appel de puissance instantanée plus grand) est néfaste pour leur durée de vie. L'objectif du système intégré est donc d'offrir un compromis entre la durée de vie des interrupteurs, le nombre de cycles répétitifs et les perturbations vues du réseau.
+\subsection{Analyse des résultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu$s}
+La figure \ref{AF_DC_cou1} présente le courant d'entrée de l'AFE débitant sur le bus CC avec le convertisseur CC-CC, formé de 2 cellules NPC 3 niveaux, en fonction. On remarque que les formes de courants sont similaires, les amplitudes pratiquement identiques et que le déphasage est minime. On en conclut donc que la méthode de modulation par MLI offre des performances, à toutes fins pratiques, identiques dans les 2 simulateurs.
+La tension du bus CC est présentée à la figure \ref{AF_DC_vch1}. Sur cette figure, on remarque bien que la tension du bus CC chute pendant l'appel de puissance côté charge. On note que les 2 simulateurs réagissent de manière identique, malgré les 36 IGBT et les 18 diodes en jeu. On comprend donc que l'implantation des modèles dans les 2 simulateurs permet d'obtenir des résultats similaires. 
+La figure \ref{AF_DC_IGBT1} présente la tension et le courant d'un des IGBT de l'AFE. On constate que les patrons de courants sont similaires, mais que les moments d'amorçages sont différents. Le glissement est causé en grande partie, en se fiant aux constatations effectuées précédemment, par la détection des passages par 0 dans les 2 simulateurs.
+La figure \ref{AF_DC_DI1} présente la tension et le courant traversant une diode de l'AFE. Tout comme dans le cas précédent, on remarque que les patrons sont similaires, mais que les moments d'amorçages sont différents et ce, pour les mêmes raisons qu'énoncées précédemment.
+La figure \ref{AF_DC_CHA1} présente le courant dans la charge pendant un cycle d'impulsion, celui en montée initiale, en montée rapide et en maintien. Tout comme dans le cas du DCP/DCN, on remarque que la fréquence des oscillations de courant vues à la charge change selon les simulateurs et que les 2 signaux glissent l'un par rapport à l'autre. Les oscillations sont de même amplitude, mais elles se décalent l'une par rapport à l'autre.
+Les observations pour les interrupteurs du convertisseur CC-CC sont les mêmes que celles énoncées pour l'AFE. On remarque des patrons similaires, mais des décalages en temps.
