@@ -32,15 +32,9 @@
 \BOOKMARK [2][-]{subsection.3.6.1}{R\351sultats de simulation pour SPS et PSIM pour un pas de calcul de 1s}{section.3.6}% 32
 \BOOKMARK [2][-]{subsection.3.6.2}{Analyse des r\351sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1s}{section.3.6}% 33
 \BOOKMARK [1][-]{section.3.7}{AFE 2 niveaux avec contr\364le par hyst\351r\351sis et hacheur 4 quadrants \340 4 IGBT}{chapter.3}% 34
-<<<<<<< HEAD
 \BOOKMARK [2][-]{subsection.3.7.1}{R\351sultats de simulation pour SPS et PSIM pour un pas de calcul de 1s}{section.3.7}% 35
 \BOOKMARK [2][-]{subsection.3.7.2}{Analyse des r\351sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1s}{section.3.7}% 36
 \BOOKMARK [1][-]{section.3.8}{AFE 3 niveaux NPC avec contr\364le par MLI avec convertisseur CC-CC form\351 de 2 cellules NPC 3 niveaux}{chapter.3}% 37
 \BOOKMARK [2][-]{subsection.3.8.1}{R\351sultats de simulation pour SPS et PSIM pour un pas de calcul de 1s}{section.3.8}% 38
 \BOOKMARK [2][-]{subsection.3.8.2}{Analyse du fonctionnement du syst\350me int\351gr\351}{section.3.8}% 39
 \BOOKMARK [2][-]{subsection.3.8.3}{Analyse des r\351sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1s}{section.3.8}% 40
-=======
-\BOOKMARK [2][-]{subsection.3.7.1}{V\351rification pour un pas de calcul de 1s}{section.3.7}% 35
-\BOOKMARK [1][-]{section.3.8}{AFE 3 niveaux NPC avec contr\364le par MLI avec convertisseur CC-CC form\351 de 2 cellules NPC 3 niveaux}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.8.1}{V\351rification pour un pas de calcul de 1s}{section.3.8}% 37
->>>>>>> FETCH_HEAD

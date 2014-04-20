@@ -1,6 +1,6 @@
 \chapter{Modélisation du convertisseur CC-CC}
 \section{Fonctionnement d'un onduleur monophasé à 2 niveaux}
-L'onduleur monophasé à 2 niveaux est composé de deux IGBT positionnés tel que présenté à la figure \ref{}. Soit une charge $RL$ théorique, dont la résistance se nomme $R$ et l'inductance $L$, on constate que si l'on applique un échelon de tension à la grille de l'IGBT supérieur et que l'on considère l'IGBT comme étant sans pertes et que l'on suppose qu'il entre en saturation avec un échelon unitaire, l'équation de circuit se résume à celle présentée à l'équation \ref{eq1}. À noter que l'échelon unitaire est défini comme: $u(t<0) = 0, u(t\geq 0) = 1)$.
+L'onduleur monophasé à 2 niveaux est composé de deux IGBT. Ils correspondent à un bras d'onduleur, tel que présenté à la figure \ref{circuit_AFE_2L_RC}. Soit une charge $RL$ théorique, dont la résistance se nomme $R$ et l'inductance $L$, on constate que si l'on applique un échelon de tension à la grille de l'IGBT supérieur et que l'on considère l'IGBT comme étant sans pertes et que l'on suppose qu'il entre en saturation avec un échelon unitaire, l'équation de circuit se résume à celle présentée à l'équation \ref{eq1}. À noter que l'échelon unitaire est défini comme: $u(t<0) = 0, u(t\geq 0) = 1)$.
 
 \begin{equation}
 \label{eq1}

@@ -39,15 +39,9 @@
 \contentsline {subsection}{\numberline {3.6.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{49}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{52}{subsection.3.6.2}
 \contentsline {section}{\numberline {3.7}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT}{52}{section.3.7}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.7.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{55}{subsection.3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{59}{subsection.3.7.2}
 \contentsline {section}{\numberline {3.8}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{59}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{60}{subsection.3.8.1}
 \contentsline {subsection}{\numberline {3.8.2}Analyse du fonctionnement du syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}}{60}{subsection.3.8.2}
 \contentsline {subsection}{\numberline {3.8.3}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{62}{subsection.3.8.3}
-=======
-\contentsline {subsection}{\numberline {3.7.1}V\IeC {\'e}rification pour un pas de calcul de 1$\mu $s}{54}{subsection.3.7.1}
-\contentsline {section}{\numberline {3.8}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{58}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}V\IeC {\'e}rification pour un pas de calcul de 1$\mu $s}{59}{subsection.3.8.1}
->>>>>>> FETCH_HEAD
