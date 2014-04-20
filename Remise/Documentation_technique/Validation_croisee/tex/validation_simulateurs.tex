@@ -22,7 +22,7 @@ PSIM et SPS utilisent des méthodes de résolution différentes. SPS est un outi
 \label{IG}
 \end{figure}
 
-Les IGBT sont les interrupteurs utilisés dans chacun des sous-modèles simulés du projet. On remarque sur la figure \ref{IG} que le  courant traversant l'IGBT est identique dans le cas d'un IGBT sur une charge résistive de 50k$\Omega$. Le pas de calcul employé sur les deux plateformes est de 5$\mu$s. L'indice de modulation des IGBT est de 0.5 et la fréquence de commutation de kKHz. Le montage est alimenté par une tension continue de 1kV et possède une résistance interne de 0.01$\Omega$. 
+Les IGBT sont les interrupteurs utilisés dans chacun des sous-modèles simulés du projet. On remarque sur la figure \ref{IG} que le  courant traversant l'IGBT est identique dans le cas d'un IGBT sur une charge résistive de 50k$\Omega$. Le pas de calcul employé sur les deux plateformes est de 5$\mu$s. L'indice de modulation des IGBT est de 0.5 et la fréquence de commutation de 1 kKHz. Le montage est alimenté par une tension continue de 1kV et possède une résistance interne de 0.01$\Omega$. 
 
 Sur SPS, l'IGBT possède un snubber RC intégré, tandis que sur PSIM il faut l'incorporer manuellement. Pour les deux simulations, le snubber employé est une résistance de 100k$\Omega$.
  
@@ -40,12 +40,13 @@ L'implantation des blocs PI est différente entre SPS et PSIM. Sur SPS, il est p
 \subsection{Calibration des contrôleurs (PI)}
 Les contrôleurs PI sont calibrés en utilisant des modèles continus équivalents des charges alimentées par les convertisseurs et ce, en excluant l'impact de la modulation. L'objectif étant d'obtenir la constante de temps dominante du circuit. Soit un circuit RL série, qui représente les électroaimants à alimenter, il est possible d'établir que la constante de temps dominante du contrôleur PI du convertisseur est de $T_i = \tau = L/R$. Le modèle de base d'un contrôleur PI pouvant être représenté par une équation dans le domaine de Laplace de la forme: $H(s) = \frac{1 + K_p T_is}{T_i s}$. Il suffit par la suite de procéder à une analyse dynamique du comportement du convertisseur afin de déterminer le gain $K_p$ fournissant la réponse optimale. Par la suite, il est nécessaire de procéder à une discrétisation du régulateur selon le pas de calcul, selon la méthode de Tustin. 
 \section{Convertisseur CC-CC 4 quadrants à 4 interrupteurs IGBT}
-Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs IGBT commandés au moyen d'une régulation MLI. La figure \ref{hach} présente le circuit électrique associé à un tel convertisseur. Ce type de montage est un montage de base utilisé afin de valider le concept de fonctionnement d'un convertisseur CC-CC et d'établir la méthodologie de comparaison des simulations. Le tableau \ref{p_hash} présente les paramètres utilisés pour le hacheur 4 quadrants.
+Le hacheur 4 quadrants, à proprement parlé, est constitué de 4 interrupteurs IGBT commandés au moyen d'une régulation MLI. La figure \ref{i_hach} présente le circuit électrique associé à un tel convertisseur. Ce type de montage est un montage de base utilisé afin de valider le concept de fonctionnement d'un convertisseur CC-CC et d'établir la méthodologie de comparaison des simulations. Le tableau \ref{p_hash} présente les paramètres utilisés pour le hacheur 4 quadrants.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/H4Q.png}
 \caption{Circuit électrique du convertisseur CC-CC 4 quadrants à 4 interrupteurs IGBT}.
+\label{i_hach}
 \end{figure}
 
 \begin{table}[htb]
@@ -318,8 +319,8 @@ Le modèle de redresseur 2 niveaux AFE avec contrôle par hystérésis débitant
   Résistance interne & 0.001 $\Omega$\\
   Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|l|}{\textbf{PI courant}}\\ \hline
-  Gain proportionnel & 5 \\
-  Gain intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 150 \\
+  Gain intégrateur & 1.2e4 \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{Charge}}\\ \hline
   Résistance & 9.26 $\Omega$ \\
   Capacité d'entrée & 330 mF\\
@@ -392,8 +393,8 @@ L'AFE 3 niveaux NPC avec contrôle par MLI est composé de 12 interrupteurs IGBT
   Résistance interne & 0.001 $\Omega$\\
   Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|l|}{\textbf{PI courant}}\\ \hline
-  Gain proportionnel & 5 \\
-  Gain intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 150 \\
+  Gain intégrateur & 1.2e4 \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{PI commande}}\\ \hline
   Rapport cyclique maximal & 0.95\\
   Gain proportionnel & 1.5611 \\
@@ -488,8 +489,8 @@ Cette section présente les résultat de simulations obtenus sur PSIM et SPS pou
   Résistance interne & 0.001 $\Omega$\\
   Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|l|}{\textbf{PI courant AFE}}\\ \hline
-  Gain proportionnel & 5 \\
-  Gain intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 150 \\
+  Gain intégrateur & 1.2e4 \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{Bus CC}}\\ \hline
   Capacité d'entrée & 330 mF\\
   \hline \hline \hline
@@ -608,8 +609,8 @@ Cette section présente les résultats de simulations obtenus sur PSIM et sur SP
   Résistance interne & 0.001 $\Omega$\\
   Résistance du snubber & 100k $\Omega$\\ \hline \hline
    \multicolumn{2}{|l|}{\textbf{PI courant AFE}}\\ \hline
-  Gain proportionnel & 5 \\
-  Gain intégrateur & 20 \\ \hline \hline
+  Gain proportionnel & 150 \\
+  Gain intégrateur & 1.2e4 \\ \hline \hline
   \multicolumn{2}{|l|}{\textbf{PI commande AFE}}\\ \hline
   Rapport cyclique maximal & 0.95\\
   Gain proportionnel & 1.5611 \\
