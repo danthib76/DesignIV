@@ -18,7 +18,7 @@ grid on
 
 %Courant PSIM
 subplot(2,1,2)
-plot(Time,V62,Time, V63, Time, V64)
+plot(Time,Ia,Time, Ib, Time, Ic)
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 xlim([0.5,0.6])
@@ -38,7 +38,7 @@ grid on
 %Tension IGBT
 figure(3)
 subplot(2,1,1)
-plot(Time,S3Vigbt,hach4quadrants.time,IGBTA.signals.values(:,2))
+plot(Time,S9IGBT,hach4quadrants.time,IGBTA.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension IGBT', 'SPS Tension IGBT')
@@ -47,7 +47,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,IS3IGBT1,hach4quadrants.time,IGBTA.signals.values(:,1))
+plot(Time,IS9IGBT1,hach4quadrants.time,IGBTA.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant IGBT', 'SPS Courant IGBT')
@@ -57,7 +57,7 @@ grid on
 %Tension DIODE
 figure(4)
 subplot(2,1,1)
-plot(Time,S3Vdiode*-1,hach4quadrants.time,DIODEA.signals.values(:,2))
+plot(Time,S9DIODE*-1,hach4quadrants.time,DIODEA.signals.values(:,2))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
 legend('PSIM Tension diode', 'SPS Tension diode')
@@ -66,7 +66,7 @@ grid on
 
 %Courant DIODE
 subplot(2,1,2)
-plot(Time,IS3D1,hach4quadrants.time,DIODEA.signals.values(:,1))
+plot(Time,IS9D1,hach4quadrants.time,DIODEA.signals.values(:,1))
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
 legend('PSIM Courant diode', 'SPS Courant diode')
@@ -133,7 +133,7 @@ grid on
 %Courant IGBT
 figure(7)
 subplot(2,1,1)
-plot(Time,DCPIgbtI,hach4quadrants.time,IGBTAH.signals.values(:,1) )
+plot(Time,DCPIgbtI,hach4quadrants.time,IGBTH.signals.values(:,1) )
 legend('PSIM','SPS')
 xlim([0,0.9])
 xlabel('Temps (sec)','FontSize',15)
@@ -142,7 +142,7 @@ grid on
 
 %Courant IGBT
 subplot(2,1,2)
-plot(Time,DCPIgbtI,hach4quadrants.time,IGBTAH.signals.values(:,1) )
+plot(Time,DCPIgbtI,hach4quadrants.time,IGBTH.signals.values(:,1) )
 xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Courant (A)','FontSize',15)
@@ -151,7 +151,7 @@ ylabel('Courant (A)','FontSize',15)
 %Tension IGBT
 figure(8)
 subplot(2,1,1)
-plot(Time,DCPVigbt,hach4quadrants.time,IGBTAH.signals.values(:,2) )
+plot(Time,DCPVigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
 legend('PSIM','SPS')
 xlim([0,0.9])
 xlabel('Temps (sec)','FontSize',15)
@@ -160,7 +160,7 @@ grid on
 
 %Tension IGBT
 subplot(2,1,2)
-plot(Time,DCPVigbt,hach4quadrants.time,IGBTAH.signals.values(:,2) )
+plot(Time,DCPVigbt,hach4quadrants.time,IGBTH.signals.values(:,2) )
 xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)
@@ -187,7 +187,7 @@ ylabel('Courant (A)','FontSize',15)
 %Tension DIODE
 figure(10)
 subplot(2,1,1)
-plot(Time,DCPVdiode*-1,hach4quadrants.time,DIODEH.signals.values(:,2) )
+plot(Time,DCPDIODE*-1,hach4quadrants.time,DIODEH.signals.values(:,2) )
 legend('PSIM','SPS')
 xlim([0,0.9])
 xlabel('Temps (sec)','FontSize',15)
@@ -196,7 +196,7 @@ grid on
 
 %Tension DIODE
 subplot(2,1,2)
-plot(Time,DCPVdiode*-1,hach4quadrants.time,DIODEH.signals.values(:,2) )
+plot(Time,DCPDIODE*-1,hach4quadrants.time,DIODEH.signals.values(:,2) )
 xlim([0.513,0.523]);
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Tension (V)','FontSize',15)

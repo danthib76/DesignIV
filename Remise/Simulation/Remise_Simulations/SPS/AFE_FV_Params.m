@@ -84,7 +84,12 @@ PIdiscAFE  = c2d(PIcontAFE,Tpas);
 [Numd,Dend,Ts]=tfdata(PIdiscAFE, 'v');
 PAFE3L=Numd(1)/Dend(1);
 IAFE3L=(PAFE3L+Numd(2)/Dend(1))/Ts;
-
+DAFE=0
+NAFE=100
+% cette fréquence est fmod4Q*ASF3
+ASF3=.5
+% le Q du filitre est
+QSF3 = .8
 
 
 %PI pour le hacheur 4 Quadrants
