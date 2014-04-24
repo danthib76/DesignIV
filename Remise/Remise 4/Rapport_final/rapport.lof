@@ -2,7 +2,14 @@
 \select@language {french}
 \select@language {french}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\IeC {\'e}sentation sch\IeC {\'e}matique de l'implantation du complexe d'acc\IeC {\'e}l\IeC {\'e}rateurs du CERN\relax }}{4}{figure.caption.3}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sch\IeC {\'e}ma de l'implantation du PSB au CERN\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Allure de la tension ligne-ligne d'un convertisseur CA/CC 3 niveaux \IeC {\`a} 3 bras NPC\relax }}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Forme de courant et de tension \IeC {\`a} fournir pr\IeC {\'e}cis\IeC {\'e}ment \IeC {\`a} la charge ainsi que la tension du bus CC en fonction du temps\relax }}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Formes d'ondes type d'une commande entrelac\IeC {\'e}e \IeC {\`a} k phases pour un convertisseur \IeC {\'e}lectronique\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sch\IeC {\'e}ma du circuit complet simplifi\IeC {\'e} \IeC {\'e}quivalent\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectrique complet du syst\IeC {\`e}me \IeC {\`a} implanter.\relax }}{9}{figure.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

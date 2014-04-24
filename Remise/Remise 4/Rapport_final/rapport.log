@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 APR 2014 01:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 APR 2014 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,27 +1123,84 @@ ABD: EveryShipout initializing macros
 
 ]
 Chapitre 1.
-) (./tex/contexte_problematique.tex [3
+<fig/CERN.png, id=84, 337.7418pt x 392.667pt>
+File: fig/CERN.png Graphic file (type png)
+ <use fig/CERN.png>
+Package pdftex.def Info: fig/CERN.png used on input line 6.
+(pdftex.def)             Requested size: 270.1938pt x 314.13403pt.
+)
+(./tex/contexte_problematique.tex [3
 
-]
+] [4 <./fig/CERN.png>]
 Chapitre 2.
-) (./tex/objectifs.tex [4
+<./fig/BOOSTER.png, id=98, 241.8636pt x 301.6068pt>
+File: ./fig/BOOSTER.png Graphic file (type png)
+ <use ./fig/BOOSTER.png>
+Package pdftex.def Info: ./fig/BOOSTER.png used on input line 15.
+(pdftex.def)             Requested size: 193.49113pt x 241.28575pt.
 
-]
+[5
+
+] [6 <./fig/BOOSTER.png>]
+<fig/3L_Line_Voltage.png, id=120, 270.7716pt x 157.5486pt>
+File: fig/3L_Line_Voltage.png Graphic file (type png)
+
+<use fig/3L_Line_Voltage.png>
+Package pdftex.def Info: fig/3L_Line_Voltage.png used on input line 25.
+(pdftex.def)             Requested size: 135.38547pt x 78.7741pt.
+ <fig/Iref.png, id=121, 312.2064pt x 336.2964pt>
+File: fig/Iref.png Graphic file (type png)
+
+<use fig/Iref.png>
+Package pdftex.def Info: fig/Iref.png used on input line 32.
+(pdftex.def)             Requested size: 156.10281pt x 168.14778pt.
+ <fig/entrelacage.png, id=122, 297.2706pt x 404.2302pt>
+File: fig/entrelacage.png Graphic file (type png)
+
+<use fig/entrelacage.png>
+Package pdftex.def Info: fig/entrelacage.png used on input line 39.
+(pdftex.def)             Requested size: 148.63493pt x 202.1146pt.
+
+<fig/fig_circuit_global.png, id=123, 941.5175pt x 287.0725pt>
+File: fig/fig_circuit_global.png Graphic file (type png)
+
+<use fig/fig_circuit_global.png>
+Package pdftex.def Info: fig/fig_circuit_global.png used on input line 46.
+(pdftex.def)             Requested size: 470.7576pt x 143.53589pt.
+ [7 <./fig/3L_Line_Voltage.png> <./fig/Iref.png>] <fig/AFE_3L_RC_DCP_DCN.png, i
+d=131, 763.653pt x 547.3248pt>
+File: fig/AFE_3L_RC_DCP_DCN.png Graphic file (type png)
+
+<use fig/AFE_3L_RC_DCP_DCN.png>
+Package pdftex.def Info: fig/AFE_3L_RC_DCP_DCN.png used on input line 55.
+(pdftex.def)             Requested size: 496.36858pt x 355.7569pt.
+
+Overfull \hbox (24.33734pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+) (./tex/objectifs.tex [8 <./fig/entrelacage.png> <./fig/fig_circuit_global.png
+>] [9 <./fig/AFE_3L_RC_DCP_DCN.png>]
 Chapitre 3.
-) (./tex/DPF.tex [5
 
-]
+Overfull \hbox (25.18587pt too wide) in paragraph at lines 14--15
+\T1/lmr/m/n/12 Les pla-te-formes sur les-quelles les si-mu-la-tions doivent êtr
+e li-vrées sont Si-mu-link(SimPowerSystems),
+ []
+
+[10
+
+]) (./tex/DPF.tex [11]
 Chapitre 4.
-) (./tex/methodologie.tex [6
+) (./tex/methodologie.tex [12
 
 ]
 Chapitre 5.
-) (./tex/validation_croisee.tex [7
+) (./tex/validation_croisee.tex [13
 
 ]
 Chapitre 6.
-) (./tex/conclusion.tex [8
+) (./tex/conclusion.tex [14
 
 ]
 Chapitre 7.
@@ -1153,7 +1210,7 @@ Package caption Warning: Unused \captionsetup[table] on input line 156.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-[9
+[15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
@@ -1165,22 +1222,30 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 12719 strings out of 493315
- 187678 string characters out of 6137904
- 293939 words of memory out of 5000000
- 15888 multiletter control sequences out of 15000+600000
- 45299 words of font info for 40 fonts, out of 8000000 for 9000
+ 12793 strings out of 493315
+ 188978 string characters out of 6137904
+ 297939 words of memory out of 5000000
+ 15939 multiletter control sequences out of 15000+600000
+ 48329 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,7n,42p,260b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/lm/lmri12.pfb>
-Output written on rapport.pdf (10 pages, 129349 bytes).
+ 43i,7n,42p,2104b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+13/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2013/texmf-d
+ist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/l
+m/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi12.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/lm/lmri12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/lm/lmro12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb>
+Output written on rapport.pdf (16 pages, 1231796 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
