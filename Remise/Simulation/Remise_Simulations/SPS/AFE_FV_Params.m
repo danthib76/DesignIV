@@ -8,7 +8,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 1e-6;
+Tpas = 10e-6;
 % Capacité bus CC
 Cbus=330e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
@@ -37,7 +37,7 @@ Ron =1e-3;
 % continu
 % PI saturation limiter +Sat -Sat
 Satv = 1500;
-Sat3 = 800;
+Sat3 = 1100;
 % proportionnal Gain 
 gainv=1;
 % Synthèse du PI continuous  1+Tm*s/(Ti*s)

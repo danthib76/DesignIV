@@ -9,7 +9,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas =1e-6;
+Tpas =10e-6;
 Ts=Tpas;
 % Capacité bus CC
 Cbus=330e-3;
@@ -38,7 +38,7 @@ Ron =1e-3;
 % Calcul du PI discret en parallel form à partir de la synthèse du PI
 % continu
 % PI saturation limiter +Sat -Sat
-Satv = 2000;
+Satv = 1500;
 % proportionnal Gain 
 gainv=10;
 % Synthèse du PI continuous  1+Tm*s/(Ti*s)
@@ -145,5 +145,20 @@ KLP4Q=NLPripd(2);
 TLP4Q=DLPripd(2);
 
 [KLPDCP,TLPDCP] = ellip(2,0.01,40,1500*(Tpas/2),'low');
+
+%_________________________________________________________________________
+%_________________________________________________________________________
+%PI for max current regulation (AFE input) Daniel Thibodeau
+% proportionnal Gain was determined manually with the chosen dq settings
+% with a sampling time of 10us
+P_IC_AFE = 2;
+I_IC_AFE = 8;
+PI_IC_AFEdisc = tf([P_IC_AFE (I_IC_AFE*10e-6 - P_IC_AFE)],[1 -1],10E-6);
+PI_IC_AFEcont = d2c(PI_IC_AFEdisc);
+PI_IC_AFEdisc = c2d(PI_IC_AFEcont,Tpas);
+[Numd,Dend,Ts] = tfdata(PI_IC_AFEdisc,'v');
+P_IC_AFE = Numd(1)/Dend(1);
+I_IC_AFE = (P_IC_AFE+Numd(2)/Dend(1))/Ts;
+
 
 
