@@ -16,7 +16,7 @@ Cbus=330e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
 Rch = 5000^2/2.7e6;
 %Seuil hystérésis
-hys = 300;
+hys = 450;
 %Gain pour transformation unitaire de la tension de référence
 Kac = 1/(Vac*sqrt(2/3));
 %tension de reférence dc

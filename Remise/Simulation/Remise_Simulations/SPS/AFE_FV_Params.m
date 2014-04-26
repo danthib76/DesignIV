@@ -8,7 +8,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas = 10e-6;
+Tpas = 1e-6;
 % Capacité bus CC
 Cbus=330e-3;
 %Résistance charge obtenu par la puissance moyenne R = 5000/(2.7MW/5000)
