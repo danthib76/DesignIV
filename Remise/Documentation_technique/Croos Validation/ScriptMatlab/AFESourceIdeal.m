@@ -10,25 +10,25 @@ Q = AFESourceIdeal.signals(2).values(:,2);%45
 %Section à décommenter pour un pas inférieure à 50u
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%Puissance active 45
-figure(1)
-subplot(2,1,1)
-plot(Time,Pmoy,AFESourceIdeal.time, P,Time,Qmoy,AFESourceIdeal.time, Q)
-legend('PSIM puissance active','SPS puissance active','PSIM puissance réactive', 'SPS puissance réactive')
-xlabel('Temps (sec)','FontSize',15)
-ylabel('Puissance (W,VAR)','FontSize',15)
-xlim([0,1])
-grid on
-
-%Puissance reactive 45
-subplot(2,1,2)
-plot(Time,PhR,Time,PHRmoy,AFESourceIdeal.time, AFESourceIdeal.signals(3).values(:,1),AFESourceIdeal.time, AFESourceIdeal.signals(3).values(:,2))
-xlabel('Temps (sec)','FontSize',15)
-ylabel('Phase (degree)','FontSize',15)
-legend('PSIM Phase','PSIM Phase moyenne','SPS Phase','SPS Phase moyenne')
-xlim([0,1])
-grid on
+% 
+% %Puissance active 45
+% figure(1)
+% subplot(2,1,1)
+% plot(Time,Pmoy,AFESourceIdeal.time, P,Time,Qmoy,AFESourceIdeal.time, Q)
+% legend('PSIM puissance active','SPS puissance active','PSIM puissance réactive', 'SPS puissance réactive')
+% xlabel('Temps (sec)','FontSize',15)
+% ylabel('Puissance (W,VAR)','FontSize',15)
+% xlim([0,1])
+% grid on
+% 
+% %Puissance reactive 45
+% subplot(2,1,2)
+% plot(Time,PhR,Time,PHRmoy,AFESourceIdeal.time, AFESourceIdeal.signals(3).values(:,1),AFESourceIdeal.time, AFESourceIdeal.signals(3).values(:,2))
+% xlabel('Temps (sec)','FontSize',15)
+% ylabel('Phase (degree)','FontSize',15)
+% legend('PSIM Phase','PSIM Phase moyenne','SPS Phase','SPS Phase moyenne')
+% xlim([0,1])
+% grid on
 
 % %Puissance active 135
 % figure(2)
@@ -89,26 +89,26 @@ grid on
 % grid on
 
 % 
-% %Courant AC
-% figure(5)
-% subplot(2,1,1)
-% plot(Time,Ia,Time,Ib,Time,Ic)
-% xlabel('Temps (sec)','FontSize',15)
-% ylabel('Courant AC (A)','FontSize',15)
-% xlim([0.5,0.6])
-% ylim([-2000,2000])
-% title('Courant d''entrée PSIM','FontSize',15)
-% grid on
-% 
-% 
-% 
-% subplot(2,1,2)
-% plot(AFESourceIdeal.time,ScopeData.signals(2).values)
-% xlabel('Temps (sec)','FontSize',15)
-% ylabel('Courant AC (A)','FontSize',15)
-% xlim([0.5,0.6])
-% title('Courant d''entrée SPS','FontSize',15)
-% grid on
+%Courant AC
+figure(5)
+subplot(2,1,1)
+plot(Time,Ia,Time,Ib,Time,Ic)
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Courant AC (A)','FontSize',15)
+xlim([0.5,0.6])
+ylim([-2000,2000])
+title('Courant d''entrée PSIM','FontSize',15)
+grid on
+
+
+
+subplot(2,1,2)
+plot(AFESourceIdeal.time,ScopeData.signals(2).values)
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Courant AC (A)','FontSize',15)
+xlim([0.5,0.6])
+title('Courant d''entrée SPS','FontSize',15)
+grid on
 
 
 

@@ -1,2 +1,23 @@
 \chapter{Méthodologie}
+La méthodologie employée pour ce projet est une approche qui vise à fragmenter le système en sous-systèmes simples, plus faciles à analyser et qui permet par la suite de construire une expertise servant à intégrer les notions propres au concept complet. Concrètement, il faut:
+\begin{itemize}
+\item Modéliser le redresseur NPC 3 niveaux à 3 bras par un redresseur actif triphasé (AFE);
+\item Modéliser le hacheur 4 quadrants simplifié à 4 interrupteurs (de manière préliminaire);
+\item Modéliser le hacheur 4 quadrants avec 2 cellules NPC 3 niveaux à commande entrelacée.
+\end{itemize}
+\paragraph{} Les simulations résultantes sont premièrement modélisées par des systèmes indépendants en boucle ouverte et par la suite par des systèmes en boucle fermée avec des régulateurs. Les sous-systèmes du projet sont les suivants:
+\begin{itemize}
+\item Modélisation simplifiée de la régulation de tension de l'AFE par un redresseur 2 niveaux débitant sur une charge idéale avec régulation d'angle et de courant par hystérésis, permettant le fonctionnement 4 quadrants du redresseur actif;
+\item Modélisation simplifiée de la régulation de tension  de l'AFE par un redresseur 2 niveaux débitant sur une charge RC initialement chargée avec facteur de puissance unitaire imposé et régulation de courant par hystérésis;
+\item Modélisation de l'AFE 3 niveaux NPC  débitant sur une charge RC initialement chargée avec facteur de puissance unitaire imposé et régulation de courant par MLI;
+\item Modélisation du convertisseur CC-CC 4 quadrants par un hacheur 4 quadrants simple formé de 4 interrupteurs, alimenté à partir d'une charge idéale et commandé par MLI à 1kHz;
+\item Modélisation du convertisseur CC-CC 4 quadrants par un hacheur formé de 2 cellules onduleur NPC 3 niveaux triphasées avec inductances de couplage, alimenté avec une source idéale et commandée par MLI décalée à 333Hz.
+\end{itemize}
 
+Le reste de la méthodologie consiste à assembler les différents sous-systèmes sous 3 plateformes distinctes. Il est donc nécessaire de:
+\begin{itemize}
+\item Valider les fonctionnalités des systèmes reliés;
+\item Valider la concordance des résultats de simulations sous 3 plateformes.
+\end{itemize}
+
+Ce qui résulte de cette méthodologie est une intégration graduelle de la complexité des modèles, d'une part avec un développement un boucle ouverte, puis un développement en boucle fermée. Les systèmes sont par la suite corrélés sur les différentes plateformes, puis intégrés en sous-systèmes de complexité supérieure. Le tout est par la suite validé sur les différentes plateformes de simulation.
