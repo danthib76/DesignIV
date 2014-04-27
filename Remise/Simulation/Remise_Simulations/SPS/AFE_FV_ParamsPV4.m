@@ -9,7 +9,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas =1e-6;
+Tpas =10e-6;
 Ts=Tpas;
 % Capacité bus CC
 Cbus=330e-3;

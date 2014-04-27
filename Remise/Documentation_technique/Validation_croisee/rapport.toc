@@ -10,6 +10,7 @@
 \contentsline {subsection}{\numberline {1.2.2}Mode discontinu}{11}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Fonctionnement d'un redresseur triphas\IeC {\'e} double alternance}{12}{section.1.3}
 \contentsline {section}{\numberline {1.4}Fonctionnement d'un redresseur triphas\IeC {\'e} 3 niveaux NPC}{15}{section.1.4}
+\contentsline {section}{\numberline {1.5}Validation par simulation SPS}{16}{section.1.5}
 \contentsline {chapter}{\numberline {2}Mod\IeC {\'e}lisation du convertisseur CC-CC}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}Fonctionnement d'un onduleur monophas\IeC {\'e} \IeC {\`a} 2 niveaux}{17}{section.2.1}
 \contentsline {section}{\numberline {2.2}Fonctionnement d'un onduleur monophas\IeC {\'e} NPC \IeC {\`a} 3 niveaux}{19}{section.2.2}
@@ -41,7 +42,7 @@
 \contentsline {section}{\numberline {3.7}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT}{52}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{55}{subsection.3.7.1}
 \contentsline {subsection}{\numberline {3.7.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{59}{subsection.3.7.2}
-\contentsline {section}{\numberline {3.8}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{59}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{60}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Analyse du fonctionnement du syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}}{60}{subsection.3.8.2}
-\contentsline {subsection}{\numberline {3.8.3}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{62}{subsection.3.8.3}
+\contentsline {section}{\numberline {3.8}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{60}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{62}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{69}{subsection.3.8.2}
+\contentsline {section}{\numberline {3.9}Analyse du fonctionnement du syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}}{71}{section.3.9}
