@@ -39,8 +39,7 @@ I_{moy} &\approx & \frac{V_{DC}}{LT}\left(\frac{m_x^2 T^2}{2} -(3m_x^2 -4m_x +1)
 Par l'analyse des formes d'ondes en traçant le courant moyen en fonction du rapport de modulation, présenté à la figure \ref{eq1}, on remarque que si l'on a un rapport de modulation inférieur à 0.2929, le courant moyen est négatif et que si le rapport de modulation est supérieur à cette valeur, le courant moyen est positif.
 
 \begin{figure}[htb]
-\centering
-\includegraphics[scale=0.4]{fig/Imoy_m.png}
+\makebox[\textwidth][c]{\includegraphics[scale=0.4]{fig/Imoy_m.png}}
 \caption{Courant moyen en fonction du rapport de modulation dans un onduleur monophasé}
 \end{figure}
 
@@ -65,8 +64,8 @@ Le schéma d'un onduleur monophasé NPC à 3 niveaux est présenté à la figure
 En excluant les états redondants, il existe 3 états distincts, soit l'état P ([1,2]), l'état N([3,4] et l'état 0([1,3]). Une stratégie de commande simple et applicable est celle d'une modulation MLI à plusieurs niveaux. On réfère ici à la figure \ref{fig_MLI_ML} pour une illustration graphique de la commande MLI multiniveaux. À chaque période de commutation, une comparaison entre l'onde désirée et le signal en dent de scie. Pendant la période où le signal est plus grand (en valeur absolue) que le signal en dent de scie, la paire de transistor associée est activée pendant la période de conduction calculée. 
 
 \begin{figure}[htb]
-\centering
-\includegraphics[scale=0.4]{fig/commande_NPC_1.png}
+
+\makebox[\textwidth][c]{\includegraphics[scale=0.4]{fig/commande_NPC_1.png}}
 \caption{Commande MLI multiniveaux pour une consigne sinusoïdale}
 \label{fig_MLI_ML}
 \end{figure}
@@ -83,8 +82,7 @@ I_{RMS} &=& 3244.2A RMS
 Selon la commande appliquée, le $m_x$ peut changer étant donné qu'on ne fixe pas nécessairement un courant $I_{moy}$ à 0. Aussi, il est impératif de considérer les pertes qui peuvent faire fluctuer les résultats. Afin de calculer le courant moyen dans la charge, on suppose qu'une période est égale à 2.4s, tel que spécifié dans la documentation du CERN. Afin de simplifier les calculs, on suppose que chaque bras conduit $\frac{1}{3}$ du temps et donc que la période, vue d'un bras, est de 7.2s. Soit la forme de courant présentée à la figure \ref{fig_ref_courant}. Il est possible de calculer la valeur RMS du courant selon l'équation précédemment décrite précédemment. L'intégrale est réalisée au moyen de Matlab. On trouve que le courant RMS moyen d'un interrupteur d'un bras pour un cycle de 2.4s (7.2s vue de l'interrupteur), est de 1107A. 
 
 \begin{figure}[htb]
-\centering
-\includegraphics[scale=0.4]{fig/fig_ref_courant.png}
+\makebox[\textwidth][c]{\includegraphics[scale=0.4]{fig/fig_ref_courant.png}}
 \caption{Référence de courant des électroaimants en A en fonction du temps (s)}
 \label{fig_ref_courant}
 \end{figure}
