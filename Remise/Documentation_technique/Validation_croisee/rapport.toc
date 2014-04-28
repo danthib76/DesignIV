@@ -4,6 +4,7 @@
 \contentsline {chapter}{\numberline {1}Mod\IeC {\'e}lisation de l'alimentation \IeC {\'e}lectronique}{6}{chapter.1}
 \contentsline {section}{\numberline {1.1}Fonctionnement d'un redresseur monophas\IeC {\'e} simple alternance}{6}{section.1.1}
 \contentsline {paragraph}{}{7}{equation.1.1.2}
+\contentsline {paragraph}{}{7}{equation.1.1.2}
 \contentsline {section}{\numberline {1.2}Fonctionnement d'un redresseur monophas\IeC {\'e} double alternance}{9}{section.1.2}
 \contentsline {paragraph}{}{9}{figure.caption.5}
 \contentsline {subsection}{\numberline {1.2.1}Mode continu}{10}{subsection.1.2.1}
@@ -15,34 +16,35 @@
 \contentsline {section}{\numberline {2.1}Fonctionnement d'un onduleur monophas\IeC {\'e} \IeC {\`a} 2 niveaux}{17}{section.2.1}
 \contentsline {section}{\numberline {2.2}Fonctionnement d'un onduleur monophas\IeC {\'e} NPC \IeC {\`a} 3 niveaux}{19}{section.2.2}
 \contentsline {paragraph}{}{19}{section.2.2}
+\contentsline {paragraph}{}{19}{table.caption.9}
 \contentsline {section}{\numberline {2.3}Calculs th\IeC {\'e}oriques li\IeC {\'e}s \IeC {\`a} l'onduleur NPC 3 niveaux}{20}{section.2.3}
 \contentsline {paragraph}{}{21}{section.2.3}
-\contentsline {section}{\numberline {2.4}Comparaison des r\IeC {\'e}sultats de dimensionnement th\IeC {\'e}oriques obtenus par rapport \IeC {\`a} ceux du CERN}{21}{section.2.4}
-\contentsline {chapter}{\numberline {3}Validation crois\IeC {\'e}e entre les simulateurs}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Comparaison entre PSIM et SPS}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Algorithmes de simulation sur PSIM et SPS}{23}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Comparaison des mod\IeC {\`e}les d'IGBT}{24}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Contr\IeC {\^o}leur proportionnel-int\IeC {\'e}grateur (PI)}{25}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Calibration des contr\IeC {\^o}leurs (PI)}{26}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Convertisseur CC-CC 4 quadrants \IeC {\`a} 4 interrupteurs IGBT}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{26}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{30}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Convertisseur CC-CC 4 quadrants form\IeC {\'e} de 2 convertisseurs 3 niveaux NPC}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{33}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{36}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis d\IeC {\'e}bitant sur une source id\IeC {\'e}ale}{36}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{38}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{41}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis d\IeC {\'e}bitant sur une charge RC}{41}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{44}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{46}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI}{46}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{48}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{51}{subsection.3.6.2}
-\contentsline {section}{\numberline {3.7}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT}{51}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{54}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{58}{subsection.3.7.2}
+\contentsline {section}{\numberline {2.4}Comparaison des r\IeC {\'e}sultats de dimensionnement th\IeC {\'e}oriques obtenus par rapport \IeC {\`a} ceux du CERN}{22}{section.2.4}
+\contentsline {chapter}{\numberline {3}Validation crois\IeC {\'e}e entre les simulateurs}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Comparaison entre PSIM et SPS}{24}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Algorithmes de simulation sur PSIM et SPS}{24}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Comparaison des mod\IeC {\`e}les d'IGBT}{25}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Contr\IeC {\^o}leur proportionnel-int\IeC {\'e}grateur (PI)}{26}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Calibration des contr\IeC {\^o}leurs (PI)}{27}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Convertisseur CC-CC 4 quadrants \IeC {\`a} 4 interrupteurs IGBT}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{31}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Convertisseur CC-CC 4 quadrants form\IeC {\'e} de 2 convertisseurs 3 niveaux NPC}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{34}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{37}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis d\IeC {\'e}bitant sur une source id\IeC {\'e}ale}{37}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{39}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{42}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis d\IeC {\'e}bitant sur une charge RC}{42}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{45}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{47}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI}{47}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{49}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{52}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT}{52}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{55}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{59}{subsection.3.7.2}
 \contentsline {section}{\numberline {3.8}AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{59}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{61}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{68}{subsection.3.8.2}
-\contentsline {section}{\numberline {3.9}Analyse du fonctionnement du syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}}{70}{section.3.9}
+\contentsline {subsection}{\numberline {3.8.1}R\IeC {\'e}sultats de simulation pour SPS et PSIM pour un pas de calcul de 1$\mu $s}{62}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Analyse des r\IeC {\'e}sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1$\mu $s}{69}{subsection.3.8.2}
+\contentsline {section}{\numberline {3.9}Analyse du fonctionnement du syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}}{71}{section.3.9}
