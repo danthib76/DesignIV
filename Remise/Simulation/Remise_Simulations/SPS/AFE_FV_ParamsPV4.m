@@ -9,7 +9,7 @@ Vac = 2000;
 %Fréquence réseau
 Freq = 50;
 %Pas de simulation
-Tpas =1e-6;
+Tpas =10e-6;
 Ts=Tpas;
 % Capacité bus CC
 Cbus=330e-3;
@@ -129,8 +129,11 @@ PIcont = tf([Tm,1],[Ti,0]);
 PIdisc=c2d(PIcont,Tpas);
 % Calcul des coeff PI du PI discret de simulink
 [Numd,Dend,Ts]=tfdata(PIdisc, 'v');
-P4Q=Numd(1)/Dend(1);
-I4Q=(P4Q+Numd(2)/Dend(1))/Ts;
+% P4Q=Numd(1)/Dend(1);
+% I4Q=(P4Q+Numd(2)/Dend(1))/Ts;
+P4Q = 0.071;
+I4Q = 1/0.02;
+
 
 % Time constant current Low Pass Filter (ripple)
 % aussi 
