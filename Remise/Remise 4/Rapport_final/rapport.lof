@@ -14,19 +14,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Courant traversant la charge sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Tension aux bornes d'un IGBT sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{19}{figure.caption.13}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Puissance active d\IeC {\'e}livr\IeC {\'e}e sur la charge RL sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{19}{figure.caption.14}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Courant d'entr\IeC {\'e}e \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Tension \IeC {\`a} la charge \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{21}{figure.caption.16}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Tension et le courant au bornes d'un IGBT \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC\relax }}{22}{figure.caption.17}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Tension ligne-ligne \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{22}{figure.caption.18}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Phase entre le courant et la tension \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{23}{figure.caption.19}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Courant d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{25}{figure.caption.20}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Tension du bus CC pour un pas de calcul de 1$\mu $s\relax }}{26}{figure.caption.21}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Courant aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Puissance d\IeC {\'e}livr\IeC {\'e}e par le r\IeC {\'e}seau alternatif pour un pas de calcul de 1$\mu $s\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Pr\IeC {\'e}progrommation de l'outil de contr\IeC {\^o}le et de dimensionnement\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Interface de lancement et de programmation des param\IeC {\`e}tres\relax }}{17}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Matrice de v\IeC {\'e}rification des performances\relax }}{28}{figure.caption.25}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Courant traversant la charge sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Tension aux bornes d'un IGBT sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Puissance active d\IeC {\'e}livr\IeC {\'e}e sur la charge RL sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Courant d'entr\IeC {\'e}e \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Tension \IeC {\`a} la charge \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{22}{figure.caption.18}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Tension et le courant au bornes d'un IGBT \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Tension ligne-ligne \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Phase entre le courant et la tension \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Courant d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Tension du bus CC pour un pas de calcul de 1$\mu $s\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Courant aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Puissance d\IeC {\'e}livr\IeC {\'e}e par le r\IeC {\'e}seau alternatif pour un pas de calcul de 1$\mu $s\relax }}{28}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Sch\IeC {\'e}ma bloc de la cha\IeC {\^\i }ne de convertisseurs alimentant les \IeC {\'e}lectroaimants du CERN\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Courant traversant la charge sur Opal-RT et SPS pour un pas de calcul de 25$\mu $s pour le hacheur 4 quadrants (Affichage de 0.9 seconde)\relax }}{31}{figure.caption.27}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Courant traversant la charge sur Opal-RT et SPS pour un pas de calcul de 25$\mu $s pour le hacheur 4 quadrants (Affichage de 0.005 seconde)\relax }}{31}{figure.caption.28}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Matrice de v\IeC {\'e}rification des performances\relax }}{32}{figure.caption.29}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Sch\IeC {\'e}ma bloc de la cha\IeC {\^\i }ne de convertisseurs alimentant les \IeC {\'e}lectroaimants du CERN\relax }}{33}{figure.caption.30}
