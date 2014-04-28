@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 APR 2014 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 APR 2014 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,7 +1081,7 @@ LaTeX Info: Redefining \nameref on input line 81.
 \openout3 = `rapport.out'.
 
 
-<./fig/ul_logo.pdf, id=48, 313.17pt x 129.48375pt>
+<./fig/ul_logo.pdf, id=52, 313.17pt x 129.48375pt>
 File: ./fig/ul_logo.pdf Graphic file (type pdf)
  <use ./fig/ul_logo.pdf>
 Package pdftex.def Info: ./fig/ul_logo.pdf used on input line 81.
@@ -1137,7 +1137,7 @@ ABD: EveryShipout initializing macros
 
  (./tex/introduction.tex [3]
 Chapitre 1.
-<fig/CERN.png, id=146, 337.7418pt x 392.667pt>
+<fig/CERN.png, id=151, 337.7418pt x 392.667pt>
 File: fig/CERN.png Graphic file (type png)
  <use fig/CERN.png>
 Package pdftex.def Info: fig/CERN.png used on input line 6.
@@ -1147,7 +1147,7 @@ Package pdftex.def Info: fig/CERN.png used on input line 6.
 
 ] [5 <./fig/CERN.png>]
 Chapitre 2.
-<./fig/BOOSTER.png, id=159, 241.8636pt x 301.6068pt>
+<./fig/BOOSTER.png, id=164, 241.8636pt x 301.6068pt>
 File: ./fig/BOOSTER.png Graphic file (type png)
  <use ./fig/BOOSTER.png>
 Package pdftex.def Info: ./fig/BOOSTER.png used on input line 15.
@@ -1156,33 +1156,33 @@ Package pdftex.def Info: ./fig/BOOSTER.png used on input line 15.
 [6
 
 ] [7 <./fig/BOOSTER.png>]
-<fig/3L_Line_Voltage.png, id=181, 270.7716pt x 157.5486pt>
+<fig/3L_Line_Voltage.png, id=186, 270.7716pt x 157.5486pt>
 File: fig/3L_Line_Voltage.png Graphic file (type png)
 
 <use fig/3L_Line_Voltage.png>
 Package pdftex.def Info: fig/3L_Line_Voltage.png used on input line 25.
 (pdftex.def)             Requested size: 203.0782pt x 118.16115pt.
- <fig/Iref.png, id=182, 312.2064pt x 336.2964pt>
+ <fig/Iref.png, id=187, 312.2064pt x 336.2964pt>
 File: fig/Iref.png Graphic file (type png)
 
 <use fig/Iref.png>
 Package pdftex.def Info: fig/Iref.png used on input line 32.
 (pdftex.def)             Requested size: 156.10281pt x 168.14778pt.
- <fig/entrelacage.png, id=183, 297.2706pt x 404.2302pt>
+ <fig/entrelacage.png, id=188, 297.2706pt x 404.2302pt>
 File: fig/entrelacage.png Graphic file (type png)
 
 <use fig/entrelacage.png>
 Package pdftex.def Info: fig/entrelacage.png used on input line 39.
 (pdftex.def)             Requested size: 148.63493pt x 202.1146pt.
 
-<fig/fig_circuit_global.png, id=184, 941.5175pt x 287.0725pt>
+<fig/fig_circuit_global.png, id=189, 941.5175pt x 287.0725pt>
 File: fig/fig_circuit_global.png Graphic file (type png)
 
 <use fig/fig_circuit_global.png>
 Package pdftex.def Info: fig/fig_circuit_global.png used on input line 46.
 (pdftex.def)             Requested size: 470.7576pt x 143.53589pt.
 
-<fig/AFE_3L_RC_DCP_DCN.png, id=186, 763.653pt x 547.3248pt>
+<fig/AFE_3L_RC_DCP_DCN.png, id=191, 763.653pt x 547.3248pt>
 File: fig/AFE_3L_RC_DCP_DCN.png Graphic file (type png)
 
 <use fig/AFE_3L_RC_DCP_DCN.png>
@@ -1254,7 +1254,7 @@ Overfull \hbox (15.18301pt too wide) in paragraph at lines 4--4
 
 [17
 
-] <fig/DCPDCN/DCPCourantCharge1u.jpg, id=240, 1037.37563pt x 408.77719pt>
+] <fig/DCPDCN/DCPCourantCharge1u.jpg, id=245, 1037.37563pt x 408.77719pt>
 File: fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPCourantCharge1u.jpg>
@@ -1262,7 +1262,7 @@ Package pdftex.def Info: fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
 4.
 (pdftex.def)             Requested size: 518.68654pt x 204.38809pt.
 
-<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=241, 1025.33063pt x 408.77719pt>
+<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=246, 1025.33063pt x 408.77719pt>
 File: fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPTensionIGBT1u.jpg>
@@ -1270,38 +1270,38 @@ Package pdftex.def Info: fig/DCPDCN/DCPTensionIGBT1u.jpg used on input line 21.
 
 (pdftex.def)             Requested size: 512.66406pt x 204.38809pt.
 
-<fig/P_DCP.jpg, id=242, 1014.03844pt x 461.47406pt>
+<fig/P_DCP.jpg, id=247, 1014.03844pt x 461.47406pt>
 File: fig/P_DCP.jpg Graphic file (type jpg)
  <use fig/P_DCP.jpg>
 Package pdftex.def Info: fig/P_DCP.jpg used on input line 28.
 (pdftex.def)             Requested size: 507.01797pt x 230.73645pt.
 
 [18 <./fig/DCPDCN/DCPCourantCharge1u.jpg>] [19 <./fig/DCPDCN/DCPTensionIGBT1u.j
-pg> <./fig/P_DCP.jpg>] <fig/coual_afe.jpg, id=257, 1014.03844pt x 472.01344pt>
+pg> <./fig/P_DCP.jpg>] <fig/coual_afe.jpg, id=262, 1014.03844pt x 472.01344pt>
 File: fig/coual_afe.jpg Graphic file (type jpg)
 
 <use fig/coual_afe.jpg>
 Package pdftex.def Info: fig/coual_afe.jpg used on input line 43.
 (pdftex.def)             Requested size: 507.01797pt x 236.00613pt.
- <fig/ten_afe.jpg, id=258, 1015.54407pt x 439.6425pt>
+ <fig/ten_afe.jpg, id=263, 1015.54407pt x 439.6425pt>
 File: fig/ten_afe.jpg Graphic file (type jpg)
 
 <use fig/ten_afe.jpg>
 Package pdftex.def Info: fig/ten_afe.jpg used on input line 53.
 (pdftex.def)             Requested size: 507.7708pt x 219.82071pt.
- <fig/com_afe.jpg, id=259, 1025.33063pt x 442.65375pt>
+ <fig/com_afe.jpg, id=264, 1025.33063pt x 442.65375pt>
 File: fig/com_afe.jpg Graphic file (type jpg)
 
 <use fig/com_afe.jpg>
 Package pdftex.def Info: fig/com_afe.jpg used on input line 62.
 (pdftex.def)             Requested size: 512.66406pt x 221.32632pt.
- <fig/L.jpg, id=260, 1009.52156pt x 467.49657pt>
+ <fig/L.jpg, id=265, 1009.52156pt x 467.49657pt>
 File: fig/L.jpg Graphic file (type jpg)
 
 <use fig/L.jpg>
 Package pdftex.def Info: fig/L.jpg used on input line 69.
 (pdftex.def)             Requested size: 504.75955pt x 233.74771pt.
- <fig/phase.jpg, id=261, 997.47656pt x 465.99094pt>
+ <fig/phase.jpg, id=266, 997.47656pt x 465.99094pt>
 File: fig/phase.jpg Graphic file (type jpg)
 
 <use fig/phase.jpg>
@@ -1317,38 +1317,41 @@ Overfull \hbox (2.50958pt too wide) in paragraph at lines 83--83
 
 [24
 
-] <fig/DCP_AFE/1u/cour_al.jpg, id=287, 1020.06094pt x 455.45157pt>
+] <fig/DCP_AFE/1u/cour_al.jpg, id=293, 1020.06094pt x 455.45157pt>
 File: fig/DCP_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 92.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 94.
 (pdftex.def)             Requested size: 510.02922pt x 227.72522pt.
 
-<fig/DCP_AFE/1u/ten_bus.jpg, id=288, 1012.5328pt x 449.42906pt>
+<fig/DCP_AFE/1u/ten_bus.jpg, id=294, 1012.5328pt x 449.42906pt>
 File: fig/DCP_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 100.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 102.
 (pdftex.def)             Requested size: 506.26517pt x 224.71397pt.
 
-<fig/DCP_AFE/1u/cour_ch.jpg, id=289, 1038.88126pt x 431.36156pt>
+<fig/DCP_AFE/1u/cour_ch.jpg, id=295, 1038.88126pt x 431.36156pt>
 File: fig/DCP_AFE/1u/cour_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_ch.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 107.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 109.
 (pdftex.def)             Requested size: 519.43936pt x 215.68025pt.
 
-<fig/DCP_AFE/1u/PUI.jpg, id=290, 1001.99344pt x 476.53032pt>
+<fig/DCP_AFE/1u/PUI.jpg, id=296, 1001.99344pt x 476.53032pt>
 File: fig/DCP_AFE/1u/PUI.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/PUI.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/PUI.jpg used on input line 114.
+Package pdftex.def Info: fig/DCP_AFE/1u/PUI.jpg used on input line 116.
 (pdftex.def)             Requested size: 500.9955pt x 238.26457pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (./tex/matrice.tex [25 <./fig/DCP_AFE/1u/cour_al.jpg>] [26 <./fig/DCP_AFE/1u/
-ten_bus.jpg> <./fig/DCP_AFE/1u/cour_ch.jpg>]
-[27 <./fig/DCP_AFE/1u/PUI.jpg>]
+ten_bus.jpg> <./fig/DCP_AFE/1u/cour_ch.jpg>] [27 <./fig/DCP_AFE/1u/PUI.jpg>]
 Chapitre 7.
-<./fig/matrice_verification.pdf, id=304, 614.295pt x 794.97pt>
+<./fig/matrice_verification.pdf, id=311, 614.295pt x 794.97pt>
 File: ./fig/matrice_verification.pdf Graphic file (type pdf)
 
 <use ./fig/matrice_verification.pdf>
@@ -1358,7 +1361,7 @@ Package pdftex.def Info: ./fig/matrice_verification.pdf used on input line 5.
 
  <./fig/matrice_verification.pdf>]
 Chapitre 8.
-<fig/convertisseur_CERN.png, id=329, 444.7014pt x 176.8206pt>
+<fig/convertisseur_CERN.png, id=336, 444.7014pt x 176.8206pt>
 File: fig/convertisseur_CERN.png Graphic file (type png)
 
 <use fig/convertisseur_CERN.png>
@@ -1375,14 +1378,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 205F1B336715ED5E1D9B1337169824A0;876.
+(rerunfilecheck)             Checksum: C55338D91C933909F16EC507A688710C;957.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 13098 strings out of 493315
- 193871 string characters out of 6137904
+ 13102 strings out of 493315
+ 193933 string characters out of 6137904
  352151 words of memory out of 5000000
- 16179 multiletter control sequences out of 15000+600000
+ 16181 multiletter control sequences out of 15000+600000
  48704 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,43p,2302b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1400,10 +1403,10 @@ type1/public/lm/lmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
 /lm/lmri12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on rapport.pdf (30 pages, 3435484 bytes).
+Output written on rapport.pdf (30 pages, 3437932 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

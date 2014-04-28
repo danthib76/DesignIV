@@ -87,6 +87,8 @@ Cette section présente le système intégré, soit l'AFE triphasé 3 niveaux NP
 
 \paragraph{} Pour ce qui est de maintenir une puissance maximale autour de 3.6MW et une puissance moyenne de 2.7MW sur un cycle, on constate au moyen de la figure \ref{AF_DC_CHA2} que cet objectif est rempli et que les réglages apportés limitent correctement la puissance à l'entrée. L'ondulation est causée par la présence d'harmoniques dans le signal de courant. Il est à noter un décalage des résultats entre PSIM et SPS. La courbe de SPS étant en retard sur celle de PSIM. Par ailleurs, la puissance moyenne n'est pas exactement à 2.7MW, puisque la méthode de régulation employée dans la conception ne permet pas explicitement d'imposer la puissance de l'AFE en contrôle dynamique. La souplesse possible avec des contrôleurs PID simples ne permet pas d'atteindre cet objectif, il est essentiel d'utiliser une méthode de réglage comparable à celle du CERN pour y arriver.
 
+
+
 \begin{figure}[htb]
 \centering
 \makebox[\textwidth][c]{\includegraphics[scale=0.5]{fig/DCP_AFE/1u/cour_al.jpg}}
@@ -116,6 +118,26 @@ Cette section présente le système intégré, soit l'AFE triphasé 3 niveaux NP
 \label{AF_DC_CHA2}
 \end{figure}
 
+
+\section{Comparatif des temps de simulation}
+Les temps de simulation de l'ensemble des sous-systèmes qui ont été implanté dans les simulateurs sur les 2 plateformes sont résumés au tableau \ref{tab_temps_simulation}. Ce tableau présente les temps totaux de simulation pour 2 ordinateurs munis de processeurs différents. L'objectif est de vérifier la complexité algorithmique relative des 2 plateformes de simulation. On note que les simulations de complexité croissante provoquent un impact plus marqué sur le temps de calcul sur PSIM que sur SPS. 
+\begin{table}[h]
+\centering
+\begin{tabular}{|l||c|c|c|c|c|}
+\hline
+&  \multicolumn{2}{>{\centering\arraybackslash}m{1.2in}|}{Intel Core 2 Duo T9900 3.06GHz}        & \multicolumn{2}{c|}{AMD FX-8350 4 GHz}               \\\hline
+Simulations                      & SPS                       & PSIM  & SPS    & PSIM   \\
+AFE 3 LEVEL+DCP/DCN 0.9sec       & 22min                     & 23min & 5m 54s & 7m 23s \\
+AFE 2 LEVEL + HACHEUR 0.9sec     & 5min                      & 5min  & 3m 08s & 1m 28s \\
+AFE 3 LEVEL PWM 1sec             & 9min                      & 5min  & 4m 11s & 1m 41s \\
+AFE 2 LEVEL HYSTERESIS 1sec      & 7min                      & 4min  & 2m 33s & 1m 19s \\
+AFE 2 LEVEL IDEAL 1sec           & 8min                      & 6min  & 2m 49s & 2m 5s  \\
+DCP/DCN 0.9sec                  & 5min                      & 5min  & 2m 48s & 1m 41s \\
+HACHEUR 4 QUADRANTS 0.9sec       & 3min                      & 1min  & 1m 20s & 16s \\ \hline 
+\end{tabular}
+\caption{Résumé des temps de simulations sur 2 ordinateurs munis de processeurs différents}
+\label{tab_temps_simulation}
+\end{table}
 
 
 

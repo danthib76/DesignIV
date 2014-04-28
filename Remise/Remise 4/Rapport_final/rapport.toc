@@ -23,5 +23,6 @@
 \contentsline {section}{\numberline {6.3}Syst\IeC {\`e}me int\IeC {\'e}gr\IeC {\'e}: AFE 3 niveaux NPC avec contr\IeC {\^o}le par MLI avec convertisseur CC-CC form\IeC {\'e} de 2 cellules NPC 3 niveaux}{24}{section.6.3}
 \contentsline {paragraph}{}{24}{section.6.3}
 \contentsline {paragraph}{}{24}{section.6.3}
+\contentsline {section}{\numberline {6.4}Comparatif des temps de simulation}{25}{section.6.4}
 \contentsline {chapter}{\numberline {7}Matrice de v\IeC {\'e}rification des performances}{28}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusion}{29}{chapter.8}
