@@ -28,10 +28,10 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Tension aux bornes d'un IGBT sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{36}{figure.caption.27}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 2 niveaux sur source parfaite\relax }}{38}{figure.caption.28}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Le courant d'entr\IeC {\'e}e avec un pas de calcul de 1$\mu $s pour l'AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis sur source id\IeC {\'e}ale\relax }}{39}{figure.caption.30}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de 45 degr\IeC {\'e}s, pour un pas de calcul 1$\mu $s\relax }}{40}{figure.caption.31}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de 135 degr\IeC {\'e}s, pour un pas de calcul 1$\mu $s\relax }}{40}{figure.caption.32}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de -45 degr\IeC {\'e}s, pour un pas de calcul 1$\mu $s\relax }}{41}{figure.caption.33}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de -135 degr\IeC {\'e}s, pour un pas de calcul 1$\mu $s\relax }}{41}{figure.caption.34}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de 45$^\circ $, pour un pas de calcul 1$\mu $s\relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de 135$^\circ $, pour un pas de calcul 1$\mu $s\relax }}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de -45$^\circ $, pour un pas de calcul 1$\mu $s\relax }}{41}{figure.caption.33}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Puissances active et r\IeC {\'e}active pour une courant d\IeC {\'e}phas\IeC {\'e} de -135$^\circ $, pour un pas de calcul 1$\mu $s\relax }}{41}{figure.caption.34}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 2 niveaux sur une charge RC\relax }}{43}{figure.caption.35}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces La transform\IeC {\'e}e de Fourier discr\IeC {\`e}te (fft) du courant d'entr\IeC {\'e}e \IeC {\`a} 1$\mu $s\relax }}{44}{figure.caption.36}
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Le courant d'entr\IeC {\'e} \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC\relax }}{45}{figure.caption.38}
@@ -43,7 +43,7 @@
 \contentsline {figure}{\numberline {3.28}{\ignorespaces La tension et le courant au niveau d'un IGBT pour un pas de calcul de 1$\mu $s, pour l'AFE 3 niveaux\relax }}{50}{figure.caption.45}
 \contentsline {figure}{\numberline {3.29}{\ignorespaces La tension et le courant au niveau d'une diode pour un pas de calcul de 1$\mu $s, pour l'AFE 3 niveaux\relax }}{51}{figure.caption.46}
 \contentsline {figure}{\numberline {3.30}{\ignorespaces Circuit \IeC {\'e}lectrique de l'AFE 2 niveaux avec contr\IeC {\^o}le par hyst\IeC {\'e}r\IeC {\'e}sis et hacheur 4 quadrants \IeC {\`a} 4 IGBT\relax }}{53}{figure.caption.47}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Le courant d'entr\IeC {\'e} \IeC {\`a} 1$\mu $s section AFE\relax }}{55}{figure.caption.49}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Courant d'entr\IeC {\'e}e pour un pas de calcul de 1$\mu $s pour la section AFE\relax }}{55}{figure.caption.49}
 \contentsline {figure}{\numberline {3.32}{\ignorespaces La tension au bus CC \IeC {\`a} 1$\mu $s section AFE\relax }}{56}{figure.caption.50}
 \contentsline {figure}{\numberline {3.33}{\ignorespaces La tension et le courant au niveau d'un IGBT \IeC {\`a} 1$\mu $s au niveau de l'AFE\relax }}{56}{figure.caption.51}
 \contentsline {figure}{\numberline {3.34}{\ignorespaces Le courant au niveau de la charge \IeC {\`a} 1$\mu $s\relax }}{57}{figure.caption.52}
