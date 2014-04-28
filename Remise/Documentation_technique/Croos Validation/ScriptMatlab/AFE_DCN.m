@@ -4,12 +4,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Puissance
 figure(11)
-plot(Time,P1,hach4quadrants.time,ScopeData2.signals(1).values(:,1)*-1)
+subplot(2,1,1)
+plot(Time1,P1,ScopeData2.time,ScopeData2.signals(1).values(:,1)*-1)
 xlabel('Temps (sec)','FontSize',15)
 ylabel('Puissance (W)','FontSize',15)
 title('Puissance active du réseau','FontSize',15)
 legend('PSIM Puissance', 'SPS Puissance')
 grid on
+xlim([0,0.9])
+
+for i=1:length(Time1)
+a(i) = 2.5531556*10^6;
+end
+
+for i=1:length(Time1)
+b(i) = 2.48*10^6;
+end
+subplot(2,1,2)
+plot(Time,a,Time,b)
+xlabel('Temps (sec)','FontSize',15)
+ylabel('Puissance (W)','FontSize',15)
+title('Puissance moyenne active du réseau','FontSize',15)
+legend('PSIM Puissance', 'SPS Puissance')
+grid on
+xlim([0,0.9])
+ylim([2.45*10^6,2.6*10^6])
 
 % 
 % %Courant SPS

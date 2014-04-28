@@ -2,27 +2,30 @@
 \select@language {french}
 \select@language {french}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\IeC {\'e}sentation sch\IeC {\'e}matique de l'implantation du complexe d'acc\IeC {\'e}l\IeC {\'e}rateurs du CERN\relax }}{4}{figure.caption.3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Repr\IeC {\'e}sentation sch\IeC {\'e}matique de l'implantation du complexe d'acc\IeC {\'e}l\IeC {\'e}rateurs du CERN\relax }}{5}{figure.caption.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Sch\IeC {\'e}ma de l'implantation du PSB au CERN\relax }}{6}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Allure de la tension ligne-ligne d'un convertisseur CA/CC 3 niveaux \IeC {\`a} 3 bras NPC\relax }}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Forme de courant et de tension \IeC {\`a} fournir pr\IeC {\'e}cis\IeC {\'e}ment \IeC {\`a} la charge ainsi que la tension du bus CC en fonction du temps\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Formes d'ondes type d'une commande entrelac\IeC {\'e}e \IeC {\`a} k phases pour un convertisseur \IeC {\'e}lectronique\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Sch\IeC {\'e}ma du circuit complet simplifi\IeC {\'e} \IeC {\'e}quivalent\relax }}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectrique complet du syst\IeC {\`e}me \IeC {\`a} implanter.\relax }}{9}{figure.caption.9}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sch\IeC {\'e}ma de l'implantation du PSB au CERN\relax }}{7}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Allure de la tension ligne-ligne d'un convertisseur CA/CC 3 niveaux \IeC {\`a} 3 bras NPC\relax }}{8}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Forme de courant et de tension \IeC {\`a} fournir pr\IeC {\'e}cis\IeC {\'e}ment \IeC {\`a} la charge ainsi que la tension du bus CC en fonction du temps\relax }}{8}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Formes d'ondes type d'une commande entrelac\IeC {\'e}e \IeC {\`a} k phases pour un convertisseur \IeC {\'e}lectronique\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Sch\IeC {\'e}ma du circuit complet simplifi\IeC {\'e} \IeC {\'e}quivalent\relax }}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sch\IeC {\'e}ma \IeC {\'e}lectrique complet du syst\IeC {\`e}me \IeC {\`a} implanter.\relax }}{10}{figure.caption.9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Courant traversant la charge sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{16}{figure.caption.12}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Tension aux bornes d'un IGBT sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Courant d'entr\IeC {\'e}e \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{19}{figure.caption.14}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Tension \IeC {\`a} la charge \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Tension et le courant au bornes d'un IGBT \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Courant d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{22}{figure.caption.17}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Tension du bus CC pour un pas de calcul de 1$\mu $s\relax }}{23}{figure.caption.18}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Courant aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{23}{figure.caption.19}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Puissance d\IeC {\'e}livr\IeC {\'e}e par le r\IeC {\'e}seau alternatif pour un pas de calcul de 1$\mu $s\relax }}{24}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Matrice de v\IeC {\'e}rification\relax }}{25}{figure.caption.21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Courant traversant la charge sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Tension aux bornes d'un IGBT sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Puissance active d\IeC {\'e}livr\IeC {\'e}e sur la charge RL sur PSIM et SPS pour un pas de calcul de 1$\mu $s pour le DCP/DCN\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Courant d'entr\IeC {\'e}e \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Tension \IeC {\`a} la charge \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC suivant des variations p\IeC {\'e}riodiques de la consigne de tension\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Tension et le courant au bornes d'un IGBT \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Tension ligne-ligne \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Phase entre le courant et la tension \IeC {\`a} 1$\mu $s pour l'AFE sur charge RC sans perturbation\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Courant d'entr\IeC {\'e}e de l'AFE pour un pas de calcul de 1$\mu $s\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Tension du bus CC pour un pas de calcul de 1$\mu $s\relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Courant aux bornes des \IeC {\'e}lectroaimants pour un pas de calcul de 1$\mu $s\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Puissance d\IeC {\'e}livr\IeC {\'e}e par le r\IeC {\'e}seau alternatif pour un pas de calcul de 1$\mu $s\relax }}{26}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Matrice de v\IeC {\'e}rification\relax }}{27}{figure.caption.24}
 \addvspace {10\p@ }
