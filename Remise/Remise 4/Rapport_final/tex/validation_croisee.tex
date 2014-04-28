@@ -1,14 +1,11 @@
 \chapter{Validation croisée des simulations}
-Dans cette section, par souci de simplicité, juste les sous-systèmes avec la configuration finale est exploré. 
+Cette section présentera seulement les sous-systèmes faisant partie du système intégré et qui permettent de vérifier le cahier des charges.
 
 \section{Convertisseur CC-CC 4 quadrants formé de 2 convertisseurs 3 niveaux NPC}
-Ce sous-système représente le DCP/DCN, le convertisseur CC-CC indiqué sur la figure présenté au début de ce document représentant le schéma complet du système à implémenter. Le fonctionnalité de ce système est de reproduire une forme de courant précise à la charge, il est testé sur source idéal et est capable de  reproduire le courant désirée sur une charge RL comme on le remarque sur la figure~\ref{DC_ch_cou_1}, il n'y a pas de grosse différence entre PSIM et SPS mise à part un décalage en fréquence. La dynamique du système suit très bien la courbe de référence avec une oscillation d'environs 15A. Il y a présence de commutation non désirée mais ça n'affecte pas le fonctionnement du système. 
-
-
 
 Le premier sous-système est celui du convertisseur CC-CC 4 quadrants formé de 2 convertisseurs triphasés 3 niveaux NPC avec une commande par MLI à 333Hz, intercalée de 120$^\circ$ par phase. La fréquence vue à la charge est la même que la fréquence de commande de l'AFE, soit 1kHz. L'entrelacement  des commandes permet de réduire les valeurs RMS et moyennes des courants dans les différents bras des convertisseurs. La tension maximale vue des interrupteurs est abaissée à la moitié de la tension du bus CC, ce qui présente un net avantage de dimensionnement. Le sous-système du DCP/DCN permet de remplir l'exigence d'alimenter les électroaimants avec une forme de courant précise. De plus, la puissance moyenne et maximale doivent être similaires à celles prévues par le CERN (18MW crête et 5.4MW moyenne). Les simulations ont été implantées sous SPS et PSIM, le simulateur d'OPAL-RT n'étant pas disponible à temps. Les résultats comparatifs du courant dans la charge sont présentés à la figure \ref{DC_ch_cou_1}. On remarque premièrement que les 2 simulateurs permettent de suivre la consigne de courant demandée. Par la suite, lorsqu'on observe le courant en maintient à 6kA, on remarque qu'il y a une légère différence de fréquence entre les 2 signaux, de l'ordre d'environ 110Hz. La différence est apportée par l'implémentation des filtres dans les 2 simulateurs ainsi que par les algorithmes utilisés afin de solutionner les matrices d'équation d'états (SPS) et les matrices d'admittances nodales (PSIM). De plus, les algorithmes de détection des passages par 0 ne sont pas exactement similaires. SPS utilise une discrétisation par la méthode de Tustin et PSIM une méthode trapézoïdale pure. Ce faisant, vu la quantité de composantes et le nombre de commutations élevées (36 interrupteurs commandés), il est normal d'observer des différences ponctuelles. On constante cependant que les amplitudes observées sont identiques et que les signaux reviennent en phase périodiquement. Les formes d'ondes de courant en montée initiale et en montée rapide permettent de constater que la réponse globale des simulateurs est similaire et qu'ils présentent un comportement analogue.
 
-\paragraph{} La figure \ref{DC_IG_ten_1} présente la tension aux bornes d'un IGBT du DCP/DCN dans les 2 simulateurs. On remarque que les patrons de tensions et les durées de conduction sont les identiques, de même que les amplitudes, mais qu'il y a un décalage de l'une des simulations par rapport à l'autre, ce qui explique les différences ponctuelles. 
+\paragraph{} La figure \ref{DC_IG_ten_1} présente la tension aux bornes d'un IGBT du DCP/DCN dans les 2 simulateurs. On remarque que les patrons de tensions et les durées de conduction sont identiques. Les amplitudes des tensions aux bornes de l'IGBT le sont aussi. Cependant, qu'il y a un décalage de l'une des simulations par rapport à l'autre, ce qui explique les différences ponctuelles. 
 
 \paragraph{}Pour ce qui est du sous-système formé par le DCP/DCN, on comprend que la commande des interrupteurs représente le fonctionnement désiré, qu'elle permet de remplir l'exigence d'alimenter les électroaimants de l'accélérateur de particules avec une forme de courant précise et une fréquence de modulation équivalente de 1kHz. Aussi, la correspondance du fonctionnement dans PSIM et dans SPS a été vérifiée par des comparaisons à l'échelle de la modulation. 
 
@@ -28,17 +25,15 @@ Le premier sous-système est celui du convertisseur CC-CC 4 quadrants formé de 
 
 \clearpage
 \section{AFE 3 niveaux NPC avec contrôle par MLI}
-<<<<<<< HEAD
-Le second sous-système est celui de l'AFE 3 niveaux NPC triphasé avec contrôle par MLI débitant sur une charge RC équivalente. Ce sous-système permet de remplir l'exigence de redresser le signal d'entrée du transformateur et de fournir une puissance moyenne maximale de 2.7MW et une puissance crête maximale de 3.6MW tout en maintenant la phase du courant nulle par rapport à la tension.
-=======
-Ce sous-système représente l'AFE. Il est testée sur une consigne de tension périodique pour reproduire la dynamique du système. La figure~\ref{AF_RC_cou} montre que le système réagit au changement de consigne de courant de manière identique entre PSIM et SPS. On remarque un décalage entre la courbe de tension de PSIM et SPS tel que vu sur la figure~\ref{AF_RC_ten} d'environs 5V. Dû au nombre élevé de complexité du modèle il est difficile d'indiquer exactement ce qui peut causer cette différence mais on remarque de même un fonctionnement pratiquement identique entre PSIM et SPS. On observe sur la figure~\ref{AF_RC_igbt} que les commutation de SPS et PSIM sont identiques et se déroulent au même moment.
 
+Le second sous-système est celui de l'AFE 3 niveaux NPC triphasé avec contrôle par MLI débitant sur une charge RC équivalente. Ce sous-système permet de remplir l'exigence de redresser le signal d'entrée du transformateur, de fournir une puissance moyenne maximale de 2.7MW et une puissance crête maximale de 3.6MW. Cela, tout en maintenant la phase du courant nulle par rapport à la tension. La figure \ref{AF_RC_cou} présente le courant d'entrée pour l'AFE sur charge RC suivant des variations périodiques de la consigne de tension. On cherche ici à présenter la stabilité transitoire et en régime permanent de l'AFE débitant sur une charge RC. L'objectif étant de montrer que les réglages employés donnent des réponses transitoires et permanentes identiques en perturbation. On remarque que les courbes de courant de SPS et de PSIM présentent des réponses pratiquement identiques et indissociables. La figure \ref{AF_RC_ten} présente la tensions aux bornes de la charge RC suivant des variations périodiques de la consigne de tension. On constate que les réponses entre SPS et PSIM sont très similaires et que la tension converge vers la même tension en régime permanent. Par ailleurs, on constate que le courant d'entrée se stabilise suivant une perturbation et que les régulateurs choisis présentent un fonctionnement stable en perturbation. La figure \ref{AF_RC_igbt}
+présente la tension et le courant d'un IGBT de l'AFE en régulation suivant des variations périodiques de la consigne de tension. On constate que les simulateurs fournissent des résultats à toutes fins pratiques identiques sur ce point.
 
->>>>>>> FETCH_HEAD
+\paragraph{}Pour cette section, il est possible de constater que l'AFE remplit le critère de redresser le signal d'entrée avec un courant présentant un déphasage de près de $0^\circ$ avec la tension.
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/coual_afe.jpg}
-\caption{Le courant d'entré à 1$\mu$s pour l'AFE sur charge RC}
+\caption{Courant d'entrée à 1$\mu$s pour l'AFE sur charge RC suivant des variations périodiques de la consigne de tension}
 \label{AF_RC_cou}
 \end{figure}
 
@@ -48,7 +43,7 @@ Ce sous-système représente l'AFE. Il est testée sur une consigne de tension p
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/ten_afe.jpg}
-\caption{La tension à la charge à 1$\mu$s pour l'AFE sur charge RC}
+\caption{Tension à la charge à 1$\mu$s pour l'AFE sur charge RC suivant des variations périodiques de la consigne de tension}
 \label{AF_RC_ten}
 \end{figure}
 
@@ -57,19 +52,22 @@ Ce sous-système représente l'AFE. Il est testée sur une consigne de tension p
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/com_afe.jpg}
-\caption{La tension et le courant au bornes d'un IGBT à 1$\mu$s pour l'AFE sur charge RC}
+\caption{Tension et le courant au bornes d'un IGBT à 1$\mu$s pour l'AFE sur charge RC}
 \label{AF_RC_igbt}
 \end{figure}
 
 \clearpage
-\section{AFE 3 niveaux NPC avec contrôle par MLI avec convertisseur CC-CC formé de 2 cellules NPC 3 niveaux}
-Ce sous-système représente le système complet, l'intégration de l'AFE et le DCP/DCN. On observe un fonctionnement tout à fait semblable mise à part un décalage d'environs 50V entre PSIM et SPS tel que vu sur la figure~\ref{AF_DC_vch1}. On observe que pour les deux systèmes, soit SPS et PSIM, on arrive à 200V environs de la courbe obtenu par le CERN au niveau de la tension sur le bus CC. Cette différence s'explique par un manque de donnée et d'information par rapport au système complet du CERN. Malgré ce manque de donnée, nous réussissons à reproduire la forme de courant désirée~\ref{AF_DC_CHA1}avec une oscillation d'environs 15A. Par contre, même si on réussi à limiter la puissance active délivrée du réseau à 3.6MW tel que demandé comme le montre la figure~\ref{AF_DC_CHA2}. On observe que PSIM délivre une puissance un peu plus élevé que SPS ce qui fait en sorte que le bus CC finit de se recharger environs 30ms avant sur PSIM que SPS.
+\section{Système intégré: AFE 3 niveaux NPC avec contrôle par MLI avec convertisseur CC-CC formé de 2 cellules NPC 3 niveaux}
+Cette section présente le système intégré, soit l'AFE triphasé 3 niveaux NPC avec contrôle par MLI dont la charge est un convertisseur CC-CC formé de 2 cellules onduleur NPC triphasé à 3 niveaux avec une commande par MLI décalée. En ce qui attrait à l'AFE 3 niveaux, la figure \ref{AF_DC_cou1} présente le courant d'entrée du redresseur en fonction du temps. On constate que les formes d'ondes entre SPS et PSIM sont pratiquement identiques et indissociables à l'oeil. La figure \ref{AF_DC_vch1} présente la tension aux bornes de la charge pour un cycle complet sous SPS, PSIM  et selon une courbe de référence extrapolée d'un document fourni par le CERN. La constante de charge du système est identique dans SPS et PSIM et la pente plus abrupte sur la courbe présentée par le CERN. La différence entre les tensions sur SPS et PSIM est au maximum de 50V en descente. On constate que le temps de charge du banc de condensateurs est de 0.28s pour PSIM et de 0.33s pour SPS. Le temps de charge du CERN est autour de 0.28s. L'erreur avec le CERN est autour de 200V, en plus d'une descente plus marquée. Par contre, étant donné que les réglages utilisés ont été réalisés de manière indépendante à ceux effectués au CERN et avec des méthodes totalement différentes, on considère que le système obtenu représente suffisamment bien celui du CERN pour fins de dimensionnement et d'analyse.
 
+\paragraph{}La figure \ref{AF_DC_CHA1} présente le courant à la charge lorsque la tension du bus DC est maintenue par un AFE 3 niveaux. On remarque que l'erreur en maintient est plus constates et que les fréquences ne glissent pas. Cependant, il est possible de constater des perturbations de la forme d'onde sur PSIM, probablement causé par des ré-amorçages d'IGBT. Somme toute, les amplitudes des courants sur les 2 simulateurs sont identiques et l'ondulation  de courant est maintenue inférieure à $\pm$10A. Il est à noter que la précision obtenue au CERN est largement supérieure, mais que nous ne disposons pas de la même souplesse de réglage avec la méthode de régulation implantée. Les courants en montée  et en descente ne présentent pas de différences notables et sont analogues à ceux obtenus sans l'AFE.
+
+\paragraph{} Pour ce qui est de maintenir une puissance maximale autour de 3.6MW et une puissance moyenne de 2.7MW sur un cycle, on constate au moyen de la figure \ref{AF_DC_CHA2} que cet objectif est remplit et que les réglages apportés limitent correctement la puissance à l'entrée. L'ondulation est causée par la présence d'harmoniques dans le signal de courant. Il est à noter un décalage des résultats entre PSIM et SPS. La courbe de SPS étant en retard sur celle de PSIM. 
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/cour_al.jpg}
-\caption{Le courant d'entrée de l'AFE pour un pas de calcul de 1$\mu$s}
+\caption{Courant d'entrée de l'AFE pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_cou1}
 \end{figure}
 
@@ -77,21 +75,21 @@ Ce sous-système représente le système complet, l'intégration de l'AFE et le 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/ten_bus.jpg}
-\caption{La tension du bus CC pour un pas de calcul de 1$\mu$s}
+\caption{Tension du bus CC pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_vch1}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/cour_ch.jpg}
-\caption{Le courant aux bornes des électroaimants pour un pas de calcul de 1$\mu$s}
+\caption{Courant aux bornes des électroaimants pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_CHA1}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.5]{fig/DCP_AFE/1u/PUI.jpg}
-\caption{La puissance délivrée par le réseau alternatif pour un pas de calcul de 1$\mu$s}
+\caption{Puissance délivrée par le réseau alternatif pour un pas de calcul de 1$\mu$s}
 \label{AF_DC_CHA2}
 \end{figure}
 
