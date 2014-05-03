@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  27 APR 2014 21:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2014 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1710,21 +1710,21 @@ Package pdftex.def Info: fig/AFE_3L_RC_DCP_DCN.png used on input line 558.
  [60 <./fig/AFE_3L_RC_DCP_DCN.png>] [61]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 609.
+(hyperref)                removing `math shift' on input line 612.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 609.
+(hyperref)                removing `\mu' on input line 612.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 609.
+(hyperref)                removing `math shift' on input line 612.
 
 <fig/DCP_AFE/1u/cour_al.jpg, id=874, 1020.06094pt x 455.45157pt>
 File: fig/DCP_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_al.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 613.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 616.
 (pdftex.def)             Requested size: 510.02922pt x 227.72522pt.
 
 <fig/DCP_AFE/1u/ten_ligne_ligne.jpg, id=875, 1011.78pt x 443.40656pt>
@@ -1732,28 +1732,28 @@ File: fig/DCP_AFE/1u/ten_ligne_ligne.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_ligne_ligne.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/ten_ligne_ligne.jpg used on input line 
-620.
+623.
 (pdftex.def)             Requested size: 505.88876pt x 221.70273pt.
 
 <fig/DCP_AFE/1u/ten_bus.jpg, id=876, 1017.8025pt x 444.91219pt>
 File: fig/DCP_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_bus.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 627.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 630.
 (pdftex.def)             Requested size: 508.90001pt x 222.45554pt.
 
 <fig/DCP_AFE/1u/IGBT_afe.jpg, id=877, 1017.8025pt x 431.36156pt>
 File: fig/DCP_AFE/1u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/IGBT_afe.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 635.
+Package pdftex.def Info: fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 638.
 (pdftex.def)             Requested size: 508.90001pt x 215.68025pt.
 
 <fig/DCP_AFE/1u/cou_IGBT_afe.jpg, id=878, 1012.5328pt x 432.86719pt>
 File: fig/DCP_AFE/1u/cou_IGBT_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cou_IGBT_afe.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cou_IGBT_afe.jpg used on input line 642
+Package pdftex.def Info: fig/DCP_AFE/1u/cou_IGBT_afe.jpg used on input line 645
 .
 (pdftex.def)             Requested size: 506.26517pt x 216.43306pt.
 
@@ -1761,8 +1761,8 @@ Package pdftex.def Info: fig/DCP_AFE/1u/cou_IGBT_afe.jpg used on input line 642
 File: fig/DCP_AFE/1u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_diode_afe.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 64
-9.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 65
+2.
 (pdftex.def)             Requested size: 510.40562pt x 212.669pt.
 
 <fig/DCP_AFE/1u/cou_diode_afe.jpg, id=880, 1052.43187pt x 448.67625pt>
@@ -1770,37 +1770,37 @@ File: fig/DCP_AFE/1u/cou_diode_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cou_diode_afe.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/cou_diode_afe.jpg used on input line 65
-6.
+9.
 (pdftex.def)             Requested size: 526.21465pt x 224.33757pt.
 
 <fig/DCP_AFE/1u/cour_ch.jpg, id=881, 1038.88126pt x 431.36156pt>
 File: fig/DCP_AFE/1u/cour_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_ch.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 663.
+Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 666.
 (pdftex.def)             Requested size: 519.43936pt x 215.68025pt.
 
 <fig/DCP_AFE/1u/ten_ch.jpg, id=882, 1014.03844pt x 442.65375pt>
 File: fig/DCP_AFE/1u/ten_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_ch.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/ten_ch.jpg used on input line 671.
+Package pdftex.def Info: fig/DCP_AFE/1u/ten_ch.jpg used on input line 674.
 (pdftex.def)             Requested size: 507.01797pt x 221.32632pt.
 
 <fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=883, 1018.55531pt x 424.58624pt>
 File: fig/DCP_AFE/1u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_cou_IGBT.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 67
-9.
+Package pdftex.def Info: fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 68
+2.
 (pdftex.def)             Requested size: 509.27641pt x 212.2926pt.
 
 <fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=884, 1032.85875pt x 421.575pt>
 File: fig/DCP_AFE/1u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_ten_IGBT.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 68
-7.
+Package pdftex.def Info: fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 69
+0.
 (pdftex.def)             Requested size: 516.42812pt x 210.78697pt.
 
 <fig/DCP_AFE/1u/hash_diode_cou.jpg, id=885, 1020.06094pt x 421.575pt>
@@ -1808,10 +1808,10 @@ File: fig/DCP_AFE/1u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode_cou.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode_cou.jpg used on input line 6
-95.
+98.
 (pdftex.def)             Requested size: 510.02922pt x 210.78697pt.
 
-Underfull \hbox (badness 1117) in paragraph at lines 696--696
+Underfull \hbox (badness 1117) in paragraph at lines 699--699
 []\T1/lmr/m/it/12 Figure 3.50 ^^U |Le cou-rant tra-ver-sant une diode de point 
 mi-lieu du
  []
@@ -1820,7 +1820,7 @@ mi-lieu du
 File: fig/DCP_AFE/1u/hash_diode.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode.jpg>
-Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode.jpg used on input line 703.
+Package pdftex.def Info: fig/DCP_AFE/1u/hash_diode.jpg used on input line 706.
 (pdftex.def)             Requested size: 511.91124pt x 205.8937pt.
  [62
 
@@ -1833,15 +1833,15 @@ P_AFE/1u/hash_cou_IGBT.jpg> <./fig/DCP_AFE/1u/hash_ten_IGBT.jpg>] [68 <./fig/DC
 P_AFE/1u/hash_diode_cou.jpg> <./fig/DCP_AFE/1u/hash_diode.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 710.
+(hyperref)                removing `math shift' on input line 713.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 710.
+(hyperref)                removing `\mu' on input line 713.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 710.
+(hyperref)                removing `math shift' on input line 713.
 
 [69
 
@@ -1891,7 +1891,7 @@ cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/
 s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
 blic/lm/lmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb>
-Output written on rapport.pdf (73 pages, 7760352 bytes).
+Output written on rapport.pdf (73 pages, 7760466 bytes).
 PDF statistics:
  1053 PDF objects out of 1200 (max. 8388607)
  868 compressed objects within 9 object streams
