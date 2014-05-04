@@ -64,3 +64,6 @@
 \contentsline {figure}{\numberline {3.49}{\ignorespaces La tension aux bornes d'un IGBT du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{67}{figure.caption.68}
 \contentsline {figure}{\numberline {3.50}{\ignorespaces Le courant traversant une diode de point milieu du DCP/DCN pour un pas de calcul d 1$\mu $s\relax }}{68}{figure.caption.69}
 \contentsline {figure}{\numberline {3.51}{\ignorespaces La tension aux bornes d'une diode de point milieu du DCP/DCN pour un pas de calcul de 1$\mu $s\relax }}{68}{figure.caption.70}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Courant traversant la charge sur SPS et OPA4500\relax }}{74}{figure.caption.72}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Courant traversant la charge ,sur la plage de maintien, sur SPS et OPA4500\relax }}{75}{figure.caption.73}

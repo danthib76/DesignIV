@@ -11,7 +11,7 @@
 \BOOKMARK [1][-]{section.2.2}{Fonctionnement d'un onduleur monophas\351 NPC \340 3 niveaux}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.3}{Calculs th\351oriques li\351s \340 l'onduleur NPC 3 niveaux}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.4}{Comparaison des r\351sultats de dimensionnement th\351oriques obtenus par rapport \340 ceux du CERN}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Validation crois\351e entre les simulateurs}{}% 14
+\BOOKMARK [0][-]{chapter.3}{Validation crois\351e entre les simulateurs PSIM et SPS}{}% 14
 \BOOKMARK [1][-]{section.3.1}{Comparaison entre PSIM et SPS}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.1.1}{Algorithmes de simulation sur PSIM et SPS}{section.3.1}% 16
 \BOOKMARK [2][-]{subsection.3.1.2}{Comparaison des mod\350les d'IGBT}{section.3.1}% 17
@@ -39,3 +39,8 @@
 \BOOKMARK [2][-]{subsection.3.8.1}{R\351sultats de simulation pour SPS et PSIM pour un pas de calcul de 1s}{section.3.8}% 39
 \BOOKMARK [2][-]{subsection.3.8.2}{Analyse des r\351sultats comparatifs de SPS et de PSIM pour un pas de calcul de 1s}{section.3.8}% 40
 \BOOKMARK [1][-]{section.3.9}{Analyse du fonctionnement du syst\350me int\351gr\351}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.10}{Comparatif des temps de simulation}{chapter.3}% 42
+\BOOKMARK [0][-]{chapter.4}{Validation entre les simulateurs SPS et OPA4500}{}% 43
+\BOOKMARK [1][-]{section.4.1}{Convertisseur CC-CC 4 quadrants \340 4 interrupteurs IGBT}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.1.1}{R\351sultats de simulation pour SPS et OPA4500}{section.4.1}% 45
+\BOOKMARK [2][-]{subsection.4.1.2}{Analyse des r\351sultats de simulation pour SPS et OPA4500}{section.4.1}% 46

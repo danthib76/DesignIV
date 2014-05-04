@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2014 18:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 MAY 2014 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,7 +1067,7 @@ LaTeX Info: Redefining \nameref on input line 78.
 \openout3 = `rapport.out'.
 
 
-<./fig/ul_logo.pdf, id=168, 313.17pt x 129.48375pt>
+<./fig/ul_logo.pdf, id=184, 313.17pt x 129.48375pt>
 File: ./fig/ul_logo.pdf Graphic file (type pdf)
  <use ./fig/ul_logo.pdf>
 Package pdftex.def Info: ./fig/ul_logo.pdf used on input line 78.
@@ -1124,7 +1124,7 @@ ABD: EveryShipout initializing macros
  (./tex/AFE.tex [5]
 Chapitre 1.
 
-<Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf, id=408, 477.18274pt x 219
+<Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf, id=432, 477.18274pt x 219
 .26216pt>
 File: Circuit/RedresseurMonophaseSimpleAlternanceIGBT.pdf Graphic file (type pd
 f)
@@ -1141,7 +1141,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 44.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Graphs/RedresseurMonophaseSimpleAlternance50.pdf, id=421, 794.97pt x 614.295pt
+<Graphs/RedresseurMonophaseSimpleAlternance50.pdf, id=445, 794.97pt x 614.295pt
 >
 File: Graphs/RedresseurMonophaseSimpleAlternance50.pdf Graphic file (type pdf)
  <use Graphs/RedresseurMonophaseSimpleAlternance50.pdf>
@@ -1149,7 +1149,7 @@ Package pdftex.def Info: Graphs/RedresseurMonophaseSimpleAlternance50.pdf used
 on input line 52.
 (pdftex.def)             Requested size: 320.97777pt x 248.02885pt.
 
-<Graphs/RedresseurMonophaseSimpleAlternance100.pdf, id=422, 794.97pt x 614.295p
+<Graphs/RedresseurMonophaseSimpleAlternance100.pdf, id=446, 794.97pt x 614.295p
 t>
 File: Graphs/RedresseurMonophaseSimpleAlternance100.pdf Graphic file (type pdf)
 
@@ -1165,7 +1165,7 @@ Overfull \hbox (0.91542pt too wide) in paragraph at lines 76--76
  []
 
 
-<Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, id=485, 563.55846pt x 379
+<Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf, id=510, 563.55846pt x 379
 .93344pt>
 File: Circuit/RedresseurMonophaseDoubleAlternanceIGBT.pdf Graphic file (type pd
 f)
@@ -1194,7 +1194,7 @@ Overfull \hbox (11.6583pt too wide) in paragraph at lines 1--1
 |\T1/lmr/m/sc/24.88 Modélisation du conver-tis-seur CC-CC| 
  []
 
-<fig/fig_courant_tension_mod.png, id=564, 1284.9606pt x 640.3122pt>
+<fig/fig_courant_tension_mod.png, id=588, 1284.9606pt x 640.3122pt>
 File: fig/fig_courant_tension_mod.png Graphic file (type png)
 
 <use fig/fig_courant_tension_mod.png>
@@ -1209,20 +1209,20 @@ Overfull \hbox (41.94391pt too wide) in paragraph at lines 23--24
 [17
 
 ] [18 <./fig/fig_courant_tension_mod.png (PNG copy)>]
-<fig/Imoy_m.png, id=579, 1284.9606pt x 373.395pt>
+<fig/Imoy_m.png, id=603, 1284.9606pt x 373.395pt>
 File: fig/Imoy_m.png Graphic file (type png)
  <use fig/Imoy_m.png>
 Package pdftex.def Info: fig/Imoy_m.png used on input line 42.
 (pdftex.def)             Requested size: 513.97514pt x 149.35535pt.
  [19 <./fig/Imoy_m.png (PNG copy)>]
-<fig/figure_modulante_3L.png, id=587, 1284.9606pt x 426.393pt>
+<fig/figure_modulante_3L.png, id=612, 1284.9606pt x 426.393pt>
 File: fig/figure_modulante_3L.png Graphic file (type png)
 
 <use fig/figure_modulante_3L.png>
 Package pdftex.def Info: fig/figure_modulante_3L.png used on input line 67.
 (pdftex.def)             Requested size: 513.97514pt x 170.55417pt.
- [20 <./fig/figure_modulante_3L.png (PNG copy)>] <fig/fig_ref_courant.png, id=5
-95, 1284.9606pt x 394.5942pt>
+ [20 <./fig/figure_modulante_3L.png (PNG copy)>] <fig/fig_ref_courant.png, id=6
+20, 1284.9606pt x 394.5942pt>
 File: fig/fig_ref_courant.png Graphic file (type png)
 
 <use fig/fig_ref_courant.png>
@@ -1239,7 +1239,7 @@ y)>] [23]
 Chapitre 3.
 [24
 
-] <Fig/Comp/improving_performance5.png, id=622, 395.4775pt x 142.5325pt>
+] <Fig/Comp/improving_performance5.png, id=646, 395.4775pt x 142.5325pt>
 File: Fig/Comp/improving_performance5.png Graphic file (type png)
 
 <use Fig/Comp/improving_performance5.png>
@@ -1247,20 +1247,20 @@ Package pdftex.def Info: Fig/Comp/improving_performance5.png used on input line
  10.
 (pdftex.def)             Requested size: 276.83235pt x 99.77205pt.
 
-<fig/Comp/IGBT.jpg, id=623, 1009.52156pt x 337.26pt>
+<fig/Comp/IGBT.jpg, id=647, 1009.52156pt x 337.26pt>
 File: fig/Comp/IGBT.jpg Graphic file (type jpg)
  <use fig/Comp/IGBT.jpg>
 Package pdftex.def Info: fig/Comp/IGBT.jpg used on input line 18.
 (pdftex.def)             Requested size: 504.75955pt x 168.62958pt.
 
 [25 <./Fig/Comp/improving_performance5.png> <./fig/Comp/IGBT.jpg>]
-<fig/Comp/PI.jpg, id=631, 1008.76875pt x 344.03531pt>
+<fig/Comp/PI.jpg, id=655, 1008.76875pt x 344.03531pt>
 File: fig/Comp/PI.jpg Graphic file (type jpg)
  <use fig/Comp/PI.jpg>
 Package pdftex.def Info: fig/Comp/PI.jpg used on input line 31.
 (pdftex.def)             Requested size: 504.38315pt x 172.01723pt.
 
-[26 <./fig/Comp/PI.jpg>] <fig/H4Q.png, id=638, 707.5233pt x 497.2176pt>
+[26 <./fig/Comp/PI.jpg>] <fig/H4Q.png, id=662, 707.5233pt x 497.2176pt>
 File: fig/H4Q.png Graphic file (type png)
 
 <use fig/H4Q.png>
@@ -1286,7 +1286,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 72.
 
 
-<fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=640, 1022.31938pt x 340.2
+<fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg, id=664, 1022.31938pt x 340.2
 7126pt>
 File: fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg>
@@ -1294,7 +1294,7 @@ Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurCourantCharge1u.jpg used
 on input line 77.
 (pdftex.def)             Requested size: 511.15843pt x 170.13521pt.
 
-<fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=641, 1020.06094pt x 394.4
+<fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg, id=665, 1020.06094pt x 394.4
 7375pt>
 File: fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg>
@@ -1302,7 +1302,7 @@ Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurTensionCharge1u.jpg used
 on input line 84.
 (pdftex.def)             Requested size: 510.02922pt x 197.23639pt.
 
-<fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=642, 1038.12843pt x 396.732
+<fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg, id=666, 1038.12843pt x 396.732
 2pt>
 File: fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg>
@@ -1310,7 +1310,7 @@ Package pdftex.def Info: fig/Hacheur4Quadrants/HacheurCourantIGBT1u.jpg used on
  input line 91.
 (pdftex.def)             Requested size: 519.06294pt x 198.3656pt.
 
-<fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=643, 1024.57782pt x 398.990
+<fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg, id=667, 1024.57782pt x 398.990
 63pt>
 File: fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg Graphic file (type jpg)
  <use fig/Hacheur4Quadrants/HacheurTensionIGBT1u.jpg>
@@ -1340,7 +1340,7 @@ Overfull \hbox (15.18301pt too wide) in paragraph at lines 111--111
  |[]\T1/lmr/bx/n/17.28 Convertisseur CC-CC 4 qua-drants formé de 2 conver-
  []
 
-<fig/DCP_DCN.png, id=667, 621.522pt x 600.0819pt>
+<fig/DCP_DCN.png, id=691, 621.522pt x 600.0819pt>
 File: fig/DCP_DCN.png Graphic file (type png)
  <use fig/DCP_DCN.png>
 Package pdftex.def Info: fig/DCP_DCN.png used on input line 116.
@@ -1361,7 +1361,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 149.
 
-<fig/DCPDCN/DCPCourantCharge1u.jpg, id=682, 1037.37563pt x 408.77719pt>
+<fig/DCPDCN/DCPCourantCharge1u.jpg, id=706, 1037.37563pt x 408.77719pt>
 File: fig/DCPDCN/DCPCourantCharge1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPCourantCharge1u.jpg>
@@ -1369,7 +1369,7 @@ Package pdftex.def Info: fig/DCPDCN/DCPCourantCharge1u.jpg used on input line 1
 55.
 (pdftex.def)             Requested size: 518.68654pt x 204.38809pt.
 
-<fig/DCPDCN/DCPTensionCharge1u.jpg, id=683, 1013.28563pt x 408.77719pt>
+<fig/DCPDCN/DCPTensionCharge1u.jpg, id=707, 1013.28563pt x 408.77719pt>
 File: fig/DCPDCN/DCPTensionCharge1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPTensionCharge1u.jpg>
@@ -1377,7 +1377,7 @@ Package pdftex.def Info: fig/DCPDCN/DCPTensionCharge1u.jpg used on input line 1
 63.
 (pdftex.def)             Requested size: 506.64159pt x 204.38809pt.
 
-<fig/DCPDCN/DCPCourantIGBT1u.jpg, id=684, 1017.04968pt x 413.29407pt>
+<fig/DCPDCN/DCPCourantIGBT1u.jpg, id=708, 1017.04968pt x 413.29407pt>
 File: fig/DCPDCN/DCPCourantIGBT1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPCourantIGBT1u.jpg>
@@ -1385,7 +1385,7 @@ Package pdftex.def Info: fig/DCPDCN/DCPCourantIGBT1u.jpg used on input line 170
 .
 (pdftex.def)             Requested size: 508.52359pt x 206.64651pt.
 
-<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=685, 1025.33063pt x 408.77719pt>
+<fig/DCPDCN/DCPTensionIGBT1u.jpg, id=709, 1025.33063pt x 408.77719pt>
 File: fig/DCPDCN/DCPTensionIGBT1u.jpg Graphic file (type jpg)
 
 <use fig/DCPDCN/DCPTensionIGBT1u.jpg>
@@ -1409,7 +1409,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 185.
 
-<fig/AFE_IDEAL.png, id=702, 774.0117pt x 401.8212pt>
+<fig/AFE_IDEAL.png, id=727, 774.0117pt x 401.8212pt>
 File: fig/AFE_IDEAL.png Graphic file (type png)
  <use fig/AFE_IDEAL.png>
 Package pdftex.def Info: fig/AFE_IDEAL.png used on input line 192.
@@ -1430,35 +1430,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 225.
 
-<fig/AFEIDEAL/CourantAC.jpg, id=714, 1007.26312pt x 465.99094pt>
+<fig/AFEIDEAL/CourantAC.jpg, id=738, 1007.26312pt x 465.99094pt>
 File: fig/AFEIDEAL/CourantAC.jpg Graphic file (type jpg)
 
 <use fig/AFEIDEAL/CourantAC.jpg>
 Package pdftex.def Info: fig/AFEIDEAL/CourantAC.jpg used on input line 230.
 (pdftex.def)             Requested size: 503.63033pt x 232.99489pt.
 
-<fig/AFEIDEAL/pui45.jpg, id=715, 1009.52156pt x 426.84468pt>
+<fig/AFEIDEAL/pui45.jpg, id=739, 1009.52156pt x 426.84468pt>
 File: fig/AFEIDEAL/pui45.jpg Graphic file (type jpg)
 
 <use fig/AFEIDEAL/pui45.jpg>
 Package pdftex.def Info: fig/AFEIDEAL/pui45.jpg used on input line 238.
 (pdftex.def)             Requested size: 504.75955pt x 213.42181pt.
 
-<fig/AFEIDEAL/pui135.jpg, id=716, 988.44281pt x 430.60875pt>
+<fig/AFEIDEAL/pui135.jpg, id=740, 988.44281pt x 430.60875pt>
 File: fig/AFEIDEAL/pui135.jpg Graphic file (type jpg)
 
 <use fig/AFEIDEAL/pui135.jpg>
 Package pdftex.def Info: fig/AFEIDEAL/pui135.jpg used on input line 244.
 (pdftex.def)             Requested size: 494.2202pt x 215.30383pt.
 
-<fig/AFEIDEAL/pui_45.jpg, id=717, 998.9822pt x 438.13687pt>
+<fig/AFEIDEAL/pui_45.jpg, id=741, 998.9822pt x 438.13687pt>
 File: fig/AFEIDEAL/pui_45.jpg Graphic file (type jpg)
 
 <use fig/AFEIDEAL/pui_45.jpg>
 Package pdftex.def Info: fig/AFEIDEAL/pui_45.jpg used on input line 250.
 (pdftex.def)             Requested size: 499.48988pt x 219.06789pt.
 
-<fig/AFEIDEAL/pui_135.jpg, id=718, 998.9822pt x 436.63126pt>
+<fig/AFEIDEAL/pui_135.jpg, id=742, 998.9822pt x 436.63126pt>
 File: fig/AFEIDEAL/pui_135.jpg Graphic file (type jpg)
 
 <use fig/AFEIDEAL/pui_135.jpg>
@@ -1482,14 +1482,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [42
 
-] <fig/AFE_2L_RC.png, id=744, 703.428pt x 343.5234pt>
+] <fig/AFE_2L_RC.png, id=768, 703.428pt x 343.5234pt>
 File: fig/AFE_2L_RC.png Graphic file (type png)
 
 <use fig/AFE_2L_RC.png>
 Package pdftex.def Info: fig/AFE_2L_RC.png used on input line 279.
 (pdftex.def)             Requested size: 422.06006pt x 206.11562pt.
 
-<fig/AFERC/FFTAnalysisToolResult5u.png, id=745, 616.55344pt x 517.18219pt>
+<fig/AFERC/FFTAnalysisToolResult5u.png, id=769, 616.55344pt x 517.18219pt>
 File: fig/AFERC/FFTAnalysisToolResult5u.png Graphic file (type png)
 
 <use fig/AFERC/FFTAnalysisToolResult5u.png>
@@ -1510,20 +1510,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 319.
 
-<fig/AFERC/cour_al.jpg, id=757, 1010.27437pt x 465.99094pt>
+<fig/AFERC/cour_al.jpg, id=781, 1010.27437pt x 465.99094pt>
 File: fig/AFERC/cour_al.jpg Graphic file (type jpg)
 
 <use fig/AFERC/cour_al.jpg>
 Package pdftex.def Info: fig/AFERC/cour_al.jpg used on input line 326.
 (pdftex.def)             Requested size: 505.13594pt x 232.99489pt.
 
-<fig/AFERC/vch.jpg, id=758, 1003.49907pt x 356.0803pt>
+<fig/AFERC/vch.jpg, id=782, 1003.49907pt x 356.0803pt>
 File: fig/AFERC/vch.jpg Graphic file (type jpg)
  <use fig/AFERC/vch.jpg>
 Package pdftex.def Info: fig/AFERC/vch.jpg used on input line 335.
 (pdftex.def)             Requested size: 501.7483pt x 178.03972pt.
 
-<fig/AFERC/IGBT.jpg, id=759, 1019.30812pt x 440.39531pt>
+<fig/AFERC/IGBT.jpg, id=783, 1019.30812pt x 440.39531pt>
 File: fig/AFERC/IGBT.jpg Graphic file (type jpg)
 
 <use fig/AFERC/IGBT.jpg>
@@ -1544,7 +1544,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 350.
 
-<fig/AFE_3L_RC.png, id=773, 758.3532pt x 440.6061pt>
+<fig/AFE_3L_RC.png, id=797, 758.3532pt x 440.6061pt>
 File: fig/AFE_3L_RC.png Graphic file (type png)
  <use fig/AFE_3L_RC.png>
 Package pdftex.def Info: fig/AFE_3L_RC.png used on input line 393.
@@ -1565,28 +1565,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 402.
 
-<fig/AFE3LEVEL/1u/cour_al.jpg, id=785, 1035.11719pt x 464.4853pt>
+<fig/AFE3LEVEL/1u/cour_al.jpg, id=809, 1035.11719pt x 464.4853pt>
 File: fig/AFE3LEVEL/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/cour_al.jpg>
 Package pdftex.def Info: fig/AFE3LEVEL/1u/cour_al.jpg used on input line 406.
 (pdftex.def)             Requested size: 517.55733pt x 232.24208pt.
 
-<fig/AFE3LEVEL/1u/vch.jpg, id=786, 1014.79124pt x 447.92343pt>
+<fig/AFE3LEVEL/1u/vch.jpg, id=810, 1014.79124pt x 447.92343pt>
 File: fig/AFE3LEVEL/1u/vch.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/vch.jpg>
 Package pdftex.def Info: fig/AFE3LEVEL/1u/vch.jpg used on input line 413.
 (pdftex.def)             Requested size: 507.39438pt x 223.96117pt.
 
-<fig/AFE3LEVEL/1u/IGBT.jpg, id=787, 1011.02719pt x 462.97969pt>
+<fig/AFE3LEVEL/1u/IGBT.jpg, id=811, 1011.02719pt x 462.97969pt>
 File: fig/AFE3LEVEL/1u/IGBT.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/IGBT.jpg>
 Package pdftex.def Info: fig/AFE3LEVEL/1u/IGBT.jpg used on input line 420.
 (pdftex.def)             Requested size: 505.51236pt x 231.48927pt.
 
-<fig/AFE3LEVEL/1u/DIODE.jpg, id=788, 1027.58907pt x 459.96844pt>
+<fig/AFE3LEVEL/1u/DIODE.jpg, id=812, 1027.58907pt x 459.96844pt>
 File: fig/AFE3LEVEL/1u/DIODE.jpg Graphic file (type jpg)
 
 <use fig/AFE3LEVEL/1u/DIODE.jpg>
@@ -1608,7 +1608,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 434.
 
-<fig/H4Q_AFE_2L_RC.png, id=807, 658.1388pt x 270.0489pt>
+<fig/H4Q_AFE_2L_RC.png, id=831, 658.1388pt x 270.0489pt>
 File: fig/H4Q_AFE_2L_RC.png Graphic file (type png)
 
 <use fig/H4Q_AFE_2L_RC.png>
@@ -1629,28 +1629,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 492.
 
-<fig/Hach_AFE/1u/cour_al.jpg, id=823, 1019.30812pt x 469.755pt>
+<fig/Hach_AFE/1u/cour_al.jpg, id=848, 1019.30812pt x 469.755pt>
 File: fig/Hach_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/cour_al.jpg>
 Package pdftex.def Info: fig/Hach_AFE/1u/cour_al.jpg used on input line 497.
 (pdftex.def)             Requested size: 509.65282pt x 234.87692pt.
 
-<fig/Hach_AFE/1u/ten_bus.jpg, id=824, 1017.04968pt x 448.67625pt>
+<fig/Hach_AFE/1u/ten_bus.jpg, id=849, 1017.04968pt x 448.67625pt>
 File: fig/Hach_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/ten_bus.jpg>
 Package pdftex.def Info: fig/Hach_AFE/1u/ten_bus.jpg used on input line 504.
 (pdftex.def)             Requested size: 508.52359pt x 224.33757pt.
 
-<fig/Hach_AFE/1u/IGBT_AFE.jpg, id=825, 1029.09468pt x 461.47406pt>
+<fig/Hach_AFE/1u/IGBT_AFE.jpg, id=850, 1029.09468pt x 461.47406pt>
 File: fig/Hach_AFE/1u/IGBT_AFE.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/IGBT_AFE.jpg>
 Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_AFE.jpg used on input line 512.
 (pdftex.def)             Requested size: 514.54608pt x 230.73645pt.
 
-<fig/Hach_AFE/1u/hach_cou_ch.jpg, id=826, 1047.16219pt x 455.45157pt>
+<fig/Hach_AFE/1u/hach_cou_ch.jpg, id=851, 1047.16219pt x 455.45157pt>
 File: fig/Hach_AFE/1u/hach_cou_ch.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/hach_cou_ch.jpg>
@@ -1658,7 +1658,7 @@ Package pdftex.def Info: fig/Hach_AFE/1u/hach_cou_ch.jpg used on input line 519
 .
 (pdftex.def)             Requested size: 523.57982pt x 227.72522pt.
 
-<fig/Hach_AFE/1u/hach_ten_ch.jpg, id=827, 1044.90375pt x 459.21562pt>
+<fig/Hach_AFE/1u/hach_ten_ch.jpg, id=852, 1044.90375pt x 459.21562pt>
 File: fig/Hach_AFE/1u/hach_ten_ch.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/hach_ten_ch.jpg>
@@ -1666,7 +1666,7 @@ Package pdftex.def Info: fig/Hach_AFE/1u/hach_ten_ch.jpg used on input line 527
 .
 (pdftex.def)             Requested size: 522.45059pt x 229.60724pt.
 
-<fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=828, 1045.65656pt x 453.94594pt>
+<fig/Hach_AFE/1u/IGBT_cou_hach.jpg, id=853, 1045.65656pt x 453.94594pt>
 File: fig/Hach_AFE/1u/IGBT_cou_hach.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/IGBT_cou_hach.jpg>
@@ -1674,7 +1674,7 @@ Package pdftex.def Info: fig/Hach_AFE/1u/IGBT_cou_hach.jpg used on input line 5
 33.
 (pdftex.def)             Requested size: 522.827pt x 226.97241pt.
 
-<fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=829, 1042.64531pt x 454.69875pt>
+<fig/Hach_AFE/1u/IGBT_ten_hach.jpg, id=854, 1042.64531pt x 454.69875pt>
 File: fig/Hach_AFE/1u/IGBT_ten_hach.jpg Graphic file (type jpg)
 
 <use fig/Hach_AFE/1u/IGBT_ten_hach.jpg>
@@ -1701,7 +1701,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [59
 
-] <fig/AFE_3L_RC_DCP_DCN.png, id=862, 763.653pt x 547.3248pt>
+] <fig/AFE_3L_RC_DCP_DCN.png, id=886, 763.653pt x 547.3248pt>
 File: fig/AFE_3L_RC_DCP_DCN.png Graphic file (type png)
 
 <use fig/AFE_3L_RC_DCP_DCN.png>
@@ -1720,14 +1720,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 612.
 
-<fig/DCP_AFE/1u/cour_al.jpg, id=874, 1020.06094pt x 455.45157pt>
+<fig/DCP_AFE/1u/cour_al.jpg, id=898, 1020.06094pt x 455.45157pt>
 File: fig/DCP_AFE/1u/cour_al.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_al.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/cour_al.jpg used on input line 616.
 (pdftex.def)             Requested size: 510.02922pt x 227.72522pt.
 
-<fig/DCP_AFE/1u/ten_ligne_ligne.jpg, id=875, 1011.78pt x 443.40656pt>
+<fig/DCP_AFE/1u/ten_ligne_ligne.jpg, id=899, 1011.78pt x 443.40656pt>
 File: fig/DCP_AFE/1u/ten_ligne_ligne.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_ligne_ligne.jpg>
@@ -1735,21 +1735,21 @@ Package pdftex.def Info: fig/DCP_AFE/1u/ten_ligne_ligne.jpg used on input line
 623.
 (pdftex.def)             Requested size: 505.88876pt x 221.70273pt.
 
-<fig/DCP_AFE/1u/ten_bus.jpg, id=876, 1017.8025pt x 444.91219pt>
+<fig/DCP_AFE/1u/ten_bus.jpg, id=900, 1017.8025pt x 444.91219pt>
 File: fig/DCP_AFE/1u/ten_bus.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_bus.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/ten_bus.jpg used on input line 630.
 (pdftex.def)             Requested size: 508.90001pt x 222.45554pt.
 
-<fig/DCP_AFE/1u/IGBT_afe.jpg, id=877, 1017.8025pt x 431.36156pt>
+<fig/DCP_AFE/1u/IGBT_afe.jpg, id=901, 1017.8025pt x 431.36156pt>
 File: fig/DCP_AFE/1u/IGBT_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/IGBT_afe.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/IGBT_afe.jpg used on input line 638.
 (pdftex.def)             Requested size: 508.90001pt x 215.68025pt.
 
-<fig/DCP_AFE/1u/cou_IGBT_afe.jpg, id=878, 1012.5328pt x 432.86719pt>
+<fig/DCP_AFE/1u/cou_IGBT_afe.jpg, id=902, 1012.5328pt x 432.86719pt>
 File: fig/DCP_AFE/1u/cou_IGBT_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cou_IGBT_afe.jpg>
@@ -1757,7 +1757,7 @@ Package pdftex.def Info: fig/DCP_AFE/1u/cou_IGBT_afe.jpg used on input line 645
 .
 (pdftex.def)             Requested size: 506.26517pt x 216.43306pt.
 
-<fig/DCP_AFE/1u/ten_diode_afe.jpg, id=879, 1020.81375pt x 425.33907pt>
+<fig/DCP_AFE/1u/ten_diode_afe.jpg, id=903, 1020.81375pt x 425.33907pt>
 File: fig/DCP_AFE/1u/ten_diode_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_diode_afe.jpg>
@@ -1765,7 +1765,7 @@ Package pdftex.def Info: fig/DCP_AFE/1u/ten_diode_afe.jpg used on input line 65
 2.
 (pdftex.def)             Requested size: 510.40562pt x 212.669pt.
 
-<fig/DCP_AFE/1u/cou_diode_afe.jpg, id=880, 1052.43187pt x 448.67625pt>
+<fig/DCP_AFE/1u/cou_diode_afe.jpg, id=904, 1052.43187pt x 448.67625pt>
 File: fig/DCP_AFE/1u/cou_diode_afe.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cou_diode_afe.jpg>
@@ -1773,21 +1773,21 @@ Package pdftex.def Info: fig/DCP_AFE/1u/cou_diode_afe.jpg used on input line 65
 9.
 (pdftex.def)             Requested size: 526.21465pt x 224.33757pt.
 
-<fig/DCP_AFE/1u/cour_ch.jpg, id=881, 1038.88126pt x 431.36156pt>
+<fig/DCP_AFE/1u/cour_ch.jpg, id=905, 1038.88126pt x 431.36156pt>
 File: fig/DCP_AFE/1u/cour_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/cour_ch.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/cour_ch.jpg used on input line 666.
 (pdftex.def)             Requested size: 519.43936pt x 215.68025pt.
 
-<fig/DCP_AFE/1u/ten_ch.jpg, id=882, 1014.03844pt x 442.65375pt>
+<fig/DCP_AFE/1u/ten_ch.jpg, id=906, 1014.03844pt x 442.65375pt>
 File: fig/DCP_AFE/1u/ten_ch.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/ten_ch.jpg>
 Package pdftex.def Info: fig/DCP_AFE/1u/ten_ch.jpg used on input line 674.
 (pdftex.def)             Requested size: 507.01797pt x 221.32632pt.
 
-<fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=883, 1018.55531pt x 424.58624pt>
+<fig/DCP_AFE/1u/hash_cou_IGBT.jpg, id=907, 1018.55531pt x 424.58624pt>
 File: fig/DCP_AFE/1u/hash_cou_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_cou_IGBT.jpg>
@@ -1795,7 +1795,7 @@ Package pdftex.def Info: fig/DCP_AFE/1u/hash_cou_IGBT.jpg used on input line 68
 2.
 (pdftex.def)             Requested size: 509.27641pt x 212.2926pt.
 
-<fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=884, 1032.85875pt x 421.575pt>
+<fig/DCP_AFE/1u/hash_ten_IGBT.jpg, id=908, 1032.85875pt x 421.575pt>
 File: fig/DCP_AFE/1u/hash_ten_IGBT.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_ten_IGBT.jpg>
@@ -1803,7 +1803,7 @@ Package pdftex.def Info: fig/DCP_AFE/1u/hash_ten_IGBT.jpg used on input line 69
 0.
 (pdftex.def)             Requested size: 516.42812pt x 210.78697pt.
 
-<fig/DCP_AFE/1u/hash_diode_cou.jpg, id=885, 1020.06094pt x 421.575pt>
+<fig/DCP_AFE/1u/hash_diode_cou.jpg, id=909, 1020.06094pt x 421.575pt>
 File: fig/DCP_AFE/1u/hash_diode_cou.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode_cou.jpg>
@@ -1816,7 +1816,7 @@ Underfull \hbox (badness 1117) in paragraph at lines 699--699
 mi-lieu du
  []
 
-<fig/DCP_AFE/1u/hash_diode.jpg, id=886, 1023.825pt x 411.78844pt>
+<fig/DCP_AFE/1u/hash_diode.jpg, id=910, 1023.825pt x 411.78844pt>
 File: fig/DCP_AFE/1u/hash_diode.jpg Graphic file (type jpg)
 
 <use fig/DCP_AFE/1u/hash_diode.jpg>
@@ -1845,24 +1845,60 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [69
 
-] [70]) [71
+] [70] [71
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
- [72]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+
+LaTeX Warning: Reference `tab_temps_simulation' on page 72 undefined on input l
+ine 727.
+
+) (./tex/validation_opal.tex [72]
+Chapitre 4.
+<fig/Opal-RT_Courant.png, id=969, 1445.4pt x 815.29594pt>
+File: fig/Opal-RT_Courant.png Graphic file (type png)
+
+<use fig/Opal-RT_Courant.png>
+Package pdftex.def Info: fig/Opal-RT_Courant.png used on input line 8.
+(pdftex.def)             Requested size: 433.62335pt x 244.59067pt.
+
+<fig/Opal-RT_Courant2.png, id=970, 1445.4pt x 815.29594pt>
+File: fig/Opal-RT_Courant2.png Graphic file (type png)
+
+<use fig/Opal-RT_Courant2.png>
+Package pdftex.def Info: fig/Opal-RT_Courant2.png used on input line 14.
+(pdftex.def)             Requested size: 433.62335pt x 244.59067pt.
+) [73
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+ [74 <./fig/Opal-RT_Courant.png (PNG copy)>] [75 <./fig/Opal-RT_Courant2.png (P
+NG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: E22B84ED49794A0AD190DF8F8E4231CC;4568.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: E0C919939DA17607BDA709FE96D86F79;4979
+(rerunfilecheck)             After:  319B248B6540534D2AE58CABF1E100FD;5061.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 13416 strings out of 493315
- 202758 string characters out of 6137904
- 308257 words of memory out of 5000000
- 16315 multiletter control sequences out of 15000+600000
+ 13448 strings out of 493315
+ 203361 string characters out of 6137904
+ 308436 words of memory out of 5000000
+ 16330 multiletter control sequences out of 15000+600000
  66349 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,12n,42p,3881b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1871,6 +1907,9 @@ st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.71} has been referenced but does not
+ exist, replaced by a fixed one
 
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
 xlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2013/tex
@@ -1891,10 +1930,10 @@ cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/
 s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
 blic/lm/lmsy6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb>
-Output written on rapport.pdf (73 pages, 7760466 bytes).
+Output written on rapport.pdf (76 pages, 7810822 bytes).
 PDF statistics:
- 1053 PDF objects out of 1200 (max. 8388607)
- 868 compressed objects within 9 object streams
- 223 named destinations out of 1000 (max. 500000)
- 629 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 909 compressed objects within 10 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
